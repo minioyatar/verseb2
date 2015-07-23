@@ -1,0 +1,1481 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"pac",
+				"package"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fo",
+				"focus"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"MED",
+				"media"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"b",
+				"box4"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"Br",
+				"BR	Tag"
+			],
+			[
+				"br",
+				"br	Tag"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"su",
+				"sup	Tag"
+			],
+			[
+				"payment",
+				"payment_status"
+			],
+			[
+				"coun",
+				"country"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"chec",
+				"Checkout"
+			],
+			[
+				"pay",
+				"paypal_mode"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"uniq",
+				"unique"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"ema",
+				"email_code"
+			],
+			[
+				"mem",
+				"memID"
+			],
+			[
+				"cla",
+				"clause"
+			],
+			[
+				"emi",
+				"email_code"
+			],
+			[
+				"emai",
+				"email_code"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"val",
+				"value2"
+			],
+			[
+				"op",
+				"operator2"
+			],
+			[
+				"fiel",
+				"field2"
+			],
+			[
+				"cl",
+				"clause"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"plan",
+				"planType"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"pri",
+				"printf"
+			],
+			[
+				"inclu",
+				"include_once"
+			],
+			[
+				"album",
+				"album_title"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"addre",
+				"address"
+			],
+			[
+				"comp",
+				"company"
+			],
+			[
+				"cou",
+				"course"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"erro",
+				"error"
+			],
+			[
+				"valida",
+				"validation"
+			],
+			[
+				"th",
+				"throw	Throw Exception"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"ru",
+				"rule"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"Co",
+				"Cookie"
+			],
+			[
+				"hash",
+				"hashCheck"
+			],
+			[
+				"has",
+				"hashCheck"
+			],
+			[
+				"cookie",
+				"cookie_name"
+			],
+			[
+				"e",
+				"expiry"
+			],
+			[
+				"_sessio",
+				"_sessionName"
+			],
+			[
+				"_",
+				"_isLoggedIn"
+			],
+			[
+				"_ses",
+				"_sessionName"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"un",
+				"uniqid"
+			],
+			[
+				"mcry",
+				"mcrypt_create_iv"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"rul",
+				"rule_value"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"htm",
+				"htmlentities"
+			],
+			[
+				"require",
+				"require_once"
+			],
+			[
+				"spl_a",
+				"spl_autoload_register"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"inn",
+				"innerval"
+			],
+			[
+				"inner",
+				"innerkey"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"lin",
+				"letter-spacing"
+			],
+			[
+				"dr",
+				"dropdown-menu"
+			],
+			[
+				"se",
+				"setNavigation"
+			],
+			[
+				"hos",
+				"host_url"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"mysql",
+				"mysql_error"
+			],
+			[
+				"wor",
+				"word-break"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border-radi",
+				"border-radius"
+			],
+			[
+				"border-ra",
+				"border-image-repeat"
+			],
+			[
+				"bor",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "php/header.php",
+			"settings":
+			{
+				"buffer_size": 11830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "how-to-series.php",
+			"settings":
+			{
+				"buffer_size": 2855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/vbcustom.css",
+			"settings":
+			{
+				"buffer_size": 22842,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "account/index.php",
+			"settings":
+			{
+				"buffer_size": 12316,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/registration/step1.php",
+			"settings":
+			{
+				"buffer_size": 4943,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/User.php",
+			"settings":
+			{
+				"buffer_size": 4188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes/DB.php",
+			"settings":
+			{
+				"buffer_size": 3011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "update.php",
+			"settings":
+			{
+				"buffer_size": 2766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "audio-speeches/audio-index.php",
+			"settings":
+			{
+				"buffer_size": 9219,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 30079,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/registration/step4.php",
+			"settings":
+			{
+				"buffer_size": 966,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/realEstateList/index.html",
+			"settings":
+			{
+				"buffer_size": 16417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/lara/app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/lara/app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/realEstateList/bootstrap/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1233,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 316.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: al",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: show-more"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 569.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/versebuster2/blog.php",
+		"/var/www/html/versebuster2/includes/formProcessor.php",
+		"/var/www/html/versebuster2/login.php",
+		"/var/www/html/versebuster2/php/how-to-series.php",
+		"/var/www/html/versebuster2/account/update.php",
+		"/var/www/html/lara/app/Http/Controllers/WelcomeController.php",
+		"/var/www/html/versebuster2/core/init.php",
+		"/var/www/html/versebuster2/classes/Payment.php",
+		"/var/www/html/versebuster2/css/library/jquery.remodal.css",
+		"/var/www/html/versebuster2/php/latest-news/latest-news.html",
+		"/var/www/html/versebuster2/TEST-FILES/MySQL-CRUD-PHP-OOP-master/README.md",
+		"/var/www/html/versebuster2/account/index.php",
+		"/var/www/html/versebuster2/includes/login/logout.php",
+		"/var/www/html/versebuster2/classes/Session.php",
+		"/var/www/html/versebuster2/includes/registration/step2.php",
+		"/var/www/html/versebuster2/includes/registration/step3.php",
+		"/var/www/html/versebuster2/includes/login/checkLogin.php",
+		"/var/www/html/versebuster2/classes/Input.php",
+		"/var/www/html/versebuster2/classes/Validate.php",
+		"/var/www/html/versebuster2/includes/generics.php",
+		"/var/www/html/versebuster2/includes/registration/step4.php",
+		"/var/www/html/versebuster2/includes/registration/step1.php",
+		"/var/www/html/versebuster2/classes/User.php",
+		"/var/www/html/verse-temp/php/header.php",
+		"/var/www/html/verse-temp/sign-up.php",
+		"/var/www/html/verse-temp/php/initSetPost.php",
+		"/var/www/html/verse-temp/php/reg_process.php",
+		"/home/propaganja/Documents/minio files/resources/Real Estate/Template-RealEstateList/index.html",
+		"/var/www/html/realestate/index.php",
+		"/var/www/html/realestate/bootstrap/css/style.css",
+		"/var/www/html/realestate/css/style.css",
+		"/home/propaganja/Documents/minio files/resources/Real Estate/Template-ContactFormMap/index.html",
+		"/home/propaganja/Documents/minio files/resources/Real Estate/Template-RealEstateList/font-awesome/css/font-awesome.css",
+		"/var/www/html/versebuster2/.htaccess",
+		"/home/propaganja/Desktop/Link to html/versebuster2/audio-speeches/audio-index.php",
+		"/var/www/html/versebuster2/audio-speeches/audio-products.php",
+		"/var/www/html/versebuster2/untitled.sublime-workspace",
+		"/var/www/html/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php",
+		"/var/www/html/coredesign/page2.html",
+		"/var/www/html/coredesign/index.html",
+		"/home/propaganja/Downloads/ResponsiveMultiLevelMenu/ResponsiveMultiLevelMenu/index.html",
+		"/var/www/html/coredesign/assets/css/style.css",
+		"/var/www/html/coredesign/assets/css/bootstrap.css",
+		"/home/propaganja/Downloads/ResponsiveMultiLevelMenu/ResponsiveMultiLevelMenu/css/component.css",
+		"/var/www/html/lara/resources/views/home.blade.php",
+		"/var/www/html/lara/app/Http/routes.php",
+		"/var/www/html/lara/resources/views/welcome.blade.php",
+		"/var/www/html/lara/vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php",
+		"/var/www/html/lara/public/index.php",
+		"/var/www/html/lara/app/Http/Controllers/HomeController.php",
+		"/var/www/html/lara/app/Http/Controllers/Controller.php",
+		"/var/www/html/lara/app/Http/Controllers/Auth/AuthController.php",
+		"/var/www/html/lara/app/Http/Controllers/Auth/PasswordController.php",
+		"/var/www/html/lara/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/var/www/html/lara/vendor/symfony/routing/Symfony/Component/Routing/Annotation/Route.php",
+		"/var/www/html/lara/vendor/symfony/routing/Symfony/Component/Routing/CompiledRoute.php",
+		"/var/www/html/lara/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php",
+		"/var/www/html/lara/app/Providers/RouteServiceProvider.php",
+		"/var/www/html/lara/vendor/symfony/routing/Symfony/Component/Routing/Tests/RouteTest.php",
+		"/var/www/html/lara/vendor/symfony/routing/Symfony/Component/Routing/Route.php",
+		"/var/www/html/lara/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/var/www/html/x/sub/index.php",
+		"/var/www/html/x/.htaccess",
+		"/var/www/html/versebuster2/js/vbCustom.js",
+		"/var/www/html/versebuster2/css/vbcustom.css",
+		"/var/www/html/coredesign/assets/js/custom.js",
+		"/var/www/html/coredesign/assets/css/font-awesome.css",
+		"/var/www/html/corept/css/bootstrap.css",
+		"/var/www/html/corept/css/styles.css",
+		"/var/www/html/corept/index.html",
+		"/home/propaganja/Downloads/startbootstrap-freelancer-gh-pages/js/cbpAnimatedHeader.js",
+		"/home/propaganja/Downloads/startbootstrap-freelancer-gh-pages/index.html",
+		"/home/propaganja/Downloads/startbootstrap-freelancer-gh-pages/js/freelancer.js",
+		"/var/www/html/AA_poc/AA_mobile/assets/css/style.css",
+		"/var/www/html/verse-temp/css/childStyle.css",
+		"/home/propaganja/.config/sublime-text-2/Packages/Emmet/Emmet.sublime-settings",
+		"/var/www/html/x/index.php",
+		"/var/www/html/x/sub/section.php",
+		"/var/www/html/x/section.php",
+		"/var/www/html/.htaccess",
+		"/var/www/html/section.php",
+		"/var/www/html/index.html",
+		"/var/www/html/versebuster2/audio-speeches/audioproducts.php",
+		"/var/www/html/versebuster2/classes/DB.php",
+		"/home/propaganja/Desktop/Link to html/versebuster2/audio-speeches/audio-speechesBAK.php",
+		"/home/propaganja/Desktop/Link to html/asualumni/project.php",
+		"/home/propaganja/Desktop/Link to html/oss-www/inc/main_footer.php",
+		"/home/propaganja/Desktop/Link to html/oss-www/views/plays/playmenu.php",
+		"/home/propaganja/Desktop/Link to html/oss-www/index.php",
+		"/home/propaganja/Desktop/Link to html/oss-www/inc/navbar.htm",
+		"/home/propaganja/Desktop/Link to html/oss-www/inc/main_header.php",
+		"/home/propaganja/Desktop/Link to html/oss-www/inc/dbconnect.php",
+		"/home/propaganja/Desktop/Link to html/oss-www/views/plays/plays.php",
+		"/var/www/html/versebuster2/audio-speeches/first-folio/All-is-Well-That-Ends-Well/a1-s1.txt",
+		"/var/www/html/phpinfo.php",
+		"/home/propaganja/Desktop/Link to html/versebuster2/.htaccess",
+		"/var/www/html/ao/apple.html",
+		"/var/www/html/ao/orange.html",
+		"/var/www/html/ao/.htaccess",
+		"/home/propaganja/Desktop/Link to html/versebuster2/.htacces",
+		"/var/www/html/versebuster2/sign-up.php",
+		"/var/www/Link to html/versebuster2/includes/registration/step1.php",
+		"/var/lib/phpmyadmin/config.inc.php",
+		"/home/propaganja/Documents/f-oneSolutions/projects/opensis/config.inc.php",
+		"/home/propaganja/Downloads/Remodal-0.6.4/examples/index.html",
+		"/var/www/html/opensis/config.inc.php",
+		"/etc/phpmyadmin/config.inc.php",
+		"/home/propaganja/Downloads/oss-www/views/plays/plays.php",
+		"/home/propaganja/Downloads/oss-www/views/plays/playmenu.php",
+		"/home/propaganja/Downloads/oss-db-full.sql",
+		"/var/www/html/versebuster2/php/footer.php",
+		"/var/www/html/versebuster2/audio-speeches/first-folio/All-is-Well-That-Ends-Well/a1-s2.txt",
+		"/var/www/html/versebuster2/audio-speeches/audio-index.php",
+		"/home/propaganja/Downloads/soundmanagerv297a-20140901/demo/bar-ui/index.html",
+		"/var/www/html/versebuster2/js/library/bar-ui.js",
+		"/home/propaganja/Downloads/soundmanagerv297a-20140901/demo/bar-ui/css/demo.css",
+		"/var/www/Link to html/versebuster2/includes/registration/step4.php",
+		"/var/www/html/versebuster2/js/library/jquery-ui.js",
+		"/home/propaganja/Downloads/jquery-ui-1.11.4/jquery-ui.min.js",
+		"/home/propaganja/Downloads/Remodal-0.6.4/dist/jquery.remodal.min.js",
+		"/home/propaganja/Downloads/featherlight-1.2.0/src/index.html",
+		"/var/www/html/versebuster2/payment/success.php",
+		"/var/www/html/versebuster2/php/header.php",
+		"/var/www/html/versebuster2/includes/ipnListener.php",
+		"/var/www/html/versebuster2/copyright.php",
+		"/var/www/Link to html/etinda/install-openclassifieds.php",
+		"/var/www/html/versebuster2/includes/registration/xxxxxxxx.php",
+		"/var/www/Link to html/lara/app/Http/routes.php"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/var/www/html/versebuster2",
+			"/var/www/html/lara",
+			"/home/propaganja/Desktop/Link to html/oss-www/",
+			"/var/www/html/versebuster2",
+			"",
+			"/home/propaganja/Downloads/soundmanagerv297a-20140901/demo/mp3-player-button",
+			"/var/www/html/versebuster2/audio-speeches",
+			"",
+			"/var/www/Link to html/versebuster2",
+			"/var/www/Link to html/asualumni",
+			"/var/www/html/versebuster2/",
+			"/var/www/html/versebuster2/includes",
+			"/var/www/Link to html/asualumni",
+			"/var/www/Link to html/versebuster2/",
+			"/var/www/Link to html/versebuster2/includes",
+			"/var/www/html/childTheme/",
+			"/var/www/html/childTheme/wp-content/",
+			"/var/www/html/childTheme/wp-content/themes/wpbootstrap",
+			"/var/www/html/versebuster2/",
+			"/var/www/html/versebuster2/classes",
+			"/var/www/Link to html/asualumni",
+			"/var/www/html/versebuster2",
+			"/var/www/html/",
+			"/var/www/Link to html/asualumni",
+			"/var/www/Link to html/barangaykalibo.ph",
+			"/var/www/Link to html/asualumni/ASU",
+			"/var/www/Link to html/asualumni/",
+			"/var/www/Link to html/asualumni/classes",
+			"",
+			"/var/www/html/barangaykalibo.ph",
+			"/var/www/html",
+			"/var/www/Link to html/",
+			"/var/www/Link to html/asualumni/",
+			"/var/www/html",
+			"/var/www/html/versebuster2",
+			"/var/www/Link to html/asualumni",
+			"/var/www/html/versebuster2/",
+			"/var/www/html/versebuster2/classes",
+			"/var/www/html/opensis/",
+			"/var/www/html/opensis/install",
+			"/var/www/html/versebuster2/",
+			"",
+			"/var/www/html/testv",
+			"",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"slide show de",
+			"power",
+			"power pin",
+			">';\n",
+			"echo Config::get('svrInfo/path');",
+			"googleapis",
+			"google",
+			"fg_membersite",
+			"transStatus",
+			"chechLogin.php",
+			"is required",
+			"username is required",
+			"Please activate your account now!",
+			"Sorry, Incorrect username or password",
+			"Sorry, Incorrect username or password. ",
+			"query",
+			"'),\n",
+			"css",
+			"db",
+			"user->data",
+			"data",
+			"_data",
+			"prepare",
+			"audio-products.php",
+			"_lastID",
+			"mobile-logo",
+			"BlackBerry",
+			"holder",
+			"service-p1",
+			"main-img-p2",
+			"pack",
+			"package",
+			"navbar",
+			"hider",
+			"box4-contact",
+			"box4-holder",
+			"box4",
+			"#services",
+			"hide",
+			"background",
+			"getstarted",
+			"dropdown-menu",
+			".navbar-nav > li",
+			"session",
+			"session_id",
+			"sessionid",
+			"session",
+			"da vinci",
+			"quote(",
+			"Inspiring",
+			"logo",
+			"@media",
+			"ProxiThin",
+			"holder",
+			"email",
+			"box4",
+			"ProxiThin",
+			"corept",
+			"<li class=\"divider\"></li>",
+			">\n",
+			"&",
+			"cont",
+			"span2",
+			"height",
+			"wrap",
+			"box-sm",
+			"64",
+			"btn",
+			"Semi",
+			"botton",
+			"but",
+			"head",
+			"feat-title",
+			"head",
+			"head-set",
+			"p-cls",
+			"\">",
+			"fa fa-recycle  fa-5x",
+			"col-md-4 col-sm-4 col-xs-12",
+			"                <div class=\"col-md-4 col-sm-4 col-xs-12\">\n                    <i class=\"fa fa-recycle  fa-5x\"></i>\n                    <h4 class=\"head-set\">RESPONSIVE DESIGN</h4>\n                    <p>\n                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.\n                    </p>\n                </div>",
+			"img",
+			"images",
+			"@m",
+			"container",
+			"-->\n",
+			"24px",
+			"container",
+			"1170px",
+			";\n",
+			"LucidaItalicCustomFont",
+			"font",
+			"font\n\nfont",
+			"html\nhtml",
+			"html\nhtmk",
+			"section",
+			"Options\n\nOptions",
+			"/views/plays/plays_alpha.php",
+			"views/plays/playmenu.php",
+			"/views/plays/plays.php",
+			"nonav",
+			"views/plays/",
+			"images/sma",
+			"image",
+			"play",
+			"play-plause",
+			"image",
+			"small-dialog",
+			"mfp-hide",
+			"loader",
+			"col-lg-3",
+			"col-md-4 col-xs-4 col-sm-4",
+			"solid red",
+			"red",
+			"solid red",
+			"left",
+			"<div>",
+			"width",
+			"16px",
+			"credits initial",
+			".visible-xs-* .visible-md-*",
+			"plan5",
+			"col-lg-2",
+			"clearfix",
+			"333333",
+			"table of savings",
+			"center-block",
+			"below",
+			"signup-footer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/oss-www/views/plays/plays_alpha.php",
+			"oss-www/views/plays/playmenu.php",
+			"/oss-www/views/plays/plays.php",
+			"/oss-www/views/plays/",
+			"solid #F4D03F",
+			"",
+			"audio-speeches",
+			"\"",
+			"'",
+			"\"",
+			"yellow2.png",
+			"<img class=\"tbl-glossy-tick\" src=\"/versebuster2/images/but2.gif\">",
+			"<a href=\"\">&check;</a>",
+			"versebuster2",
+			"testv",
+			"require_once($_SERVER['DOCUMENT_ROOT'] . \"/versebuster2/php/header.php\");",
+			"$_SERVER.",
+			"#f4d03f",
+			"col-lg-9",
+			"col-lg-3",
+			"news-popups zoom-anim-dialog mfp-hide"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "php/header.php",
+					"settings":
+					{
+						"buffer_size": 11830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4742,
+								4742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 182.0,
+						"translation.y": 2880.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "how-to-series.php",
+					"settings":
+					{
+						"buffer_size": 2855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/vbcustom.css",
+					"settings":
+					{
+						"buffer_size": 22842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22812,
+								22812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24861.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "account/index.php",
+					"settings":
+					{
+						"buffer_size": 12316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11825,
+								11825
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5040.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "includes/registration/step1.php",
+					"settings":
+					{
+						"buffer_size": 4943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3111,
+								3111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 121.0,
+						"translation.y": 1800.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "classes/User.php",
+					"settings":
+					{
+						"buffer_size": 4188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3430,
+								3430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "classes/DB.php",
+					"settings":
+					{
+						"buffer_size": 3011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								861,
+								861
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 633.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "update.php",
+					"settings":
+					{
+						"buffer_size": 2766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2432,
+								2432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1440.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "audio-speeches/audio-index.php",
+					"settings":
+					{
+						"buffer_size": 9219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 30079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10904,
+								10904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 156.0,
+						"translation.y": 4161.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "includes/registration/step4.php",
+					"settings":
+					{
+						"buffer_size": 966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 668.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "/var/www/html/realEstateList/index.html",
+					"settings":
+					{
+						"buffer_size": 16417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1372,
+								1372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 636.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/var/www/html/lara/app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/var/www/html/lara/app/Http/Controllers/HomeController.php",
+					"settings":
+					{
+						"buffer_size": 757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/var/www/html/realEstateList/bootstrap/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1228,
+								1228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1756.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.944363103953,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 93.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"so",
+				"test me now"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/versebuster2/untitled.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true
+}

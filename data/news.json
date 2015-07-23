@@ -1,0 +1,23 @@
+
+
+{
+    "first-box-content":
+    {
+        "parag1": "this is just me"
+    },
+
+    "news-content":
+    {
+        "news1":
+        {
+            "title": "November 2013. we successfully trial an early prototype of our e-format... ",
+            "content": "November 2013. we successfully trial an early prototype of our e-format to a group of first-year drama students at the Philippine Repertory Company in Manila. Despite the fact the English of many Filipinos is once removed from ‘Western’ English and their pronunciation markedly different, the students loved it. Things that weren’t clear to them before became so in just 50 minutes. If Filipino drama students, for whom English is not their mother tongue, can grasp the importance of antitheses, repeated words or synonyms, caesuras (mid-line endings), alliteration and assonance, long vowel sounds, verse line endings and host of other acting clues in under an hour, then our system – and the innovative way we present the text – works! It will work for any English speaker anywhere around the globe from South Africa to Canada, US to Germany, Malta to Malaysia, Israel to India."
+        },
+         
+        "news2":
+        {
+            "title": "test title",
+            "content": "content here all here"
+        }
+    }
+}

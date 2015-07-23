@@ -1,0 +1,17 @@
+TO DO
+create table for transaction
+	transID, transDates
+setup success page and ipn page
+
+login.php 
+	validation for text boxes should output proper textbox name	
+
+
+
+eeeeeeee@sdf.fdfVersebuster: Email verificationHello, eeeeeeee,
+Please activate your account!
+Click here to activate your account!
+http://maxbonamy.org/versebuster2/contact.php?email=eeeeeeee@sdf.fdf&email_code=89f392e18aff3f5ee695cf0d53ced363
+Copy or paste the link above here If Its not clickable.
+Thank you very much,
+Versebuster Team 

@@ -1,0 +1,118 @@
+/*!
+ * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/*****************added styles here**********************************/
+@font-face {
+    font-family: 'LucidaCustomFont';
+    src: url('/versebuster2/fonts/lucidaC.eot');
+    src: url('/versebuster2/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
+         url('/versebuster2/fonts/lucidaC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LucidaItalicCustomFont';
+    src: url('/versebuster2/fonts/Lucida_Calligraphy_Italic.eot');
+    src: url('/versebuster2/fonts/Lucida_Calligraphy_Italic.eot?#iefix') format('embedded-opentype'),
+         url('/versebuster2/fonts/Lucida_Calligraphy_Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: "droidsans";
+  src: url("/versebuster2/fonts/droidsans.eot");
+  src: local("☺"),
+    url('/versebuster2/fonts/droidsans.eot?#iefix') format('embedded-opentype'),
+    url("/versebuster2/fonts/droidsans.woff") format("woff"),
+    url("/versebuster2/fonts/droidsans.woff2") format("woff2"),
+    url("/versebuster2/fonts/droidsans.otf") format("opentype"),
+    url("/versebuster2/fonts/droidsans.svg#filename") format("svg"),
+    url('/versebuster2fonts/droidsans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #F4D03F;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-family: "LucidaCustomFont",arial,sans-serif; font-weight: inherit;
+}
+
+/*---------------------------------------------------------*/
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+    
+}
+
+.section-heading {
+    margin: 30px 0;
+    /*font-size: 4em;*/
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+/*OVERWRITES*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff !important;
+}
+/*END OF OVERWRITES*/
+
+.pipe-wall{
+    border: 2px solid;
+}
+.row{
+    padding: 25px 0;
+}

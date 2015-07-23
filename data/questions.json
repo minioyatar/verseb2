@@ -1,0 +1,40 @@
+{"quiz":
+	[
+		{
+			"question": "1. The quick brown fox jumps over the lazy dog.",
+			"answer": "choiceA",
+			"choiceA": "A",
+			"choiceA": "B",
+			"choiceA": "C",
+			"choiceA": "D"
+
+		},
+
+		{
+			"question": "2. The quick brown fox jumps over the lazy dog.",
+			"answer": "choiceB",
+			"choiceA": "A",
+			"choiceA": "B",
+			"choiceA": "C",
+			"choiceA": "D"
+		},
+
+		{
+			"question": "3. The quick brown fox jumps over the lazy dog.",
+			"answer": "choiceC",
+			"choiceA": "A",
+			"choiceA": "B",
+			"choiceA": "C",
+			"choiceA": "D"
+		},
+
+		{
+			"question": "4. The quick brown fox jumps over the lazy dog.",
+			"answer": "choiceD",
+			"choiceA": "A",
+			"choiceA": "B",
+			"choiceA": "C",
+			"choiceA": "D"
+		}	
+	]
+}

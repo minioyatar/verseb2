@@ -1,0 +1,6 @@
+{
+    "allow_quiz" : true,
+    "quizItems": 3,
+    "quizPath" : "/verse-temp/quiz/quiz_admin/includes/question_query.php",
+    "keyAgain": "value again"
+}
