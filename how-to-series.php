@@ -10,7 +10,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well hows">
 			<h3 class="page-title-ext text-center branding-style-reg">PowerPoint slide-shows for Workshop, Classrooom or Personal use</h3>
-				
+				<div class="col-lg-offset-1">
 					<p>STEP 1</p>
 					<ul>
 						<li class="">Shakespeare tells you 'How' but not 'Why' FREE</li>
@@ -61,7 +61,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 					</ul>
 					<p>STEP 8</p>
 					<ul>
-						<li>Understanding pace and speed FREE</li>
+						<li>Understanding the difference between pace and speed FREE</li>
 						<li>Understanding sarcasm and sardonic wit</li>
 						<li>Understanding irony</li>
 						<li>Understanding illustration FREE</li>
@@ -80,9 +80,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 						<li>Respecting the architecture of verse FREE</li>
 						<li>Interpretations of Shakespeare – the good and the bad FREE</li>						
 					</ul>
-
-					
-				</ul>
+				</div>
 		</div>
 	</div>		
 </div><!-- /#row main-text-->
