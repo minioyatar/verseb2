@@ -180,7 +180,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 	</div><!-- ./ #col-lg-9 introduction content -->
 
     <div class="col-lg-3 sidebars" >
-        <img src="images/300x250-web-ad.jpg" class="img-responsive">
+        <a href="/versebuster2/advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
     </div>	
 
 	<!-- #col-lg-3 ad 4-->	  

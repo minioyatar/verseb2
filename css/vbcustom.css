@@ -412,7 +412,10 @@ margin-top: -12px;
         margin-bottom: 20px;
         min-height: 194px;
         color: #fff;
-        background: #eb9316 no-repeat scroll center / 50% auto;        
+        background: #0071b5 no-repeat scroll center / 50% auto;        
+}
+.demo-box a{
+    color: #fff;
 }
 .demo-box:hover{
     background: #444444 no-repeat scroll center / 50% auto;
@@ -1058,4 +1061,10 @@ color: #fff;
 
 .hows ul{
     list-style-type: none;
+}
+.gogreen{
+    color: #00B050;
+}
+.blueprint{
+    color: #6FBAE1;
 }

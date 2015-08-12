@@ -47,7 +47,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 				Q & A sessions hijacked by this googly at the expense of everything more worthwhile and productive.&nbsp; 
 				It has zero bearing on performing Shakespeare and therefore is outside the remit of Versebuster.  
 
-			<p>If you want to pursue this line of enquiry, we suggest you start with this from Professor Stanley Wells.</p>
+			<p>If you want to pursue this line of enquiry, we suggest you start here: <a href="http://shakespeareauthorship.com/" target="_blank">http://shakespeareauthorship.com/</a> </p>
 <br>
 		</div>
 
@@ -57,7 +57,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 	</div><!-- ./ #col-lg-9 introduction content -->
 
     <div class="col-lg-3 sidebars" >
-        <img src="images/300x250-web-ad.jpg" class="img-responsive">
+        <a href="/versebuster2/advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
     </div>	
 
 	<!-- #col-lg-3 AD-->	  

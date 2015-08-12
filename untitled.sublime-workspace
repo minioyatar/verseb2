@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"list",
+				"list-style-image"
+			],
+			[
 				"pa",
 				"padding"
 			],
@@ -78,10 +86,6 @@
 			[
 				"br",
 				"br	Tag"
-			],
-			[
-				"st",
-				"strong	Tag"
 			],
 			[
 				"h",
@@ -424,10 +428,6 @@
 				"function"
 			],
 			[
-				"list",
-				"list-style-type"
-			],
-			[
 				"max",
 				"max-width"
 			],
@@ -463,71 +463,39 @@
 			"file": "php/header.php",
 			"settings":
 			{
-				"buffer_size": 11830,
+				"buffer_size": 14107,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "how-to-series.php",
+			"file": "verse-speaking.php",
 			"settings":
 			{
-				"buffer_size": 2855,
+				"buffer_size": 923,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/vbcustom.css",
+			"file": "a-zPlays.php",
 			"settings":
 			{
-				"buffer_size": 22842,
+				"buffer_size": 915,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "account/index.php",
+			"file": "advanced.php",
 			"settings":
 			{
-				"buffer_size": 12316,
+				"buffer_size": 917,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "includes/registration/step1.php",
+			"file": "js/vbCustom.js",
 			"settings":
 			{
-				"buffer_size": 4943,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "classes/User.php",
-			"settings":
-			{
-				"buffer_size": 4188,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "classes/DB.php",
-			"settings":
-			{
-				"buffer_size": 3011,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "update.php",
-			"settings":
-			{
-				"buffer_size": 2766,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "audio-speeches/audio-index.php",
-			"settings":
-			{
-				"buffer_size": 9219,
+				"buffer_size": 13625,
 				"line_ending": "Unix"
 			}
 		},
@@ -535,47 +503,39 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 30079,
+				"buffer_size": 31886,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "includes/registration/step4.php",
+			"file": "contest.php",
 			"settings":
 			{
-				"buffer_size": 966,
+				"buffer_size": 3195,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/realEstateList/index.html",
+			"file": "eplay/bibliography.php",
 			"settings":
 			{
-				"buffer_size": 16417,
+				"buffer_size": 22386,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/lara/app/Http/routes.php",
+			"file": "css/vbcustom.css",
 			"settings":
 			{
-				"buffer_size": 585,
+				"buffer_size": 22940,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/lara/app/Http/Controllers/HomeController.php",
+			"file": "advertise.php",
 			"settings":
 			{
-				"buffer_size": 757,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/realEstateList/bootstrap/css/style.css",
-			"settings":
-			{
-				"buffer_size": 1233,
+				"buffer_size": 15663,
 				"line_ending": "Unix"
 			}
 		}
@@ -583,19 +543,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 316.0,
+		"height": 369.0,
 		"selected_items":
 		[
 			[
 				"Package Control: ",
-				"Package Control: Enable Package"
-			],
-			[
-				"Package Control: in",
 				"Package Control: Install Package"
 			],
 			[
 				"Package Control: t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
 				"Package Control: Install Package"
 			],
 			[
@@ -628,29 +588,73 @@
 	},
 	"file_history":
 	[
+		"/var/www/html/versebuster2/tragedies.php",
+		"/var/www/html/versebuster2/shakespeare.php",
+		"/var/www/html/versebuster2/romances.php",
+		"/var/www/html/versebuster2/quick-reference-intro.php",
+		"/var/www/html/versebuster2/intermediate.php",
+		"/var/www/html/versebuster2/histories.php",
+		"/var/www/html/versebuster2/elizabethan-world-view.php",
+		"/var/www/html/versebuster2/elizabethan-stagecraft.php",
+		"/var/www/html/versebuster2/elizabethan-rhetoric.php",
+		"/var/www/html/versebuster2/elizabethan-pronunciation.php",
+		"/var/www/html/versebuster2/advanced.php",
+		"/var/www/html/versebuster2/comedies.php",
+		"/var/www/html/versebuster2/beginner.php",
+		"/var/www/html/versebuster2/eplay/bibliography.php",
+		"/var/www/html/versebuster2/community.php",
 		"/var/www/html/versebuster2/blog.php",
-		"/var/www/html/versebuster2/includes/formProcessor.php",
+		"/var/www/html/versebuster2/copyright.php",
+		"/var/www/html/versebuster2/css/vbcustom.css",
+		"/var/www/html/versebuster2/index.php",
+		"/var/www/html/versebuster2/advertise.php",
+		"/var/www/html/versebuster2/eplay/editorial-policy.php",
+		"/var/www/html/versebuster2/eplay/eplay-index.php",
+		"/var/www/html/versebuster2/eplay/eplay-intro.php",
 		"/var/www/html/versebuster2/login.php",
+		"/var/www/html/versebuster2/audio-speeches/audio-index.php",
+		"/var/www/html/versebuster2/theatre-scripts/theatre-script-intro.php",
+		"/var/www/html/versebuster2/theatre-scripts/full-play-index/index.php",
+		"/var/www/html/versebuster2/how-to-series.php",
+		"/var/www/html/versebuster2/forum.php",
+		"/var/www/html/versebuster2/audio-speeches/recording-notes.php",
+		"/var/www/html/versebuster2/contact.php",
+		"/var/www/html/versebuster2/includes/registration/step2.php",
+		"/var/www/html/versebuster2/faq.php",
+		"/var/www/html/versebuster2/shop.php",
+		"/var/www/html/realEstateList/index.html",
+		"/var/www/html/lara/app/Http/routes.php",
+		"/var/www/html/realEstateList/bootstrap/css/style.css",
+		"/var/www/html/lara/app/Http/Controllers/HomeController.php",
+		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/index.php",
+		"/home/propaganja/Downloads/template-blur-login-form/index.html",
+		"/var/www/html/versebuster2/audio-speeches/audio-intro.php",
+		"/var/www/html/coredesign/index.html",
+		"/var/www/html/versebuster2/classes/Payment.php",
+		"/var/www/html/versebuster2/core/init.php",
+		"/var/www/html/versebuster2/includes/formProcessor.php",
+		"/var/www/html/versebuster2/payment/success.php",
+		"/home/propaganja/Downloads/template-blur-login-form/assets/css/styles.css",
+		"/var/www/html/versebuster2/update.php",
+		"/var/www/html/versebuster2/php/footer.php",
+		"/var/www/html/versebuster2/account/index.php",
+		"/var/www/html/versebuster2/includes/registration/step3.php",
+		"/var/www/html/versebuster2/includes/registration/step4.php",
+		"/var/www/html/versebuster2/classes/DB.php",
+		"/var/www/html/versebuster2/classes/User.php",
+		"/var/www/html/versebuster2/includes/registration/step1.php",
 		"/var/www/html/versebuster2/php/how-to-series.php",
 		"/var/www/html/versebuster2/account/update.php",
 		"/var/www/html/lara/app/Http/Controllers/WelcomeController.php",
-		"/var/www/html/versebuster2/core/init.php",
-		"/var/www/html/versebuster2/classes/Payment.php",
 		"/var/www/html/versebuster2/css/library/jquery.remodal.css",
 		"/var/www/html/versebuster2/php/latest-news/latest-news.html",
 		"/var/www/html/versebuster2/TEST-FILES/MySQL-CRUD-PHP-OOP-master/README.md",
-		"/var/www/html/versebuster2/account/index.php",
 		"/var/www/html/versebuster2/includes/login/logout.php",
 		"/var/www/html/versebuster2/classes/Session.php",
-		"/var/www/html/versebuster2/includes/registration/step2.php",
-		"/var/www/html/versebuster2/includes/registration/step3.php",
 		"/var/www/html/versebuster2/includes/login/checkLogin.php",
 		"/var/www/html/versebuster2/classes/Input.php",
 		"/var/www/html/versebuster2/classes/Validate.php",
 		"/var/www/html/versebuster2/includes/generics.php",
-		"/var/www/html/versebuster2/includes/registration/step4.php",
-		"/var/www/html/versebuster2/includes/registration/step1.php",
-		"/var/www/html/versebuster2/classes/User.php",
 		"/var/www/html/verse-temp/php/header.php",
 		"/var/www/html/verse-temp/sign-up.php",
 		"/var/www/html/verse-temp/php/initSetPost.php",
@@ -667,17 +671,14 @@
 		"/var/www/html/versebuster2/untitled.sublime-workspace",
 		"/var/www/html/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php",
 		"/var/www/html/coredesign/page2.html",
-		"/var/www/html/coredesign/index.html",
 		"/home/propaganja/Downloads/ResponsiveMultiLevelMenu/ResponsiveMultiLevelMenu/index.html",
 		"/var/www/html/coredesign/assets/css/style.css",
 		"/var/www/html/coredesign/assets/css/bootstrap.css",
 		"/home/propaganja/Downloads/ResponsiveMultiLevelMenu/ResponsiveMultiLevelMenu/css/component.css",
 		"/var/www/html/lara/resources/views/home.blade.php",
-		"/var/www/html/lara/app/Http/routes.php",
 		"/var/www/html/lara/resources/views/welcome.blade.php",
 		"/var/www/html/lara/vendor/laravel/framework/src/Illuminate/Foundation/Inspiring.php",
 		"/var/www/html/lara/public/index.php",
-		"/var/www/html/lara/app/Http/Controllers/HomeController.php",
 		"/var/www/html/lara/app/Http/Controllers/Controller.php",
 		"/var/www/html/lara/app/Http/Controllers/Auth/AuthController.php",
 		"/var/www/html/lara/app/Http/Controllers/Auth/PasswordController.php",
@@ -692,7 +693,6 @@
 		"/var/www/html/x/sub/index.php",
 		"/var/www/html/x/.htaccess",
 		"/var/www/html/versebuster2/js/vbCustom.js",
-		"/var/www/html/versebuster2/css/vbcustom.css",
 		"/var/www/html/coredesign/assets/js/custom.js",
 		"/var/www/html/coredesign/assets/css/font-awesome.css",
 		"/var/www/html/corept/css/bootstrap.css",
@@ -711,61 +711,23 @@
 		"/var/www/html/section.php",
 		"/var/www/html/index.html",
 		"/var/www/html/versebuster2/audio-speeches/audioproducts.php",
-		"/var/www/html/versebuster2/classes/DB.php",
 		"/home/propaganja/Desktop/Link to html/versebuster2/audio-speeches/audio-speechesBAK.php",
 		"/home/propaganja/Desktop/Link to html/asualumni/project.php",
 		"/home/propaganja/Desktop/Link to html/oss-www/inc/main_footer.php",
 		"/home/propaganja/Desktop/Link to html/oss-www/views/plays/playmenu.php",
-		"/home/propaganja/Desktop/Link to html/oss-www/index.php",
-		"/home/propaganja/Desktop/Link to html/oss-www/inc/navbar.htm",
-		"/home/propaganja/Desktop/Link to html/oss-www/inc/main_header.php",
-		"/home/propaganja/Desktop/Link to html/oss-www/inc/dbconnect.php",
-		"/home/propaganja/Desktop/Link to html/oss-www/views/plays/plays.php",
-		"/var/www/html/versebuster2/audio-speeches/first-folio/All-is-Well-That-Ends-Well/a1-s1.txt",
-		"/var/www/html/phpinfo.php",
-		"/home/propaganja/Desktop/Link to html/versebuster2/.htaccess",
-		"/var/www/html/ao/apple.html",
-		"/var/www/html/ao/orange.html",
-		"/var/www/html/ao/.htaccess",
-		"/home/propaganja/Desktop/Link to html/versebuster2/.htacces",
-		"/var/www/html/versebuster2/sign-up.php",
-		"/var/www/Link to html/versebuster2/includes/registration/step1.php",
-		"/var/lib/phpmyadmin/config.inc.php",
-		"/home/propaganja/Documents/f-oneSolutions/projects/opensis/config.inc.php",
-		"/home/propaganja/Downloads/Remodal-0.6.4/examples/index.html",
-		"/var/www/html/opensis/config.inc.php",
-		"/etc/phpmyadmin/config.inc.php",
-		"/home/propaganja/Downloads/oss-www/views/plays/plays.php",
-		"/home/propaganja/Downloads/oss-www/views/plays/playmenu.php",
-		"/home/propaganja/Downloads/oss-db-full.sql",
-		"/var/www/html/versebuster2/php/footer.php",
-		"/var/www/html/versebuster2/audio-speeches/first-folio/All-is-Well-That-Ends-Well/a1-s2.txt",
-		"/var/www/html/versebuster2/audio-speeches/audio-index.php",
-		"/home/propaganja/Downloads/soundmanagerv297a-20140901/demo/bar-ui/index.html",
-		"/var/www/html/versebuster2/js/library/bar-ui.js",
-		"/home/propaganja/Downloads/soundmanagerv297a-20140901/demo/bar-ui/css/demo.css",
-		"/var/www/Link to html/versebuster2/includes/registration/step4.php",
-		"/var/www/html/versebuster2/js/library/jquery-ui.js",
-		"/home/propaganja/Downloads/jquery-ui-1.11.4/jquery-ui.min.js",
-		"/home/propaganja/Downloads/Remodal-0.6.4/dist/jquery.remodal.min.js",
-		"/home/propaganja/Downloads/featherlight-1.2.0/src/index.html",
-		"/var/www/html/versebuster2/payment/success.php",
-		"/var/www/html/versebuster2/php/header.php",
-		"/var/www/html/versebuster2/includes/ipnListener.php",
-		"/var/www/html/versebuster2/copyright.php",
-		"/var/www/Link to html/etinda/install-openclassifieds.php",
-		"/var/www/html/versebuster2/includes/registration/xxxxxxxx.php",
-		"/var/www/Link to html/lara/app/Http/routes.php"
+		"/home/propaganja/Desktop/Link to html/oss-www/index.php"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
+			"",
+			"span",
 			"/var/www/html/versebuster2",
 			"/var/www/html/lara",
 			"/home/propaganja/Desktop/Link to html/oss-www/",
@@ -819,141 +781,143 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"slide show de",
-			"power",
-			"power pin",
-			">';\n",
-			"echo Config::get('svrInfo/path');",
-			"googleapis",
-			"google",
-			"fg_membersite",
-			"transStatus",
-			"chechLogin.php",
-			"is required",
-			"username is required",
-			"Please activate your account now!",
-			"Sorry, Incorrect username or password",
-			"Sorry, Incorrect username or password. ",
-			"query",
-			"'),\n",
-			"css",
-			"db",
-			"user->data",
-			"data",
-			"_data",
-			"prepare",
-			"audio-products.php",
-			"_lastID",
-			"mobile-logo",
-			"BlackBerry",
-			"holder",
-			"service-p1",
-			"main-img-p2",
-			"pack",
-			"package",
-			"navbar",
-			"hider",
-			"box4-contact",
-			"box4-holder",
-			"box4",
-			"#services",
-			"hide",
-			"background",
-			"getstarted",
-			"dropdown-menu",
-			".navbar-nav > li",
-			"session",
-			"session_id",
-			"sessionid",
-			"session",
-			"da vinci",
-			"quote(",
-			"Inspiring",
-			"logo",
-			"@media",
-			"ProxiThin",
-			"holder",
-			"email",
-			"box4",
-			"ProxiThin",
-			"corept",
-			"<li class=\"divider\"></li>",
-			">\n",
-			"&",
-			"cont",
-			"span2",
-			"height",
-			"wrap",
-			"box-sm",
-			"64",
-			"btn",
-			"Semi",
-			"botton",
-			"but",
-			"head",
-			"feat-title",
-			"head",
-			"head-set",
-			"p-cls",
-			"\">",
-			"fa fa-recycle  fa-5x",
-			"col-md-4 col-sm-4 col-xs-12",
-			"                <div class=\"col-md-4 col-sm-4 col-xs-12\">\n                    <i class=\"fa fa-recycle  fa-5x\"></i>\n                    <h4 class=\"head-set\">RESPONSIVE DESIGN</h4>\n                    <p>\n                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.\n                    </p>\n                </div>",
-			"img",
-			"images",
-			"@m",
-			"container",
-			"-->\n",
-			"24px",
-			"container",
-			"1170px",
-			";\n",
-			"LucidaItalicCustomFont",
-			"font",
-			"font\n\nfont",
-			"html\nhtml",
-			"html\nhtmk",
-			"section",
-			"Options\n\nOptions",
-			"/views/plays/plays_alpha.php",
-			"views/plays/playmenu.php",
-			"/views/plays/plays.php",
-			"nonav",
-			"views/plays/",
-			"images/sma",
-			"image",
-			"play",
-			"play-plause",
-			"image",
-			"small-dialog",
-			"mfp-hide",
-			"loader",
-			"col-lg-3",
-			"col-md-4 col-xs-4 col-sm-4",
-			"solid red",
-			"red",
-			"solid red",
-			"left",
-			"<div>",
-			"width",
-			"16px",
-			"credits initial",
-			".visible-xs-* .visible-md-*",
-			"plan5",
-			"col-lg-2",
-			"clearfix",
-			"333333",
-			"table of savings",
-			"center-block",
-			"below",
-			"signup-footer"
+			";\">",
+			"white-space:nowrap;",
+			"Founder",
+			"demo-box",
+			"BIBLIOGRAPHY & FILMOGRAPHY ",
+			"QUICK REFERENCE LIBRARY",
+			", articles, theatre revie",
+			"reely custom",
+			"y play and topic",
+			"cially for beginners",
+			"nce past and pre",
+			"Beginner, Inter",
+			"Advanced methodology fo",
+			"e & Advanced methodology ",
+			"freely customis",
+			"doc (full play, scenes, individual speeches) that may ",
+			"   ",
+			"t can be learned by observing others",
+			"ctive to the interpretation and",
+			"t to make them second nature so",
+			"hile anarchy leads",
+			"s great art, while anarchy merely leads to",
+			"ing God, or th",
+			"e nearer the truth",
+			"make them second nature so that",
+			" second nature so that",
+			"while anarchy",
+			"produces great ",
+			" the rules or parameters, but to ma",
+			"gainst 'walls' produces great",
+			"s' produces great art, while ",
+			"ast and prese",
+			"dvanced methodolog",
+			"freely custo",
+			" speeches) that may be freely custom",
+			"Extensive Product Range",
+			"ticles, videos, films, lectures, et",
+			" performances, yawn at the under-energised",
+			"erspective to the interpretation a",
+			"e scene after another and each time actors have t",
+			"arameters, but to make th",
+			"ent perspective to the interpretation and a",
+			"our own unique ",
+			"a plausible motivation",
+			"the rules or parameters, but to make t",
+			"enda or an actor's personal hang-up",
+			" be justified by the t",
+			"ter another and each time actors ",
+			"eters, but to make the",
+			"atever moti",
+			"and each time actors have to",
+			" excitedly greeting God, or t",
+			"t 'God, God, God' three or fo",
+			"st things fall under the ",
+			"By far and away",
+			"By far and aw",
+			"e rules or parameters, but to make t",
+			"range",
+			"choolroom or literary mark",
+			"CONCURRENCY=makefile",
+			"CONCURRENCY=none",
+			"ilms, lectures, ",
+			"or most students",
+			"energised, or stra",
+			" velvet delivery of John Geilgu",
+			"Sometimes they are both fait",
+			"ssional or commercial bo",
+			"owever (though",
+			"he schoolroom or literary mar",
+			"ed, some are more sound than othe",
+			"nneth Brannagh, Emma Th",
+			"Bate, Jonathan and",
+			"utter, Carol.",
+			" In Shakespeare and Elizab",
+			"Oxford",
+			"Shakespeare’s London",
+			"re’s Text: Notes on Short Lines a",
+			"London: Vir",
+			"os, films, le",
+			"me lines, bu",
+			" simple for begin",
+			"e learned",
+			" of the velvet",
+			"e net result is that it",
+			"mmercial bod",
+			"are gems which co",
+			"not cheap, howe",
+			"olroom or literary market",
+			"Good Quarto and Mo",
+			"f Versebuster ePlay opt",
+			"A further 11 have",
+			"kangel Shakesp",
+			"rton, Elizabeth Ta",
+			"urence Oli",
+			"kespeare Complete Works",
+			"Kermode, Frank.",
+			"in Shakespeare’s Lon",
+			"Playgoing in Shakespeare’s London",
+			"Van Tassel, Wesle",
+			"London: A & C Blac",
+			" Nick Hern Book",
+			"e lines, but some",
+			"speare keeping ",
+			" We can lea",
+			"ve you goosebumps;",
+			" advantage",
+			"e verse-spea",
+			"FILMS & TV PRODUCTION",
+			"making",
+			" frogs before you find a prin",
+			"seful vehicle for find",
+			"formats and presentatio",
+			"re not chea",
+			"somethimes",
+			"vaild",
+			"mbridge School series",
+			" literary marke",
+			"rto, First Folio and modern ePl",
+			"   ",
+			"for performanc",
+			"Much Ado ",
+			"Much Ado bout Nothing",
+			"ich version to choos",
+			"a preference for colon",
+			"us assumptions by ed",
+			"t as prose and vice-versa",
+			"WHY WE OFFER THREE VERSIONS",
+			"INTUITIVE & MEMORABLE"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			" &nbsp; ",
+			"Alexander, Peter. Shakespeare’s Punctuation. London: Cumberlege, 1945",
 			"/oss-www/views/plays/plays_alpha.php",
 			"oss-www/views/plays/playmenu.php",
 			"/oss-www/views/plays/plays.php",
@@ -985,7 +949,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -993,15 +957,15 @@
 					"file": "php/header.php",
 					"settings":
 					{
-						"buffer_size": 11830,
+						"buffer_size": 14107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4742,
-								4742
+								4757,
+								4757
 							]
 						],
 						"settings":
@@ -1010,26 +974,26 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 182.0,
-						"translation.y": 2880.0,
+						"translation.x": 290.0,
+						"translation.y": 2755.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "how-to-series.php",
+					"file": "verse-speaking.php",
 					"settings":
 					{
-						"buffer_size": 2855,
+						"buffer_size": 923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								215,
-								215
+								519,
+								519
 							]
 						],
 						"settings":
@@ -1038,108 +1002,106 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "css/vbcustom.css",
+					"file": "a-zPlays.php",
 					"settings":
 					{
-						"buffer_size": 22842,
+						"buffer_size": 915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22812,
-								22812
+								359,
+								359
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 24861.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "account/index.php",
+					"file": "advanced.php",
 					"settings":
 					{
-						"buffer_size": 12316,
+						"buffer_size": 917,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11825,
-								11825
+								917,
+								917
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5040.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "includes/registration/step1.php",
+					"file": "js/vbCustom.js",
 					"settings":
 					{
-						"buffer_size": 4943,
+						"buffer_size": 13625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3111,
-								3111
+								5085,
+								5085
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 121.0,
-						"translation.y": 1800.0,
+						"translation.x": 0.0,
+						"translation.y": 2001.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "classes/User.php",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 4188,
+						"buffer_size": 31886,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3430,
-								3430
+								14770,
+								14770
 							]
 						],
 						"settings":
@@ -1148,246 +1110,81 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 5308.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "classes/DB.php",
+					"file": "contest.php",
 					"settings":
 					{
-						"buffer_size": 3011,
+						"buffer_size": 3195,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								861,
-								861
+								1646,
+								1646
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 633.0,
+						"translation.x": 1458.0,
+						"translation.y": 575.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "update.php",
+					"file": "eplay/bibliography.php",
 					"settings":
 					{
-						"buffer_size": 2766,
+						"buffer_size": 22386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2432,
-								2432
+								7278,
+								7278
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 1440.0,
+						"translation.x": 1427.0,
+						"translation.y": 1811.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "audio-speeches/audio-index.php",
+					"file": "css/vbcustom.css",
 					"settings":
 					{
-						"buffer_size": 9219,
+						"buffer_size": 22940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 30079,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10904,
-								10904
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 156.0,
-						"translation.y": 4161.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "includes/registration/step4.php",
-					"settings":
-					{
-						"buffer_size": 966,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 668.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 11,
-					"file": "/var/www/html/realEstateList/index.html",
-					"settings":
-					{
-						"buffer_size": 16417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1372,
-								1372
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 636.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/var/www/html/lara/app/Http/routes.php",
-					"settings":
-					{
-						"buffer_size": 585,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								473,
-								473
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/var/www/html/lara/app/Http/Controllers/HomeController.php",
-					"settings":
-					{
-						"buffer_size": 757,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								673,
-								673
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 432.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "/var/www/html/realEstateList/bootstrap/css/style.css",
-					"settings":
-					{
-						"buffer_size": 1233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1228,
-								1228
+								9054,
+								9054
 							]
 						],
 						"settings":
@@ -1397,7 +1194,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1756.0,
+						"translation.y": 9240.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "advertise.php",
+					"settings":
+					{
+						"buffer_size": 15663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15506,
+								15506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6581.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1407,7 +1231,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -1422,18 +1246,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.944363103953,
 			1.0
 		],
 		"rows":
@@ -1476,6 +1293,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 152.0,
+	"side_bar_width": 189.0,
 	"status_bar_visible": true
 }

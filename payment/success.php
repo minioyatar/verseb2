@@ -19,7 +19,7 @@ if(Input::exists('get')){
 				'grp' => 1
 				));
 			Session::flash('home', 'Thank you for registering. You may login to your account now');
-			Redirect::to('../../versebuster2/index.php');
+			Redirect::to('../../versebuster2/login.php?registered=true');
 		}
 // }else{
 //no transcode found found

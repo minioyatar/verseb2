@@ -21,15 +21,15 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 				</tr>
 				<tr>
 					<td><p>Advertising:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
-				    <td><p>john.nobody@versebuster.com</p></td>
+				    <td><p>advertise@versebuster.com</p></td>
 				</tr>
 				<tr>
 				    <td><p>Typographical errors:&nbsp;</p></td>
-				    <td><p>error@versebuster.com</p></td>
+				    <td><p>editor@versebuster.com</p></td>
 				</tr>
 				<tr>
 				    <td><p>Suggestions &amp; ideas:&nbsp;</p></td>
-				    <td><p>suggestions@versebuster.com</p></td>
+				    <td><p>editor@versebuster.com</p></td>
 				</tr>
 				<tr>
 				    <td><p>Website technical problem:&nbsp;</p></td>
@@ -49,7 +49,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 
     <div class="col-lg-3 sidebars" >
-        <img src="images/300x250-web-ad.jpg" class="img-responsive">
+        <a href="/versebuster2/advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
     </div>
 
 	<!-- #col-lg-3 AD-->	  

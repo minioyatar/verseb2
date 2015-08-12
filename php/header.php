@@ -139,15 +139,39 @@
                     <li class="child-sub-sidebar-nav navi"><a href="/versebuster2/theatre-scripts/full-play-index/index.php">Full play</a></li>
                     <li class="child-sub-sidebar-nav navi last-item navi"><a href="/versebuster2/theatre-scripts/individual-speeches-index/index.php">Individual speeches</a></li>
 
-                    <li><a><strong>PowerPoint Presentations</strong></a></li>
+                    <li><a><strong>Slide Shows</strong></a></li>
                     <li class="sub-sidebar-nav navi"><a href="#">Understanding ePlay system FREE</a></li>
-                    <li class="sub-sidebar-nav navi"><a href="#">Understanding Quarto, First Folio <br> <span style="padding-left:82px">and Modern FREE</span></a></li>
-                    <li class="sub-sidebar-nav navi"><a href="/versebuster2/how-to-series.php">HOW-TO SERIES</a></li>
+                    <li class="sub-sidebar-nav navi"><a href="#">Understanding Quarto, First Folio <br> <span style="padding-left:82px">and modern texts FREE</span></a></li>
+                    <li class="sub-sidebar-nav navi last-item navi"><a href="/versebuster2/how-to-series.php">HOW-TO SERIES</a></li>
+
+
+                    <li><a><strong>Quick Reference Library</strong></a></li>
+                        <li class="sub-sidebar-nav navi"><a href="quick-reference-intro.php">Intro</a></li>
+                        <li class="sub-sidebar-nav navi"><a>MATERIAL BY PLAY</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="a-zPlays.php">A to Z</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="comedies.php">Comedies</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="histories.php">Histories</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="tragedies.php">Tragedies</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="romances.php">Romances</a></li>
+
+                        <li class="sub-sidebar-nav navi"><a>MATERIAL BY TOPIC</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="verse-speaking.php">Verse-speaking</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="elizabethan-pronunciation.php">Elizabethan pronunciation</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="elizabethan-stagecraft.php">Elizabethan stagecraft</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="elizabethan-rhetoric.php">Elizabethan rhetoric</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="elizabethan-world-view.php">Elizabethan world view</a></li>
+
+                        <li class="child-sub-sidebar-nav navi "><a href="shakespeare.php">Shakespeare (life & times)</a></li>
+
+                            <li class="sub-sidebar-nav navi"><a>MATERIAL BY LEVEL</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="beginner.php">Beginner</a></li>
+                            <li class="child-sub-sidebar-nav navi"><a href="intermediate.php">Intermediate</a></li>
+                            <li class="child-sub-sidebar-nav navi last-item navi"><a href="advanced.php">Advanced</a></li>                        
     			</ul>
 
                 <div class="add-300x250">    
                     <div class="col-lg-12 sidebars ">     
-                        <img class="img-responsive" src="/versebuster2/images/300x250-web-ad.jpg">
+                        <a href="/versebuster2/advertise.php"><img class="img-responsive" src="/versebuster2/images/300x250-web-ad.jpg"></a>
                     </div><!-- #col-lg-3 ad 3-->
                 </div>
 

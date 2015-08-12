@@ -9,16 +9,12 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
 			
-<h3 class="page-title-ext text-center branding-style-reg">EDITORIAL POLICY</h3>
+<h3 class="page-title-ext text-center branding-style-reg">ePLAYS</h3>
 
-			<p class="text-center"><strong>INTRODUCTION</strong></p>
+			<p class="text-center"><strong>EDITORIAL POLICY</strong></p>
 <br>
 			<p>A LIGHT TOUCH</p>
-			<p>As we produce ePlays and scripts in individual Folio, Quarto editions rather than conflate 
-				them into one (as most editors to some extent do), there is no great compulsion for us to 
-				tamper with them. &nbsp; The added advantage is that leaving them alone serves to highlight 
-				the differences with a modern literary or school version. &nbsp; At the same time, we want 
-				them to be actable; so, like all editors, we are forced to make at least some changes.</p>  
+			<p>As we produce ePlays and theatre scripts in individual Quarto, First Folio and modern text editions, we avoid excessive tampering with the Quartos and First Folio.   Remaining as faithful as is practicable to the original texts serves to highlight the differences with a modern literary or school version, one of our key aims. &nbsp; Secondly, we are less likely to inadvertently remove possible performance clues in the original texts not present in the modern ones. &nbsp; At the same time, however, we want them to be actable; so, like all editors, we are forced to make at least some changes.</p>  
 
 			<p>This, of course, goes to the heart of the debate about editing Shakespeare. &nbsp; What 
 				constitutes 'enough' changes? &nbsp; Below we list specifics, but, to give a general flavour, 
@@ -47,7 +43,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 				literary text but give it a performance makeover.</p> 
 
 			<p>We do this because, such is the dominance of the literary text in the Shakespeare 
-				education industry, literary texts remain the default scripts for performance: a dominance 
+				education industry, literary texts remain the default scripts for performance; a dominance 
 				compounded by widespread ignorance of, or indifference to the original 'performing' texts. &nbsp; 
 				Even with the dogged efforts of F1 standard bearers like Patrick Tucker, Neil Freeman and, 
 				more recently, Jonathan Bate of the RSC, that state of affairs is not going to change any time 

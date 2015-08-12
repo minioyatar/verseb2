@@ -8,26 +8,32 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <!-- row -->	
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
-		<div class="well">
+		<div class="well" style="margin-bottom: 0px;">
 
-			<h3 class="page-title-ext text-center branding-style-reg">Full Play Theatre Script Index</h3>
-<br>
+			<h3 class="page-title-ext text-center branding-style-reg">THEATRE SCRIPTS</h3>
+
+			<p class="text-center"><strong>FULL PLAY INDEX</strong></p>
+<!-- <br> -->
 			<p>THEATRE SCRIPTS AVAILABLE FOR ALL PLAYS</p> 
 
 			<p>The theatre scripts precisely match their respective ePlay (that has the 
 			full annotations and notations). &nbsp; So an ePlay <span class="branding-style-title">Hamlet</span> 
 			from the First Folio (F1) has a matching <span class="branding-style-title">Hamlet</span> 
 			F1 theatre script.</p>
-<br>
-		
-			<p>PLEASE SELECT FROM ONE OF THE FOLLOWING THREE CATEGORIES</p>
+		</div>
 
-<br>
-			<p class="text-center"><span class="branding-style-reg">NB</span</p> 
-			<p class="text-center"><a href="">Why not become a member today for as little as $10 and enjoy 50% and 
-			more off prices?</p>
-			<p class="text-center">It's easy as 1-2-3</a></p>
-<br>
+		<div class="become-mem-action">
+			<div class="catch-phrase">
+				<p class="text-center" >Why not become a member today for as little as $10 and enjoy 50% and more off prices? </p>
+				<p class="text-center call-act-arrow">It's easy as <span class="call-act-123">1-2-3!</span></p>
+				<!-- <img src="/versebuster2/images/arrow-icon.png" width=100> -->
+			</div>
+			<p class="text-center call-to-act"><a href="#">Become a member</a></p>
+		</div>
+
+		<div class="well">
+			<br>
+			<p>PLEASE SELECT FROM ONE OF THE FOLLOWING THREE CATEGORIES</p>
 			<p><strong>1.&nbsp; Full play theatre scripts - no annotation (i.e. no definitions and meanings),  
 				no notation (i.e no scoring of performance clues)</strong></p>
 			

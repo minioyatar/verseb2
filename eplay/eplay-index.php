@@ -44,12 +44,25 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
   <!-- row -->
   <div class="row main-text">
     <div class="col-lg-9"><!-- #col-lg-9 introduction content -->
-      <div class="well">
+      <div class="well"  style="margin-bottom: 0px;">
         <h3 class="page-title-ext text-center branding-style-reg">ePLAYS</h3>
         <p class="text-center"><strong>INDEX</strong></p>
         <br>
         <p>SCHOOL VERSIONS</p>
-        <p>With the exception of <span class="branding-style-title">Julius Caesar</span> and <span class="branding-style-title">Richard II</span> all plays come in a school version. &nbsp; The point of the school version is not to dumb down (for which we feel no need) but to avoid embarrassment and potential legal issues by removing annotations concerning Shakespeare's numerous sexual references. &nbsp; Other than that they are entirely the same. &nbsp; There are no sexual references in <span class="branding-style-title">Julius Caesar</span> and <span class="branding-style-title">Richard II</span>. &nbsp; In Checkout select 'school version'.</p> <br>
+        <p>With the exception of <span class="branding-style-title">Julius Caesar</span> and <span class="branding-style-title">Richard II</span> all plays come in a school version. &nbsp; The point of the school version is not to dumb down (for which we feel no need) but to avoid embarrassment and potential legal issues by removing annotations concerning Shakespeare's numerous sexual references. &nbsp; Other than that they are entirely the same. &nbsp; There are no sexual references in <span class="branding-style-title">Julius Caesar</span> and <span class="branding-style-title">Richard II</span>. &nbsp; In Checkout select 'school version'.</p>
+      </div>
+
+        <div class="become-mem-action">
+          <div class="catch-phrase">
+            <p class="text-center" >Why not become a member today for as little as $10 and enjoy 50% and more off prices? </p>
+            <p class="text-center call-act-arrow">It's easy as <span class="call-act-123">1-2-3!</span></p>
+            <!-- <img src="/versebuster2/images/arrow-icon.png" width=100> -->
+          </div>
+          <p class="text-center call-to-act"><a href="#">Become a member</a></p>
+        </div>
+
+      <div class="well">
+        <br>
         <p>PERICLES & TWO NOBLE KINSMAN</p>
         <p><span class="branding-style-title">Pericles, Prince of Tyre</span> is taken from the Second Folio of 1632 where it first appeared, and <span class="branding-style-title">The Two Noble Kinsman</span> from its 1634 Quarto. &nbsp; As with all other plays they come in a modern version.</p> <br>
         <p>KING LEAR</p>
@@ -330,7 +343,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
-            <td>Much Ado about Nothing</td>
+            <td>Much Ado About Nothing</td>
             <td><a href="/versebuster2/eplay/first-folio/much-ado-about-nothing.php"><img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png"></a></td>

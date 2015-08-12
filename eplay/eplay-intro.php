@@ -19,17 +19,17 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 	<p>The core function of Versebuster's pdf ePlays is be an in-depth, performance-centred resource  
 	for the actor, director or teacher whether using the First Folio (F1), a Good Quarto or a standard 
 	modern text. &nbsp; Through annotation and notation they highlight as many performance clues as can be
-	reasonably accommodated in one document. &nbsp; Those clues represent the sum of knowledge
+	reasonably accommodated in one document. &nbsp; Those clues represent the distillation of knowledge
 	about performing Shakespeare to be found in 20-odd self-help books by famous teachers and directors 
 	listed in our bibliography.</p> 
 	
 <br>
 	<p>SECOND FUNCTION</p>
-	<p>Their second function (First Folio (F1) and Quarto only) is show the unvarnished original script 
+	<p>Their second function (First Folio (F1) and Quarto only) is to show relatively unvarnished original scripts 
 		(in modern type) so people get an idea of the challenges editors face. &nbsp; It is impossible 
 		not to make some changes to an original script so as to make it actable. &nbsp; The on-going debate 
 		revolves around how far an editor should go to achieve this. &nbsp; Many feel that until  
-		comparatively recently editors were over zealous. &nbsp; In the latest editions there is a trend 
+		comparatively recently editors were over zealous in making changes. &nbsp; In the latest editions there is a trend 
 		back towards a lighter and defter touch, but still this fails to assuage some. &nbsp; As you 
 		become familiar with the arguments on both sides, you'll be better able to judge yourself.</p>
 
@@ -66,7 +66,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 		    <p>ENTIRELY PERFORMANCE-ORIENTED NOTES</p>
 		    <p>As Versebuster is focused solely on performance, our annotations and notations are entirely 
 		    	performance-oriented. &nbsp; This is in stark contrast to most modern texts. &nbsp; Their notes  
-		    	are literary as they are designed for schools and academia rather than for stage performance. &nbsp;  
+		    	are predominantly literary as they are designed for schools and academia rather than for stage performance. &nbsp;  
 		    	Historically their scholarship has made an invaluable contribution to the understanding of 
 		    	intellectual sense (matter), but they fall well short on textual evidence related to mood,  
 		    	attitude and sincerity (manner). &nbsp; These are the clues that help actors realise a far  
@@ -82,7 +82,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 				form that has its origins in classical Roman and Greek rhetoric.</p>
 	
 			<p>Thus, as stated, Shakespeare plays are treated principally as a literary exercise, not a 
-				performance one. &nbsp; Here is a priceless example taken from <em>Henry IV Pt 1</em>. &nbsp; 
+				performance one. &nbsp; Here is a an example taken from <em>Henry IV Pt 1</em>. &nbsp; 
 				The prose line is:
 <br>
 			<div class="indentedverse">
@@ -112,7 +112,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 				youth, grows v. wears) and the balancing halves of the sentence that must be pointed up in 
 				the delivery, otherwise the audience loses the thread of the argument and possibly interest 
 				in the actor. &nbsp; In this example what neither actor nor audience need is a lesson in 
-				botanical Latin!</p>
+				botany.</p>
 <br>
 		    <p>THOROUGH & COMPREHENSIVE</p>
 		    <p>Unlike printed editions Versebuster ePlays have no space limitations, so you won't encounter
@@ -141,6 +141,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 		    <p>Our notations (the graphics) that 'score' the text are designed to be pleasing to the eye, 
 		    	easy to grasp and intuitive.</p>  
 		    	<p>Example XXX XXX</p>
+		    	<br>
 
 		    <p>SAME NOTATIONS ACROSS PRODUCT RANGE</p>
 		    <p>All Versebuster publications and products use the same notation system; so once 
@@ -170,7 +171,9 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 		    	Folio (F1), a Good Quarto if it exists (such as Q2 for <span class="branding-style-title">
 		    	Hamlet</span>) and a modern version. &nbsp; For a modern version we steer a middle 
 				ground through Arden, Cambridge, Oxford, Penguin, Pelican, Folger and Riverside.</p>
-<br>    
+<br>
+<br>
+<br>
 		    <p>WHY WE OFFER THREE VERSIONS</p>
 		    <p>Savvy Shakespeare actors know there are often dividends to be had from 
 		    	comparing one text with another for the same play. &nbsp; This is because all three 
@@ -189,12 +192,12 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 				<li><p>Bits of punctuation appear muddled (whether real or imagined)</li>
 
-				<li><p>Verse is set as prose and vice-versa due to printing problems (whether real or imagined)</p>
+				<li><p>Verse is set as prose and vice-versa due to 'printing problems' (whether real or imagined)</p>
 			</li> 
 			</ul>
 <br>			
 			<p><span class="branding-style-reg">A modern text</span></p>
-			<p>Broadly, the flaws are dubious assumptions by editors. &nbsp; Examples:</p> 
+			<p>Broadly, the flaws are dubious assumptions by editors (claim various critics). &nbsp; Examples:</p> 
 			<ul>
 				<li><p>Historically many editors have seen their job in terms of a literary duty 
 				not a theatrical one; to serve the reader (often school teachers and their charges) not the 
@@ -218,7 +221,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 				muse, philosophise, share, reason, persuade, cajole, defend, criticise, argue, vent or lament. 
 				&nbsp; And preferably this is done without the interruptions which full-stops are apt to 
 				invite. &nbsp; It is argued that Shakespeare tried to capture the energy and excitement of 
-				this verbal effusion through a preference for colons and lighter punctuation, and that 
+				this verbal effusion through a preference for colons rather than full-stops (periods) and generally more fluid punctuation, and that 
 				literary editors, unsuspecting of the theatrical damage, instead replaced these with clunking 
 				full-stops to 'help' the reader. &nbsp; But, like obstructions on a runway, they prevent the 
 				actor from taking off.</p>     
@@ -249,7 +252,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <br>
 		    <p><strong>Knowing which version to choose</strong></p>
 		    
-		    <p>If you're a student chose modern, because that's what schools and colleges use. &nbsp;  
+		    <p>If you're a student chose a modern text, because that's what schools and colleges use. &nbsp;  
 		    	If you're an actor, your director may use F1, a Good Quarto or a modern edition
 		    	 - you may not know until the first read-through, but Versebuster has you covered.  &nbsp;  
 		    	 For more, see the post <a href="">A Literary Text v. A Performance Text</a> in our 
@@ -280,7 +283,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 		    <p>25 out of the 38 Shakespeare plays we cover come in F1 and Modern only. &nbsp; 
 		    	<span class="branding-style-title">Pericles</span>, a popular play at the time, which first 
 		    	appeared in the Second Folio of 1632 (F2), comes in F2, a Good Quarto and Modern. &nbsp; A 
-		    	further 11 have Good Quartos, so they come in F1, a Good Quarto and Modern. &nbsp; 
+		    	further 11 have Quartos of some merit, so they come in F1, a 'Good' Quarto and Modern. &nbsp; 
 		    	<span class="branding-style-title">The Two Noble Kinsmen</span> is based on the 1634 Quarto, 
 		    	so it comes in that Quarto and Modern. 
 

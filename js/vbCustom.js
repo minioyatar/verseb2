@@ -132,8 +132,9 @@ $(document).ready(function() {
             // var urlPath = getPageName(window.location.pathname);
             // $('.' +  urlPath).addClass("sub-menu-active");
             var str=location.href.toLowerCase();
+            
             $(".navi a").each(function() {
-                // console.log(this.href.toLowerCase() + "====" + str)
+                console.log(this.href.toLowerCase() + "====" + str)
                 if (str.indexOf(this.href.toLowerCase()) > -1) {
                     $("li.highlight").removeClass("highlight");
                     $(this).parent().addClass("highlight");

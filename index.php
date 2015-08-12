@@ -32,7 +32,7 @@
 			<p class="text-center"><img src="images/diamondBullet.gif"> Shakespeare's prose has its own rules and 
 				guidelines too <img src="images/diamondBullet.gif"> </p>
 			
-			<p><strong>Extensive Product Range</strong> - currently includes:</p>
+			<p><strong>Extensive Product Range</strong></p>
 
 				<ul class="decimal-list">
 					<li><p>BLOG - month by month we discuss specific components of verse-speaking and Shakespeare 
@@ -49,8 +49,14 @@
 					<li><p>AUDIO BANK - over 2,000 specially recorded speeches similar to the iTunes format, together 
 							with any cue lines to place them in their proper context (F1, Quarto &amp; Modern)</li>
 
-					<li><p>WORKSHOP TEACHER AIDS - slide show 'step-by-step' professional methodology for hundreds of 
-							speeches (F1, Quarto &amp; Modern)</li> 
+					<!-- <li><p>WORKSHOP TEACHER AIDS - slide show 'step-by-step' professional methodology for hundreds of 
+							speeches (F1, Quarto &amp; Modern)</li>  -->
+					<li>
+						<p>SLIDE SHOWS - 'step-by-step' Beginner, Intermediate & Advanced methodology for understanding all aspects of Shakespearean stagecraft and verse-speaking in an attractive pdf format for individual or group use. &nbsp; All 80 of the slide shows have a 'Get it? Got it!' Q and A section at the end.</p>
+					</li>
+					<li>
+						<p>QUICK REFERENCE LIBRARY - here you can find everything across all media - Utube, TV, film, audio recordings, books, articles, theatre reviews, etc., - related to Shakespeare performance past and present. &nbsp; We have a catalogue of suggested material specially for beginners. &nbsp; We also catalogued by play and topic for quick referencing. </p>
+					</li>
 				</ul>
 <br>
 			<p class="text-center small-gap-parag"><strong>Based on the collective expertise of</strong></p>
@@ -66,17 +72,19 @@
 			
 			<p>ANARCHY &amp; CREATIVITY</p>
 
-			<p>There is a strand in contemporary thinking that believes 'rules' get in the way of originality and the 
-				creative process. &nbsp; In recent times some have tried to do away with the formalities of 
-				Shakespeare-speaking, in particular the architecture of verse, in pursuit of rehearsal room spontaneity 
-				and 'keeping it real'. &nbsp; In each and every case this has proved disastrous. &nbsp; Actors are unable 
-				to unleash the full potential of characters as Shakespeare wrote them, and audiences are left with 
-				Bard-lite and not a little boredom. &nbsp; Read Sir Peter Hall (RSC) and Giles Block (Shakespeare's 
-				Globe) on this subject (see Bibliography).</p> 
+			<p>There is a strand in contemporary thinking that believes 'rules' get in the way of originality 
+				and the creative process. &nbsp; In recent times some have tried to do away with the 
+				formalities of Shakespeare-speaking, in particular the architecture of verse, in pursuit of 
+				rehearsal room spontaneity and 'keeping it real'. &nbsp; In each and every case this has proved 
+				disastrous. &nbsp; Actors are unable to unleash the full potential of the text, and audiences 
+				are left with Bard-lite and not a little boredom. &nbsp; Peter Hall (co-founder of the Royal 
+				Shakespeare Company) and Giles Block (former ‘Master of the Words’ at Shakespeare’s Globe) 
+				elaborate on this in their respective books <em>Playing Shakespeare</em> and <em>Speaking the Speech</em> 
+				(see <a href="/versebuster2/eplay/bibliography.php">Bibliography</a>).</p> 
 
 <!--START CALL OUT -->
 		      <blockquote class="pull-quote">
-		      	<p>"Chocolate brownie soufflé marshmallow croissant. Sweet roll macaroon pudding sugar plum carrot cake sweet roll bonbon I love caramels."</p> 
+		      	<p>"The skill, therefore, is not to ignore the rules or parameters, but to make them second nature so that you transcend them. &nbsp; Pushing against 'walls' produces great art, while anarchy leads to mediocrity"</p> 
 		      </blockquote>
 <!-- END OF CALL OUT -->
 
@@ -85,8 +93,8 @@
 				of sport. &nbsp; Unlike sport though, the rules of engagement in art are hidden from public view, but 
 				they are there and actually help the performer - just as they do in sport.</p> 
 
-			<p>The skill, therefore, is not to ignore the rules or parameters, but to make them so second nature that you 
-				transcend them. &nbsp; Pushing against 'walls' produces great art, anarchy merely leads to mediocrity.</p>
+			<p>The skill, therefore, is not to ignore the rules or parameters, but to make them second nature so that you 
+				transcend them. &nbsp; Pushing against 'walls' produces great art, while anarchy leads to mediocrity.</p>
 
 <br>
 			<p>VERSEBUSTER'S 70% RULE - THE 'GET OUT OF JAIL' CARD</p>
@@ -99,10 +107,10 @@
 				anybody can say is that "such and such in Shakespeare generally holds true" and acknowledge there 
 				are occasions it doesn't. &nbsp; For this reason Versebuster has framed two rules with regard to 
 				Shakespeare performance - the 'Golden Rule' and the 'Seventy Per Cent Rule'. &nbsp; By far and 
-				away, most things fall under the Seventy Per Cent (70%) Rule.</p>
+				away most things fall under the Seventy Per Cent (70%) Rule.</p>
 
 			<p>We call it the '70% Rule' because it trips off the tongue better than, say, the '82% Rule', 
-				even though that may be nearer the truth! &nbsp; It means that the rule in question works very 
+				even though that may be nearer the truth. &nbsp; It means that the rule in question works very 
 				well somewhere between 65% and 98% of the time. &nbsp; Experience and our guidance will tell you 
 				towards which end of this spectrum a given rule leans.</p>
 
@@ -124,22 +132,11 @@
 
 			<p>The final comfort that ensures no two performances in Shakespeare will be alike is ambiguity.</P>
 						
-			<p>As Professor Peter Saccio says, when the Hostess recounts the death of Falstaff at the beginning of 
-				Act 2:3 in <span class="branding-style-title">Henry V</span> and relates that 
-				"<span class="branding-style-reg">he cried out 'God, God, God' three or four times</span>, 
-				what kind of voice does she assume? &nbsp; Is she inferring that Falstaff, in his final moments 
-				of senescence, is excitedly greeting God, or that is he in absolute terror of Him for a lifetime 
-				of thieving and whoring? &nbsp; Shakespeare provides no answer. &nbsp; So two (or more) perfectly 
-				valid, but diametrically opposed interpretations are possible which would dramatically affect 
-				the actor's delivery of 'God, God, God'.</p> 
+			<p>When the Hostess recounts the death of Falstaff at the beginning of Act 2:3 in <span class="branding-style-title">Henry V</span> and relates that "<span class="branding-style-reg">he cried out 'God, God, God' three or four times"</span>, what tone does she assume? &nbsp; Is she inferring that Falstaff, in his final moments of senescence, is excitedly greeting God, or that he is in absolute terror of Him for a lifetime of thieving and whoring? &nbsp; Shakespeare provides no answer. &nbsp; So two (or more) perfectly valid, but diametrically opposed interpretations are possible which might substantially alter, if the actor were alive to the possibilities, their delivery of 'God, God, God'.</p> 
 
-			<p>Within a Shakespeare play there might be a run of ambiguities one scene after another and each time 
-				actors have to find a possible motivation because, if not, performance and delivery lose focus and 
-				become boring. &nbsp; So you have to commit, and thus the acting variables are considerable.</p>
+			<p>Within a Shakespeare play there might be a run of such ambiguities one scene after another and each time actors have to choose a plausible motivation, because, if not, performance and delivery lose focus and become generalised. &nbsp; Generalisation is theatrical boredom. &nbsp; So you have to commit. &nbsp;  And the way you interpret (with or without the help of a director) will not be the same as the actor who played the same role last month. &nbsp; You are unique and this will bring, willy-nilly, a different perspective to the interpretation and a different way of dramatising it - gestures, voice, pace, expression and all.   </p>
 
-			<p>Whatever motivation actors commit to in these moments of ambiguity will be legitimate and 
-				'ring true' so long as it's rooted in the text and external stuff is not imposed. &nbsp; Our 
-				ePlays help point out such ambiguities.</p>
+			<p>Whatever motivations actors commit to in these moments of ambiguity will 'ring true' to the audience so long as they can be justified by the text, and external stuff  (like a director's political agenda or an actor's personal hang-up) does not take precedence.</p>
 
 <br>
 			<p>CONCLUSION</p>
@@ -158,7 +155,7 @@
 
 	            <div class="col-sm-3 col-md-3 col-lg-3 container-nopads" style="width: 21%;">
 	            	<div class="demo-box" id="demo-pdf">
-	            		<a href="/versebuster2/eplay/eplay-demo.php" style="text-decoration:none; color:#fff;">
+	            		<a href="/versebuster2/eplay/eplay-demo.php" style="text-decoration:none;">
 		            		<h4><strong>ePlay Demo</strong></h4><br><br><br>
 		            		<img src="images/hovers/pdf-512.png" class="img-responsive">
 	            		</a>
@@ -183,14 +180,15 @@
 <img src="images/arrow-right.png" class="img-responsive col-sm-1 col-md-1 col-lg-1 container-nopads" style="margin-top: 11%; width: 5.333333%;">	            
 	            
 	            <div class="col-sm-3 col-md-3 col-lg-3 container-nopads" style="width: 21%;">
-	            	<a href="data/pdf/ePlayPPPDemo.pdf" target="_blank"><div class="demo-box" id="">
-	            		
-	            		<h4><strong>Slide Show Demo</strong></h4><br><br>
-	            		<img src="images/hovers/pdf-512.png" class="img-responsive">
+	            	<div class="demo-box" id="demo-pdf">
+	            		<a href="data/pdf/ePlayPPPDemo.pdf" target="_blank" style="text-decoration:none; ">
+		            		<h4><strong>Slide Show Demo</strong></h4><br><br><br>
+		            		<img src="images/hovers/pdf-512.png" class="img-responsive">
+	            		</a>
+	            	</div>            	
+	            </div>  
 
-	            	</div>
-	            	</a>
-	            </div>
+
 			</div>
 		</div>
 		<!--===================END DEMOS ==================-->
@@ -499,6 +497,9 @@ Now good or bad, ‘tis but the chance of war.</em>
 		                    	<span class="news-content" >Sept 2014.&nbsp; Midway through constructing our new 
 		                    		smartphone and tablet friendly website.</span>
 		                    </li>
+		                    <li class="news-item">July 2015.  Work continues on MODERN text ePlays and on expanding
+		                    	<span class="news-more">Read more...</span>
+		                    	<span class="news-content" >July 2015.  Work continues on MODERN text ePlays and on expanding our range of audio-visual tools to make Shakespeare performance increasingly accessible to people of all levels and experience.</span</li>
 	                    </ul>
 	                <!-- </div> -->
 	            </div>
@@ -529,7 +530,7 @@ Now good or bad, ‘tis but the chance of war.</em>
 
 	<!-- +++++++++++++++++++++++++++WEB ADS -->
     <div class="col-lg-3 sidebars" >
-        <img class="img-responsive" src="images/300x250-web-ad.jpg" >
+        <a href="/versebuster2/advertise.php"><img class="img-responsive" src="images/300x250-web-ad.jpg" ></a>
     </div>
 
 	<!-- #col-lg-3 ad 1-->	  
