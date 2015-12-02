@@ -25,12 +25,12 @@ $(document).ready(function(){
         uploadQuiz(quizPath,'f');        
     })
     $('#main-btn').on('click', function(e) {
-        quizModule.clearArray();
-        uploadQuiz(quizPath,'m');        
+        // quizModule.clearArray();
+        // uploadQuiz(quizPath,'m');        
     })    
     $('#pros-btn').on('click', function(e) {
-        quizModule.clearArray();
-        uploadQuiz(quizPath,'p');  
+        // quizModule.clearArray();
+        // uploadQuiz(quizPath,'p');  
     })    
     $('#nextQ').on('click', function(e){
     quizModule.nextQuestion();
