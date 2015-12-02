@@ -9,8 +9,8 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
-
-			<h3 class="page-title-ext text-center branding-style-reg">Romeo & Juliet, The Tragedy of</h3>
+<p style="color:#009933">FIRST FOLIO</p>
+			<h3 class="page-title-ext text-center branding-style-reg" style="color:#009933">The Tragedy of Romeo & Juliet</h3>
 
 		</div>
                                        

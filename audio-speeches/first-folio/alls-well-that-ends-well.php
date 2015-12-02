@@ -9,12 +9,13 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		
-		<a href="/versebuster2/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>
+		<!--<a href="/versebuster2/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
 		<br>
 		<br>
 		
 		<div class="well">
-			<h3 class="page-title-ext text-center branding-style-reg">All’s Well That Ends Well</h3>
+			<p style="color:#009933">FIRST FOLIO</p>
+			<h3 class="page-title-ext text-center branding-style-reg" style="color:#009933">All’s Well That Ends Well</h3>
 			<p><a href="#modal" >Act 1, Scene 1: Rousillon. The COUNT's palace.</a></p>
 			<p><a href="#modal" >Act 1, Scene 2: Paris. The KING's palace.</a></p>
 			<p><a href="#modal" >Act 1, Scene 3: Rousillon. The COUNT's palace.</a></p>

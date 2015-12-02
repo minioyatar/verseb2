@@ -281,10 +281,10 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 			<p><strong>173 - the total number of Versebuster ePlay options</strong></p>
 		    
 		    <p>25 out of the 38 Shakespeare plays we cover come in F1 and Modern only. &nbsp; 
-		    	<span class="branding-style-title">Pericles</span>, a popular play at the time, which first 
-		    	appeared in the Second Folio of 1632 (F2), comes in F2, a Good Quarto and Modern. &nbsp; A 
-		    	further 11 have Quartos of some merit, so they come in F1, a 'Good' Quarto and Modern. &nbsp; 
-		    	<span class="branding-style-title">The Two Noble Kinsmen</span> is based on the 1634 Quarto, 
+		    	<span class="branding-style-title">Pericles</span>, a popular play at the time which 
+		    	first appeared in a <em>'manifestly corrupt'</em> 1609 Quarto, comes in "F3" (the Third Folio 
+		    	of 1664, second edition) and Modern. &nbsp; A further 11 have Quartos of some merit, so 
+		    	they come in F1, Quarto and Modern. &nbsp; <span class="branding-style-title">The Two Noble Kinsmen</span> is based on the 1634 Quarto, 
 		    	so it comes in that Quarto and Modern. 
 
 		    <p><span class="branding-style-title">King Lear</span> was a history play in the Good Quarto of 

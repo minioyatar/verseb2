@@ -1,3 +1,10 @@
+/*
+Project Name: versebuster.com
+Project Description: A website dedicated to speaking Shakespeare
+Project Started: Nov. 2013
+Website: versebuster.com
+Comments: Sorry for the mess! 
+*/
 $(document).ready(function() {
 
 //FUNCTIONS   
@@ -81,7 +88,7 @@ $(document).ready(function() {
         //7 End randomize
 
         //8 find generate random for quiz
-        function generateUniqueNum(numTotal) {
+        /*function generateUniqueNum(numTotal) {
             var uniqueness = false;
             var randomizer_result;
             var qzNo;
@@ -113,7 +120,7 @@ $(document).ready(function() {
             }
             
             return randomizer_result;
-        }
+        }*/
         //8 END find generate random            
 
 
@@ -131,18 +138,32 @@ $(document).ready(function() {
         //2.1 main navigation change active class
             // var urlPath = getPageName(window.location.pathname);
             // $('.' +  urlPath).addClass("sub-menu-active");
-            var str=location.href.toLowerCase();
+            // var str=location.href.toLowerCase();
             
-            $(".navi a").each(function() {
-                console.log(this.href.toLowerCase() + "====" + str)
-                if (str.indexOf(this.href.toLowerCase()) > -1) {
-                    $("li.highlight").removeClass("highlight");
-                    $(this).parent().addClass("highlight");
-                    // console.log("true")
-                }else{
-                    // console.log("false")
-                }
-            });
+            // $(".navi a").each(function() {
+            //     // console.log(this.href.toLowerCase() + "====" + str)
+            //     if (str.indexOf(this.href.toLowerCase()) > -1) {
+            //         $("li.highlight").removeClass("highlight");
+            //         $(this).parent().addClass("highlight");
+            //         // console.log("true-----" + str )
+            //     }else{
+            //         // console.log("false")
+            //     }
+            // });
+    // currentPage = location.pathname.match(/[^\/]+$/)[0];
+    // var url = window.location.href;
+    // $('.navi a[href*="'+curFilePage+'"]').parent().addClass('highlight');
+    // console.log(window.location.href.substr(window.location.href.lastIndexOf("/")+1));
+    // var curFilePage = url.substr(url.lastIndexOf('/')+1);
+
+    // var curFilePage = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
+
+    // $('.navi a[href$="'+curFilePage+'"]').parent().addClass('highlight');
+
+    // if(!curFilePage){
+    //     $('.navi a[href$="index.php"]').parent().addClass('highlight');
+    // }
+
         //2.1 END main navigation change active class    
     
         /* show/hide side menu #menu-toggle*/
@@ -274,6 +295,8 @@ $(document).ready(function() {
         //$(this).remove();
     })
 /*<!-- 6 STEP WIZARD (WORKING)"-->*/
+
+
 
 
 

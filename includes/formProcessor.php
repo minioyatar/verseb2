@@ -45,7 +45,8 @@
             }
 
             $plan =  $_db->get('membershipplans', array('planType','=',Input::get('planType')));
-            $credits = intval($plan->first()->planCredits);
+            $credits = intval($plan->first()->planCredits);//<<may saea kara
+            //kung mag blanko du plan hay gapili imaw it owa sa database
 
             $validation = $validate->check($_POST, array(
                 'fname' => array(
@@ -139,7 +140,7 @@
                 }
             }
 
-        }elseif(Input::get('newsletter')){
+        }elseif(Input::get('newsletter')){//daya hay sa newsletter
 
             $validation = $validate->check($_POST, array(
                 'news_name' => array(
@@ -171,6 +172,68 @@
                     echo $error, "<br>";
                 }
             }
-        }//END OF NEWSLETTER
+
+        }elseif(Input::get('advertise')){//daya hay sa newsletter
+
+            $validation = $validate->check($_POST, array(
+                'adsname' => array(
+                    'required' => true,
+                    'min' => 2,
+                    'max' => 30,
+                    'alphanumeric' => true
+                    ),
+                'orgname' => array(
+                    'required' => true,
+                    'min' => 2,
+                    'max' => 50,
+                    'alphanumeric' => true
+                    ),
+                'country' => array(
+                    'required' => true
+                    ),
+                'contact' => array(
+                    'required' => true,
+                    'min' => 2,
+                    'max' => 20,
+                    'numeric' => true
+                    ),
+                ));
+
+            if($validation->passed()){
+                //update newsSubscriber_tbl
+
+                $to = "advertise@versebuster.com";
+                $subject = "You have a message sent from your site"; 
+
+                // Always set content-type when sending HTML email
+                $headers = "MIME-Version: 1.0" . "\r\n";
+                $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+                $fields = array(); 
+                $fields{"adsname"} = "adsname"; 
+                $fields{"orgname"} = "orgname"; 
+                $fields{"country"} = "country"; 
+                $fields{"contact"} = "contact"; 
+                $fields{"fax"} = "fax"; 
+                $fields{"skype"} = "skype"; 
+                $fields{"message"} = "message";
+                // More headers
+                $headers .= 'From: <advertise@versebuster.com>' . "\r\n";
+
+                $body = "Here is what was sent:\n\n  <br>"; 
+                    foreach($fields as $a => $b){   
+                        $body .= sprintf("%20s: %s\n <br>",$b,$_REQUEST[$a]); 
+                    }
+
+                mail($to,$subject,$body,$headers);
+
+                Session::flash('home', 'We will notify you soon. Thank you.');
+                Redirect::to('index.php');
+            }else{
+                foreach ($validation->errors() as $error) {
+                    echo $error, "<br>";
+                }
+            }
+        }
     }
 ?>

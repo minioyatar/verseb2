@@ -5,6 +5,11 @@ function get_all_quiz(){
     return returning_query_value($query);
 }
 
+function get_all_quiz_type($qType){
+    $query = "SELECT * FROM quizquestion_tbl WHERE quizCateg = '{$qType}'";
+    return returning_query_value($query);
+}
+
 function get_all_quiz_answer(){
     $query = "SELECT quiz_ans FROM quizquestion_tbl";
     return returning_query_value($query);

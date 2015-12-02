@@ -41,10 +41,15 @@ class Validate {
 							}
 						break;
 						case 'alphanumeric':
-							if (is_numeric($value)) {
-							   $this->addError("{$item} must be combination of Alphanumeric. Ex. foo2");
+							if (!preg_match("/^[a-z0-9]+([\\s]{1}[a-z0-9]|[a-z0-9])+$/i", $value)) {
+							   $this->addError("{$item} must be combination of alphabet and numeric.");
 							}
 						break;
+						case 'numeric':
+							if (!preg_match('/^\d+$/', $value)) {
+							   $this->addError("{$item} must be numeric.");
+							}
+						break;						
 						case 'email';
 							if(filter_var($value, FILTER_VALIDATE_EMAIL) === false){
 								$this->addError("Email not valid");

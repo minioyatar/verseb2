@@ -148,50 +148,115 @@
             </div>
         </div>
         <!--===================END OF INTRO ==================-->
+
+
         <!--===================DEMOS ==================-->
+<div class="row-fluid">
+  	<div class="container-fluid container-nopads">
 
-		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12 " style="">
+	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 5px;">
+	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-pdf">
+				<a href="/versebuster2/eplay/eplay-demo.php" style="text-decoration:none;">
+	        		<h4><strong>ePlay Demo <span style="visibility:hidden">Demo</span></strong></h4>
+	        		<img src="images/hovers/pdf-512.png" >
+	    		</a>
+	      	</div>
+	    </div>
 
-	            <div class="col-sm-3 col-md-3 col-lg-3 container-nopads" style="width: 21%;">
-	            	<div class="demo-box" id="demo-pdf">
+<!-- 	    <div class="col-md-1 demosbox" style="padding-left: 0px; padding-right: 5px;">
+	        		<img src="images/arrow-right.png" >
+	    </div>	 -->    
+
+	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 2.5px;">
+	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-doc">
+				<h4><strong>Theatre Script Demo</strong></h4>
+	    		<img src="images/hovers/doc-512.png" class="">
+	      	</div>
+	    </div>
+
+<!-- 	    <div class="col-md-1 demosbox" style="padding-left: 0px; padding-right: 5px;">
+	        		<img src="images/arrow-right.png" >
+	    </div> -->	    
+
+	    <div class="col-md-3 demosbox" style="padding-left: 2.5px; padding-right: 0px;">
+	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-mp3">
+				<h4><strong>Audio Speech Demo</strong></h4>
+	    		<img src="images/hovers/mp3-512.png" class="">
+	      	</div>
+	    </div>
+
+<!-- 	    <div class="col-md-1 demosbox" style="padding-left: 0px; padding-right: 5px;">
+	        		<img src="images/arrow-right.png" >
+	    </div>	 -->    
+
+	    <div class="col-md-3 demosbox" style="padding-left: 5px; padding-right: 0px;">
+	      	<div class="demo-box container-nopads" id="demo-pdf">
+				<a href="data/pdf/ePlayPPPDemo.pdf" target="_blank" style="text-decoration:none; ">
+	        		<h4><strong>Slide Show Demo</strong></h4>
+	        		<img src="images/hovers/pdf-512.png" class="">
+	    		</a>
+	      </div>
+	    </div>
+
+  	</div>
+</div>
+<!-- 
+
+
+ -->
+<!-- 		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 container-nopads" style="">
+
+	            <div class="col-sm-2 col-md-2 col-lg-2 " >
+	            	<div class="demo-box col-sm-12 col-xs-12" id="demo-pdf">
 	            		<a href="/versebuster2/eplay/eplay-demo.php" style="text-decoration:none;">
 		            		<h4><strong>ePlay Demo</strong></h4><br><br><br>
-		            		<img src="images/hovers/pdf-512.png" class="img-responsive">
+		            		<img src="images/hovers/pdf-512.png" >
 	            		</a>
-	            	</div>            	
-	            </div>  
-<img src="images/arrow-right.png" class="img-responsive col-sm-1 col-md-1 col-lg-1 container-nopads" style="margin-top: 11%; width: 5.333333%;">
-	            
-	            <div class="col-sm-3 col-md-3 col-lg-3 container-nopads" style="width: 21%;">
-	            	<div class="demo-box" id="demo-doc">
+	            	</div>
+	            </div>
+
+				<div class="col-xs-1  col-sm-1 col-lg-1 col-md-1 container-nopads" style="">
+			    	<img src="images/arrow-right.png" class="img-responsive" >
+			    </div>	            
+
+	            <div class="col-sm-2 col-md-2 col-lg-2 " >
+	            	<div class="demo-box col-sm-12 col-xs-12" id="demo-doc">
 	            		<h4><strong>Theatre Script Demo</strong></h4><br><br>
-	            		<img src="images/hovers/doc-512.png" class="img-responsive">
+	            		<img src="images/hovers/doc-512.png" class="">
 	            	</div>
 	            </div>
-<img src="images/arrow-right.png" class="img-responsive col-sm-1 col-md-1 col-lg-1 container-nopads" style="margin-top: 11%; width: 5.333333%;">	            
-	            
-	            <div class="col-sm-3 col-md-3 col-lg-3 container-nopads" style="width: 21%;">
-	            	<div class="demo-box " id="demo-mp3">
+
+				<div class="col-xs-1  col-sm-1 col-lg-1 col-md-1 container-nopads" style="">
+			    	<img src="images/arrow-right.png" class="img-responsive" >
+			    </div>	            
+
+	            <div class="col-sm-2 col-md-2 col-lg-2 " >
+	            	<div class="demo-box col-sm-12 col-xs-12" id="demo-mp3">
 	            		<h4><strong>Audio Speech Demo</strong></h4><br><br>
-	            		<img src="images/hovers/mp3-512.png" class="img-responsive">
+	            		<img src="images/hovers/mp3-512.png" class="">
 	            	</div>
 	            </div>
-<img src="images/arrow-right.png" class="img-responsive col-sm-1 col-md-1 col-lg-1 container-nopads" style="margin-top: 11%; width: 5.333333%;">	            
-	            
-	            <div class="col-sm-3 col-md-3 col-lg-3 container-nopads" style="width: 21%;">
-	            	<div class="demo-box" id="demo-pdf">
+
+				<div class="col-xs-1  col-sm-1 col-lg-1 col-md-1 container-nopads" style="">
+			    	<img src="images/arrow-right.png" class="img-responsive" >
+			    </div>	            
+
+	            <div class="col-sm-2 col-md-2 col-lg-2 " >
+	            	<div class="demo-box col-sm-12 col-xs-12" id="demo-pdf">
 	            		<a href="data/pdf/ePlayPPPDemo.pdf" target="_blank" style="text-decoration:none; ">
 		            		<h4><strong>Slide Show Demo</strong></h4><br><br><br>
-		            		<img src="images/hovers/pdf-512.png" class="img-responsive">
+		            		<img src="images/hovers/pdf-512.png" class="">
 	            		</a>
-	            	</div>            	
-	            </div>  
-
+	            	</div>
+	            </div>
 
 			</div>
-		</div>
+		</div> -->
 		<!--===================END DEMOS ==================-->
+
+
+
 		<!--===================Who Versebuster Benefits Nav tabs ==================-->
 		<div class="well">
 			<p><strong>Who Versebuster Benefits</strong></p>
@@ -513,10 +578,13 @@ Now good or bad, ‘tis but the chance of war.</em>
 		<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/includes/newsletter/newsletter.php");?>
 	</div><!-- #col-lg-3 newsletter-->	  
 
-	<div class="col-lg-3 sidebars" >
-		<img class="img-responsive" src="images/answering-quiz.gif"/>
-		<button type="button" class="btn btn-danger bottom-desc" id="run_quiz_btn">Shakespeare Speaking Challenge - 
-			Fun Quiz</button>
+	<div class="col-lg-3 sidebars" ><!-- run_quiz_btn -->
+		<a id="" href="quiz.php" style="text-decoration:none; color: #fff;">
+			<img class="img-responsive" src="images/answering-quiz.gif"/>
+			<!-- <button type="button" class="btn btn-danger bottom-desc" id="run_quiz_btn">Shakespeare Speaking Challenge - 
+				Fun Quiz</button> -->
+			<p class="text-center bottom-desc">Shakespeare Speaking - QUIZ CHALLENGE!</p>
+		</a>
 	</div> <!-- /#col-lg-3 quiz-->
 
 	<div class="col-lg-3 sidebars" >	    

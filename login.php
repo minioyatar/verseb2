@@ -8,7 +8,7 @@
     }else if(Session::exists('loginError') || !$user->isLoggedIn()){
 ?>
         <li class="dropdown <?php if(Session::exists('loginError')){ echo "open"; }?> ">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<b class="caret"></b></a>
             <div id='' class="dropdown-menu dropdwon-login">
                 <form id='' action='' method='post' >
                     <fieldset >

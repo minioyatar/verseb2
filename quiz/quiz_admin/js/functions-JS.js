@@ -2,43 +2,51 @@
 $(document).ready(function(){
     var max_quiz_items;
     var allow_quiz;
-    
     var quizPath;
     //set config
     $.ajax({
         type: "POST",
-        url: "/verse-temp/quiz/quiz_admin/data_config/config.json",
+        url: "/versebuster2/quiz/quiz_admin/data_config/config.json",
         dataType: "json",
         success: function(dataConfig){
-            //$.each(data, function(key, val){
-                //console.log('key: ' + key + ' val:' + val)
                 allow_quiz = dataConfig.allow_quiz
                 max_quiz_items = dataConfig.quizItems
                 quizPath = dataConfig.quizPath
-                // console.log('success')
-            //})
         },complete:function(data){
-            
             //check configuration file if quiz is enable or disabled
-            if (allow_quiz ? "true" : "false" == "true") {
-                uploadQuiz(quizPath)
-                
-            }else{
+            if (allow_quiz ? "true" : "false" == "false") {
                 $('#run_quiz_btn').attr('id','x').css("cursor","default").html('Quiz not available at the moment. Thank you.');
             }
         }
     });
     
-    function uploadQuiz(jsonpath) {
+    $('#fun-btn').on('click', function(e) {
+        quizModule.clearArray();
+        uploadQuiz(quizPath,'f');        
+    })
+    $('#main-btn').on('click', function(e) {
+        quizModule.clearArray();
+        uploadQuiz(quizPath,'m');        
+    })    
+    $('#pros-btn').on('click', function(e) {
+        quizModule.clearArray();
+        uploadQuiz(quizPath,'p');  
+    })    
+    $('#nextQ').on('click', function(e){
+    quizModule.nextQuestion();
+    })//next question
+
+    function uploadQuiz(jsonpath, qzType) {
         //code
-    
     
         //1. query all question from mysql
         $.ajax({
             type: "POST",
             url: jsonpath,
+            data: {qType: qzType},
             dataType: "json",
             success: function(data){
+                // console.log(data)
                 $.each(data, function(key, val){
                     $.each(val, function(inner_key, inner_value){
                         if (inner_key == "questions") {
@@ -55,18 +63,16 @@ $(document).ready(function(){
                         } 
                     })
                 })
+
+                quizModule.startQuizShow();
             },complete:function(data){
-                //console.log( quizModule.getItemCount() );
                     $('#close-btn').css('cursor','pointer').click($.unblockUI);
-                    $('#run_quiz_btn').on('click', quizModule.startQuizShow)//start quiz 
-                
-                    $('#nextQ').on('click', quizModule.nextQuestion)//next question
                     
+
                     $('body').on('click','#try_again', function() {//enable quiz again
                         quizModule.resetQuiz();
                         quizModule.startQuizShow();
                         $(this).remove();
-                        
                     })
             }
         });
@@ -92,18 +98,20 @@ $(document).ready(function(){
             var randomizer_result;
             var qzNo;
             
-            
             while(uniqueness == false ){//loop till found a unique number from loaded_questions variable
                 
                 //2. random number base on the total number of question
-                randomizer_result = randomizer(quiz.length);
+                if(quizModule.getItemCount() == 1){
+                    randomizer_result = 0;
+                }else{
+                    randomizer_result = randomizer(quizModule.getItemCount());
+                }
                 
                 if (loaded_questions.length == 0) {
                     uniqueness = true;
                 }else{
                     //3. get result of number and compare it to previous result
                     $.each( loaded_questions, function( key, value ) {
-                        
                         if (randomizer_result == value) {//if equal run random again
                             uniqueness = false;
                         }else{//else not equal
@@ -112,24 +120,22 @@ $(document).ready(function(){
                         return uniqueness; //if false exit this $.each loop if true continue
                     });
                 }
-                
                 if (uniqueness) {//if reach the end of each with none equal
                     loaded_questions.push(randomizer_result)
                 }
             }
-            
             return randomizer_result;
         }
         
         function printQuestion() {
             genNum = generateUniqueNum();
             qzNo = quiz[genNum].questionNo;
-            
             to_post = '<h3>' + quiz[genNum].question + '</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceA +'">' + quiz[genNum].choiceA +'</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceB +'">' + quiz[genNum].choiceB +'</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceC +'">' + quiz[genNum].choiceC +'</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceD +'">' + quiz[genNum].choiceD +'</h3>';
+            console.log(to_post)
             return to_post;
         }
      
@@ -137,7 +143,6 @@ $(document).ready(function(){
         // Return an object exposed to the public
         return {
             // Public alias to a  private function
-            //doSomething: doSomethingPrivate,
             
             // Add items to our quiz
             addItem: function( values ) {
@@ -149,11 +154,12 @@ $(document).ready(function(){
             nextQuestion: function() {
                 choosen = $('input[type="radio"]:checked').val()
                 quizModule.checkAnswer(choosen)
-                
-                if (loaded_questions.length < max_quiz_items ) {
+                // console.log(loaded_questions.length + " | "+ quiz.length)
+                if (loaded_questions.length < quiz.length  ) {//put this variable if you want limit:     max_quiz_items
                     $('#test-container').html(printQuestion())
                     
                 }else{
+                    
                     $('#nextQ').css('display','none');
                     $('#test-container').html('<h3>Your Total Score is: ' + quizModule.getTotalScore() + '</h3>');
                     $('#footer').html('<input id="try_again" name="try_again" type="button" class="button" value="try again" />')
@@ -168,14 +174,17 @@ $(document).ready(function(){
             // Reset quiz
             resetQuiz: function () {
                 $('#nextQ').show();
-                loaded_questions.length = 0;
-                total = 0;
+                loaded_questions = [];
                 totalScore = 0;
+                quiz = [];
+            },
+
+            clearArray:function(){
+                quiz = [];
             },  
             
             startQuizShow: function(){
-                loaded_questions.length = 0;
-                total = 0;
+                loaded_questions = [];
                 totalScore = 0;
 
                 $('#nextQ').show()

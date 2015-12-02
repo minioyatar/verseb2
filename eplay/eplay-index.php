@@ -234,9 +234,9 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
             <td>Julius Caesar, <i>The Tragedy of</i></td>
             <td><a href="/versebuster2/eplay/first-folio/julius-caesar.php"><img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><p>&#8226;</p></td>
+            <td><a href="/versebuster2/eplay/modern/julius-caesar.php"><img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td></td>
+            <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <th></th>

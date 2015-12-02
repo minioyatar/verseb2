@@ -5,7 +5,7 @@
     <p>Stayed tuned with our FREE monthly newsletter</p>
     
     <form action="" method="post" id="" accept-charset='UTF-8'> 
-    <input class="button orange" type='hidden' name='token' value="<?php echo $token; ?>" />                       
+    <input class="button orange" type='hidden' name='token' value="<?php echo $token; ?>" />
         <div class="input-group">
           <div class="error_msg"><?php //if(in_array($operator, $operators)){}?></div>
           <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>

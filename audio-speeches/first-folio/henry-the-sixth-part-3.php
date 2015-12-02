@@ -9,8 +9,8 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
-
-			<h3 class="page-title-ext text-center branding-style-reg">Henry the Sixth, The Third Part of</h3>
+			<p style="color:#009933">FIRST FOLIO</p>
+			<h3 class="page-title-ext text-center branding-style-reg" style="color:#009933">The Third Part of Henry the Sixth</h3>
 
 		</div>
                                        

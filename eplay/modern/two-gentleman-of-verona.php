@@ -9,8 +9,8 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
-
-			<h3 class="page-title-ext text-center branding-style-reg">Two Gentleman of Verona, The</h3>
+			<p style="color:#b00000">MODERN</p>
+			<h3 class="page-title-ext text-center branding-style-reg" style="color:#b00000">The Two Gentleman of Verona</h3>
 
 		</div>
                                        
