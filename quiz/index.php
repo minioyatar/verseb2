@@ -44,7 +44,7 @@
                 <!-- End Box -->
         </div><!--END of CONTENTS-->
         
-        <div id="footer"></div><!--end of FOOTER-->
+        <div id="footer"></div><!--end of FOOTER here is the change-->
         
 
     </div>
