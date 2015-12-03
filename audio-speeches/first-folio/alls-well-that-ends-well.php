@@ -120,7 +120,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 			echo '<pre>' . $section . '</pre>';
 		?>
 	</div>
-	<a class="remodal-confirm" href="#">OK</a>
+	<!-- <a class="remodal-confirm" href="#">OK</a> -->
 </div>
 
 <?PHP
