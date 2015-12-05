@@ -2,15 +2,15 @@
     //initialize credentials
     
     
-    $MySql_username 	= "root"; 
-    $MySql_password 	= "1234567890-"; 
-    $MySql_hostname 	= "localhost"; 
-    $MySql_databasename = 'maxbonam_versedb';
+    // $MySql_username 	= "root"; 
+    // $MySql_password 	= "1234567890-"; 
+    // $MySql_hostname 	= "localhost"; 
+    // $MySql_databasename = 'maxbonam_versedb';
     
-    //     $MySql_username 	= 'maxbonam_verse'; 
-    // $MySql_password 	= 'G?#z$x4?X+Tf'; 
-    // $MySql_hostname 	= 'localhost'; 
-    // $MySql_databasename = 'maxbonam_versedb';    
+        $MySql_username 	= 'maxbonam_verse'; 
+    $MySql_password 	= 'G?#z$x4?X+Tf'; 
+    $MySql_hostname 	= 'localhost'; 
+    $MySql_databasename = 'maxbonam_versedb';    
     
     global $connection;
     
