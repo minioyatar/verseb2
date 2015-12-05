@@ -1,3 +1,4 @@
-core/
+core/init.php
 quiz/quiz_admin/includes/db_connections.php
 *.htaccess
+tobe.xx
