@@ -1,1 +1,3 @@
-init.php
+core/
+quiz/quiz_admin/includes/db_connections.php
+*.htaccess
