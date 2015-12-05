@@ -3,18 +3,18 @@
 session_start();
 
 $GLOBALS['config'] = array(
-	'mysql' => array(
-		'host' => '127.0.0.1',
-		'username' => 'root',
-		'password' => '1234567890-',
-		'db' => 'maxbonam_versedb'
-	),	
-	// 'mysql' => array(
-	// 	'host' => 'localhost',
-	// 	'username' => 'maxbonam_verse',
-	// 	'password' => 'G?#z$x4?X+Tf',
-	// 	'db' => 'maxbonam_versedb'
-	// ),
+	//'mysql' => array(
+	//	'host' => '127.0.0.1',
+	//	'username' => 'root',
+	//	'password' => '1234567890-',
+	//	'db' => 'maxbonam_versedb'
+	//),	
+	 'mysql' => array(
+	 	'host' => 'localhost',
+	 	'username' => 'maxbonam_verse',
+	 	'password' => 'G?#z$x4?X+Tf',
+	 	'db' => 'maxbonam_versedb'
+	 ),
 	'remember' => array(
 		'cookie_name' => 'hash',
 		'cookie_expiry' => '604800'
