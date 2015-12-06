@@ -20,10 +20,10 @@ require_once "includes/functions.php";
     </style>
 </head>
 
-<body style="background:#FFFFFF !important;">
+<body style="background:#F8F8F8 !important;">
     <div class="container-fluid">
         <div class="row">
-            <div style="background:#F8F8F8; color:#333333; padding:10px; border-bottom:1px solid #e7e7e7;">
+            <div style="background:#F8F8F8; color:#3980B5; padding:10px; border-bottom:1px solid #3980B5">
                 <h1>Welcome to <span style=" font-family: 'LucidaCustomFont' ,arial,sans-serif;">Versebuster<sup>&#169;</sup></span> quiz editor</h1>
             </div>
         </div><!--end of header-->
