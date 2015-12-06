@@ -171,7 +171,7 @@ if($page_name == 'byplay.php'){
 
 
                     <li><a><strong>Quick Reference Library</strong></a></li>
-                        <li class="sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-intro.php')?'highlight':''; ?>"><a href="quick-reference-intro.php">Intro</a></li>
+                        <li class="sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-intro.php')?'highlight':''; ?>"><a href="/versebuster2/quick-reference-intro.php">Intro</a></li>
                         <li class="sub-sidebar-nav navi"><a>MATERIAL BY PLAY</a></li>
                             <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='a-zPlays.php')?'highlight':''; ?>"><a href="/versebuster2/a-zPlays.php">A to Z</a></li>
                             <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='comedies.php')?'highlight':''; ?>"><a href="/versebuster2/comedies.php">Comedies</a></li>
