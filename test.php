@@ -1,5 +1,5 @@
 <?php
-
+//add a comment in my test file
 $servername = '127.0.0.1';
 $username = "root";
 $password = "1234567890-";

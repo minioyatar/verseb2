@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"q",
-				"question_ans"
+				"quiz",
+				"quizModule"
 			],
 			[
-				"quiz",
-				"quizPath"
+				"ran",
+				"randomizer_result"
+			],
+			[
+				"qui",
+				"quiz"
+			],
+			[
+				"q",
+				"question_ans"
 			],
 			[
 				"ra",
@@ -512,10 +520,42 @@
 			}
 		},
 		{
+			"file": "core/init.php",
+			"settings":
+			{
+				"buffer_size": 1761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "quiz/quiz_admin/includes/db_connections.php",
+			"settings":
+			{
+				"buffer_size": 954,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "audio-speeches/index-audio.php",
 			"settings":
 			{
 				"buffer_size": 29892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "audio-speeches/first-folio/alls-well-that-ends-well.php",
+			"settings":
+			{
+				"buffer_size": 3797,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "audio-speeches/modern/alls-well-that-ends-well.php",
+			"settings":
+			{
+				"buffer_size": 3795,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +595,7 @@
 			"file": "css/vbcustom.css",
 			"settings":
 			{
-				"buffer_size": 24853,
+				"buffer_size": 24899,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,26 +603,7 @@
 			"file": "js/vbCustom.js",
 			"settings":
 			{
-				"buffer_size": 14471,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 33928,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<?php\n\n    require_once \"./db_connections.php\";\n    require_once \"./functions.php\";\n    \n    $data_rows = array();\n    \n    $all_quiz_set = get_all_quiz();\n    // echo mysql_num_rows($all_quiz_set);\n    $num_row_result = mysql_num_rows($all_quiz_set);\n    if($num_row_result != 0){\n        \n        while($question_ans = mysql_fetch_assoc($all_quiz_set)){\n            $data_rows[] = array(trim('questions') => $question_ans);\n        }\n        // print_r($data_rows);\n    }\n    \n\n\n    $data_rows = [{\"questions\":{\"quiz_id\":\"2\",\"quiz_question\":\"What are ANTITHESES?\",\"quiz_an1\":\"A group of islands in\n the Ionian Sea\",\"quiz_man2\":\"Opposites used for contrasting effect\",\"quiz_an3\":\"x\",\"quiz_an4\":\"x\",\"quiz_ans\"\n:\"Opposites used for contrasting effect\"}},{\"questions\":{\"quiz_id\":\"6\",\"quiz_question\":\"What is a CAESURA\n?\",\"quiz_an1\":\"I was born by one of those\",\"quiz_an2\":\"Censure by Caesar\",\"quiz_an3\":\"A sense break or\n rhetorical pause\",\"quiz_an4\":\"x\",\"quiz_ans\":\"A sense break or rhetoric pause\"}},{\"questions\":{\"quiz_id\"\n:\"11\",\"quiz_question\":\"What is a QUARTO?\",\"quiz_an1\":\"Buy me two pints of beer and I'll show you \",\"quiz_an2\"\n:\"The fourth toe way from one's big toe\",\"quiz_an3\":\"A common book format of the Elizabethan era\",\"quiz_an4\"\n:\"x\",\"quiz_ans\":\"A common book format of the Elizabethan era\"}},{\"questions\":{\"quiz_id\":\"12\",\"quiz_question\"\n:\"What is PERSONIFICATION?\",\"quiz_an1\":\"Criminal impersonation of a police officer\",\"quiz_an2\":\"Imbuing\n abstract things with human qualties\",\"quiz_an3\":\"x\",\"quiz_an4\":\"x\",\"quiz_ans\":\"Imbuing abstract things\n with human qualties\"}},{\"questions\":{\"quiz_id\":\"13\",\"quiz_question\":\"What is HYPERBOLE?\",\"quiz_an1\"\n:\"A nasty rash - you should be careful\",\"quiz_an2\":\"Like Superbowl only faster\",\"quiz_an3\":\"Understatement\"\n,\"quiz_an4\":\"Exaggeration\",\"quiz_ans\":\"Exaggeration\"}},{\"questions\":{\"quiz_id\":\"14\",\"quiz_question\":\"What\n is ENJAMBMENT?\",\"quiz_an1\":\"Being stuck between two lorries\",\"quiz_an2\":\"Homemade cooking\",\"quiz_an3\"\n:\"When the sense of a verse line is incomplete and runs over to the next line\",\"quiz_an4\":\"x\",\"quiz_ans\"\n:\"When the sense of a verse line is incomplete and runs over to the next line\"}},{\"questions\":{\"quiz_id\"\n:\"15\",\"quiz_question\":\"What is STRESS?\",\"quiz_an1\":\"Are you kidding? Life!\",\"quiz_an2\":\"Where you place\n emphasis in verse of prose\",\"quiz_an3\":\"x\",\"quiz_an4\":\"x\",\"quiz_ans\":\"Where you place emphasis in verse\n of prose\"}},{\"questions\":{\"quiz_id\":\"16\",\"quiz_question\":\"What is a CRETIC?\",\"quiz_an1\":\"An idiot\",\"quiz_an2\"\n:\"A rare type of beat or metrical foot\",\"quiz_an3\":\"x\",\"quiz_an4\":\"x\",\"quiz_ans\":\"A rare type of beat\n or metrical foot\"}},{\"questions\":{\"quiz_id\":\"17\",\"quiz_question\":\"How many different source texts are\n there for each play?\",\"quiz_an1\":\"Just one, of course. And it's definitive\",\"quiz_an2\":\"Two, but basically\n their exactly the same same\",\"quiz_an3\":\"It's a mess. It's the subject of a huge amount of scholarship\"\n,\"quiz_an4\":\"x\",\"quiz_ans\":\"It's a mess. It's the subject of a huge amount of scholarship\"}},{\"questions\"\n:{\"quiz_id\":\"18\",\"quiz_question\":\"Who many plays are they that survive in Shakespeare's handwriting?\"\n,\"quiz_an1\":\"All 38\",\"quiz_an2\":\"36\",\"quiz_an3\":\"None (except a scene he contributed to 'Sir Thomas More'\n)\",\"quiz_an4\":\"x\",\"quiz_ans\":\"None (except a scene he contributed to 'Sir Thomas More')\"}},{\"questions\"\n:{\"quiz_id\":\"19\",\"quiz_question\":\"Which Statement best describes Shakespeare's method of working?\",\"quiz_an1\"\n:\"He worked alone and produced polish scripts\",\"quiz_an2\":\"He collaborated with other playwrights and\n produced 'fair copy' \",\"quiz_an3\":\"He sometimes collaborated with other playwrights and produced 'foul\n papers'\",\"quiz_an4\":\"x\",\"quiz_ans\":\"He sometimes collaborated with other playwrights and produced 'foul\n papers'\"}},{\"questions\":{\"quiz_id\":\"20\",\"quiz_question\":\"Elizabethan play rehearsal\",\"quiz_an1\":\"just\n like today -3 to 7 weeks\",\"quiz_an2\":\"Like Stanislasky and could be upto several years\",\"quiz_an3\":\"There\n was no rehearsal (as we understand that word today)\",\"quiz_an4\":\"x\",\"quiz_ans\":\"There was no rehearsal\n (as we understand that word today)\"}},{\"questions\":{\"quiz_id\":\"21\",\"quiz_question\":\"Shakespeare wrote\n for \",\"quiz_an1\":\"Posterity\",\"quiz_an2\":\"A literary readership \",\"quiz_an3\":\"For the government that\n subsidised his theatre\",\"quiz_an4\":\"For a demanding rowdy audience of high and low status\",\"quiz_ans\"\n:\"For a demanding rowdy audience of high and low status\"}},{\"questions\":{\"quiz_id\":\"22\",\"quiz_question\"\n:\"An Elizabethan theatre company would perform\",\"quiz_an1\":\"one play for a six-month run\",\"quiz_an2\"\n:\"one play for a one-month run\",\"quiz_an3\":\"one play for a one-week run\",\"quiz_an4\":\"a different play\n every afternooon\",\"quiz_ans\":\"a different play every afternooon\"}},{\"questions\":{\"quiz_id\":\"23\",\"quiz_question\"\n:\"Act Divisions\",\"quiz_an1\":\"You will find act divisons in all the original play texts\",\"quiz_an2\":\"You\n will find none\",\"quiz_an3\":\"You will find some but only in his 'late' plays\",\"quiz_an4\":\"x\",\"quiz_ans\"\n:\"You will find some but only in his 'late' plays\"}},{\"questions\":{\"quiz_id\":\"24\",\"quiz_question\":\"Acts\n were put into the plays\",\"quiz_an1\":\"by Shakespeare\",\"quiz_an2\":\"by the Elizabethan director\",\"quiz_an3\"\n:\"by Shakespeare's actors\",\"quiz_an4\":\"so when, later, they performed indoors there was time to change\n the candles\",\"quiz_ans\":\"so when, later, they performed indoors there was time to change the candles\"\n}},{\"questions\":{\"quiz_id\":\"25\",\"quiz_question\":\"Act \\/ Scene division. Editors\",\"quiz_an1\":\"are all\n agreed about them\",\"quiz_an2\":\"have minor differences of opinion\",\"quiz_an3\":\"have major differences\n of opinion with some taking out Act divisions altogether\",\"quiz_an4\":\"x\",\"quiz_ans\":\"have major differences\n of opinion with some taking out Act divisions altogether\"}},{\"questions\":{\"quiz_id\":\"26\",\"quiz_question\"\n:\"The typical composition of a Globe theatre audience was:\",\"quiz_an1\":\"just a bunch of aristocrats\"\n,\"quiz_an2\":\"Puritan\",\"quiz_an3\":\"a whole spectrum from aristrocrats, to merchants, to apprentices, to\n prostitutes\",\"quiz_an4\":\"x\",\"quiz_ans\":\"a whole spectrum from aristrocrats, to merchants, to apprentices\n, to prostitutes\"}},{\"questions\":{\"quiz_id\":\"27\",\"quiz_question\":\"Elizabethan audiences went \",\"quiz_an1\"\n:\"to see a play\",\"quiz_an2\":\"to hear a play\",\"quiz_an3\":\"x\",\"quiz_an4\":\"x\",\"quiz_ans\":\"to hear a play\"\n}},{\"questions\":{\"quiz_id\":\"28\",\"quiz_question\":\"Elizabethans\",\"quiz_an1\":\"spoke like Shakespeare\",\"quiz_an2\"\n:\"spoke nothing Shakespeare\",\"quiz_an3\":\"spoke like Shakespeare but only in a few prose passages \",\"quiz_an4\"\n:\"x\",\"quiz_ans\":\"spoke Shakespeare but only in a few prose passages\"}},{\"questions\":{\"quiz_id\":\"29\",\"quiz_question\"\n:\"RHETORIC is\",\"quiz_an1\":\"just fancy language\",\"quiz_an2\":\"insincere\",\"quiz_an3\":\"only used by dictators\"\n,\"quiz_an4\":\"the art of persuasion fusing matter (sense) with manner (attitude, mood)\",\"quiz_ans\":\"the\n art of persuasion fusing matter (sense) with manner (attitude, mood)\"}},{\"questions\":{\"quiz_id\":\"30\"\n,\"quiz_question\":\"The 1606 'ACTE TO RESTRAINE THE ABUSES OF PLAYERS'\",\"quiz_an1\":\"Soccer players were\n rough in those days\",\"quiz_an2\":\"an effort to stop gambling\",\"quiz_an3\":\"an effort to stop substance\n abuse by actors\",\"quiz_an4\":\"to stop swearing and the blasphemous invocation of God on stage\",\"quiz_ans\"\n:\"to stop swearing and the blasphemous invocation of God on stage\"}},{\"questions\":{\"quiz_id\":\"31\",\"quiz_question\"\n:\"The GREAT VOWEL SHIFT\",\"quiz_an1\":\"happens every time I drink too much\",\"quiz_an2\":\"a,e, i, o,u was\n once i,o,u,e, a\",\"quiz_an3\":\"many vowel sounds changed, especially during the 17th and 18th Centuries\"\n,\"quiz_an4\":\"x\",\"quiz_ans\":\"many vowel sounds changed, especially during the 17th and 18th Centuries\"\n}},{\"questions\":{\"quiz_id\":\"32\",\"quiz_question\":\"RHYMES in Shakespeare\",\"quiz_an1\":\"don't always work\n because the Bard was a lousy poet\",\"quiz_an2\":\"always work but are just annoying and should be ignored\"\n,\"quiz_an3\":\"don't always work because of changes in pronunciation, but are an important acti\",\"quiz_an4\"\n:\"x\",\"quiz_ans\":\"don't always work because of changes in pronunciation, but are an important acti\"}}\n,{\"questions\":{\"quiz_id\":\"33\",\"quiz_question\":\"PROSE v. VERSE\",\"quiz_an1\":\"There's no difference. Whatever\n took Shakespeare's mood\",\"quiz_an2\":\"Verse is for toffs an prose for ordinary people\",\"quiz_an3\":\"Just\n speak them the same way\",\"quiz_an4\":\"Verse and prose can be spoken by all social strata and each has\n a variety of fun\",\"quiz_ans\":\"Verse and prose can be spoken by all social strata and each has a variety\n of fun\"}},{\"questions\":{\"quiz_id\":\"34\",\"quiz_question\":\"YOU, YOUR, YOURS, YE v. THOU, THEE, THY, THINE\"\n,\"quiz_an1\":\"It's all random. Whatever mood Will was in. \",\"quiz_an2\":\"They spoke funny in those days\"\n,\"quiz_an3\":\"Selective switches between the two indicate a change of attitude towards the per\",\"quiz_an4\"\n:\"x\",\"quiz_ans\":\"Selective switches between the two indicate a change of attitude towards the per\"}}\n,{\"questions\":{\"quiz_id\":\"35\",\"quiz_question\":\"REPETITION\",\"quiz_an1\":\"Will's always waffling. They should\n cut the lines\",\"quiz_an2\":\"Will liked to emphasise\",\"quiz_an3\":\"Repetition, including synonyms, allows\n a character to constantly modify and deve\",\"quiz_an4\":\"x\",\"quiz_ans\":\"Repetition, including synonyms\n, allows a character to constantly modify and deve\"}},{\"questions\":{\"quiz_id\":\"36\",\"quiz_question\":\"LISTS\"\n,\"quiz_an1\":\"Oh my! his endless bleedin' lists!\",\"quiz_an2\":\"It's just Will's way to pad out a play\"\n,\"quiz_an3\":\"Lists allow the character to expand and amplify and sometimes the list order is very revealing\n about a character's true priorities\",\"quiz_an4\":\"x\",\"quiz_ans\":\"Lists allow the character to expand\n and amplify and sometimes the list order is very revealing about a character's true priorities\"}},{\"questions\"\n:{\"quiz_id\":\"37\",\"quiz_question\":\"SOLILOQUIES\",\"quiz_an1\":\"Yawn! - Where's the action?\",\"quiz_an2\":\"Actors\n talking to themselves\",\"quiz_an3\":\"Are an open exchange with the audience\",\"quiz_an4\":\"x\",\"quiz_ans\"\n:\"Are an open exchange with the audience\"}}];\n    $num_row_result = json_encode($num_row_result);\n    \n    echo $data_rows;\n    //echo $num_row_result;\n    \n?>",
-			"file": "quiz/quiz_admin/includes/question_query.php",
-			"file_size": 10208,
-			"file_write_time": 1448705435000000,
-			"settings":
-			{
-				"buffer_size": 10205,
+				"buffer_size": 14475,
 				"line_ending": "Unix"
 			}
 		},
@@ -590,7 +611,15 @@
 			"file": "quiz/quiz_admin/js/functions-JS.js",
 			"settings":
 			{
-				"buffer_size": 8226,
+				"buffer_size": 7888,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/formProcessor.php",
+			"settings":
+			{
+				"buffer_size": 9352,
 				"line_ending": "Unix"
 			}
 		}
@@ -643,8 +672,31 @@
 	},
 	"file_history":
 	[
+		"/var/www/html/versebuster2/test.php",
+		"/var/www/html/versebuster2/core/gitCHEAT-SHEET.txt",
+		"/var/www/html/versebuster2/quiz/quiz_admin/includes/question_query.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/includes/process_handler.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/includes/header.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/includes/functions.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/includes/front_processors.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/includes/db_connections.php",
+		"/var/www/html/versebuster2/untitled.sublime-workspace",
+		"/var/www/html/versebuster2/quiz/index.php",
+		"/var/www/html/versebuster2/core/init.php",
+		"/var/www/html/versebuster2/.git/MERGE_MSG",
+		"/var/www/html/versebuster2/classes/Config.php",
+		"/var/www/html/versebuster2/github.php",
+		"/var/www/html/versebuster2/account/js/bootstrap.js",
+		"/var/www/html/versebuster2/js/mp3-player-button.js",
+		"/var/www/html/versebuster2/js/soundmanager2.js",
+		"/var/www/html/versebuster2/quiz/quiz_admin/js/functions-JS.js",
+		"/var/www/html/versebuster2/quiz.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/index.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/css/style.css",
+		"/var/www/html/versebuster2/quiz/quiz_admin/update.php",
+		"/var/www/html/versebuster2/.git/COMMIT_EDITMSG",
+		"/var/www/html/versebuster2/index.php",
+		"/var/www/html/versebuster2/account/admin-header.php",
 		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/modern/alls-well-that-ends-well.php",
 		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/alls-well-that-ends-well.php",
@@ -653,20 +705,12 @@
 		"/var/www/html/versebuster2/audio-speeches/byplay.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/tableTypes.php",
 		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/tableTypes.php",
-		"/var/www/html/versebuster2/quiz/quiz_admin/js/functions-JS.js",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/first-folio/alls-well-that-ends-well.php",
 		"/var/www/html/versebuster2/eplay/first-folio/alls-well-that-ends-well.php",
 		"/var/www/html/verseFromServer/quiz/quiz_admin/js/functions-JS.js",
-		"/var/www/html/versebuster2/quiz/quiz_admin/update.php",
-		"/var/www/html/versebuster2/quiz/quiz_admin/includes/process_handler.php",
-		"/var/www/html/versebuster2/quiz/quiz_admin/includes/question_query.php",
 		"/var/www/html/versebuster2/audio-speeches/tableBACKup.php",
 		"/var/www/html/versebuster2/audio-speeches/tableBACKup",
-		"/var/www/html/versebuster2/quiz/quiz_admin/css/style.css",
-		"/var/www/html/versebuster2/quiz/quiz_admin/index.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/data_config/config.json~",
-		"/var/www/html/versebuster2/untitled.sublime-workspace",
-		"/var/www/html/versebuster2/quiz/index.php",
 		"/var/www/html/versebuster2/audio-speeches/first-folio/comedy-of-errors.php",
 		"/var/www/html/versebuster2/audio-speeches/1634-quarto/two-noble-kinsmen.php",
 		"/var/www/html/versebuster2/audio-speeches/1634-quarto/richard-the-third.php",
@@ -755,22 +799,7 @@
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/timon-of-athens.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/titus-andonicus.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/troilus-and-cressida.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/twelfth-night.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/two-gentleman-of-verona.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/two-noble-kinsmen.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/two-noble-tinsmen.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/winter’s-tale.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/second-folio/alls-well-that-ends-well.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/second-folio/pericles.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/first-folio/titus-andonicus.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/first-folio/timon-of-athens.php",
-		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/first-folio/romeo-and-juliet.php",
-		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/second-folio/pericles.php",
-		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/second-folio/alls-well-that-ends-well.php",
-		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/modern/winter’s-tale.php",
-		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/modern/two-noble-tinsmen.php",
-		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/modern/two-noble-kinsmen.php",
-		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/modern/two-gentleman-of-verona.php"
+		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/twelfth-night.php"
 	],
 	"find":
 	{
@@ -778,7 +807,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 108.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/var/www/html/versebuster2/",
@@ -847,6 +876,45 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"verse-temp",
+			"maxbonamy.org",
+			"config.json",
+			"quiz_admin/data_config/config.json",
+			"verse-temp",
+			"verse-temp/quiz/quiz_admin/data_config/config.json",
+			"config.json",
+			"<?",
+			"verse-temp",
+			"remodal-confirm",
+			"#modal",
+			"var",
+			"?",
+			"radioBtnClass",
+			"nextQuestion",
+			"next",
+			"getTotalScore",
+			"printQuestion",
+			"total",
+			"totalScore",
+			"uploadQuiz",
+			"clearArray",
+			"loaded_questions",
+			"resetQuiz",
+			"reset",
+			"console",
+			"resetQuiz",
+			"loaded_questions.length",
+			"getItemCount",
+			"try_again",
+			"resetQuiz",
+			">\n",
+			"ident",
+			"site-id",
+			"000",
+			"span",
+			"required",
+			"=\"",
+			"body",
 			"questionNo",
 			"iz[genNum].questionNo;",
 			");",
@@ -935,46 +1003,7 @@
 			"back",
 			"richard",
 			"quarto",
-			"Richard",
-			"audio-speeches-tbl",
-			"eplay-tbl",
-			"index.php",
-			"highlight",
-			"peric",
-			"two",
-			"eplay",
-			"hamlet",
-			"full-news",
-			"param1",
-			"h4",
-			"h5",
-			"MenuItems",
-			"menueItemModel",
-			"POST",
-			"$.ajax",
-			"newsbox",
-			"$.ajax({",
-			"ajax",
-			"json",
-			"ajax",
-			"data",
-			"uploadQuiz",
-			"$.ajax",
-			"ullamco",
-			"@",
-			"text-uppercase",
-			"data-wow-delay",
-			"\"arialN\"",
-			"h3",
-			"h",
-			"3h",
-			"main",
-			"password_new_again",
-			"password2",
-			"password1",
-			"password2",
-			"password1",
-			"login"
+			"Richard"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1040,7 +1069,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1055,8 +1084,8 @@
 						"selection":
 						[
 							[
-								3689,
-								3689
+								11302,
+								11302
 							]
 						],
 						"settings":
@@ -1066,13 +1095,68 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2550.0,
+						"translation.y": 5304.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "core/init.php",
+					"settings":
+					{
+						"buffer_size": 1761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "quiz/quiz_admin/includes/db_connections.php",
+					"settings":
+					{
+						"buffer_size": 954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "audio-speeches/index-audio.php",
 					"settings":
 					{
@@ -1083,8 +1167,8 @@
 						"selection":
 						[
 							[
-								318,
-								318
+								1648,
+								1648
 							]
 						],
 						"settings":
@@ -1093,14 +1177,68 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 72.0,
+						"translation.x": 674.0,
+						"translation.y": 1872.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
+					"file": "audio-speeches/first-folio/alls-well-that-ends-well.php",
+					"settings":
+					{
+						"buffer_size": 3797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3703,
+								3703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2906.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "audio-speeches/modern/alls-well-that-ends-well.php",
+					"settings":
+					{
+						"buffer_size": 3795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3701,
+								3701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2841.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "eplay/index-eplay.php",
 					"settings":
 					{
@@ -1111,8 +1249,8 @@
 						"selection":
 						[
 							[
-								378,
-								378
+								1724,
+								1724
 							]
 						],
 						"settings":
@@ -1122,13 +1260,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 156.0,
+						"translation.y": 516.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "theatre-scripts/full-play-index/index-full-play.php",
 					"settings":
 					{
@@ -1156,7 +1294,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "theatre-scripts/individual-speeches-index/index-individual-speeches.php",
 					"settings":
 					{
@@ -1178,13 +1316,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 139.0,
+						"translation.y": 149.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "queryAdd.sql",
 					"settings":
 					{
@@ -1211,107 +1349,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "css/vbcustom.css",
 					"settings":
 					{
-						"buffer_size": 24853,
+						"buffer_size": 24899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6173,
-								6173
+								6305,
+								6305
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6009.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/vbCustom.js",
-					"settings":
-					{
-						"buffer_size": 14471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8105,
-								8105
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4762.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 33928,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32517,
-								32517
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 811.0,
-						"translation.y": 13708.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "quiz/quiz_admin/includes/question_query.php",
-					"settings":
-					{
-						"buffer_size": 10205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								624,
-								624
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1322,19 +1377,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "quiz/quiz_admin/js/functions-JS.js",
+					"buffer": 11,
+					"file": "js/vbCustom.js",
 					"settings":
 					{
-						"buffer_size": 8226,
+						"buffer_size": 14475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1590,
-								1590
+								4894,
+								4894
 							]
 						],
 						"settings":
@@ -1344,7 +1399,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1738.0,
+						"translation.y": 8431.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "quiz/quiz_admin/js/functions-JS.js",
+					"settings":
+					{
+						"buffer_size": 7888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5876,
+								5876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3276.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "includes/formProcessor.php",
+					"settings":
+					{
+						"buffer_size": 9352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1893,
+								1893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
