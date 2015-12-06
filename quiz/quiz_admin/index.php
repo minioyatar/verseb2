@@ -20,16 +20,16 @@ require_once "includes/functions.php";
     </style>
 </head>
 
-<body style="background:#F4D03F">
+<body style="background:#FFFFFF !important;">
     <div class="container-fluid">
         <div class="row">
-            <div style="background:#000; color:#F4D03F; padding:10px;">
+            <div style="background:#F8F8F8; color:#333333; padding:10px; border-bottom:1px solid #e7e7e7;">
                 <h1>Welcome to <span style=" font-family: 'LucidaCustomFont' ,arial,sans-serif;">Versebuster<sup>&#169;</sup></span> quiz editor</h1>
             </div>
         </div><!--end of header-->
 
        <div class="row"> <!-- Box -->
-            <div class="col-lg-12">
+            <div class="col-lg-12" style="color: #333;">
                 <h2>List of Questions</h2>
 
                 <!-- Table -->
@@ -37,7 +37,7 @@ require_once "includes/functions.php";
                     <div class="table-responsive">
                         <table class="table table-bordered table-hover table-condensed ">
                             <thead>
-                                <tr style="background:#AA1F23">
+                                <tr style="background:#3980B5">
                                     <th>Question</th>
                                     <th>Choice 1</th>
                                     <th>Choice 2</th>

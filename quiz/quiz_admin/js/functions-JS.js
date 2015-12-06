@@ -33,6 +33,7 @@ $(document).ready(function(){
     $('#nextQ').on('click', function(e){
     quizModule.nextQuestion();
     })//next question
+
     function uploadQuiz(jsonpath, qzType) {
         //code
         //1. query all question from mysql
@@ -113,7 +114,8 @@ $(document).ready(function(){
         function printQuestion() {
             genNum = generateUniqueNum();
             qzNo = quiz[genNum].questionNo;
-            to_post = '<h3>' + quiz[genNum].question + '</h3>';
+            to_post = '<h4>' + loaded_questions.length + ' of ' + quizModule.getItemCount()  + '<h4>'
+            to_post += '<h3>' + quiz[genNum].question + '</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceA +'">' + quiz[genNum].choiceA +'</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceB +'">' + quiz[genNum].choiceB +'</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceC +'">' + quiz[genNum].choiceC +'</h3>';
