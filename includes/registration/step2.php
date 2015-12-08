@@ -1,8 +1,8 @@
-	<div class="row setup-content" id="step-2">
+	<div class="row setup-content" id="step-1">
     <!-- 2 Generic postal address form"    -->
 	    <div class="col-lg-12">
 			<div class="col-lg-12 well">
-			    <h1 class="text-center"> Step 2</h1>
+			    <h1 class="text-center"> Step 1</h1>
 				<div class="col-lg-6 col-lg-offset-3">
 				    
 					<fieldset>
@@ -318,7 +318,7 @@
 				    <div class="col-sm-offset-2 col-sm-10">
 						<div class="pull-right">
 						    <div class="col-lg-12">
-								<input id="activate-step-3" type="button" value='Proceed to Step 3' class="btn btn-primary btn-lg"/>
+								<input id="activate-step-2" type="button" value='Proceed to Step 2' class="btn btn-primary btn-lg"/>
 								<!-- <input id="activate-step-4" type="submit" value='Finish!' name='registration' class="btn btn-primary btn-lg "/> -->
 								<!-- <input type='image' name='registration' id=''  src='https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif' border='0' align='top' alt='Pay with PayPal'/> -->
 

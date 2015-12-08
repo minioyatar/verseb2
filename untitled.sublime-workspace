@@ -512,78 +512,6 @@
 	"buffers":
 	[
 		{
-			"file": "php/header.php",
-			"settings":
-			{
-				"buffer_size": 16858,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "core/init.php",
-			"settings":
-			{
-				"buffer_size": 1761,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "quiz/quiz_admin/includes/db_connections.php",
-			"settings":
-			{
-				"buffer_size": 954,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "audio-speeches/index-audio.php",
-			"settings":
-			{
-				"buffer_size": 29892,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "audio-speeches/first-folio/alls-well-that-ends-well.php",
-			"settings":
-			{
-				"buffer_size": 3797,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "audio-speeches/modern/alls-well-that-ends-well.php",
-			"settings":
-			{
-				"buffer_size": 3795,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "eplay/index-eplay.php",
-			"settings":
-			{
-				"buffer_size": 31121,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "theatre-scripts/full-play-index/index-full-play.php",
-			"settings":
-			{
-				"buffer_size": 31024,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "theatre-scripts/individual-speeches-index/index-individual-speeches.php",
-			"settings":
-			{
-				"buffer_size": 38187,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "queryAdd.sql",
 			"settings":
 			{
@@ -608,18 +536,154 @@
 			}
 		},
 		{
-			"file": "quiz/quiz_admin/js/functions-JS.js",
+			"file": "php/header.php",
 			"settings":
 			{
-				"buffer_size": 7888,
+				"buffer_size": 16872,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "includes/formProcessor.php",
+			"file": "eplay/bibliography.php",
 			"settings":
 			{
-				"buffer_size": 9352,
+				"buffer_size": 22386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "comedies.php",
+			"settings":
+			{
+				"buffer_size": 21272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "histories.php",
+			"settings":
+			{
+				"buffer_size": 21272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "quick-reference-intro.php",
+			"settings":
+			{
+				"buffer_size": 21266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "a-zPlays.php",
+			"settings":
+			{
+				"buffer_size": 21266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tragedies.php",
+			"settings":
+			{
+				"buffer_size": 21273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "romances.php",
+			"settings":
+			{
+				"buffer_size": 21272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "verse-speaking.php",
+			"settings":
+			{
+				"buffer_size": 21277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elizabethan-pronunciation.php",
+			"settings":
+			{
+				"buffer_size": 21288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elizabethan-rhetoric.php",
+			"settings":
+			{
+				"buffer_size": 21283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elizabethan-stagecraft.php",
+			"settings":
+			{
+				"buffer_size": 21286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elizabethan-world-view.php",
+			"settings":
+			{
+				"buffer_size": 21288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shakespeare.php",
+			"settings":
+			{
+				"buffer_size": 21276,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "beginner.php",
+			"settings":
+			{
+				"buffer_size": 21273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intermediate.php",
+			"settings":
+			{
+				"buffer_size": 21277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "advanced.php",
+			"settings":
+			{
+				"buffer_size": 21272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "quiz/quiz_admin/js/functions-JS.js",
+			"settings":
+			{
+				"buffer_size": 7992,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "quiz/quiz_admin/index.php",
+			"settings":
+			{
+				"buffer_size": 6754,
 				"line_ending": "Unix"
 			}
 		}
@@ -672,6 +736,18 @@
 	},
 	"file_history":
 	[
+		"/var/www/html/versebuster2/quiz/index.php",
+		"/var/www/html/versebuster2/php/header.php",
+		"/var/www/html/versebuster2/includes/formProcessor.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/js/functions-JS.js",
+		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/index-individual-speeches.php",
+		"/var/www/html/versebuster2/theatre-scripts/full-play-index/index-full-play.php",
+		"/var/www/html/versebuster2/eplay/index-eplay.php",
+		"/var/www/html/versebuster2/audio-speeches/modern/alls-well-that-ends-well.php",
+		"/var/www/html/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php",
+		"/var/www/html/versebuster2/audio-speeches/index-audio.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/includes/db_connections.php",
+		"/var/www/html/versebuster2/core/init.php",
 		"/var/www/html/versebuster2/test.php",
 		"/var/www/html/versebuster2/core/gitCHEAT-SHEET.txt",
 		"/var/www/html/versebuster2/quiz/quiz_admin/includes/question_query.php",
@@ -679,17 +755,13 @@
 		"/var/www/html/versebuster2/quiz/quiz_admin/includes/header.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/includes/functions.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/includes/front_processors.php",
-		"/var/www/html/versebuster2/quiz/quiz_admin/includes/db_connections.php",
 		"/var/www/html/versebuster2/untitled.sublime-workspace",
-		"/var/www/html/versebuster2/quiz/index.php",
-		"/var/www/html/versebuster2/core/init.php",
 		"/var/www/html/versebuster2/.git/MERGE_MSG",
 		"/var/www/html/versebuster2/classes/Config.php",
 		"/var/www/html/versebuster2/github.php",
 		"/var/www/html/versebuster2/account/js/bootstrap.js",
 		"/var/www/html/versebuster2/js/mp3-player-button.js",
 		"/var/www/html/versebuster2/js/soundmanager2.js",
-		"/var/www/html/versebuster2/quiz/quiz_admin/js/functions-JS.js",
 		"/var/www/html/versebuster2/quiz.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/index.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/css/style.css",
@@ -714,7 +786,6 @@
 		"/var/www/html/versebuster2/audio-speeches/first-folio/comedy-of-errors.php",
 		"/var/www/html/versebuster2/audio-speeches/1634-quarto/two-noble-kinsmen.php",
 		"/var/www/html/versebuster2/audio-speeches/1634-quarto/richard-the-third.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/index-full-play.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/1634-quarto/richard-the-third.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/1634-quarto/two-noble-kinsmen.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/1634-quarto/two-noble-tinsmen.php",
@@ -792,14 +863,7 @@
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/much-ado-about-nothing.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/othelo-the-moor-of-venice.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/pericles.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/richard-the-third.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/romeo-and-juliet.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/taming-of-the-shrew.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/tempest.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/timon-of-athens.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/titus-andonicus.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/troilus-and-cressida.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/twelfth-night.php"
+		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/richard-the-third.php"
 	],
 	"find":
 	{
@@ -876,6 +940,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"loaded_questions",
+			"quiz",
 			"verse-temp",
 			"maxbonamy.org",
 			"config.json",
@@ -1001,9 +1067,7 @@
 			"<a href=\"/versebuster2/audio-speeches/audio-index\" class=\"btn btn-info\" role=\"button\">Back to Audio Index</a>",
 			"Back to Audio Index",
 			"back",
-			"richard",
-			"quarto",
-			"Richard"
+			"richard"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1069,260 +1133,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 21,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "php/header.php",
-					"settings":
-					{
-						"buffer_size": 16858,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11302,
-								11302
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5304.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "core/init.php",
-					"settings":
-					{
-						"buffer_size": 1761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "quiz/quiz_admin/includes/db_connections.php",
-					"settings":
-					{
-						"buffer_size": 954,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39,
-								39
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "audio-speeches/index-audio.php",
-					"settings":
-					{
-						"buffer_size": 29892,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1648,
-								1648
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 674.0,
-						"translation.y": 1872.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "audio-speeches/first-folio/alls-well-that-ends-well.php",
-					"settings":
-					{
-						"buffer_size": 3797,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3703,
-								3703
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2906.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "audio-speeches/modern/alls-well-that-ends-well.php",
-					"settings":
-					{
-						"buffer_size": 3795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3701,
-								3701
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2841.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "eplay/index-eplay.php",
-					"settings":
-					{
-						"buffer_size": 31121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1724,
-								1724
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 516.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "theatre-scripts/full-play-index/index-full-play.php",
-					"settings":
-					{
-						"buffer_size": 31024,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1359,
-								1359
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 221.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "theatre-scripts/individual-speeches-index/index-individual-speeches.php",
-					"settings":
-					{
-						"buffer_size": 38187,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								423,
-								423
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 149.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "queryAdd.sql",
 					"settings":
 					{
@@ -1349,7 +1164,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 1,
 					"file": "css/vbcustom.css",
 					"settings":
 					{
@@ -1377,7 +1192,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 2,
 					"file": "js/vbCustom.js",
 					"settings":
 					{
@@ -1388,8 +1203,8 @@
 						"selection":
 						[
 							[
-								4894,
-								4894
+								13152,
+								13152
 							]
 						],
 						"settings":
@@ -1399,25 +1214,470 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8431.0,
+						"translation.y": 9293.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "php/header.php",
+					"settings":
+					{
+						"buffer_size": 16872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5585,
+								5585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 884.0,
+						"translation.y": 3904.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "eplay/bibliography.php",
+					"settings":
+					{
+						"buffer_size": 22386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5712.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "comedies.php",
+					"settings":
+					{
+						"buffer_size": 21272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20716,
+								20716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6712.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "histories.php",
+					"settings":
+					{
+						"buffer_size": 21272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20714,
+								20714
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "quick-reference-intro.php",
+					"settings":
+					{
+						"buffer_size": 21266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20709,
+								20709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6556.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "a-zPlays.php",
+					"settings":
+					{
+						"buffer_size": 21266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20709,
+								20709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "tragedies.php",
+					"settings":
+					{
+						"buffer_size": 21273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20714,
+								20714
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "romances.php",
+					"settings":
+					{
+						"buffer_size": 21272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20713,
+								20713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "verse-speaking.php",
+					"settings":
+					{
+						"buffer_size": 21277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20719,
+								20719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "quiz/quiz_admin/js/functions-JS.js",
+					"file": "elizabethan-pronunciation.php",
 					"settings":
 					{
-						"buffer_size": 7888,
+						"buffer_size": 21288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5876,
-								5876
+								20730,
+								20730
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "elizabethan-rhetoric.php",
+					"settings":
+					{
+						"buffer_size": 21283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20725,
+								20725
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "elizabethan-stagecraft.php",
+					"settings":
+					{
+						"buffer_size": 21286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20727,
+								20727
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "elizabethan-world-view.php",
+					"settings":
+					{
+						"buffer_size": 21288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20728,
+								20728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6608.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "shakespeare.php",
+					"settings":
+					{
+						"buffer_size": 21276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20717,
+								20717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6608.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "beginner.php",
+					"settings":
+					{
+						"buffer_size": 21273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20713,
+								20713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "intermediate.php",
+					"settings":
+					{
+						"buffer_size": 21277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20718,
+								20718
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6608.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "advanced.php",
+					"settings":
+					{
+						"buffer_size": 21272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20197,
+								20197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "quiz/quiz_admin/js/functions-JS.js",
+					"settings":
+					{
+						"buffer_size": 7992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4786,
+								4786
 							]
 						],
 						"settings":
@@ -1427,25 +1687,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3276.0,
+						"translation.y": 2693.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "includes/formProcessor.php",
+					"buffer": 21,
+					"file": "quiz/quiz_admin/index.php",
 					"settings":
 					{
-						"buffer_size": 9352,
+						"buffer_size": 6754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1893,
-								1893
+								3858,
+								3858
 							]
 						],
 						"settings":
@@ -1455,7 +1715,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 858.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1526,7 +1786,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 189.0,
 	"status_bar_visible": true
 }

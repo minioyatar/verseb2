@@ -75,7 +75,7 @@ require_once "includes/functions.php";
             
             
             <!-- Box -->
-            <div class="col-lg-12">
+            <div class="col-lg-12"  style="color: #333;">
                 <h2>Add New Question</h2>
                 <form action="includes/process_handler.php" method="POST" enctype="multipart/form-data">
                         <!-- Form -->

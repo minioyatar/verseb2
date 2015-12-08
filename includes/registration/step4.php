@@ -1,8 +1,8 @@
-	<div class="row setup-content" id="step-4">
+	<div class="row setup-content" id="step-3">
     <!-- 2 Generic postal address form"    -->
 	    <div class="col-lg-12">
 			<div class="col-lg-12 well">
-			    <h1 class="text-center"> Step 4</h1>
+			    <h1 class="text-center"> Step 3</h1>
 				<div class=" text-center">
 					<br>
 					<input id="checkout-btn" type="submit" value='Checkout with Paypal!' name='registration' class="btn btn-primary btn-lg "/>

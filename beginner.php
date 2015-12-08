@@ -14,56 +14,56 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 			<p class="text-center"><strong>BEGINNER</strong></p>
 
 
-<p>INTRODUCTION</p>
-<p>Our bibliography and references are organised somewhat differently to reflect a broad audience and broad needs. &nbsp; It is divided into three parts.</p>			
-<table class="table-bordered table-responsive">
-	<tr>
-		<td style="padding:20px">
-			<p><strong>PART A - Reading Material </strong></p>
-			<ul style="list-style-type:roman">
-				<li><span class="blueprint">Self-help books</span></li>
-				<li><span class="blueprint">Annotation sources</span></li>
-				<li>Academic references 
-					<ul>
-						<li><span class="blueprint">printed</span></li>
-						<li><span class="blueprint">online</span></li>
-					</ul>
-				</li>
-				<li><span class="blueprint">Editions of Shakespeare</span></li>
-			</ul>
-		</td>
-		<td style="padding:20px">
-			<p><strong>Part B – Audio & Visual Material</strong></p>
-			<ul start="5" style="list-style-type:roman; ">
-				<li><span class="blueprint">Lectures</span></li>
-				<li><span class="blueprint">Utube</span></li>
-				<li><span class="blueprint">Films & TV productions</span></li>
-				<li><span class="blueprint">Audio recordings</span></li>
-			</ul>			
- 			<br>
-			<br>
-	<!--		<br>
-			<br> -->
-		</td>
-		<td style="padding:20px">
-			<p><strong>PART C – Beginners’ Material</strong></p>
-			<ul start="9" style="list-style-type:roman; ">
-				<li><span class="blueprint">Introduction</span></li>
-				<li><span class="blueprint">Variety of Materials</span></li>
-			</ul>
-			<br>
-			<br>
-			<br>
-			<br>
-<!-- 			<br>
-			<br>
-			<br> -->
-		</td>
-	</tr>
-</table>
+			<p>INTRODUCTION</p>
+			<p>Our bibliography and references are organised somewhat differently to reflect a broad audience and broad needs. &nbsp; It is divided into three parts.</p>			
+			<table class="table-bordered table-responsive">
+				<tr>
+					<td style="padding:20px">
+						<p><strong>PART A - Reading Material </strong></p>
+						<ul style="list-style-type:roman">
+							<li><span class="blueprint">Self-help books</span></li>
+							<li><span class="blueprint">Annotation sources</span></li>
+							<li>Academic references 
+								<ul>
+									<li><span class="blueprint">printed</span></li>
+									<li><span class="blueprint">online</span></li>
+								</ul>
+							</li>
+							<li><span class="blueprint">Editions of Shakespeare</span></li>
+						</ul>
+					</td>
+					<td style="padding:20px">
+						<p><strong>Part B – Audio & Visual Material</strong></p>
+						<ul start="5" style="list-style-type:roman; ">
+							<li><span class="blueprint">Lectures</span></li>
+							<li><span class="blueprint">Utube</span></li>
+							<li><span class="blueprint">Films & TV productions</span></li>
+							<li><span class="blueprint">Audio recordings</span></li>
+						</ul>			
+			 			<br>
+						<br>
+				<!--		<br>
+						<br> -->
+					</td>
+					<td style="padding:20px">
+						<p><strong>PART C – Beginners’ Material</strong></p>
+						<ul start="9" style="list-style-type:roman; ">
+							<li><span class="blueprint">Introduction</span></li>
+							<li><span class="blueprint">Variety of Materials</span></li>
+						</ul>
+						<br>
+						<br>
+						<br>
+						<br>
+			<!-- 			<br>
+						<br>
+						<br> -->
+					</td>
+				</tr>
+			</table>
 
-<br>
-<br>
+			<br>
+			<br>
 
 <p><strong>PART A – READING MATERIAL</strong></p>
 	<ul style="list-style-type:roman">

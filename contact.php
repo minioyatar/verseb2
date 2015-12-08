@@ -39,8 +39,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 		    <br>
 		    <p class="text-center"><strong>Skype name: </strong></p>
 		    <p class="text-center">versebuster</p>
-		    
-<br>
+			<br>
 		</div>
                                        
 

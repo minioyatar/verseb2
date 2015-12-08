@@ -52,7 +52,7 @@
                 </form>
             </div>
         </li>
-        <li class=""><a href="<?php echo Config::get('svrInfo/path'); ?>sign-up.php">Become a member</a></li>
+        <li class=""><a href="<?php echo Config::get('svrInfo/path'); ?>sign-up.php">Subscribe</a></li>
 <?php
     }
 ?>
