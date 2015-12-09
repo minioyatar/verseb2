@@ -98,7 +98,7 @@
         <script src="js/library/html5shiv.js"></script>
         <script src="js/library/respond.min.js"></script>
     <![endif]-->
-    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    
 </head>
 
     <body>

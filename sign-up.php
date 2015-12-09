@@ -20,29 +20,38 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <div class="row">
 	<div class="col-lg-12">
 
-		<div style="background-color:#226791; padding: 10px; color: #fff; font-family: 'Fjalla One', sans-serif;">
-			<h3>SUBSCRIPTION US$1.99 a month</h3>
-		    
-		    <h1>NEVER PAY MORE THAN ONCE!</h1>
+		<div style="background-color:#226791; padding: 10px; color: #fff; ">
+			<h1 style="color:#FFF200">SUBSCRIPTION JUST US$1.99 a month!</h1>
+			<p>GIVES FREE AND FULL ACCESS TO </p>
+			<ul>
+				<li>AUDIO</li>
+				<li>QUICK REFERENCE LIBRARY</li>
+				<li>BEGINNER-LEVEL SLIDE SHOWS</li>
+				<li>FORUM</li>
+			</ul>
+		    <br>
+
+		    <p><b><i><span style="font-size:40px; color:#FFF200">+ 50% off!</span></i></b> ePLAYS & THEATRE SCRIPTS & INTERMEDIATE & ADVANCED SLIDE-SHOWS*</p>
+		    <p style="font-size:12px">*YOU NEVER PAY MORE THAN ONCE!</p>
 	    </div>
 	<div class="well">
 		<h4>ePlays</h4>
 		<ul class="list-unstyled" style="text-indent: 50px;">
 			<li><input type="checkbox" name="" id=""> EP1 (annotations only) $5.95 - one time payment, new improved editions automatically emailed to you free of charge</li>
-			<li><input type="checkbox" name="" id=""> EP2 (annotations PLUS notations)  $9.95 each - one time payment, new improved editions automatically emailed free to you free of charge</li>
+			<li><input type="checkbox" name="" id=""> EP2 (annotations PLUS notations)  $9.95 each - one time payment, new improved editions automatically emailed to you free of charge</li>
 		</ul>
 		<br>
 
 		<h4>Theatre scripts</h4>
 		<ul class="list-unstyled" style="text-indent: 50px;">
-			<li><input type="checkbox" name="" id=""> full play $4.95 each BEST VALUE - one time payment, new improved theatre scripts automatically emailed free to you free of charge</li>
-		    <li><input type="checkbox" name="" id=""> individual speeches $0.99 each (minimum of 2 speeches because of Paypal charges?) - one time payment, new improved theatre scripts automatically emailed free to you free of charge</li>
+			<li><input type="checkbox" name="" id=""> Full play $4.95 each BEST VALUE - one time payment, new improved theatre scripts automatically emailed to you free of charge</li>
+		    <li><input type="checkbox" name="" id=""> Individual speeches $0.99 each - one time payment, new improved theatre scripts automatically emailed to you free of charge</li>
 		</ul>
 		<br>
 
 		<h4>Teaching Slide shows for Intermediate and Advanced </h4>
 			<ul class="list-unstyled" style="text-indent: 50px;">
-				<li><input type="checkbox" name="" id=""> $3.99 (3 for the price of 2 ($7.98), 5 for the price of 3 ($11.97), 10 for the price of 5 ($19.95), or all for $29.95) - one time payment, new improved slide shows automatically emailed free to you free of charge	</li>
+				<li><input type="checkbox" name="" id=""> $3.99 (3 for the price of 2 ($7.98), 5 for the price of 3 ($11.97), 10 for the price of 5 ($19.95), or all for $29.95) - one time payment, new improved slide shows automatically emailed to you free of charge	</li>
 			</ul>
 	</div>
 

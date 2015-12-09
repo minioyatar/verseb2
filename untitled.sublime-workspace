@@ -539,151 +539,47 @@
 			"file": "php/header.php",
 			"settings":
 			{
-				"buffer_size": 16872,
+				"buffer_size": 16974,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "eplay/bibliography.php",
+			"file": "php/login.php",
 			"settings":
 			{
-				"buffer_size": 22386,
+				"buffer_size": 3059,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "comedies.php",
+			"file": "sign-up.php",
 			"settings":
 			{
-				"buffer_size": 21272,
+				"buffer_size": 3823,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "histories.php",
+			"file": "includes/registration/step2.php",
 			"settings":
 			{
-				"buffer_size": 21272,
+				"buffer_size": 16780,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "quick-reference-intro.php",
+			"file": "includes/registration/step3.php",
 			"settings":
 			{
-				"buffer_size": 21266,
+				"buffer_size": 6779,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "a-zPlays.php",
+			"file": "includes/registration/step4.php",
 			"settings":
 			{
-				"buffer_size": 21266,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tragedies.php",
-			"settings":
-			{
-				"buffer_size": 21273,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "romances.php",
-			"settings":
-			{
-				"buffer_size": 21272,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "verse-speaking.php",
-			"settings":
-			{
-				"buffer_size": 21277,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "elizabethan-pronunciation.php",
-			"settings":
-			{
-				"buffer_size": 21288,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "elizabethan-rhetoric.php",
-			"settings":
-			{
-				"buffer_size": 21283,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "elizabethan-stagecraft.php",
-			"settings":
-			{
-				"buffer_size": 21286,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "elizabethan-world-view.php",
-			"settings":
-			{
-				"buffer_size": 21288,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "shakespeare.php",
-			"settings":
-			{
-				"buffer_size": 21276,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "beginner.php",
-			"settings":
-			{
-				"buffer_size": 21273,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "intermediate.php",
-			"settings":
-			{
-				"buffer_size": 21277,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "advanced.php",
-			"settings":
-			{
-				"buffer_size": 21272,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "quiz/quiz_admin/js/functions-JS.js",
-			"settings":
-			{
-				"buffer_size": 7992,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "quiz/quiz_admin/index.php",
-			"settings":
-			{
-				"buffer_size": 6754,
+				"buffer_size": 966,
 				"line_ending": "Unix"
 			}
 		}
@@ -736,10 +632,32 @@
 	},
 	"file_history":
 	[
+		"/var/www/html/versebuster2/quiz/quiz_admin/index.php",
+		"/var/www/html/versebuster2/login.php",
+		"/var/www/html/versebuster2/contact.php",
+		"/var/www/html/versebuster2/php/footer.php",
+		"/var/www/html/versebuster2/includes/registration/step1.php",
+		"/var/www/html/versebuster2/includes/registration/step2.php",
+		"/var/www/html/versebuster2/beginner.php",
+		"/var/www/html/versebuster2/eplay/bibliography.php",
+		"/var/www/html/versebuster2/comedies.php",
+		"/var/www/html/versebuster2/histories.php",
+		"/var/www/html/versebuster2/quick-reference-intro.php",
+		"/var/www/html/versebuster2/a-zPlays.php",
+		"/var/www/html/versebuster2/tragedies.php",
+		"/var/www/html/versebuster2/romances.php",
+		"/var/www/html/versebuster2/verse-speaking.php",
+		"/var/www/html/versebuster2/elizabethan-pronunciation.php",
+		"/var/www/html/versebuster2/elizabethan-rhetoric.php",
+		"/var/www/html/versebuster2/elizabethan-stagecraft.php",
+		"/var/www/html/versebuster2/elizabethan-world-view.php",
+		"/var/www/html/versebuster2/shakespeare.php",
+		"/var/www/html/versebuster2/intermediate.php",
+		"/var/www/html/versebuster2/advanced.php",
+		"/var/www/html/versebuster2/quiz/quiz_admin/js/functions-JS.js",
 		"/var/www/html/versebuster2/quiz/index.php",
 		"/var/www/html/versebuster2/php/header.php",
 		"/var/www/html/versebuster2/includes/formProcessor.php",
-		"/var/www/html/versebuster2/quiz/quiz_admin/js/functions-JS.js",
 		"/var/www/html/versebuster2/theatre-scripts/individual-speeches-index/index-individual-speeches.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/index-full-play.php",
 		"/var/www/html/versebuster2/eplay/index-eplay.php",
@@ -763,7 +681,6 @@
 		"/var/www/html/versebuster2/js/mp3-player-button.js",
 		"/var/www/html/versebuster2/js/soundmanager2.js",
 		"/var/www/html/versebuster2/quiz.php",
-		"/var/www/html/versebuster2/quiz/quiz_admin/index.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/css/style.css",
 		"/var/www/html/versebuster2/quiz/quiz_admin/update.php",
 		"/var/www/html/versebuster2/.git/COMMIT_EDITMSG",
@@ -842,28 +759,7 @@
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/comedy-of-errors.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/coriolanus.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/cymbeline.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/hamlet.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/henry-the-fifth.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/henry-the-fourth-part-1.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/henry-the-fourth-part-2.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/henry-the-sixth-part-1.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/henry-the-sixth-part-2.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/henry-the-sixth-part-3.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/julius-caesar.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/king-henry-the-eighth.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/king-john.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/king-lear.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/king-richard-the-second.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/loves-labours-lost.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/macbeth.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/measure-of-measure.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/merchant-of-venice.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/merry-wives-of-windsor.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/midsummer-nights-dream.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/much-ado-about-nothing.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/othelo-the-moor-of-venice.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/pericles.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/richard-the-third.php"
+		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/hamlet.php"
 	],
 	"find":
 	{
@@ -871,7 +767,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 114.0,
 		"where_history":
 		[
 			"/var/www/html/versebuster2/",
@@ -940,6 +836,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"proce",
+			"proceed",
+			"become a member",
+			"becom",
 			"loaded_questions",
 			"quiz",
 			"verse-temp",
@@ -1063,11 +963,7 @@
 			"'good",
 			"good",
 			"hamlet",
-			"hamet",
-			"<a href=\"/versebuster2/audio-speeches/audio-index\" class=\"btn btn-info\" role=\"button\">Back to Audio Index</a>",
-			"Back to Audio Index",
-			"back",
-			"richard"
+			"hamet"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1133,7 +1029,7 @@
 	"groups":
 	[
 		{
-			"selected": 21,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1175,8 +1071,8 @@
 						"selection":
 						[
 							[
-								6305,
-								6305
+								3925,
+								3925
 							]
 						],
 						"settings":
@@ -1186,7 +1082,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4655.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1224,15 +1120,15 @@
 					"file": "php/header.php",
 					"settings":
 					{
-						"buffer_size": 16872,
+						"buffer_size": 16974,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5585,
-								5585
+								3014,
+								3014
 							]
 						],
 						"settings":
@@ -1241,26 +1137,54 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 884.0,
-						"translation.y": 3904.0,
+						"translation.x": 342.0,
+						"translation.y": 2210.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "eplay/bibliography.php",
+					"file": "php/login.php",
 					"settings":
 					{
-						"buffer_size": 22386,
+						"buffer_size": 3059,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								356,
-								356
+								3049,
+								3049
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sign-up.php",
+					"settings":
+					{
+						"buffer_size": 3823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								846,
+								846
 							]
 						],
 						"settings":
@@ -1269,453 +1193,88 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5712.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "comedies.php",
-					"settings":
-					{
-						"buffer_size": 21272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20716,
-								20716
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6712.0,
+						"translation.y": 587.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "histories.php",
+					"file": "includes/registration/step2.php",
 					"settings":
 					{
-						"buffer_size": 21272,
+						"buffer_size": 16780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20714,
-								20714
+								15388,
+								15388
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
+						"translation.x": 303.0,
+						"translation.y": 1638.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "quick-reference-intro.php",
+					"file": "includes/registration/step3.php",
 					"settings":
 					{
-						"buffer_size": 21266,
+						"buffer_size": 6779,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20709,
-								20709
+								6291,
+								6291
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 6556.0,
+						"translation.x": 594.0,
+						"translation.y": 1954.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "a-zPlays.php",
+					"file": "includes/registration/step4.php",
 					"settings":
 					{
-						"buffer_size": 21266,
+						"buffer_size": 966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20709,
-								20709
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "tragedies.php",
-					"settings":
-					{
-						"buffer_size": 21273,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20714,
-								20714
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "romances.php",
-					"settings":
-					{
-						"buffer_size": 21272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20713,
-								20713
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "verse-speaking.php",
-					"settings":
-					{
-						"buffer_size": 21277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20719,
-								20719
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "elizabethan-pronunciation.php",
-					"settings":
-					{
-						"buffer_size": 21288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20730,
-								20730
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "elizabethan-rhetoric.php",
-					"settings":
-					{
-						"buffer_size": 21283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20725,
-								20725
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "elizabethan-stagecraft.php",
-					"settings":
-					{
-						"buffer_size": 21286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20727,
-								20727
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "elizabethan-world-view.php",
-					"settings":
-					{
-						"buffer_size": 21288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20728,
-								20728
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6608.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "shakespeare.php",
-					"settings":
-					{
-						"buffer_size": 21276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20717,
-								20717
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6608.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "beginner.php",
-					"settings":
-					{
-						"buffer_size": 21273,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20713,
-								20713
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "intermediate.php",
-					"settings":
-					{
-						"buffer_size": 21277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20718,
-								20718
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6608.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "advanced.php",
-					"settings":
-					{
-						"buffer_size": 21272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20197,
-								20197
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 6582.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "quiz/quiz_admin/js/functions-JS.js",
-					"settings":
-					{
-						"buffer_size": 7992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4786,
-								4786
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2693.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "quiz/quiz_admin/index.php",
-					"settings":
-					{
-						"buffer_size": 6754,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3858,
-								3858
+								243,
+								243
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 70.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

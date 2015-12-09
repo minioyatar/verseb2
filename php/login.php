@@ -69,4 +69,4 @@ require_once 'core/init.php';
         </form>
     </div>
 </li>
-<li class=""><a href="sign-up.php">Subscribe</a></li>
+<li class=""><a href="sign-up.php">Subscribe Now</a></li>
