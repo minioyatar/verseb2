@@ -539,15 +539,15 @@
 			"file": "php/header.php",
 			"settings":
 			{
-				"buffer_size": 16974,
+				"buffer_size": 16877,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "php/login.php",
+			"file": "login.php",
 			"settings":
 			{
-				"buffer_size": 3059,
+				"buffer_size": 5925,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +555,7 @@
 			"file": "sign-up.php",
 			"settings":
 			{
-				"buffer_size": 3823,
+				"buffer_size": 4099,
 				"line_ending": "Unix"
 			}
 		},
@@ -632,6 +632,8 @@
 	},
 	"file_history":
 	[
+		"/var/www/html/versebuster2/github.php",
+		"/var/www/html/versebuster2/php/login.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/index.php",
 		"/var/www/html/versebuster2/login.php",
 		"/var/www/html/versebuster2/contact.php",
@@ -676,7 +678,6 @@
 		"/var/www/html/versebuster2/untitled.sublime-workspace",
 		"/var/www/html/versebuster2/.git/MERGE_MSG",
 		"/var/www/html/versebuster2/classes/Config.php",
-		"/var/www/html/versebuster2/github.php",
 		"/var/www/html/versebuster2/account/js/bootstrap.js",
 		"/var/www/html/versebuster2/js/mp3-player-button.js",
 		"/var/www/html/versebuster2/js/soundmanager2.js",
@@ -758,8 +759,7 @@
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/as-you-like-it.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/comedy-of-errors.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/coriolanus.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/cymbeline.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/hamlet.php"
+		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/cymbeline.php"
 	],
 	"find":
 	{
@@ -836,6 +836,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Subscribe",
+			"subs",
 			"proce",
 			"proceed",
 			"become a member",
@@ -961,9 +963,7 @@
 			"></",
 			"*",
 			"'good",
-			"good",
-			"hamlet",
-			"hamet"
+			"good"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1029,7 +1029,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1120,15 +1120,15 @@
 					"file": "php/header.php",
 					"settings":
 					{
-						"buffer_size": 16974,
+						"buffer_size": 16877,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3014,
-								3014
+								2917,
+								2917
 							]
 						],
 						"settings":
@@ -1137,7 +1137,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 342.0,
+						"translation.x": 52.0,
 						"translation.y": 2210.0,
 						"zoom_level": 1.0
 					},
@@ -1145,18 +1145,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "php/login.php",
+					"file": "login.php",
 					"settings":
 					{
-						"buffer_size": 3059,
+						"buffer_size": 5925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3049,
-								3049
+								2946,
+								2946
 							]
 						],
 						"settings":
@@ -1166,7 +1166,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1326.0,
+						"translation.y": 995.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1176,15 +1176,15 @@
 					"file": "sign-up.php",
 					"settings":
 					{
-						"buffer_size": 3823,
+						"buffer_size": 4099,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								846,
-								846
+								473,
+								473
 							]
 						],
 						"settings":
@@ -1192,8 +1192,8 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 587.0,
+						"translation.x": 60.0,
+						"translation.y": 275.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

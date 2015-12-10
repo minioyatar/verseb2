@@ -52,7 +52,8 @@
                 </form>
             </div>
         </li>
-        <li style="background-color:#ED1C24"><a href="<?php echo Config::get('svrInfo/path'); ?>sign-up.php">Subscribe Now</a></li>
+        <!-- <li style="background-color:#ED1C24"><a href="<?php echo Config::get('svrInfo/path'); ?>sign-up.php">Become a Member</a></li> -->
+        <li style=""><a href="membership.html">Become a Member</a></li>
 <?php
     }
 ?>
