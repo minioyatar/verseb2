@@ -547,7 +547,7 @@
 			"file": "login.php",
 			"settings":
 			{
-				"buffer_size": 5925,
+				"buffer_size": 6008,
 				"line_ending": "Unix"
 			}
 		},
@@ -560,26 +560,10 @@
 			}
 		},
 		{
-			"file": "includes/registration/step2.php",
+			"file": "membership.html",
 			"settings":
 			{
-				"buffer_size": 16780,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/registration/step3.php",
-			"settings":
-			{
-				"buffer_size": 6779,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/registration/step4.php",
-			"settings":
-			{
-				"buffer_size": 966,
+				"buffer_size": 2863,
 				"line_ending": "Unix"
 			}
 		}
@@ -632,14 +616,22 @@
 	},
 	"file_history":
 	[
+		"/var/www/html/versebuster2/audio-speeches/index-audio.php",
+		"/var/www/html/versebuster2/includes/registration/step2.php",
+		"/var/www/html/versebuster2/includes/registration/step3.php",
+		"/var/www/html/versebuster2/includes/registration/step4.php",
+		"/var/www/html/versebuster2/php/footer.php",
+		"/var/www/html/verseFromServer/php/header.php",
+		"/var/www/html/verseFromServer/login.php",
+		"/var/www/html/verseFromServer/includes/login/logout.php",
+		"/var/www/html/verseFromServer/sign-up.php",
+		"/var/www/html/index.html",
 		"/var/www/html/versebuster2/github.php",
 		"/var/www/html/versebuster2/php/login.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/index.php",
 		"/var/www/html/versebuster2/login.php",
 		"/var/www/html/versebuster2/contact.php",
-		"/var/www/html/versebuster2/php/footer.php",
 		"/var/www/html/versebuster2/includes/registration/step1.php",
-		"/var/www/html/versebuster2/includes/registration/step2.php",
 		"/var/www/html/versebuster2/beginner.php",
 		"/var/www/html/versebuster2/eplay/bibliography.php",
 		"/var/www/html/versebuster2/comedies.php",
@@ -665,7 +657,6 @@
 		"/var/www/html/versebuster2/eplay/index-eplay.php",
 		"/var/www/html/versebuster2/audio-speeches/modern/alls-well-that-ends-well.php",
 		"/var/www/html/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php",
-		"/var/www/html/versebuster2/audio-speeches/index-audio.php",
 		"/var/www/html/versebuster2/quiz/quiz_admin/includes/db_connections.php",
 		"/var/www/html/versebuster2/core/init.php",
 		"/var/www/html/versebuster2/test.php",
@@ -752,14 +743,7 @@
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/good-quarto/much-ado-about-nothing.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/good-quarto/othelo-the-moor-of-venice.php",
 		"/var/www/html/versebuster2/theatre-scripts/full-play-index/good-quarto/richard-the-third.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/good-quarto/romeo-and-juliet.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/good-quarto/titus-andonicus.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/good-quarto/troilus-and-cressida.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/anthony-and-Cleopatra.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/as-you-like-it.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/comedy-of-errors.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/coriolanus.php",
-		"/var/www/html/versebuster2/theatre-scripts/full-play-index/modern/cymbeline.php"
+		"/var/www/html/versebuster2/theatre-scripts/full-play-index/good-quarto/romeo-and-juliet.php"
 	],
 	"find":
 	{
@@ -767,7 +751,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 114.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/var/www/html/versebuster2/",
@@ -836,6 +820,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"none",
+			"subs",
+			"40px",
+			"h3",
+			"h4",
+			"background",
 			"Subscribe",
 			"subs",
 			"proce",
@@ -957,13 +947,7 @@
 			"ado",
 			"Titus Andronicus",
 			"*",
-			"*\n",
-			">\n",
-			"*",
-			"></",
-			"*",
-			"'good",
-			"good"
+			"*\n"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1029,7 +1013,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1071,8 +1055,8 @@
 						"selection":
 						[
 							[
-								3925,
-								3925
+								5330,
+								5330
 							]
 						],
 						"settings":
@@ -1081,8 +1065,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 4655.0,
+						"translation.x": 16.0,
+						"translation.y": 5279.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1127,36 +1111,8 @@
 						"selection":
 						[
 							[
-								2917,
-								2917
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 52.0,
-						"translation.y": 2210.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "login.php",
-					"settings":
-					{
-						"buffer_size": 5925,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2946,
-								2946
+								2102,
+								2102
 							]
 						],
 						"settings":
@@ -1166,7 +1122,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 995.0,
+						"translation.y": 1856.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "login.php",
+					"settings":
+					{
+						"buffer_size": 6008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3066,
+								3066
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 64.0,
+						"translation.y": 1103.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1183,89 +1167,8 @@
 						"selection":
 						[
 							[
-								473,
-								473
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 60.0,
-						"translation.y": 275.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "includes/registration/step2.php",
-					"settings":
-					{
-						"buffer_size": 16780,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15388,
-								15388
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 303.0,
-						"translation.y": 1638.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "includes/registration/step3.php",
-					"settings":
-					{
-						"buffer_size": 6779,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6291,
-								6291
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 594.0,
-						"translation.y": 1954.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "includes/registration/step4.php",
-					"settings":
-					{
-						"buffer_size": 966,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
+								479,
+								479
 							]
 						],
 						"settings":
@@ -1274,7 +1177,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 70.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "membership.html",
+					"settings":
+					{
+						"buffer_size": 2863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1013,
+								1013
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 200.0,
+						"translation.y": 390.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
