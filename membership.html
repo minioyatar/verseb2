@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Versebuster - Registration</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- <link href="/versebuster2/css/vbcustom.css" rel="stylesheet"> -->
-		 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		 <script src="/versebuster2/js/library/jquery-1.11.0.js"></script>
 		<script src="/versebuster2/js/library/bootstrap.min.js"  ></script>
-        <script src="/versebuster2/js/library/jquery.typedtext.js"></script> 
+        <script src="/versebuster2/js/library/jquery.typedtext.js"></script>
+    
 		<style type="text/css">
 @font-face {
     font-family: 'LucidaCustomFont';
@@ -17,26 +17,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
 		</style>
-		<script type="text/javascript">
-		$(document).ready(function() {
 
-			function reType(){
-				// $("#animate-subhead").typedText("GIVES YOU FREE AND FULL ACCESS TO", "slow");	
-			
-				$("#animate-subhead").delay(5000).typedText("GIVES YOU FREE AND FULL ACCESS TO", 100,function() {
-					setTimeout(reType, 2000);
-				})
-			}
-			reType()
-
-
-// function reslide(){
-// 	$(‘.slide-right’).delay(5000).animate({width:’0′}, 600).delay(5000).animate({width:’100%’}, 600, function(){
-// 	setTimeout(reslide, 2000);
-});
-
-		</script>
 </head>
 <body style="">
 	<div class="container-fluid" style="">
@@ -72,41 +55,60 @@
 				<img class="img-responsive" style=" position: relative; top: -45px; z-index: 2; margin:0 auto;"  src="images/banner-awards.png" alt="">
 			<!-- </h3> -->
 		</div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 inline-block" style="font-size:18px">
-				<br>	
-				<div class="col-md-4 text-center" style="">
-					<p>INDIVIDUAL</p>
-					<p><b>Package 1 </b></p>
-					<p><img src="images/bestVAL.png" alt="img-responsive" width="100"></p>
-					<p>$1.99 a month for 12 months</p>
-					<p>&nbsp; </p>
-					<p><a href="#"><img width=260 src="images/bam.png" alt="..." class="img-responsive center-block"></a></p>
-				</div>
-				<div class="col-md-4 text-center" style="">
-					<p>INDIVIDUAL</p>
-					<p><b>Package 2 </b></p>
-					<p><img src="images/bestBudget.png" alt="img-responsive" width="100"></p>
-					<p>$5.00 a month</p>
-					<p>Cancel anytime</p>
-					<p><a href="#"><img width=260 src="images/bam.png" alt="..." class="img-responsive center-block"></a></p>
-				</div>
-				<div class="col-md-4 text-center" style="">
-					<p>CORPORATE</p>
-					<p><b>Package 3 </b></p>
-					<p><img src="images/corporatet.png" alt="img-responsive" width="100"></p>
-					<p>$99 a year</p>
-					<p>&nbsp; </p>
-					
-					<p><a href="#"><img width=260 src="images/bam.png" alt="..." class="img-responsive center-block"></a></p>
-				</div>
-				
-			<!-- <p> -->
-			  	<!-- <button type="button" class="btn btn-primary btn-lg">Large button</button> -->
-				 <!-- <button type="button" class="btn btn-default btn-lg">Large button</button> -->
-			<!-- </p> -->
-</div>
+		<div class="row" >
+			<div class="col-md-8 col-md-offset-2 inline-block packsliders" style="font-size:18px">
+				<br>
+					<!-- pack 1 -->
+					<div class="col-md-4 text-center" style="">
+						<p>INDIVIDUAL</p>
+						<p><b>Package 1 </b></p>
+						<p><img src="images/bestVAL.png" alt="img-responsive" width="100"></p>
+						<p>$1.99 a month for 12 months</p>
+						<p>&nbsp; </p>
+						<a  href="join.php?p=1"><img width=260 src="images/bam.png" alt="..." class="img-responsive center-block"></a>
+					</div>
+					<!-- pack 2 -->
+					<div class="col-md-4 text-center" style="">
+						<p>INDIVIDUAL</p>
+						<p><b>Package 2 </b></p>
+						<p><img src="images/bestBudget.png" alt="img-responsive" width="100"></p>
+						<p>$5.00 a month</p>
+						<p>Cancel anytime</p>
+						<a href="join.php?p=2"><img width=260 src="images/bam.png" alt="..." class="img-responsive center-block"></a>
+					</div>
+					<!-- pack 3 -->
+					<div class="col-md-4 text-center" style="">
+						<p>CORPORATE</p>
+						<p><b>Package 3 </b></p>
+						<p><img src="images/corporate.png" alt="img-responsive" width="100"></p>
+						<p>$99 a year</p>
+						<p>&nbsp; </p>
+						
+						<a href="join.php?p=3"><img width=260 src="images/bam.png" alt="..." class="img-responsive center-block"></a>
+					</div>
+			</div>
 		</div>
+
+
 	</div>
+
+		<script type="text/javascript">
+		$(document).ready(function() {
+
+			//retype animation
+			function reType(){
+				// $("#animate-subhead").typedText("GIVES YOU FREE AND FULL ACCESS TO", "slow");	
+
+				$("#animate-subhead").delay(5000).typedText("GIVES YOU FREE AND FULL ACCESS TO", 100,function() {
+					setTimeout(reType, 2000);
+				})
+			}
+			reType()
+			//end
+
+
+		});
+
+		</script>	
 </body>
 </html>
