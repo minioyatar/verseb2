@@ -35,7 +35,9 @@
 	}
 
 	.field label{
-		width: 100px;
+		width: 210px;
+		text-align: right;
+		color: #fff;
 		/*text-align: right;*/
 		/*display: inline-block;*/
 	}
@@ -58,21 +60,25 @@ width: 425px;
 				<p class="">A Shakespeare Performance Resource with Audio</p>
 			</div>
 		</div>
-		<div class="row vbR" style="background: #009D9F ; ">
-			<div class="col-md-8 col-md-offset-2" style=" ">
+		<div class="row vbR" style="background: #009D9F ;  ">
+			<div class="col-md-8 col-md-offset-2" style="color:#fff">
 
-				<h2>Sign Up</h2>
+				<h2>Enter personal information</h2>
 				<h3 class="selectModule">
-					<span class="step">Step <span>One</span></span>
-					<span class="title">Enter personal information</span>
-					<span class="linkPolicy">Your information will be used in accordance with our <a href="#" target="_blank" title="Privacy Policy" style="color:#B00071; text-decoration:none">Privacy Policy</a></span>
+					<!-- <span class="step">Step <span>One</span></span> -->
+					<!-- <span class="title">Enter personal information</span><br> -->
+					<span class="linkPolicy">Your information will be used in accordance with our <a href="#" target="_blank" title="Privacy Policy" style="color:#B40073; text-decoration:none"><b>Privacy Policy</b></a></span>
 				</h3>
 					<div class="intro">
-						<h4>Enter your details below</h4>
-						<p>*required field</p>
+						<!-- <h4>Enter your details below</h4> -->
+						<p style="color:#fff;font-size:18px"><strong>* required field</strong></p>
 					</div>
+			</div>
+<!-- 		</div>
 
-				<form id="accountCreation_form" role="form">
+		<div class="row vbR" style="background: #009D9F url('images/bg.png') repeat center; "> -->
+			<div class="col-md-5 col-md-offset-3 text-center" style=" ">		
+				<form id="accountCreation_form" role="form" style="margin:40px 0;">
 
 					<div class="content">
 						<div class="field form-group title">
@@ -116,7 +122,7 @@ width: 425px;
 							<label for="password">Password <span class="mandatory">*</span> </label>
 							<input type="password" id="password" name="password" class="validated passwordIcon"  autocomplete="off" placeholder="6 - 20 characters" data-format="" data-label="Password" data-required="true" maxlength="20" minlength="6" />
 							<span class="validity-icon is-valid" tabindex="-1"></span>
-							<p class="help">Please enter a password between 6 and 20 characters</p>
+							<p class="help" style="color:#fff">Please enter a password between 6 and 20 characters</p>
 						</div>
 						<div class="field form-group confirm-password">
 							<label for="confirmPassword">Confirm password
@@ -125,9 +131,14 @@ width: 425px;
 							<input type="password" id="confirmPassword" name="confirmPassword" class="validated passwordIcon" autocomplete="off"placeholder="6 - 20 characters"data-format=""data-label="Confirm password"data-required="true"maxlength="20"minlength="6" /> <span class="validity-icon is-valid" tabindex="-1"></span>
 						</div>
 
-
-						<div class="buttonHolder"><button id="accountCreationButton" type="submit" class="button">Continue to Payment Information</button></div>
+						<div class="field form-group" style="">
+							<input id="activate-step-3" type="button" value='Checkout with Paypal' class="btn btn-primary btn-lg" style="background:#B40074"/>
+							<!-- <a href="#" class="" style="margin:0 auto;"><img src="images/pcheckout.png" alt="..." class="img-responsive "></a> -->
+						<!-- <div class="buttonHolder" ><button style="width:208px; padding:10px" id="accountCreationButton" type="submit" class="button">Continue to Payment Information</button></div> -->
+						</div>
 					</form>
+
+
 				</div>
 			</div>
 
