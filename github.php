@@ -1,13 +1,13 @@
-<?php // git pull;
+<?php // `git pull`;
 ///////////////
-    ini_set('display_errors',1);
-    ini_set('display_startup_errors',1);
-    error_reporting(-1);
+    // ini_set('display_errors',1);
+    // ini_set('display_startup_errors',1);
+    // error_reporting(-1);
 //////////////
 
-    require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
+    // require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
 
-    $_db = DB::getInstance();
+    // $_db = DB::getInstance();
 //     $user = DB::getInstance()->query('SELECT * FROM members_tbl');
 
 //  echo "string";
@@ -29,8 +29,8 @@
 //     'userName' => 'fsd',
 //     'loginPassword' => 'sdf'
 //     ));    
-                $_db->insert('newsSubscriber_tbl', array(
-                    'news_name' => "akora",
-                    'news_email' => "akonEmailaddra@dfg.gf"
-                    ));
+                // $_db->insert('newsSubscriber_tbl', array(
+                //     'news_name' => "test2",
+                //     'news_email' => "test2@dfg.gf"
+                //     ));
 ?>
