@@ -1,4 +1,5 @@
 <?php // `git pull`;
+//added this
 ///////////////
     // ini_set('display_errors',1);
     // ini_set('display_startup_errors',1);
@@ -33,4 +34,5 @@
                 //     'news_name' => "test2",
                 //     'news_email' => "test2@dfg.gf"
                 //     ));
+// `git pull`;
 ?>
