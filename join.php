@@ -31,7 +31,7 @@
 		outline: 0 none;
 		padding: 10px 0 9px;
 		text-indent: 8px;
-		/*width: 100%;*/
+		width: 360px;
 	}
 
 	.field label{
@@ -60,79 +60,96 @@ width: 425px;
 				<p class="">A Shakespeare Performance Resource with Audio</p>
 			</div>
 		</div>
-		<div class="row vbR" style="background: #009D9F ;  ">
+		<div class="row vbR" style="background: #0D2730 ;  ">
 			<div class="col-md-8 col-md-offset-2" style="color:#fff">
 
-				<h2>Enter personal information</h2>
-				<h3 class="selectModule">
-					<!-- <span class="step">Step <span>One</span></span> -->
-					<!-- <span class="title">Enter personal information</span><br> -->
-					<span class="linkPolicy">Your information will be used in accordance with our <a href="#" target="_blank" title="Privacy Policy" style="color:#B40073; text-decoration:none"><b>Privacy Policy</b></a></span>
-				</h3>
+				<h2>Individual Subscriber Package 1 - Best Value - $1.99 a month for 12 months	</h2>
 					<div class="intro">
-						<!-- <h4>Enter your details below</h4> -->
-						<p style="color:#fff;font-size:18px"><strong>* required field</strong></p>
+						<h4>Please complete the fields</h4>
 					</div>
+				<h3 class="selectModule">
+					<span class="linkPolicy">We treat the information you give as strictly private.  Versebuster does not share email addresses and passwords with anyone under any circumstances.</span>
+				</h3>					
 			</div>
 <!-- 		</div>
 
 		<div class="row vbR" style="background: #009D9F url('images/bg.png') repeat center; "> -->
-			<div class="col-md-5 col-md-offset-3 text-center" style=" ">		
+			<div class="col-md-8 col-md-offset-1 text-center" style=" ">		
 				<form id="accountCreation_form" role="form" style="margin:40px 0;">
 
 					<div class="content">
 						<div class="field form-group title">
 							<label for="title" class="">Title</label>
-							<select name="title" id="title" class="validated" style="width:208px">
+							<select name="title" id="title" class="validated" style="width:360px">
 								<option disabled="disabled" label="Title" value="">Title</option>
 								<option value="Mr">Mr</option>
 								<option value="Mrs">Mrs</option>
 								<option value="Miss">Miss</option>
 								<option value="Ms">Ms</option>
+								<option value="Doctor">Doctor</option>
+								<option value="Professor">Professor</option>
+								<option value="Company / Institution">Company / Institution</option>								
 								<option value="other">Other</option>
 							</select>
 						</div>
 
+<!-- 						<div class="field form-group title">
+							<label for="title" class="">Profession</label>
+							<select name="title" id="title" class="validated" style="width:360px">
+								<option disabled="disabled" label="Title" value="">Profession</option>
+								<option value="Mr">Doctor</option>
+								<option value="Mrs">Professor</option>
+								<option value="Miss">Company / Institution</option>
+								<option value="Ms">Other</option>
+							</select>
+						</div> -->
+
+						<div class="field form-group other visuallyhidden">
+							<label for="other">Other<span class="mandatory"></span> </label>
+							<input type="text" id="other" name="other" class="validated detailsIcon" autocomplete="off" data-format="" data-label="other"/>
+							<!-- <span class="validity-icon is-valid" tabindex="-1"></span> -->
+						</div>
+
 						<div class="field form-group firstname">
-							<label for="firstName">First Name <span class="mandatory">*</span> </label>
-							<input type="text" id="firstName" name="firstName" class="validated detailsIcon" autocomplete="off" placeholder="Letters only" data-format="" data-label="First Name" data-required="true"/>
+							<label for="firstName">First Name <span class="mandatory"></span> </label>
+							<input type="text" id="firstName" name="firstName" class="validated detailsIcon" autocomplete="off" data-format="" data-label="First Name" data-required="true"/>
 							<!-- <span class="validity-icon is-valid" tabindex="-1"></span> -->
 						</div>
 						<div class="field form-group lastname">
-							<label for="lastName">Last Name <span class="mandatory">*</span> </label>
-							<input type="text" id="lastName" name="lastName" class="validated nameIcon" autocomplete="off" placeholder="Letters only" data-format=""data-label="Last Name" data-required="true"/>
+							<label for="lastName">Last Name <span class="mandatory"></span> </label>
+							<input type="text" id="lastName" name="lastName" class="validated nameIcon" autocomplete="off" data-format=""data-label="Last Name" data-required="true"/>
 							<!-- <span class="validity-icon is-valid" tabindex="-1"></span> -->
 						</div>
 						<div class="field form-group email">
-							<label for="email">Email address <span class="mandatory">*</span> </label>
-							<input type="email" id="email" name="email" class="validated emailIcon"  autocomplete="off" placeholder="email@example.co.uk" data-format="" data-label="Email address" data-required="true" maxlength=""/>
+							<label for="email">Email address <span class="mandatory"></span> </label>
+							<input type="email" id="email" name="email" class="validated emailIcon"  autocomplete="off" data-format="" data-label="Email address" data-required="true" maxlength=""/>
 							<!-- <p class="help">Type carefully - you'll need to use this email address to login into your Times/Sunday Times account</p> -->
 						</div>
 						<div class="field form-group confirmEmail">
-							<label for="confirmEmail">Confirm email address <span class="mandatory">*</span> </label>
-							<input type="email" id="confirmEmail" name="confirmEmail" class="validated emailIcon" autocomplete="off" placeholder="email@example.co.uk" data-format="" data-label="Confirm email address" data-required="true" maxlength="80"/>
+							<label for="confirmEmail">Confirm email address <span class="mandatory"></span> </label>
+							<input type="email" id="confirmEmail" name="confirmEmail" class="validated emailIcon" autocomplete="off" data-format="" data-label="Confirm email address" data-required="true" maxlength="80"/>
 						</div>
 						<div class="field form-group screen-name">
 							<label for="screenName">Username</label>
-							<input type="text" maxlength="100" id="screenName" name="screenName detailsIcon" class="validated" autocomplete="off"placeholder=""data-format=""data-label="Screen Name"data-required=""/> </div>
+							<input type="text" maxlength="100" id="screenName" name="screenName detailsIcon" class="validated" autocomplete="off"placeholder="Alphanumeric"data-format=""data-label="Screen Name"data-required=""/> </div>
 
 							
 						</div>						
 						<div class="field form-group password">
-							<label for="password">Password <span class="mandatory">*</span> </label>
+							<label for="password">Password <span class="mandatory"></span> </label>
 							<input type="password" id="password" name="password" class="validated passwordIcon"  autocomplete="off" placeholder="6 - 20 characters" data-format="" data-label="Password" data-required="true" maxlength="20" minlength="6" />
 							<span class="validity-icon is-valid" tabindex="-1"></span>
 							<p class="help" style="color:#fff">Please enter a password between 6 and 20 characters</p>
 						</div>
 						<div class="field form-group confirm-password">
 							<label for="confirmPassword">Confirm password
-								<span class="mandatory">*</span>
+								<span class="mandatory"></span>
 							</label>
 							<input type="password" id="confirmPassword" name="confirmPassword" class="validated passwordIcon" autocomplete="off"placeholder="6 - 20 characters"data-format=""data-label="Confirm password"data-required="true"maxlength="20"minlength="6" /> <span class="validity-icon is-valid" tabindex="-1"></span>
 						</div>
 
 						<div class="field form-group" style="">
-							<input id="activate-step-3" type="button" value='Checkout with Paypal' class="btn btn-primary btn-lg" style="background:#B40074"/>
+							<input id="activate-step-3" type="button" style="background:#B70076 url(images/pcheckout.png); margin-left:170px; width:293px; height:66px;border:none;"/>
 							<!-- <a href="#" class="" style="margin:0 auto;"><img src="images/pcheckout.png" alt="..." class="img-responsive "></a> -->
 						<!-- <div class="buttonHolder" ><button style="width:208px; padding:10px" id="accountCreationButton" type="submit" class="button">Continue to Payment Information</button></div> -->
 						</div>
