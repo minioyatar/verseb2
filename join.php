@@ -1,3 +1,10 @@
+<?php    
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
+
+	if(!Input::get('p')){
+		Redirect::to('membership.html');
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,24 +72,46 @@ width: 425px;
 		</div>
 		<div class="container-fluid" style="background: #0D2730; margin:0;padding:0">
 		<div class="container"  style="color:#fff">
+<div class="col-md-12">
+							<div class="row">
+
+							<h3 class="selectModule" style="margin:40px 0">
+								<span class="linkPolicy">We treat the information you give as strictly private.  Versebuster does not share email addresses and passwords with anyone under any circumstances.</span>
+							</h3>					
+						</div>
+</div>			
 			<div class="row">
 					<div class="col-md-4 text-center" style="">
-						
-						<h1>INDIVIDUAL <br>
-							<b>Package 1 </b><br><br>
-							<img src="images/bestVAL.png" alt="img-responsive" width="100"><br>
-							$1.99 a month for 12 months
-						</h1>
+						<?php
+
+						if(Input::get('p') == 1){
+							$pckCat = "INDIVIDUAL";
+							$pck = 1;
+							$imgVal = "bestVAL";
+							$price = "$1.99 a month for 12 months";
+						}elseif(Input::get('p') == 2){
+							$pckCat = "INDIVIDUAL";
+							$pck = 2;
+							$imgVal = "bestBudget";
+							$price = "$5.00 a month";
+						}elseif(Input::get('p') == 3){
+							$pckCat = "CORPORATE";
+							$pck = 3;
+							$imgVal = "corporate";
+							$price = "$99 a year";
+						}
+
+						echo "<h1>{$pckCat}<br>
+								<b>Package {$pck}</b><br><br>
+								<img src=\"images/{$imgVal}.png\" alt=\"img-responsive\" width=\"200\"><br>
+								{$price}
+							</h1>";
+						?>
 					</div>
 
 
 					<div class="col-md-8 vbR text-center">		
-						<div class="row">
 
-							<h3 class="selectModule">
-								<span class="linkPolicy">We treat the information you give as strictly private.  Versebuster does not share email addresses and passwords with anyone under any circumstances.</span>
-							</h3>					
-						</div>
 						<div class="row">
 							<div class="intro">
 								<h4>Please complete the fields</h4>
@@ -155,20 +184,27 @@ width: 425px;
 		<script type="text/javascript">
 		$(document).ready(function() {
 
-//retype animation
-function reType(){
-// $("#animate-subhead").typedText("GIVES YOU FREE AND FULL ACCESS TO", "slow");
-
-$("#animate-subhead").delay(5000).typedText("GIVES YOU FREE AND FULL ACCESS TO", 100,function() {
-	setTimeout(reType, 2000);
-})
-}
-reType()
-//end
-
-
-});
-
+			//retype animation
+			function reType(){
+				$("#animate-subhead").delay(5000).typedText("GIVES YOU FREE AND FULL ACCESS TO", 100,function() {
+					setTimeout(reType, 2000);
+				})
+			}
+			reType()
+			//end
+			if($("#title").val() == "other"){
+				$('.other').slideDown();
+			}else{
+				$('.other').slideUp();	
+			}
+			$('#title').on('change', function() {
+				if($(this).val() == "other"){
+					$('.other').slideDown();
+				}else{
+					$('.other').slideUp();
+				}
+			});
+		});
 		</script>
 </body>
 </html>
