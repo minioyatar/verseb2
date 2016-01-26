@@ -1,4 +1,5 @@
 <?php // `git pull`;
+//why is this not working?and my git pull command
 //added this
 ///////////////
     // ini_set('display_errors',1);
