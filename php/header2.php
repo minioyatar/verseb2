@@ -259,8 +259,8 @@ if($page_name == 'byplay.php'){
     					<div class="col-lg-12 col-md-12 "> 
                             <div class="col-md-6 " >
                                 <!-- <h1 class="site-identifier">Versebuster</h1> -->
-                                <img src="images/VBD27aR03aP01ZL-Johnson3a.png" alt="" class="img-responsive">
-                                <p class="page-subtitle-ext " style="margin-top:0">A Shakespeare Performance Resource with Audio</p>
+                                <img src="images/VBD27aR03aP01ZL-Johnson3a.png" alt="" class="img-responsive" width=380>
+                                <p class="page-subtitle-ext " style="margin-top:0; margin-left:30px">A Shakespeare Performance Resource with Audio</p>
                             </div>
                             <!-- col-lg-3 col-md-3 col-sm-3 col-md-offset-3 -->
                             <div class="" id='fg_membersite'>
