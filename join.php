@@ -88,23 +88,26 @@ width: 425px;
 							$pckCat = "INDIVIDUAL";
 							$pck = 1;
 							$imgVal = "bestVAL";
-							$price = "$1.99 a month for 12 months";
+							$priceTag = "$1.99 a month for 12 months";
+							$price = 1.99;
 						}elseif(Input::get('p') == 2){
 							$pckCat = "INDIVIDUAL";
 							$pck = 2;
 							$imgVal = "bestBudget";
-							$price = "$5.00 a month";
+							$priceTag = "$5.00 a month";
+							$price = 5;
 						}elseif(Input::get('p') == 3){
 							$pckCat = "CORPORATE";
 							$pck = 3;
 							$imgVal = "corporate";
-							$price = "$99 a year";
+							$priceTag = "$99 a year";
+							$price = 99;
 						}
 
 						echo "<h1>{$pckCat}<br>
 								<b>Package {$pck}</b><br><br>
 								<img src=\"images/{$imgVal}.png\" alt=\"img-responsive\" width=\"200\"><br>
-								{$price}
+								{$priceTag}
 							</h1>";
 						?>
 					</div>
@@ -116,7 +119,10 @@ width: 425px;
 							<div class="intro">
 								<h4>Please complete the fields</h4>
 							</div>							
-							<form id="accountCreation_form" role="form" style="margin:40px 0;">
+							<form action="checkout.php" method="post" id="accountCreation_form" role="form" style="margin:40px 0;">
+								<input class="button orange" type='hidden' name='token' value="<?php echo $token; ?>" />
+								<input class="button orange" type='hidden' name='price' value="<?php echo $price; ?>" />
+								<input class="button orange" type='hidden' name='pckCat' value="<?php echo $pckCat . ' membership.'; ?>" />
 								<div class="field form-group title">
 									<label for="title" class="">Title</label>
 									<select name="title" id="title" class="validated" style="width:360px">
@@ -171,7 +177,7 @@ width: 425px;
 								</div>
 
 								<div class="field form-group" style="">
-									<input id="activate-step-3" type="button" style="background:#b70076 url('images/pcheckout.png') no-repeat scroll 0 0 / 360px 68px; margin-left:238px; width:360px; height:66px;border:none;"/>
+									<input id="activate-step-3" type="submit" value="" style="background:#b70076 url('images/pcheckout.png') no-repeat scroll 0 0 / 360px 68px; margin-left:238px; width:360px; height:66px;border:none;"/>
 								</div>
 							</form>
 						</div>

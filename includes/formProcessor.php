@@ -16,7 +16,7 @@
                 $login = $user->login(Input::get('username'), Input::get('password'), $remember);
 
                 if($login){
-                    Redirect::to(Config::get('svrInfo/path') . 'index.php');//dapat mag rekta sa ana user profile page
+                    Redirect::to(Config::get('svrInfo/site_url') . 'index.php');//dapat mag rekta sa ana user profile page
                 }//else {
                  //echo "Sorry, Incorrect username or password.";
                      // Session::flash('home', 'Sorry, Incorrect username or password.');

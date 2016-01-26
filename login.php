@@ -2,8 +2,8 @@
     $user = new User();
     if($user->isLoggedIn()){    
 ?>
-        <li><span style="color:#fff !important;">Welcome back </span><a href="<?php echo Config::get('svrInfo/path'); ?>account/index.php"><?php echo escape($user->data()->username);?></a>!</li>
-        <li><a href="<?php echo Config::get('svrInfo/path'); ?>includes/login/logout.php">Log out</a></li>
+        <li><span style="color:#fff !important;">Welcome back </span><a href="<?php echo Config::get('svrInfo/site_url'); ?>account/index.php"><?php echo escape($user->data()->username);?></a>!</li>
+        <li><a href="<?php echo Config::get('svrInfo/site_url'); ?>includes/login/logout.php">Log out</a></li>
 <?php
     }else if(Session::exists('loginError') || !$user->isLoggedIn()){
 ?>
@@ -52,7 +52,7 @@
                 </form>
             </div>
         </li>
-        <!-- <li style="background-color:#ED1C24"><a href="<?php echo Config::get('svrInfo/path'); ?>sign-up.php">Become a Member</a></li> -->
+        <!-- <li style="background-color:#ED1C24"><a href="<?php echo Config::get('svrInfo/site_url'); ?>sign-up.php">Become a Member</a></li> -->
         <li style=""><a href="membership.html">Become a Member</a></li>
 <?php
     }

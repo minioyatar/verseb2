@@ -58,7 +58,7 @@
     // echo $user->first()->userName;//TO QUERY SINGLE DATA
 // }    
 
-// echo Config::get('svrInfo/path');
+// echo Config::get('svrInfo/site_url');
 ?>
 
 
@@ -258,8 +258,9 @@ if($page_name == 'byplay.php'){
     					<!--=================================================BRAND NAME AND SLOGAN-=================================-->
     					<div class="col-lg-12 col-md-12 "> 
                             <div class="col-md-6 " >
-                                <h1 class="site-identifier">Versebuster</h1>
-                                <p class="page-subtitle-ext ">A Shakespeare Performance Resource with Audio</p>
+                                <!-- <h1 class="site-identifier">Versebuster</h1> -->
+                                <img src="images/VBD27aR02bP01ZL-Johnson2b.png" alt="" class="img-responsive">
+                                <p class="page-subtitle-ext " style="margin-top:0">A Shakespeare Performance Resource with Audio</p>
                             </div>
                             <!-- col-lg-3 col-md-3 col-sm-3 col-md-offset-3 -->
                             <div class="" id='fg_membersite'>

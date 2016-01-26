@@ -1,0 +1,11 @@
+
+Spot Colors:
+
+PANTONE 1935 U
+PANTONE 2728 U
+
+
+Fonts:
+
+LucidaCalligraphy-Italic
+TimesNewRomanPS-BoldMT
