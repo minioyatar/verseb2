@@ -11,76 +11,73 @@
 	<meta charset="UTF-8">
 	<title>Versebuster - Registration</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="/versebuster2/js/library/jquery-1.11.0.js"></script>
-	<script src="/versebuster2/js/library/bootstrap.min.js"  ></script>
-	<script src="/versebuster2/js/library/jquery.typedtext.js"></script>
+		 <script src="/versebuster2/js/library/jquery-1.11.0.js"></script>
+		<script src="/versebuster2/js/library/bootstrap.min.js"  ></script>
+    
+		<style type="text/css">
+			@font-face {
+				font-family: 'LucidaCustomFont';
+				src: url('/versebuster2/fonts/lucidaC.eot');
+				src: url('/versebuster2/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
+				url('/versebuster2/fonts/lucidaC.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+			.vbR .field input[type="text"], .vbR .field input[type="email"], .vbR .field input[type="password"], .vbR .field input[type="tel"], .vbR .field textarea, .field select{
+				-moz-appearance: none;
+				background-color: #f1f2f1;
+				border: 1px solid #f1f2f1;
+				border-radius: 0;
+				box-shadow: none !important;
+				display: inline-block;
+				font-family: arial,helvetica,verdana,sans-serif;
+				font-size: 16px;
+				font-weight: bold;
+				margin-left: 25px;
+				outline: 0 none;
+				padding: 10px 0 9px;
+				text-indent: 8px;
+				width: 360px;
+				color:#000;
+			}
 
-	<style type="text/css">
-	@font-face {
-		font-family: 'LucidaCustomFont';
-		src: url('/versebuster2/fonts/lucidaC.eot');
-		src: url('/versebuster2/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
-		url('/versebuster2/fonts/lucidaC.ttf') format('truetype');
-		font-weight: normal;
-		font-style: normal;
-	}
-	.vbR .field input[type="text"], .vbR .field input[type="email"], .vbR .field input[type="password"], .vbR .field input[type="tel"], .vbR .field textarea, .field select{
-		-moz-appearance: none;
-		background-color: #f1f2f1;
-		border: 1px solid #f1f2f1;
-		border-radius: 0;
-		box-shadow: none !important;
-		display: inline-block;
-		font-family: arial,helvetica,verdana,sans-serif;
-		font-size: 16px;
-		font-weight: bold;
-		margin-left: 25px;
-		outline: 0 none;
-		padding: 10px 0 9px;
-		text-indent: 8px;
-		width: 360px;
-		color:#000;
-	}
-
-	.field label{
-		width: 210px;
-		text-align: right;
-		color: #fff;
-		/*text-align: right;*/
-		/*display: inline-block;*/
-	}
-	.visuallyhidden{
-		display: none;
-	}
-/*
-.field{
-display: block;
-width: 425px;
-}
-*/		</style>
+			.field label{
+				width: 210px;
+				text-align: right;
+				color: #fff;
+				/*text-align: right;*/
+				/*display: inline-block;*/
+			}
+			.visuallyhidden{
+				display: none;
+			}
+		</style>		
 
 </head>
 <body style="">
-	<div class="container-fluid" style="margin:0;padding:0">
+	<div class="container-fluid" style="padding:0; " >
+		<!-- header -->
 		<div class="container">
 			<div class="row" style="">
-				<div class="col-md-8 col-sm-8 " style="margin-top: 20px; color:#000000;font-family: 'LucidaCustomFont',arial,sans-serif; font-weight: inherit;">
-					<h1 style=""><a href="index.php" style="color:#000000; text-decoration:none">Versebuster</a></h1>
-					<p class="">A Shakespeare Performance Resource with Audio</p>
-				</div>
-			</div>
+				<div class="col-md-12 col-sm-12 col-lg-12" style="color:#000000;font-family: 'LucidaCustomFont',arial,sans-serif; font-weight: inherit;">
+		            <!-- <h1 style=""><a href="index.php" style="color:#000000; text-decoration:none">Versebuster</a></h1> -->
+		            <div class="col-md-8">
+	                    <img src="images/VBD27aR02bP01ZL-Johnson2b.png" alt="" class="img-responsive" width=380>
+	                    <p class="page-subtitle-ext " style="margin-top:0; margin-left:30px">A Shakespeare Performance Resource with Audio</p>
+		            </div>
+		            
+		        </div>
+			</div>			
 		</div>
-		<div class="container-fluid" style="background: #0D2730; margin:0;padding:0">
-		<div class="container"  style="color:#fff">
-<div class="col-md-12">
-							<div class="row">
-
-							<h3 class="selectModule" style="margin:40px 0">
-								<span class="linkPolicy">We treat the information you give as strictly private.  Versebuster does not share email addresses and passwords with anyone under any circumstances.</span>
-							</h3>					
-						</div>
-</div>			
-			<div class="row">
+		<!-- end of header -->
+		<div style="background: #0D2730 url('images/bg.jpg') repeat center; color:#fff; ">
+			<div class="container text-center">
+				<div class="row">
+					<h3 class="selectModule" style="margin:40px 0">
+						<span class="linkPolicy">We treat the information you give as strictly private.  Versebuster does not share email addresses and passwords with anyone under any circumstances.</span>
+					</h3>
+				</div>
+				<div class="row">
 					<div class="col-md-4 text-center" style="">
 						<?php
 
@@ -113,8 +110,7 @@ width: 425px;
 					</div>
 
 
-					<div class="col-md-8 vbR text-center">		
-
+					<div class="col-md-8 vbR text-center">
 						<div class="row">
 							<div class="intro">
 								<h4>Please complete the fields</h4>
@@ -181,23 +177,18 @@ width: 425px;
 								</div>
 							</form>
 						</div>
-					</div>			
+					</div>						
+				</div>
 			</div>
 		</div>
-		</div>
+
+
 	</div>
 
 		<script type="text/javascript">
 		$(document).ready(function() {
 
-			//retype animation
-			function reType(){
-				$("#animate-subhead").delay(5000).typedText("GIVES YOU FREE AND FULL ACCESS TO", 100,function() {
-					setTimeout(reType, 2000);
-				})
-			}
-			reType()
-			//end
+
 			if($("#title").val() == "other"){
 				$('.other').slideDown();
 			}else{
