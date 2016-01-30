@@ -53,7 +53,7 @@
             </div>
         </li>
         <!-- <li style="background-color:#ED1C24"><a href="<?php echo Config::get('svrInfo/site_url'); ?>sign-up.php">Become a Member</a></li> -->
-        <li style=""><a href="membership.html">Become a Member</a></li>
+        <li style=""><a href="/versebuster2/membership.html">Become a Member</a></li>
 <?php
     }
 ?>

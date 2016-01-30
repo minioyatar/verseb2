@@ -62,7 +62,7 @@
 				<div class="col-md-12 col-sm-12 col-lg-12" style="color:#000000;font-family: 'LucidaCustomFont',arial,sans-serif; font-weight: inherit;">
 		            <!-- <h1 style=""><a href="index.php" style="color:#000000; text-decoration:none">Versebuster</a></h1> -->
 		            <div class="col-md-8">
-	                    <img src="images/VBD27aR02bP01ZL-Johnson2b.png" alt="" class="img-responsive" width=380>
+	                    <img src="images/VBD27aR03aP01ZL-Johnson3a.png" alt="" class="img-responsive" width=380>
 	                    <p class="page-subtitle-ext " style="margin-top:0; margin-left:30px">A Shakespeare Performance Resource with Audio</p>
 		            </div>
 		            
