@@ -78,7 +78,7 @@
 					</h3>
 				</div>
 				<div class="row">
-					<div class="col-md-4 text-center" style="">
+					<div class="col-md-3 col-md-offset-1 text-center" style="">
 						<?php
 
 						if(Input::get('p') == 1){
@@ -110,7 +110,7 @@
 					</div>
 
 
-					<div class="col-md-8 vbR text-center">
+					<div class="col-md-7 vbR text-center">
 						<div class="row">
 							<div class="intro">
 								<h4>Please complete the fields</h4>
