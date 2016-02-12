@@ -4,6 +4,7 @@
 	if(!Input::get('p')){
 		Redirect::to('membership.html');
 	}
+	$token = Token::generate();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -86,18 +87,21 @@
 							$pck = 1;
 							$imgVal = "bestVAL";
 							$priceTag = "$1.99 a month for 12 months";
+							echo $pckCat;
 							$price = 1.99;
 						}elseif(Input::get('p') == 2){
 							$pckCat = "INDIVIDUAL";
 							$pck = 2;
 							$imgVal = "bestBudget";
 							$priceTag = "$5.00 a month";
+							echo $pckCat;
 							$price = 5;
 						}elseif(Input::get('p') == 3){
 							$pckCat = "CORPORATE";
 							$pck = 3;
 							$imgVal = "corporate";
 							$priceTag = "$99 a year";
+							echo $pckCat;
 							$price = 99;
 						}
 
@@ -115,7 +119,7 @@
 							<div class="intro">
 								<h4>Please complete the fields</h4>
 							</div>							
-							<form action="checkout.php" method="post" id="accountCreation_form" role="form" style="margin:40px 0;">
+							<form action="checkout.php" method="POST" id="accountCreation_form" role="form" style="margin:40px 0;">
 								<input class="button orange" type='hidden' name='token' value="<?php echo $token; ?>" />
 								<input class="button orange" type='hidden' name='price' value="<?php echo $price; ?>" />
 								<input class="button orange" type='hidden' name='pckCat' value="<?php echo $pckCat . ' membership.'; ?>" />

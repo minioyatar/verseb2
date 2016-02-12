@@ -18,6 +18,7 @@ require 'app/start.php';
 
 $product = $_POST['pckCat'];
 $price = $_POST['price'];
+// echo $product . " ---" . $price;
 //no shipping
 $shipping = 0;
 
