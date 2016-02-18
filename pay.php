@@ -1,5 +1,15 @@
 <?php
-
+use PayPal\Api\Payer;
+use PayPal\Api\Item;
+use PayPal\Api\ItemList;
+use PayPal\Api\Details;
+use PayPal\Api\Amount;
+use PayPal\Api\Transaction;
+use PayPal\Api\RedirectUrls;
+use PayPal\Api\Payment;
+use PayPal\Api\CartBase;
+// echo getCustom();  
+echo "I am here";  
 	require 'app/start.php';
 
 	//validation
@@ -17,16 +27,7 @@
     $_db = DB::getInstance();
     $user = new User();	
 
-use PayPal\Api\Payer;
-use PayPal\Api\Item;
-use PayPal\Api\ItemList;
-use PayPal\Api\Details;
-use PayPal\Api\Amount;
-use PayPal\Api\Transaction;
-use PayPal\Api\RedirectUrls;
-use PayPal\Api\Payment;
-use PayPal\Api\CartBase;
-// echo getCustom();    
+
 ?>
 
 <!DOCTYPE html>
