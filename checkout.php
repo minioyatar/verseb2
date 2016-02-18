@@ -8,6 +8,7 @@ use PayPal\Api\Amount;
 use PayPal\Api\Transaction;
 use PayPal\Api\RedirectUrls;
 use PayPal\Api\Payment;
+use PayPal\Api\CartBase;
 // require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
 
 require 'app/start.php';
@@ -50,6 +51,9 @@ $transaction->setAmount($amount)
 	->setItemList($itemList)
 	->setDescription('Payment for membership')
 	->setInvoiceNumber(uniqid());
+
+$CartBase = new CartBase();
+$CartBase->setCustom("this is my custome message");
 
 $redirectUrls = new RedirectUrls();
 $redirectUrls->setReturnUrl(SITE_URL . '/pay.php?success=true')
