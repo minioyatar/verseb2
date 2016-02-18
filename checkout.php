@@ -52,8 +52,8 @@ $transaction->setAmount($amount)
 	->setDescription('Payment for membership')
 	->setInvoiceNumber(uniqid());
 
-$CartBase = new CartBase();
-$CartBase->setCustom("this is my custome message");
+// $CartBase = new CartBase();
+// $CartBase->setCustom("this is my custome message");
 
 $redirectUrls = new RedirectUrls();
 $redirectUrls->setReturnUrl(SITE_URL . '/pay.php?success=true')

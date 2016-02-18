@@ -26,7 +26,7 @@ use PayPal\Api\Transaction;
 use PayPal\Api\RedirectUrls;
 use PayPal\Api\Payment;
 use PayPal\Api\CartBase;
-echo getCustom();    
+// echo getCustom();    
 ?>
 
 <!DOCTYPE html>
@@ -80,7 +80,7 @@ button, input, optgroup, select, textarea{
 						<img src="images/VBD03aR03aP01ZL-Washington3a.png" alt="" class="center-block img-responsive" width=180 style="position: relative; top: 38px;">
 					</div>
 					<div class="col-md-8 col-lg-8" style="margin-top: 16px;">
-						<h1>Thank you for registering.<?php echo getCustom();     ?></h1>
+						<h1>Thank you for registering.</h1>
 					</div>
 				</div>			
 				<div class="row " >
