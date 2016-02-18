@@ -8,8 +8,8 @@ use PayPal\Api\Transaction;
 use PayPal\Api\RedirectUrls;
 use PayPal\Api\Payment;
 use PayPal\Api\CartBase;
-// echo getCustom();  
-echo "I am here";  
+$CartBase = new CartBase();
+echo getCustom();  
 	require 'app/start.php';
 
 	//validation
