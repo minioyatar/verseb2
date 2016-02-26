@@ -1,6 +1,12 @@
 <?php
-    if(Token::check(Input::get('token'))){
 
+// require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
+// $_db = DB::getInstance();
+// $user = new User();
+// $validate = new Validate();
+// print_r($_POST);
+// echo "string- " . Input::get('pck');
+    if(Token::check(Input::get('token'))){
         if(Input::get('login')){//DAYA HAY PARA SA LOGIN
             $validation = $validate->check($_POST, array(
                 'username' => array(
@@ -24,119 +30,6 @@
             }else{
                 foreach ($validation->errors() as $error) {
                     echo $error, "<br>";
-                }
-            }
-
-        }elseif(Input::get('registration')) {//DAYA HAY PARA SA REGISTRATION
-            $autoRenew = 0;
-
-
-            if(empty($_POST['planType'])){
-                $validate->addError('Please select plan Type');
-            }
-            if(empty($_POST['chk_tbl'])){
-                $validate->addError('Make sure you checked and understand the table of savings.');
-            }
-            if(empty($_POST['chk_tc'])){
-                $validate->addError('Make sure you checked and understand the Terms & Conditions.');
-            }
-            if(!empty($_POST['autoRenew'])){
-                $autoRenew = Input::get('autoRenew');
-            }
-
-            $plan =  $_db->get('membershipplans', array('planType','=',Input::get('planType')));
-            $credits = intval($plan->first()->planCredits);//<<may saea kara
-            //kung mag blanko du plan hay gapili imaw it owa sa database
-
-            $validation = $validate->check($_POST, array(
-                'fname' => array(
-                    'required' => true,
-                    'min' => 2,
-                    'max' => 50
-                    ),
-                'lname' => array(
-                    'required' => true,
-                    'min' => 2,
-                    'max' => 50
-                    ),
-                'email' => array(
-                    'required' => true,
-                    'email' => true,
-                    'unique' => 'members_tbl'
-                    ),
-                'username' => array(
-                    'required' => true,
-                    'min' => 2,
-                    'max' => 30,
-                    'unique' => 'members_tbl',//table name here
-                    'alphanumeric' => true
-                ),
-                'password' =>array(
-                    'required' => true,
-                    'min' => 6
-                    ),
-                'password_again' => array(
-                    'required' => true,
-                    'matches' => 'password'
-                    ),
-                'country' => array(
-                    'required' => true
-                    )
-
-                ));
-
-            if($validation->passed()){
-                $salt = Hash::salt(32);
-                // $transCode = md5('username' + microtime());
-
-                try{
-                    $user->create(array(
-                        'fname' => Input::get('fname'),
-                        'lname' => Input::get('lname'),
-                        'username' => Input::get('username'),
-                        'password' => Hash::make(Input::get('password'), $salt),
-                        'email' => urldecode(Input::get('email')),
-                        'joinedDate' => date('Y-m-d H:i:s'),
-                        'credits' => $credits,
-                        'planType' => Input::get('planType'),
-                        'autoRenew' => $autoRenew,
-                        'salt' => $salt,
-                        'grp' => 0,
-                        // 'transStatus' => 'pending',
-                        'country' => Input::get('country')
-                        ));
-
-                    $lastInsertId = $_db->lastInsertedId();
-
-                    $_db->insert('survey_tbl', array(
-                        'transacID'         =>$lastInsertId,
-                        'dramaDepSchool'    =>Input::get('dramaDepSchool'),
-                        'actor'             =>Input::get('actor'),
-                        'director'          =>Input::get('director'),
-                        'highSchool'        =>Input::get('highSchool'),
-                        'uniCol'            =>Input::get('uniCol'),
-                        'academic'          =>Input::get('academic'),
-                        'other'             =>Input::get('other'),
-                        'agebrack'          =>Input::get('agebrack'),
-                        'internet'          =>Input::get('internet'),
-                        'advertisement'     =>Input::get('advertisement'),
-                        'talk'              =>Input::get('talk'),
-                        'work'              =>Input::get('work'),
-                        'mouth'             =>Input::get('mouth'),
-                        'news'              =>Input::get('news')
-                        ));
-                    $postUrl = Payment::postPayment(Input::get('planType'), $lastInsertId);
-                    Redirect::to($postUrl);
-
-                }catch(Exception $e){
-                    //redirect to failed page
-                    Redirect::to(404);
-                    die($e->getMessage());
-                }
-            }else {
-                // print_r($validation->errors());
-                foreach ($validation->errors() as $error) {
-                    echo $error, '<br>';
                 }
             }
 
@@ -236,4 +129,7 @@
             }
         }
     }
+    // else{
+        // Redirect::to(require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/index.php');
+    // }
 ?>

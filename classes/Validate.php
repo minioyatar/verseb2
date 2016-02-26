@@ -16,22 +16,25 @@ class Validate {
 				$item = escape($item);
 
 				if($rule === 'required' && empty($value)){
-					$this->addError("{$item} is required");
+					$replace_item = str_replace('_', ' ', $item);
+					$this->addError("{$replace_item} is required");
 				} else if(!empty($value)){
 					switch ($rule) {
 						case 'min':
 							if(strlen($value) < $rule_value){
+								// $this->addError(1);
 								$this->addError("{$item} must be a minimum of {$rule_value} characters.");
 							}
 						break;
 						case 'max':
 							if(strlen($value) > $rule_value){
-								$this->addError("{$item} must be a maximum of {$rule_value} characters.");
+								$this->addError("{$item} must be a maximum of characters.");
 							}
 						break;
 						case 'matches':
 							if($value != $source[$rule_value]){
-								$this->addError("{$rule_value} must be match {$item}");
+								// $this->addError("{$rule_value} must be match {$item}");
+								$this->addError("{$rule_value} don't match");
 							}
 						break;
 						case 'unique':

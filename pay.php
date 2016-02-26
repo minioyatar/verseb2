@@ -1,16 +1,17 @@
 <?php
-use PayPal\Api\Payer;
-use PayPal\Api\Item;
-use PayPal\Api\ItemList;
-use PayPal\Api\Details;
-use PayPal\Api\Amount;
-use PayPal\Api\Transaction;
-use PayPal\Api\RedirectUrls;
-use PayPal\Api\Payment;
-use PayPal\Api\CartBase;
-$CartBase = new CartBase();
-echo getCustom();  
-	require 'app/start.php';
+// use PayPal\Api\Payer;
+// use PayPal\Api\Item;
+// use PayPal\Api\ItemList;
+// use PayPal\Api\Details;
+// use PayPal\Api\Amount;
+// use PayPal\Api\Transaction;
+// use PayPal\Api\RedirectUrls;
+// use PayPal\Api\Payment;
+// use PayPal\Common\PayPalModel;
+// use PayPal\Api\CartBase;
+// $CartBase = new CartBase();
+// // echo getCustom();  
+// 	require 'app/start.php';
 
 	//validation
 
@@ -19,8 +20,9 @@ echo getCustom();
 		die();
 	}
 	//if success is false die or redirect for error
-	$_GET['paymentId'];
-	$_GET['PayerID'];
+	
+	// $_GET['paymentId'];
+	// $_GET['PayerID'];
 
     require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
 
