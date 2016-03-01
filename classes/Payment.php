@@ -10,7 +10,7 @@ class Payment{
 		// $planID = $memPlanType->first()->planID;
 
 		//set POST variables
-		// $url = Config::get('paypal/url');
+		$url = Config::get('paypal/url');
 		$fields = array(
             'item_name' => urlencode($planDesc),
             'amount' => urlencode($plantCost),
@@ -35,7 +35,7 @@ class Payment{
 		// $fields_string = implode('&', $fields); 
 		// rtrim($fields_string, '&');
 
-		return Config::get('paypal/url') . "?" . $fields_string;	
+		return $url . "?" . $fields_string;	
 
 	}
 	public static function confirmPayment(){
