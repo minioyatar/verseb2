@@ -53,7 +53,7 @@
 		            	));
 
 			$plan =  $_db->get('membershipplans', array('memPlanID','=',Input::get('pck')));
-		    $planPrice = intval($plan->first()->memPrice);//<<may saea kara
+		    $planPrice = intval($plan->first()->memPrice);
 		    $memPlanID = intval($plan->first()->memPlanID);
 		    $memPlanDesc = $plan->first()->memPlanDesc;
 		    
@@ -71,7 +71,7 @@
 						'planType' => $memPlanID,
 						'salt' => $salt,
 						'grp' => 0,
-		                'transStatus' => 'pending'
+		                // 'transStatus' => 'pending'
 						));
 
 					$lastInsertId = $_db->lastInsertedId();
