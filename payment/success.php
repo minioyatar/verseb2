@@ -17,7 +17,21 @@ if(Input::exists('get')){
 
 		//update database base on status Input::exists('st')
 		if(Input::get('st') === 'Completed'){
-			echo $matchId;
+			
+		    $_db->insert('transac_tbl', array(
+		      'txn_id' => Input::get('txn_id'),
+		      'memID' => Input::get('custom'),
+		      'first_name' => Input::get('first_name'),
+		      'last_name' => Input::get('last_name'),
+		      'payer_email' => Input::get('payer_email'),
+		      'payer_id' => Input::get('payer_id'),
+		      'payment_status' => Input::get('payment_status'),
+		      'payment_date' => $payment_date,
+		      'payment_gross' => Input::get('payment_gross'),
+		      'payment_fee' => Input::get('payment_fee')
+		      ));
+
+			
 			$_db->update('members_tbl', 'memID', $matchId, array(
 				'grp' => 1
 				));
