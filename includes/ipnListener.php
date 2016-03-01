@@ -2,12 +2,15 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
 $_db = DB::getInstance();
 
-define("USE_SANDBOX", 1);
-if(USE_SANDBOX == true) {
-  $paypal_url = "https://www.sandbox.paypal.com/cgi-bin/webscr";
-} else {
-  $paypal_url = "https://www.paypal.com/cgi-bin/webscr";
-}
+// define("USE_SANDBOX", 1);
+// if(USE_SANDBOX == true) {
+//   $paypal_url = "https://www.sandbox.paypal.com/cgi-bin/webscr";
+// } else {
+//   $paypal_url = "https://www.paypal.com/cgi-bin/webscr";
+// }
+//   $_SSL_SAND_URL = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
+//   $_SSL_URL = 'https://www.paypal.com/cgi-bin/webscr';
+// $url = (Config::get('paypal/paypal_live_mode')) ? Config::get('paypal/live_url') : Config::get('paypal/sandbox_url');
 
 // STEP 1: read POST data
 
@@ -39,7 +42,7 @@ foreach ($myPost as $key => $value) {
 
 // STEP 2: POST IPN data back to PayPal to validate
 
-$ch = curl_init($paypal_url);
+$ch = curl_init(Config::get('paypal/url'));
 curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
@@ -70,7 +73,10 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
 $headers .= 'From: <webmaster@versebuster.com>' . "\r\n";
 // $headers .= 'Cc: herminioyatarjr@gmail.com' . "\r\n";
-$message = "Thank you for your registration.";
+$message = "Thank you for your registration. This is the revision!!!! ";
+if(Input::get('payment_status') === 'Completed'){
+  $message .= Input::get('payment_status');
+}
 
 // STEP 3: Inspect IPN validation result and act accordingly
 if (strcmp ($res, "VERIFIED") == 0) {

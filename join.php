@@ -61,6 +61,7 @@
 				$salt = Hash::salt(32);
 				try{
 					$user->create(array(
+						'title' => Input::get('title'),
 						'fname' => Input::get('First_Name'),
 						'lname' => Input::get('Last_Name'),
 						'username' => Input::get('Username'),
@@ -273,8 +274,9 @@
 									<label for="lastName">Last Name <span class="mandatory"></span> </label>
 									<input type="text" id="lastName" name="Last_Name" value="<?php echo Input::get("Last_Name"); ?>" class="validated nameIcon" autocomplete="off" data-format="" data-label="Last Name" data-required="true"/>
 								</div>
+
 								<div class="field form-group">
-<p class="errors"> <?php echo error_displayer('email',$errorArray);?>		</p>					
+<?php if(!is_null(error_displayer('email',$errorArray))) { echo '<p class="errors">' . error_displayer('email',$errorArray) . ' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>';}?>							
 									<label for="email">Email address <span class="mandatory"></span> </label>
 									<input type="email" id="email" name="Email" value="<?php echo Input::get("Email"); ?>"  class="validated emailIcon"  autocomplete="off" data-format="" data-label="Email address" data-required="true" maxlength=""/>
 								</div>
