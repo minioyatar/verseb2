@@ -1,9 +1,9 @@
 <?php 
 class Payment{
 	public static function postPayment($planID,$plantCost,$planDesc, $lastInsertId){
-		$paypal_live_mode = false;
-		$_SSL_SAND_URL = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
-		$_SSL_URL = 'https://www.paypal.com/cgi-bin/webscr';
+		// $paypal_live_mode = false;
+		// $_SSL_SAND_URL = 'https://www.sandbox.paypal.com/cgi-bin/webscr';
+		// $_SSL_URL = 'https://www.paypal.com/cgi-bin/webscr';
 
 	    //Get exact price of selected membership plan from database
 		// $memPlanType = DB::getInstance()->get('membershipplans', array('memPlanID', '=', $planType));
@@ -12,7 +12,7 @@ class Payment{
 
 		//set POST variables
 
-		$url = $paypal_live_mode ? $_SSL_URL  : $_SSL_SAND_URL;
+		$paypalFullUrl = Config::get('paypal/url');
 
 		$fields = array(
             'item_name' => urlencode($planDesc),
@@ -38,7 +38,7 @@ class Payment{
 		// $fields_string = implode('&', $fields); 
 		// rtrim($fields_string, '&');
 
-		return $url . "?" . $fields_string;	
+		return $paypalFullUrl . "?" . $fields_string;	
 
 	}
 	public static function confirmPayment(){
