@@ -10,7 +10,7 @@ class Payment{
 		// $planID = $memPlanType->first()->planID;
 
 		//set POST variables
-		$url = Config::get('paypal/url');
+		$url = urlencode(Config::get('paypal/url'));
 		$fields = array(
             'item_name' => urlencode($planDesc),
             'amount' => urlencode($plantCost),
