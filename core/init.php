@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+define('SITE_URL', '/versebuster2/');
 	$paypal_live_mode 	= false; //live true : sandbox false
     $sandbox_url 		= 'https://www.sandbox.paypal.com/cgi-bin/webscr';
     $live_url			= 'https://www.paypal.com/cgi-bin/webscr';
@@ -29,8 +30,8 @@ $GLOBALS['config'] = array(
 	'paypal' =>array(
 		'merchant_email' 	=> 'miniotestmerchant2@gmail.com',
         'currency_code'     => 'USD',
-        'thanks_page'       => "http://".$_SERVER['HTTP_HOST']. '/versebuster2/payment/success.php',
-        'cancel_url'        => "http://".$_SERVER['HTTP_HOST']. '/versebuster2/payment/cancel.php', // $_SERVER['REQUEST_URI']
+        'thanks_page'       => "http://".$_SERVER['HTTP_HOST']. '/versebuster2/payment/success.php?success=true',
+        'cancel_url'        => "http://".$_SERVER['HTTP_HOST']. '/versebuster2/payment/success.php?success=false', // $_SERVER['REQUEST_URI']
         'url'				=> $paypal_live_mode ? $live_url  : $sandbox_url	
 	),
 	'svrInfo' => array(
