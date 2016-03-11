@@ -1,7 +1,4 @@
 <?php
-    ini_set('display_errors',1);
-    ini_set('display_startup_errors',1);
-    error_reporting(-1); 
 	require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
 	if(!Input::get('p')){
 		Redirect::to('membership.html');
@@ -102,7 +99,6 @@
 					die($e->getMessage());
 				}
 			}else {
-				$varErrors = true;
 				$errorArray = $validation->errors();
 			// 	foreach ($validation->errors() as $error) {
 			// 		echo $error, '<br>';
