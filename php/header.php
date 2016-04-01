@@ -58,7 +58,7 @@
     // echo $user->first()->userName;//TO QUERY SINGLE DATA
 // }    
 
-// echo Config::get('svrInfo/site_url');
+// echo SITE_URL;
 ?>
 
 
@@ -87,7 +87,7 @@
     
     <link href="/versebuster2/css/library/jquery-ui.min.css" rel="stylesheet">
     <link href="/versebuster2/css/library/jquery.remodal.css" rel="stylesheet"><!--Modal window file-->
-    
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 <!-- MP3 PLAYER -->
 <link rel="stylesheet" type="text/css" href="/versebuster2/css/library/mp3-bar-ui.css" />
 <!-- END OF MP3 PLAYER -->
@@ -98,7 +98,9 @@
         <script src="js/library/html5shiv.js"></script>
         <script src="js/library/respond.min.js"></script>
     <![endif]-->
-    
+    <style type="text/css">
+
+    </style>
 </head>
 
     <body>

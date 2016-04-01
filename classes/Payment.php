@@ -13,7 +13,8 @@ class Payment{
 		//set POST variables
 
 		$paypalFullUrl = Config::get('paypal/url');
-
+//hay kaueogot dapat gali hay gin 1 line string ko eang ra pde man
+//d man kailangan nga e array ag forloop gid bwesit
 		$fields = array(
             'item_name' => urlencode($planDesc),
             'amount' => urlencode($plantCost),

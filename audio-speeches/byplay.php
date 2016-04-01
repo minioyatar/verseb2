@@ -23,6 +23,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
             <th>1634<br> Quarto</th>
             <th>Early <br>Quartos</th>
           </tr>
+           
           <tr>
             <td><a href="category.php" style="color:#0000EE">or By Comedy, History, Tragedy & Romance</a></td>
             <td></td>
@@ -436,89 +437,88 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
             <th></th>
             <th></th>
             <th></th>
-          </tr>
+          </tr> 
                 <!-- Content Section -->
-                    <?php
-        //                 $post = DB::getInstance()->query('SELECT * FROM Works ORDER BY Title');
-        //                 $prevChar = 'A';
-        //                 foreach ($post->results() as $post) {
-        //                  $curChar = substr($post->Title, 0, 1);
-         //                  if($curChar != $prevChar ){
-                // echo "<tr>
-                //    <th></th>
-                //    <th></th>
-                //    <th></th>
-                //    <th></th>
-                //    <th></th>
-                //    <th></th>
-                //  </tr>";                         
-
-         //                  }
-        //                 $prevChar = $curChar;
-                    ?>
+          <?php
+              // $post = DB::getInstance()->query('SELECT * FROM Works ORDER BY Title');
+              // $prevChar = 'A';
+              // foreach ($post->results() as $post) {
+              //  $curChar = substr($post->Title, 0, 1);
+              //   if($curChar != $prevChar ){
+              //     echo "<tr>
+              //          <th></th>
+              //          <th></th>
+              //          <th></th>
+              //          <th></th>
+              //          <th></th>
+              //          <th></th>
+              //        </tr>";
+              //   }
+              // $prevChar = $curChar;
+          ?>
 <!--          <tr>
             <td> -->
               <?php //echo $post->Title; ?>
-            <!-- </td>
-            <td>             -->
+<!--             </td>
+            <td>   -->          
               <?php 
                 // if($post->firstfolio === 'checked'){
                 //  echo '<a href="audio-speeches/first-folio/' . $post->WorkID . '">
                 //      <img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png">
                 //      </a>';
                 // }else{
-                //  echo '<p>&#8226;</p>';
+                //  echo '<p>' . $post->firstfolio . '</p>';
                 // }
               ?>
-            <!-- </td>
+<!--             </td>
             <td> -->
-              <?php 
-                // if($post->secondfolio === 'checked'){
-                //  echo '<a href="/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php">
+              <?php
+                // if($post->thirdfolio === 'checked'){
+                //  echo '<a href="audio-speeches/first-folio/' . $post->WorkID . '">
                 //      <img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png">
                 //      </a>';
                 // }else{
-                //  echo $post->secondfolio;
+                //  echo '<p>' . $post->thirdfolio . '</p>';
                 // }
               ?>
-            <!-- </td>
+<!--             </td>
             <td> -->
               <?php 
                 // if($post->modern === 'checked'){
-                //  echo '<a href="/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php">
+                //  echo '<a href="audio-speeches/first-folio/' . $post->WorkID . '">
                 //      <img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png">
                 //      </a>';
                 // }else{
-                //  echo $post->secondfolio;
+                //  echo '<p>' . $post->modern . '</p>';
                 // }
               ?>              
-          <!--  </td>
+<!--            </td>
             <td> -->
               <?php 
                 // if($post->quarto === 'checked'){
-                //  echo '<a href="/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php">
+                //  echo '<a href="audio-speeches/first-folio/' . $post->WorkID . '">
                 //      <img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png">
                 //      </a>';
                 // }else{
-                //  echo $post->secondfolio;
+                //  echo '<p>' . $post->quarto . '</p>';
                 // }
               ?>              
-            <!-- </td>
+<!--             </td>
             <td> -->
               <?php 
                 // if($post->goodquarto === 'checked'){
-                //  echo '<a href="/versebuster2/audio-speeches/first-folio/alls-well-that-ends-well.php">
+                //  echo '<a href="audio-speeches/first-folio/' . $post->WorkID . '">
                 //      <img class="tbl-glossy-tick" src="/versebuster2/images/yellow2.png">
-                //      </a>*';
+                //      </a>';
                 // }else{
-                //  echo '<p>&#8226;</p>';
+                //  echo '<p>' . $post->goodquarto . '</p>';
                 // }
               ?>              
             <!-- </td>
           </tr>  -->                   
 
                     <?php
-                        // }            
+                        // }   //for loop closing bracket         
                     ?>
         </table>
           <!-- END OF TABLE -->

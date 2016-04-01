@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-define('SITE_URL', 'http://maxbonamy.org/versebuster2');
+
 
 $paypal = new \PayPal\Rest\ApiContext(
 	new \PayPal\Auth\OAuthTokenCredential(

@@ -6,6 +6,7 @@
 // $validate = new Validate();
 // print_r($_POST);
 // echo "string- " . Input::get('pck');
+
     if(Token::check(Input::get('token'))){
         if(Input::get('login')){//DAYA HAY PARA SA LOGIN
             $validation = $validate->check($_POST, array(
@@ -22,15 +23,17 @@
                 $login = $user->login(Input::get('username'), Input::get('password'), $remember);
 
                 if($login){
-                    Redirect::to(Config::get('svrInfo/site_url') . 'index.php');//dapat mag rekta sa ana user profile page
+                    Redirect::to(SITE_URL . 'index.php');//dapat mag rekta sa ana user profile page
                 }//else {
                  //echo "Sorry, Incorrect username or password.";
                      // Session::flash('home', 'Sorry, Incorrect username or password.');
                 //}
             }else{
+                $err = '';
                 foreach ($validation->errors() as $error) {
-                    echo $error, "<br>";
+                    $err .= $error . "<br>";
                 }
+                Session::flash('loginError', $err);
             }
 
         }elseif(Input::get('newsletter')){//daya hay sa newsletter

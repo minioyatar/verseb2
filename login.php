@@ -7,17 +7,17 @@ if(Input::get('registered')){
     require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
     ?>
     <div class="row">
-        <!-- <section class="login-form"> -->
+        <section class="login-form">
             <?php 
-            // if(Session::exists('loginError')){
+            if(Session::exists('loginError')){
                 ?>
-<!--                 <div>
+                <div>
                     <p style="color:red; font-size:14px; margin-bottom: 0; letter-spacing: 1px;"><?php echo Session::flash('loginError'); ?> </p>
-                </div> -->
+                </div>
                 <?php
-            // }
+            }
             ?>        
-<!--             <form method="post" action="" role="login">
+            <form method="post" action="" role="login">
                 <input class="button orange" type='hidden' name='token' value="<?php echo $token; ?>" />
                 <div class="form-group">
                     <input type='text' name="username" required class="form-control" placeholder="Enter Username" />
@@ -30,12 +30,12 @@ if(Input::get('registered')){
                     <span class="glyphicon glyphicon-lock"></span>
                     <span id='login_password_errorloc' class='error'></span>                    
                 </div>
-                
-                this should be the button design <button type="submit" name="login" class="btn btn-primary btn-block">Login Now</button> 
-                <input class="button orange" type='submit' name='login' value='Login' />
-                <a href="#">Reset password</a> or <a href="#">create account</a> 
+                <input class="button orange" type='hidden' name='token' value="<?php echo Token::generate(); ?>" />
+                <input class="btn btn-primary btn-block" type='submit' name='login' value='Login' />
+                            
+                <a href="#">Reset password</a> <!-- or <a href="#">create account</a>  -->
             </form>
-        </section> -->
+        </section>
     </div>
     <style rel="stylesheet">
     .login-form {
@@ -67,8 +67,8 @@ if(Input::get('registered')){
         padding: 10px 30px;
     }
     form[role=login] input {
-        color: #777;
-        background: rgba(180,180,180,.9);
+        /*color: #777;*/
+        /*background: rgba(180,180,180,.9);*/
         border: none;
         height: 2.6em;
         padding: 10px 40px;
@@ -103,8 +103,8 @@ if(Input::get('registered')){
         //ENF OF LOGIN FOR NEW REGISTERED
 }elseif($user->isLoggedIn()){    
     ?>
-    <li><span style="color:#fff !important;">Welcome back </span><a href="<?php echo Config::get('svrInfo/site_url'); ?>account/index.php"><?php echo escape($user->data()->username);?></a>!</li>
-    <li><a href="<?php echo Config::get('svrInfo/site_url'); ?>includes/login/logout.php">Log out</a></li>
+    <li><span style="color:#fff !important;">Welcome back </span><a href="<?php echo SITE_URL; ?>account/"><?php echo escape($user->data()->username);?></a>!</li>
+    <li><a href="<?php echo SITE_URL; ?>includes/login/logout.php">Log out</a></li>
 <?php //END OF WELCOME TO THE REGISTERED USER
     }else if(Session::exists('loginError') || !$user->isLoggedIn() ){//LOGIN FORM
         ?>
@@ -153,7 +153,7 @@ if(Input::get('registered')){
                 </form>
             </div>
         </li>
-        <!-- <li style="background-color:#ED1C24"><a href="<?php echo Config::get('svrInfo/site_url'); ?>sign-up.php">Become a Member</a></li> -->
+        <!-- <li style="background-color:#ED1C24"><a href="<?php echo SITE_URL; ?>sign-up.php">Become a Member</a></li> -->
         <li style=""><a href="/versebuster2/membership.html">Become a Member</a></li>
         <?php
     }//END OF LOGIN FORM

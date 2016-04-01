@@ -7,9 +7,9 @@ $_db = DB::getInstance();
 if(!$user->isLoggedIn()){//if user is not login redirect to login page
     Redirect::to('/versebuster2/index.php');
 }
-if(!$user->hasPermission('admin')){
-    Redirect::to('index.php');
-}
+// if(!$user->hasPermission('admin')){
+//     Redirect::to('index.php');
+// }
 
 ?>
 <!DOCTYPE html>

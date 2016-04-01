@@ -92,7 +92,7 @@ class User{
 				}
 			}
 		}
-		Session::flash('loginError', 'Please enter a correct email address and password. Note that both fields may be case-sensitive.');
+		Session::flash('loginError', 'Please enter a correct username and password. Note that both fields are case-sensitive.');
 		return false;
 	}
 

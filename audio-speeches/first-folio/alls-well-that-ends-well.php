@@ -47,7 +47,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 <div class="remodal" data-remodal-id="modal" style="padding: 14px;">
 	<h1>All’s Well That Ends Well</h1>
-	<h3>Scene 1 Act 2</h3>
+	<h3>Act I, Scene 1</h3>
 
 	<div class="sm2-bar-ui compact full-width">
 
@@ -106,7 +106,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 			<div class="sm2-playlist-wrapper">
 				<ul class="sm2-playlist-bd">
-					<li><a href="http://freshly-ground.com/data/audio/sm2/Adrian%20Glynn%20-%20Seven%20Or%20Eight%20Days.mp3"><b>Adrian Glynn</b> - Seven Or Eight Days</a></li>
+					<li><a href="<?php echo SITE_URL . '_mp3/LittleBoxes.mp3'; ?>"><b>Walk off the Earth</b> - LittleBoxes.mp3</a></li>
 				</ul>
 			</div>
 
@@ -115,6 +115,9 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 	</div>
 
 	<div class="verse-content">
+
+		<a href="#" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-cloud-download"></span> Purchase</a>
+		
 		<?php
 			$section = file_get_contents('All-is-Well-That-Ends-Well/a1-s1.txt');
 			echo '<pre>' . $section . '</pre>';

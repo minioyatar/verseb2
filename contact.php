@@ -16,10 +16,11 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 		    <p class="text-center"><strong>Email</strong></p>
 		    <table style="margin:0 auto;">
 				<tr>
-				    <td><p>Membership &amp; general enquiries:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
-				    <td><p>john.nobody@versebuster.com</p></td>
+					<img src="images/contact.png" alt="contact information" class="center-block img-responsive" >
+<!-- 				    <td><p>Membership &amp; general enquiries:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+				    <td><p>john.nobody@versebuster.com</p></td> -->
 				</tr>
-				<tr>
+<!-- 				<tr>
 					<td><p>Advertising:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
 				    <td><p>advertise@versebuster.com</p></td>
 				</tr>
@@ -34,7 +35,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 				<tr>
 				    <td><p>Website technical problem:&nbsp;</p></td>
 				    <td><p>webmaster@versebuster.com</p></td>
-				</tr>
+				</tr> -->
 		    </table>
 		    <br>
 		    <p class="text-center"><strong>Skype name: </strong></p>

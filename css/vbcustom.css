@@ -1,11 +1,7 @@
-!
- * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- 
- PDE GLI AKO MAG EDIT IYA. AYOS! GIT TEST!
- */
 
+pre{
+    margin-top: 10px;
+}
 /* Toggle Styles */
 
 #wrapper {
@@ -881,6 +877,15 @@ color: #fff;
 }
 .pagination .glyphicon {
     margin-right: 0px !important; /*override*/
+}
+.glyphicon {
+    display: inline-block;
+    font-family: "Glyphicons Halflings" !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    top: 1px;
 }
 .pagination a {
     color: #555;
