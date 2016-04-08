@@ -1,0 +1,22 @@
+.system-time{
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #DD4B39;
+}
+.login-box, .register-box{
+	margin: 2% auto;
+}
+.user-panel > .info{
+	position: relative !important;
+}
+.skin-blue .main-header .navbar, .skin-blue .main-header .logo{
+	background-color: #F4D03F;
+}
+.skin-blue .main-header .logo{
+	border-right: 1px solid #222D32;
+}
+.skin-yellow .wrapper, .skin-yellow .main-sidebar, .skin-yellow .left-side {
+    background-color: #000;
+}
