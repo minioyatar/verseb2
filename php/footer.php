@@ -106,40 +106,40 @@
 		<!-- jQuery Version 1.11.0 -->
 
 
-		<script src="/versebuster2/js/library/jquery-1.11.0.js"></script>
+		<script src="/versebuster/js/library/jquery-1.11.0.js"></script>
 
 		<!-- Bootstrap Core JavaScript -->
-		<script src="/versebuster2/js/library/bootstrap.min.js"  ></script>
+		<script src="/versebuster/js/library/bootstrap.min.js"  ></script>
 
 		<!-- add ons library -->
-		<script src="/versebuster2/js/library/jquery.easing.min.js"></script>
-		<script src="/versebuster2/js/library/jquery.touchSwipe.min.js"  ></script>
+		<script src="/versebuster/js/library/jquery.easing.min.js"></script>
+		<script src="/versebuster/js/library/jquery.touchSwipe.min.js"  ></script>
 
-		<script src="/versebuster2/js/library/jquery.bootstrap.newsbox.min.js" ></script>	
+		<script src="/versebuster/js/library/jquery.bootstrap.newsbox.min.js" ></script>	
 		
-		<script src="/versebuster2/js/library/jquery-ui.min.js" ></script>
+		<script src="/versebuster/js/library/jquery-ui.min.js" ></script>
 
 		<!--   custom script -->
-		<script src="/versebuster2/js/vbCustom.js"  ></script>
+		<script src="/versebuster/js/vbCustom.js"  ></script>
 
 	<!--	quiz-->
-	    <script type="text/javascript" src="/versebuster2/quiz/quiz_admin/js/jquery.blockUI.js"></script>
-	    <script type="text/javascript" src="/versebuster2/quiz/quiz_admin/js/functions-JS.js"></script>
+	    <script type="text/javascript" src="/versebuster/quiz/quiz_admin/js/jquery.blockUI.js"></script>
+	    <script type="text/javascript" src="/versebuster/quiz/quiz_admin/js/functions-JS.js"></script>
 	<!--end of quiz-->
 
 		<!-- MODAL WINDOW -->
-		<script src="/versebuster2/js/library/jquery.remodal.min.js"></script>
+		<script src="/versebuster/js/library/jquery.remodal.min.js"></script>
 		<!-- endMODAL WINDOW -->
 
 		<!-- MP3 PLAYER -->
-		<script type="text/javascript" src="/versebuster2/js/soundmanager2.js"></script>
-		<script type="text/javascript" src="/versebuster2/js/library/bar-ui.js"></script>
+		<script type="text/javascript" src="/versebuster/js/soundmanager2.js"></script>
+		<script type="text/javascript" src="/versebuster/js/library/bar-ui.js"></script>
 		<!-- end MP3 PLAYER -->
 
 <script>
 soundManager.setup({
   // required: path to directory containing SM2 SWF files
-  url: '/versebuster2/swf/'
+  url: '/versebuster/swf/'
 });
   $(document).on("confirm", ".remodal", function () {
   	soundManager.stopAll();

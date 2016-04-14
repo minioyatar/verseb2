@@ -1,6 +1,6 @@
 <?php
 // require_once 'core/init.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/core/init.php';
 $user = new User();
 if($user->isLoggedIn()){
    if($user->hasPermission('inactive')) {

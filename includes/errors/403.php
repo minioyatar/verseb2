@@ -2,4 +2,4 @@
 
 <p>Forbidden</p>
 
-	<p>Go back to <a href="/versebuster2/index.php">Versebuster</a> home page</p>
+	<p>Go back to <a href="/versebuster/index.php">Versebuster</a> home page</p>

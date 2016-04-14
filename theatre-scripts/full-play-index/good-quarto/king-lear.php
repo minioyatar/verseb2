@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 ?>
 
@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
         <p>Editors are generally torn between conflating the two King Lear texts or treating them as two distinct entities. &nbsp; As we are a resource we produce editions to reflect the permutations; namely, Q1, F1, and a typical modern conflation of Q1 and F1(the kind most commonly used in schools and productions).</p>
 
 			<?PHP
-				require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/theatre-scripts/full-play-index/tableTypes.php");
+				require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/theatre-scripts/full-play-index/tableTypes.php");
 			?>	
 		</div>
                                        
@@ -26,13 +26,13 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 
     <div class="col-lg-3 sidebars" >
-        <img src="/versebuster2/images/300x250-web-ad.jpg" class="img-responsive">
+        <img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
     </div>
 
 	<!-- #col-lg-3 AD-->	  
 	<div class="col-lg-3 sidebars">	    
 	    <!-- <div class="add-300x250" > -->
-            <!-- <img src="/versebuster2/images/sonderponic300x600.png" class="img-responsive" > -->
+            <!-- <img src="/versebuster/images/sonderponic300x600.png" class="img-responsive" > -->
         <!-- </div> -->
 	</div><!-- #col-lg-3 AD 300X250-->	
 
@@ -46,6 +46,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/footer.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
 
 ?>

@@ -24,7 +24,7 @@
 	// $_GET['paymentId'];
 	// $_GET['PayerID'];
 
-    require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/core/init.php';
 
     $_db = DB::getInstance();
     $user = new User();	
@@ -38,16 +38,16 @@
 	<meta charset="UTF-8">
 	<title>Versebuster - Registration</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-		 <script src="/versebuster2/js/library/jquery-1.11.0.js"></script>
-		<script src="/versebuster2/js/library/bootstrap.min.js"  ></script>
-        <script src="/versebuster2/js/library/jquery.typedtext.js"></script>
+		 <script src="/versebuster/js/library/jquery-1.11.0.js"></script>
+		<script src="/versebuster/js/library/bootstrap.min.js"  ></script>
+        <script src="/versebuster/js/library/jquery.typedtext.js"></script>
     
 		<style type="text/css">
 @font-face {
     font-family: 'LucidaCustomFont';
-    src: url('/versebuster2/fonts/lucidaC.eot');
-    src: url('/versebuster2/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
-         url('/versebuster2/fonts/lucidaC.ttf') format('truetype');
+    src: url('/versebuster/fonts/lucidaC.eot');
+    src: url('/versebuster/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
+         url('/versebuster/fonts/lucidaC.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

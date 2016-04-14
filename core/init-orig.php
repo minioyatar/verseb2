@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-define('SITE_URL', "http://" . $_SERVER['HTTP_HOST'] . "/versebuster2/");//PRODUCTION
-// define('SITE_URL', 'http://maxbonamy.org/versebuster2'); // LIVE
+define('SITE_URL', "http://" . $_SERVER['HTTP_HOST'] . "/versebuster/");//PRODUCTION
+// define('SITE_URL', 'http://maxbonamy.org/versebuster'); // LIVE
 
 $GLOBALS['config'] = array(
 	 'mysql' => array(//PRODUCTION
@@ -29,11 +29,11 @@ $GLOBALS['config'] = array(
 );
 
 spl_autoload_register(function($class){
-	require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/classes/' . $class . '.php';
+	require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/classes/' . $class . '.php';
 });
 
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/functions/sanitize.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/functions/sanitize.php");
 
 if(Cookie::exists(Config::get('remember/cookie_name')) && !Session::exists(Config::get('session/session_name'))){
 	$hash = Cookie::get(Config::get('remember/cookie_name'));

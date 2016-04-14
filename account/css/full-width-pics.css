@@ -7,18 +7,18 @@
 /*****************added styles here**********************************/
 @font-face {
     font-family: 'LucidaCustomFont';
-    src: url('/versebuster2/fonts/lucidaC.eot');
-    src: url('/versebuster2/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
-         url('/versebuster2/fonts/lucidaC.ttf') format('truetype');
+    src: url('/versebuster/fonts/lucidaC.eot');
+    src: url('/versebuster/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
+         url('/versebuster/fonts/lucidaC.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LucidaItalicCustomFont';
-    src: url('/versebuster2/fonts/Lucida_Calligraphy_Italic.eot');
-    src: url('/versebuster2/fonts/Lucida_Calligraphy_Italic.eot?#iefix') format('embedded-opentype'),
-         url('/versebuster2/fonts/Lucida_Calligraphy_Italic.ttf') format('truetype');
+    src: url('/versebuster/fonts/Lucida_Calligraphy_Italic.eot');
+    src: url('/versebuster/fonts/Lucida_Calligraphy_Italic.eot?#iefix') format('embedded-opentype'),
+         url('/versebuster/fonts/Lucida_Calligraphy_Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,14 +26,14 @@
 
 @font-face {
   font-family: "droidsans";
-  src: url("/versebuster2/fonts/droidsans.eot");
+  src: url("/versebuster/fonts/droidsans.eot");
   src: local("☺"),
-    url('/versebuster2/fonts/droidsans.eot?#iefix') format('embedded-opentype'),
-    url("/versebuster2/fonts/droidsans.woff") format("woff"),
-    url("/versebuster2/fonts/droidsans.woff2") format("woff2"),
-    url("/versebuster2/fonts/droidsans.otf") format("opentype"),
-    url("/versebuster2/fonts/droidsans.svg#filename") format("svg"),
-    url('/versebuster2fonts/droidsans.ttf') format('truetype');
+    url('/versebuster/fonts/droidsans.eot?#iefix') format('embedded-opentype'),
+    url("/versebuster/fonts/droidsans.woff") format("woff"),
+    url("/versebuster/fonts/droidsans.woff2") format("woff2"),
+    url("/versebuster/fonts/droidsans.otf") format("opentype"),
+    url("/versebuster/fonts/droidsans.svg#filename") format("svg"),
+    url('/versebusterfonts/droidsans.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }

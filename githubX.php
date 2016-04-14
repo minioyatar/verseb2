@@ -7,7 +7,7 @@
     // error_reporting(-1);
 //////////////
 
-    // require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
+    // require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/core/init.php';
 
     // $_db = DB::getInstance();
 //     $user = DB::getInstance()->query('SELECT * FROM members_tbl');

@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 ?>
 
@@ -20,7 +20,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 			<p>I love candy canes croissant jelly. Jelly-o sugar plum sweet roll pastry croissant I love icing sugar plum icing. Cake topping candy canes. Powder bonbon liquorice.</p>
 			<p>Tiramisu lollipop lemon drops. Bear claw chocolate cake pastry croissant chupa chups candy canes wafer jelly. Oat cake powder fruitcake muffin carrot cake tart I love pudding I love. I love marshmallow I love chocolate bear claw cake I love.</p>
 
-			<p><a href="/versebuster2/data/pdf/ePlay PPP Demo 5th Draft embed testpdf.pdf" target="_blank">this link to intro pdf</a></p>
+			<p><a href="/versebuster/data/pdf/ePlay PPP Demo 5th Draft embed testpdf.pdf" target="_blank">this link to intro pdf</a></p>
 			
 			<p>I love candy canes croissant jelly. Jelly-o sugar plum sweet roll pastry croissant I love icing sugar plum icing. Cake topping candy canes. Powder bonbon liquorice.</p>
 			<p>Tiramisu lollipop lemon drops. Bear claw chocolate cake pastry croissant chupa chups candy canes wafer jelly. Oat cake powder fruitcake muffin carrot cake tart I love pudding I love. I love marshmallow I love chocolate bear claw cake I love.</p>
@@ -59,12 +59,12 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 	<!-- +++++++++++++++++++++++++++WEB ADS -->
     <div class="col-lg-3 sidebars" >
-        <img src="/versebuster2/images/300x250-web-ad.jpg" class="img-responsive">
+        <img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
     </div>
 
 	<!-- #col-lg-3 ad 2-->	  
 	<div class="col-lg-3 sidebars">
-		<img class="img-responsive" src="/versebuster2/images/ads/bringup.jpg">
+		<img class="img-responsive" src="/versebuster/images/ads/bringup.jpg">
 	</div><!-- #col-lg-3 ad 2-->    
 
 </div><!-- /#row main-text-->
@@ -73,6 +73,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/footer.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
 
 ?>

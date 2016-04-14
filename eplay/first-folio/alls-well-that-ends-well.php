@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 ?>
 
@@ -9,7 +9,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		
-		<!--<a href="/versebuster2/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
+		<!--<a href="/versebuster/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
 		<br>
 		<br>
 		
@@ -23,13 +23,13 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 
 	<div class="col-lg-3 sidebars" >
-		<img src="/versebuster2/images/300x250-web-ad.jpg" class="img-responsive">
+		<img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
 	</div>
 
 	<!-- #col-lg-3 AD-->
 	<div class="col-lg-3 sidebars">
 		<!-- <div class="add-300x250" > -->
-		<!-- <img src="/versebuster2/images/sonderponic300x600.png" class="img-responsive" > -->
+		<!-- <img src="/versebuster/images/sonderponic300x600.png" class="img-responsive" > -->
 		<!-- </div> -->
 	</div><!-- #col-lg-3 AD 300X250-->
 
@@ -119,6 +119,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
 
 <?PHP
 
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/footer.php");
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
 
 ?>

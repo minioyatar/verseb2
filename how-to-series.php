@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster2/php/header.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 ?>
 

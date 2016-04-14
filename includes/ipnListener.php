@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster2/core/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/core/init.php';
 $_db = DB::getInstance();
 
     //setup email format
