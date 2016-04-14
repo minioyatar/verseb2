@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -9,7 +9,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		
-		<!--<a href="/versebuster/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
+		<!--<a href="/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
 		<br>
 		<br>
 		
@@ -17,7 +17,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 			<p style="color:#b00000">MODERN</p>
 			<h3 class="page-title-ext text-center branding-style-reg" style="color: #b00000; ">All’s Well That Ends Well</h3>
 			<?PHP
-				require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/theatre-scripts/full-play-index/tableTypes.php");
+				require_once($_SERVER['DOCUMENT_ROOT'] . "/theatre-scripts/full-play-index/tableTypes.php");
 			?>				
 
 		</div>
@@ -26,13 +26,13 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 
 	<div class="col-lg-3 sidebars" >
-		<img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
+		<img src="/images/300x250-web-ad.jpg" class="img-responsive">
 	</div>
 
 	<!-- #col-lg-3 AD-->
 	<div class="col-lg-3 sidebars">
 		<!-- <div class="add-300x250" > -->
-		<!-- <img src="/versebuster/images/sonderponic300x600.png" class="img-responsive" > -->
+		<!-- <img src="/images/sonderponic300x600.png" class="img-responsive" > -->
 		<!-- </div> -->
 	</div><!-- #col-lg-3 AD 300X250-->
 
@@ -122,6 +122,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 <?PHP
 
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>

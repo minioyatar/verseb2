@@ -1,10 +1,10 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/core/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
 $user = new User();
 ?>
 <?php
 if(Input::get('registered')){
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+    require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
     ?>
     <div class="row">
         <section class="login-form">
@@ -154,7 +154,7 @@ if(Input::get('registered')){
             </div>
         </li>
         <!-- <li style="background-color:#ED1C24"><a href="<?php echo SITE_URL; ?>sign-up.php">Become a Member</a></li> -->
-        <li style=""><a href="/versebuster/membership.html">Become a Member</a></li>
+        <li style=""><a href="/membership.html">Become a Member</a></li>
         <?php
     }//END OF LOGIN FORM
     ?>

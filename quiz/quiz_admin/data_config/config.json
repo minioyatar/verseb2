@@ -1,6 +1,6 @@
 {
     "allow_quiz" : true,
     "quizItems": 6,
-    "quizPath" : "/versebuster/quiz/quiz_admin/includes/question_query.php",
+    "quizPath" : "/quiz/quiz_admin/includes/question_query.php",
     "keyAgain": "value again"
 }

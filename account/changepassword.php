@@ -1,10 +1,10 @@
 <?PHP
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/account/admin-header.php");
+    require_once($_SERVER['DOCUMENT_ROOT'] . "/account/admin-header.php");
 ?>
 
 
 <?PHP
-// require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/core/init.php';
+// require_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
 
 // $user = new User();
 
@@ -123,5 +123,5 @@ if(Input::exists()){
 </div><!-- /#row main-text-->
 
 <?PHP
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/account/admin-footer.php");
+    require_once($_SERVER['DOCUMENT_ROOT'] . "/account/admin-footer.php");
 ?>

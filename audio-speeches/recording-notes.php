@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -74,12 +74,12 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 	<!-- +++++++++++++++++++++++++++WEB ADS -->
     <div class="col-lg-3 sidebars" >
-        <img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
+        <img src="/images/300x250-web-ad.jpg" class="img-responsive">
     </div>
 
 	<!-- #col-lg-3 ad 1-->	  
 	<div class="col-lg-3 sidebars">
-		<img src="/versebuster/images/ads/henryiv_poster.jpg" class="img-responsive" >	    
+		<img src="/images/ads/henryiv_poster.jpg" class="img-responsive" >	    
 	</div><!-- #col-lg-3 ad 1-->
 
 
@@ -89,6 +89,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>

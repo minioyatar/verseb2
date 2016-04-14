@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/core/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
 
 if(!$username = Input::get('user')){
 	// Redirect::to('index.php');

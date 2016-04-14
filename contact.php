@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -49,7 +49,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 
     <div class="col-lg-3 sidebars" >
-        <a href="/versebuster/advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
+        <a href="/advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
     </div>
 
 	<!-- #col-lg-3 AD-->	  

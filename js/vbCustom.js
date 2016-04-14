@@ -360,7 +360,7 @@ var quizQuestion = [];
     // $('#run_quiz_btn').on('click',function(event) {
         $.ajax({
                 type: "POST",
-                url: "/versebuster/data/questions.json",
+                url: "/data/questions.json",
                 dataType: "json",
                 success: function(data){
                     var numberOfElements = data.quiz.length -1;
