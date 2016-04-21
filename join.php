@@ -192,6 +192,9 @@
 		<div style="background: #0D2730 url('images/bg.jpg') repeat center; color:#fff; ">
 			<div class="container text-center">
 				<div class="row">
+    <div class="" style="">
+      <h1 style="color:#F39C12"><b>UNDER CONSTRUCTION </b> </h1>
+    </div>						
 					<h3 class="selectModule" style="margin:40px 0">
 						<span class="linkPolicy">We treat the information you give as strictly private.  Versebuster does not share email addresses and passwords with anyone under any circumstances.</span>
 					</h3>

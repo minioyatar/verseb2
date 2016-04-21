@@ -38,8 +38,8 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 				</tr> -->
 		    </table>
 		    <br>
-		    <p class="text-center"><strong>Skype name: </strong></p>
-		    <p class="text-center">versebuster</p>
+		    <p class="text-center"><strong>Facebook name: </strong></p>
+		    <p class="text-center">Versebuster Shakespeare</p>
 			<br>
 		</div>
                                        
