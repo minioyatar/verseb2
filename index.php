@@ -1,15 +1,14 @@
 <?PHP
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+	require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 ?>
-
-
-
-
 
 <!-- row -->	
 <div class="row main-text"><!-- #col-lg-9 introduction content -->
 
 	<div class="col-lg-9">
+		<div class="well" style="background-color:#F39C12">
+			<h4><b>Under Construction <br></b>  soft opening September 2016 with Richard lll - LA workshop slated for October 2016</h4>
+		</div>		
 		<!--===================INTRO ==================-->
 		<div class="well" style="padding: 16px;">
 <br>
@@ -622,5 +621,6 @@ Now good or bad, ‘tis but the chance of war.</em>
 </div><!-- /#row main-text-->
 
 <?PHP
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
+	require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
+
 ?>

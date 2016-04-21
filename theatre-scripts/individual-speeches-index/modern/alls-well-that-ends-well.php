@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -17,7 +17,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 			<p style="color:#b00000">MODERN</p>
 			<h3 class="page-title-ext text-center branding-style-reg" style="color: #b00000; ">All’s Well That Ends Well</h3>
 			<?PHP
-				require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/theatre-scripts/individual-speeches-index/tableTypes.php");
+				require_once(SITE_URL . "theatre-scripts/individual-speeches-index/tableTypes.php");
 			?>				
 
 		</div>
@@ -122,6 +122,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 <?PHP
 
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
+	require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>

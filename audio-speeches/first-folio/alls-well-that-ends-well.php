@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -106,7 +106,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 			<div class="sm2-playlist-wrapper">
 				<ul class="sm2-playlist-bd">
-					<li><a href="<?php echo SITE_URL . '_mp3/LittleBoxes.mp3'; ?>"><b>Walk off the Earth</b> - LittleBoxes.mp3</a></li>
+					<li><a href="/versebuster/_mp3/LittleBoxes.mp3"><b>Walk off the Earth</b> - LittleBoxes.mp3</a></li>
 				</ul>
 			</div>
 
@@ -128,6 +128,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 <?PHP
 
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
+	require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>

@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -16,7 +16,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
         <p>Editors are generally torn between conflating the two King Lear texts or treating them as two distinct entities. &nbsp; As we are a resource we produce editions to reflect the permutations; namely, Q1, F1, and a typical modern conflation of Q1 and F1(the kind most commonly used in schools and productions).</p>
 
 			<?PHP
-				require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/theatre-scripts/full-play-index/tableTypes.php");
+				require_once(SITE_URL . "theatre-scripts/full-play-index/tableTypes.php");
 			?>	
 		</div>
                                        
@@ -46,6 +46,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php");
 
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>
