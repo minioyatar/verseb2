@@ -232,7 +232,7 @@ if($page_name == 'byplay.php'){
                                         <li class="pull-left socials" id="linkedin"><a href="#">linkedin</a></li>
         								<li class="pull-left socials" id="youTube"><a href="#">youTube</a></li>
         								<li class="pull-left socials" id="twitter"><a href="#">twitter</a></li>
-        								<li class="pull-left socials" id="facebook"><a href="#">facebook</a></li>
+        								<li class="pull-left socials" id="facebook"><a href="https://web.facebook.com/VersebusterShakespeare/?fref=nf" target="_blank">facebook</a></li>
         							</ul>
                                 </div>
 <!--     							<ul id="speaker-holder" class="nav navbar-nav">
