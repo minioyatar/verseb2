@@ -168,8 +168,10 @@
 
 	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 2.5px;">
 	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-doc">
-				<h4><strong>Theatre Script Demo</strong></h4>
-	    		<img src="images/hovers/doc-512.png" class="">
+	      		<a href="/versebuster/theatre-scripts/theatre-scripts-demo.php" style="text-decoration:none;">
+					<h4><strong>Theatre Script Demo</strong></h4>
+		    		<img src="images/hovers/doc-512.png" class="">
+	    		</a>
 	      	</div>
 	    </div>
 
