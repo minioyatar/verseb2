@@ -1,6 +1,6 @@
 <?PHP
 
-// require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/header.php");
+// require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 <!DOCTYPE html>
@@ -65,6 +65,6 @@
 </html>	
 <?PHP
 
-// require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/footer.php");
+// require_once($_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>
