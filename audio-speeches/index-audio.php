@@ -49,19 +49,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical (all plays)</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By particular play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>   
                     <tr>
                       <th></th>
@@ -81,19 +81,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Comedy, History, etc</td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -113,19 +113,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -146,19 +146,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -179,19 +179,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -212,19 +212,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -245,19 +245,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -277,19 +277,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -310,19 +310,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -342,19 +342,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -375,19 +375,19 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
