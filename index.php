@@ -575,8 +575,9 @@ Now good or bad, ‘tis but the chance of war.</em>
 	</div><!--END LATEST NEWS-->
 
 	<!-- #col-lg-3 newsletter-->	  
-	<div class="col-lg-3 sidebars">	    
-		<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/includes/newsletter/newsletter.php");?>
+	<div class="col-lg-3 sidebars">
+
+		<?php require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/includes/newsletter/newsletter.php" : $_SERVER['DOCUMENT_ROOT'] . "/includes/newsletter/newsletter.php");?>
 	</div><!-- #col-lg-3 newsletter-->	  
 
 	<div class="col-lg-3 sidebars" ><!-- run_quiz_btn -->
