@@ -1,11 +1,11 @@
 <?php 
-    require_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
+    require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/core/init.php" : $_SERVER['DOCUMENT_ROOT'] . "/core/init.php");;
 
 $user = new User();
 $_db = DB::getInstance();
 
 if(!$user->isLoggedIn()){//if user is not login redirect to login page
-    Redirect::to('/index.php');
+    Redirect::to('/versebuster/index.php');
 }
 // if(!$user->hasPermission('admin')){
 //     Redirect::to('index.php');

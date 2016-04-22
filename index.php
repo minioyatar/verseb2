@@ -1,16 +1,14 @@
 <?PHP
-echo $_SERVER['DOCUMENT_ROOT'];
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
+	require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 ?>
-
-
-
-
 
 <!-- row -->	
 <div class="row main-text"><!-- #col-lg-9 introduction content -->
 
 	<div class="col-lg-9">
+		<div class="well" style="background-color:#F39C12">
+			<h4><b>Under Construction <br></b>  soft opening September 2016 with Richard lll - LA workshop slated for October 2016</h4>
+		</div>		
 		<!--===================INTRO ==================-->
 		<div class="well" style="padding: 16px;">
 <br>
@@ -81,7 +79,7 @@ echo $_SERVER['DOCUMENT_ROOT'];
 				are left with Bard-lite and not a little boredom. &nbsp; Peter Hall (co-founder of the Royal 
 				Shakespeare Company) and Giles Block (former ‘Master of the Words’ at Shakespeare’s Globe) 
 				elaborate on this in their respective books <em>Playing Shakespeare</em> and <em>Speaking the Speech</em> 
-				(see <a href="/eplay/bibliography.php">Bibliography</a>).</p> 
+				(see <a href="/versebuster/eplay/bibliography.php">Bibliography</a>).</p> 
 
 <!--START CALL OUT -->
 		      <blockquote class="pull-quote">
@@ -157,7 +155,7 @@ echo $_SERVER['DOCUMENT_ROOT'];
 
 	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 5px;">
 	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-pdf">
-				<a href="/eplay/eplay-demo.php" style="text-decoration:none;">
+				<a href="/versebuster/eplay/eplay-demo.php" style="text-decoration:none;">
 	        		<h4><strong>ePlay Demo <span style="visibility:hidden">Demo</span></strong></h4>
 	        		<img src="images/hovers/pdf-512.png" >
 	    		</a>
@@ -210,7 +208,7 @@ echo $_SERVER['DOCUMENT_ROOT'];
 
 	            <div class="col-sm-2 col-md-2 col-lg-2 " >
 	            	<div class="demo-box col-sm-12 col-xs-12" id="demo-pdf">
-	            		<a href="/eplay/eplay-demo.php" style="text-decoration:none;">
+	            		<a href="/versebuster/eplay/eplay-demo.php" style="text-decoration:none;">
 		            		<h4><strong>ePlay Demo</strong></h4><br><br><br>
 		            		<img src="images/hovers/pdf-512.png" >
 	            		</a>
@@ -576,7 +574,7 @@ Now good or bad, ‘tis but the chance of war.</em>
 
 	<!-- #col-lg-3 newsletter-->	  
 	<div class="col-lg-3 sidebars">	    
-		<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/includes/newsletter/newsletter.php");?>
+		<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/includes/newsletter/newsletter.php");?>
 	</div><!-- #col-lg-3 newsletter-->	  
 
 	<div class="col-lg-3 sidebars" ><!-- run_quiz_btn -->
@@ -599,7 +597,7 @@ Now good or bad, ‘tis but the chance of war.</em>
 
 	<!-- +++++++++++++++++++++++++++WEB ADS -->
     <div class="col-lg-3 sidebars" >
-        <a href="/advertise.php"><img class="img-responsive" src="images/300x250-web-ad.jpg" ></a>
+        <a href="/versebuster/advertise.php"><img class="img-responsive" src="images/300x250-web-ad.jpg" ></a>
     </div>
 
 	<!-- #col-lg-3 ad 1-->	  
@@ -623,5 +621,6 @@ Now good or bad, ‘tis but the chance of war.</em>
 </div><!-- /#row main-text-->
 
 <?PHP
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
+	require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
+
 ?>

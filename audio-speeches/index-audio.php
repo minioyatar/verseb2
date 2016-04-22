@@ -1,12 +1,16 @@
 <?PHP
-require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
-// require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
+
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
+
 ?>
 
 
 <!-- row -->
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
+    <div class="well" style="background-color:#F39C12">
+      <h4><b>UNDER CONSTRUCTION </b> </h4>
+    </div>      
 
     <div class="well" style="margin-bottom: 0px;">
       <h3 class="page-title-ext text-center branding-style-reg">AUDIO SPEECHES</h3>
@@ -45,19 +49,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical (all plays)</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By particular play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>   
                     <tr>
                       <th></th>
@@ -77,19 +81,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td class="text-center" style="height: 50px;"><a href="byplay.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Comedy, History, etc</td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
-                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+                      <td  class="text-center" style="height: 50px;"><a href="category.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -109,19 +113,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -142,19 +146,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -175,19 +179,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -208,19 +212,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -241,19 +245,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -273,19 +277,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -306,19 +310,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -338,19 +342,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -371,19 +375,19 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
           </tr>
                     <tr>
                       <td class="text-right">Alphabetical</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>          
                     <tr>
                       <td class="text-right">By Play</td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
-                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
+                      <td  class="text-center" style="height: 50px;"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></td>
                     </tr>
                     <tr>
                       <th></th>
@@ -430,12 +434,12 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 			<!-- +++++++++++++++++++++++++++WEB ADS -->
 			<div class="col-lg-3 sidebars" >
-				<img src="/images/300x250-web-ad.jpg" class="img-responsive">
+				<img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
 			</div>
 
 			<!-- #col-lg-3 ad 1-->
 			<div class="col-lg-3 sidebars">
-				<img class="img-responsive" src="/images/ads/ticketmonster.gif">
+				<img class="img-responsive" src="/versebuster/images/ads/ticketmonster.gif">
 			</div><!-- #col-lg-3 ad 1-->
 		</div><!-- /#row main-text-->
 
@@ -443,6 +447,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>

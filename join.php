@@ -1,5 +1,5 @@
 <?php
-	require_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
+	require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/core/init.php" : $_SERVER['DOCUMENT_ROOT'] . "/core/init.php");;
 	if(!Input::get('p')){
 		Redirect::to('membership.html');
 	}
@@ -123,15 +123,15 @@
 	<meta charset="UTF-8">
 	<title>Versebuster - Registration</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-		<script src="/js/library/jquery-1.11.0.js"></script>
-		<script src="/js/library/bootstrap.min.js"  ></script>
+		<script src="/versebuster/js/library/jquery-1.11.0.js"></script>
+		<script src="/versebuster/js/library/bootstrap.min.js"  ></script>
     
 		<style type="text/css">
 			@font-face {
 				font-family: 'LucidaCustomFont';
-				src: url('/fonts/lucidaC.eot');
-				src: url('/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
-				url('/fonts/lucidaC.ttf') format('truetype');
+				src: url('/versebuster/fonts/lucidaC.eot');
+				src: url('/versebuster/fonts/lucidaC.eot?#iefix') format('embedded-opentype'),
+				url('/versebuster/fonts/lucidaC.ttf') format('truetype');
 				font-weight: normal;
 				font-style: normal;
 			}
@@ -192,6 +192,9 @@
 		<div style="background: #0D2730 url('images/bg.jpg') repeat center; color:#fff; ">
 			<div class="container text-center">
 				<div class="row">
+    <div class="" style="">
+      <h1 style="color:#F39C12"><b>UNDER CONSTRUCTION </b> </h1>
+    </div>						
 					<h3 class="selectModule" style="margin:40px 0">
 						<span class="linkPolicy">We treat the information you give as strictly private.  Versebuster does not share email addresses and passwords with anyone under any circumstances.</span>
 					</h3>

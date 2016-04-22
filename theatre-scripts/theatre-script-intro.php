@@ -1,6 +1,6 @@
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -126,12 +126,12 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 	<!-- +++++++++++++++++++++++++++WEB ADS -->
     <div class="col-lg-3 sidebars" >
-        <img src="/images/300x250-web-ad.jpg" class="img-responsive">
+        <img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
     </div>
 
 	<!-- #col-lg-3 ad 2-->	  
 	<div class="col-lg-3 sidebars">
-		<img class="img-responsive" src="/images/ads/lynda.gif">
+		<img class="img-responsive" src="/versebuster/images/ads/lynda.gif">
 	</div><!-- #col-lg-3 ad 2-->  
 
 </div><!-- /#row main-text-->
@@ -140,6 +140,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 
 ?>

@@ -9,7 +9,7 @@
 ?>
 <?PHP
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/header.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 ?>
 
@@ -83,13 +83,13 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 
 		<form id='' class="form-horizontal" role="" method="POST" action="<?php //echo htmlentities('includes/formProcessor.php'); ?>">
 			<input type="hidden" name="token" value="<?php echo $token; ?>">
-			<?php //include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/registration/step1.php'; ?>
+			<?php //include_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/includes/registration/step1.php'; ?>
 
-			<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/registration/step2.php'; ?>
+			<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/includes/registration/step2.php'; ?>
 
-			<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/registration/step3.php'; ?>
+			<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/includes/registration/step3.php'; ?>
 
-			<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/registration/step4.php'; ?>
+			<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/versebuster/includes/registration/step4.php'; ?>
 		</form>
 		<!-- 6 END Step Wizard (Working)"-->
 	</div><!-- /#col-lg-12-->
@@ -98,6 +98,6 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/php/header.php");
 				<script src="js/library/prefixfree.min.js" type="text/javascript"></script>
 
 				<?PHP
-				require_once($_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
+				require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");
 				?>
 

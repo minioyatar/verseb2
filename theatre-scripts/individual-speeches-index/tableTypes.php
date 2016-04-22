@@ -8,7 +8,7 @@
       </ul>
     </td>
     <td class="tick-td">
-      <img src="/images/yellow2.png" class="tbl-glossy-tick">
+      <img src="/versebuster/images/yellow2.png" class="tbl-glossy-tick">
     </td>
   </tr>
   <tr>
@@ -19,7 +19,7 @@
       </ul>
     </td>
     <td class="tick-td">
-      <img src="/images/yellow2.png" class="tbl-glossy-tick">
+      <img src="/versebuster/images/yellow2.png" class="tbl-glossy-tick">
     </td>
   </tr>
   <tr>
@@ -30,7 +30,7 @@
       </ul>
     </td>
     <td class="tick-td">
-      <img src="/images/yellow2.png" class="tbl-glossy-tick">
+      <img src="/versebuster/images/yellow2.png" class="tbl-glossy-tick">
     </td>
   </tr>
   <tr>
@@ -41,7 +41,7 @@
       </ul>
     </td>
     <td class="tick-td">
-      <img src="/images/yellow2.png" class="tbl-glossy-tick">
+      <img src="/versebuster/images/yellow2.png" class="tbl-glossy-tick">
     </td>
   </tr>  
 </table>
@@ -59,7 +59,7 @@
       </ul>
     </td>
     <td class="tick-td">
-      <img src="/images/yellow2.png" class="tbl-glossy-tick">
+      <img src="/versebuster/images/yellow2.png" class="tbl-glossy-tick">
     </td>
   </tr>
 </table>

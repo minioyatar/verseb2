@@ -5,7 +5,7 @@ $(document).ready(function(){
     //set config
     $.ajax({
         type: "POST",
-        url: "/quiz/quiz_admin/data_config/config.json",
+        url: "/versebuster/quiz/quiz_admin/data_config/config.json",
         dataType: "json",
         success: function(dataConfig){
                 allow_quiz = dataConfig.allow_quiz
