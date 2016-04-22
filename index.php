@@ -167,10 +167,10 @@
 	    </div>	 -->    
 
 	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 2.5px;">
-	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-doc">
-	      		<a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/theatre-scripts-demo.php" style="text-decoration:none;">
+	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-pdf">
+	      		<a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/IS-theatre-scripts-demo.php" style="text-decoration:none;">
 					<h4><strong>Theatre Script Demo</strong></h4>
-		    		<img src="images/hovers/doc-512.png" class="">
+		    		<img src="images/hovers/pdf-512.png" class="">
 	    		</a>
 	      	</div>
 	    </div>
