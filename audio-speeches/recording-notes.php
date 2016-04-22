@@ -79,7 +79,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 	<!-- #col-lg-3 ad 1-->	  
 	<div class="col-lg-3 sidebars">
-		<img src="/versebuster/images/ads/henryiv_poster.jpg" class="img-responsive" >	    
+		<img src="<?php echo SITE_URL_FILE; ?>images/ads/henryiv_poster.jpg" class="img-responsive" >	    
 	</div><!-- #col-lg-3 ad 1-->
 
 
