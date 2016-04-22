@@ -18,10 +18,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 			<p><strong>Co-Editor</strong></p>
 
-			<p><img src="images/diamondBullet.gif"> Seeking a co-editor with extensive knowledge of Shakespeare performance.&nbsp; 
+			<p><img src="<?php echo SITE_URL_FILE; ?>images/diamondBullet.gif"> Seeking a co-editor with extensive knowledge of Shakespeare performance.&nbsp; 
 				We offer a share of the business.&nbsp; Full-time or part-time </p>
 			<p><strong>Social Media and Marketing Expert</strong></p>
-			<p><img src="images/diamondBullet.gif"> Seeking a social media and marketing expert with keen interest in 
+			<p><img src="<?php echo SITE_URL_FILE; ?>images/diamondBullet.gif"> Seeking a social media and marketing expert with keen interest in 
 				Shakespeare.&nbsp; We offer a share of the business.&nbsp; Full-time or part-time.</p>
 		<br>
 

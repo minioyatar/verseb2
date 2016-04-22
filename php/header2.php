@@ -137,7 +137,7 @@ if($page_name == 'byplay.php'){
 
     		<!-- Sidebar -->
     		<div id="sidebar-wrapper">
-    			<img class="img-responsive sidemenu-img" src="/versebuster/images/shakespeare-in-times-square-no-mj.jpg" style="">
+    			<img class="img-responsive sidemenu-img" src="<?php echo SITE_URL_FILE; ?>images/shakespeare-in-times-square-no-mj.jpg" style="">
     			<ul class="sidebar-nav ">
 
     				<li id="" class=""><a href="<?php echo SITE_URL_FILE; ?>shop.php"><strong>THE SHOP</strong></a></li>
@@ -197,7 +197,7 @@ if($page_name == 'byplay.php'){
 
                 <div class="add-300x250">    
                     <div class="col-lg-12 sidebars ">     
-                        <a href="<?php echo SITE_URL_FILE; ?>advertise.php"><img class="img-responsive" src="/versebuster/images/300x250-web-ad.jpg"></a>
+                        <a href="<?php echo SITE_URL_FILE; ?>advertise.php"><img class="img-responsive" src="<?php echo SITE_URL_FILE; ?>images/300x250-web-ad.jpg"></a>
                     </div><!-- #col-lg-3 ad 3-->
                 </div>
 

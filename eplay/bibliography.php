@@ -309,7 +309,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 	<!-- +++++++++++++++++++++++++++WEB ADS -->
  &nbsp;  <div class="col-lg-3 sidebars" >
- &nbsp;  &nbsp;   <img src="/versebuster/images/300x250-web-ad.jpg" class="img-responsive">
+ &nbsp;  &nbsp;   <img src="<?php echo SITE_URL_FILE; ?>images/300x250-web-ad.jpg" class="img-responsive">
  &nbsp;  </div>
 
 	<!-- #col-lg-3 ad 2-->	  

@@ -16,7 +16,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 		    <p class="text-center"><strong>Email</strong></p>
 		    <table style="margin:0 auto;">
 				<tr>
-					<img src="images/contact.png" alt="contact information" class="center-block img-responsive" >
+					<img src="<?php echo SITE_URL_FILE; ?>images/contact.png" alt="contact information" class="center-block img-responsive" >
 <!-- 				    <td><p>Membership &amp; general enquiries:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
 				    <td><p>john.nobody@versebuster.com</p></td> -->
 				</tr>
