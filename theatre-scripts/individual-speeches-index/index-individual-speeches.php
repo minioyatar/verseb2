@@ -498,7 +498,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td> -->
               <?php 
                 // if($post->secondfolio === 'checked'){
-                //  echo '<a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
+                //  echo '<a href="' . SITE_URL_FILE . 'theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
                 //      <img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png">
                 //      </a>';
                 // }else{
@@ -509,7 +509,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td> -->
               <?php 
                 // if($post->modern === 'checked'){
-                //  echo '<a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
+                //  echo '<a href="' . SITE_URL_FILE . 'theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
                 //      <img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png">
                 //      </a>';
                 // }else{
@@ -520,7 +520,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td> -->
               <?php 
                 // if($post->quarto === 'checked'){
-                //  echo '<a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
+                //  echo '<a href="' . SITE_URL_FILE . 'theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
                 //      <img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png">
                 //      </a>';
                 // }else{
@@ -531,7 +531,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td> -->
               <?php 
                 // if($post->goodquarto === 'checked'){
-                //  echo '<a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
+                //  echo '<a href="' . SITE_URL_FILE . 'theatre-scripts/individual-speeches-index/first-folio/alls-well-that-ends-well.php">
                 //      <img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png">
                 //      </a>*';
                 // }else{

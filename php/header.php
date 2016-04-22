@@ -265,7 +265,8 @@ if($page_name == 'byplay.php'){
                             <div class="" id='fg_membersite'>
                                 <ul class="pull-right" >
                                     <?php
-                                        include_once($_SERVER['DOCUMENT_ROOT']. "/versebuster/login.php");
+require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/login.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/login.php");                                    
+                                       
                                     ?>
                                 </ul>
                             </div> 

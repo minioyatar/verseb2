@@ -103,8 +103,8 @@ if(Input::get('registered')){
         //ENF OF LOGIN FOR NEW REGISTERED
 }elseif($user->isLoggedIn()){    
     ?>
-    <li><span style="color:#fff !important;">Welcome back </span><a href="<?php echo SITE_URL; ?>account/"><?php echo escape($user->data()->username);?></a>!</li>
-    <li><a href="<?php echo SITE_URL; ?>includes/login/logout.php">Log out</a></li>
+    <li><span style="color:#fff !important;">Welcome back </span><a href="<?php echo SITE_URL_FILE; ?>account/"><?php echo escape($user->data()->username);?></a>!</li>
+    <li><a href="<?php echo SITE_URL_FILE; ?>includes/login/logout.php">Log out</a></li>
 <?php //END OF WELCOME TO THE REGISTERED USER
     }else if(Session::exists('loginError') || !$user->isLoggedIn() ){//LOGIN FORM
         ?>
@@ -153,7 +153,7 @@ if(Input::get('registered')){
                 </form>
             </div>
         </li>
-        <!-- <li style="background-color:#ED1C24"><a href="<?php echo SITE_URL; ?>sign-up.php">Become a Member</a></li> -->
+        <!-- <li style="background-color:#ED1C24"><a href="<?php echo SITE_URL_FILE; ?>sign-up.php">Become a Member</a></li> -->
         <li style=""><a href="<?php echo SITE_URL_FILE; ?>membership.html">Become a Member</a></li>
         <?php
     }//END OF LOGIN FORM
