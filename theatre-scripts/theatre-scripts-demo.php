@@ -13,11 +13,11 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 			<h3 class="page-title-ext text-center branding-style-reg">THEATRE SCRIPTS</h3>				
 		    
 			<div class="col-md-6 text-center" >
-				<h3><a href="/versebuster/theatre-scripts/full-play-index/index-full-play.php">Full Play</a></h3>
+				<h3><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/full-play-index/index-full-play.php">Full Play</a></h3>
 			</div>
 
 			<div class="col-md-6 text-center" >
-				<h3><a href="/versebuster/theatre-scripts/individual-speeches-index/index-individual-speeches.php">Individual Speeches</a></h3>
+				<h3><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/index-individual-speeches.php">Individual Speeches</a></h3>
 			</div>	
 		</div>
 </div>		

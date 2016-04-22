@@ -76,20 +76,20 @@
 	<title>Versebuster - A Shakespeare Performance Resource with Audio</title>
 
 	<!-- Bootstrap Core CSS -->
-	<link href="/versebuster/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php echo SITE_URL_FILE; ?>css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom CSS -->
-	<link href="/versebuster/css/vbcustom.css" rel="stylesheet">
+	<link href="<?php echo SITE_URL_FILE; ?>css/vbcustom.css" rel="stylesheet">
 
 	<!-- Optionally use Animate.css -->
-	<link href="/versebuster/css/animate.min.css" rel="stylesheet">
+	<link href="<?php echo SITE_URL_FILE; ?>css/animate.min.css" rel="stylesheet">
 
     
-    <link href="/versebuster/css/library/jquery-ui.min.css" rel="stylesheet">
-    <link href="/versebuster/css/library/jquery.remodal.css" rel="stylesheet"><!--Modal window file-->
+    <link href="<?php echo SITE_URL_FILE; ?>css/library/jquery-ui.min.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL_FILE; ?>css/library/jquery.remodal.css" rel="stylesheet"><!--Modal window file-->
     
 <!-- MP3 PLAYER -->
-<link rel="stylesheet" type="text/css" href="/versebuster/css/library/mp3-bar-ui.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL_FILE; ?>css/library/mp3-bar-ui.css" />
 <!-- END OF MP3 PLAYER -->
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -140,64 +140,64 @@ if($page_name == 'byplay.php'){
     			<img class="img-responsive sidemenu-img" src="/versebuster/images/shakespeare-in-times-square-no-mj.jpg" style="">
     			<ul class="sidebar-nav ">
 
-    				<li id="" class=""><a href="/versebuster/shop.php"><strong>THE SHOP</strong></a></li>
+    				<li id="" class=""><a href="<?php echo SITE_URL_FILE; ?>shop.php"><strong>THE SHOP</strong></a></li>
                     <br>
     				<li id="" class=""><a><strong>Audio Speeches</strong></a></li>
 
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-intro.php')?'highlight':''; ?>"><a href="/versebuster/audio-speeches/audio-intro.php">Intro</a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-speeches' || $page_name=='index-audio.php')?'highlight':''; ?>" ><a href="/versebuster/audio-speeches/index-audio.php">INDEX TO SPEECHES</a></li>
-                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='recording-notes.php')?'highlight':''; ?>"><a href="/versebuster/audio-speeches/recording-notes.php">Recording notes</a></li>
+    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/audio-intro.php">Intro</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-speeches' || $page_name=='index-audio.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/index-audio.php">INDEX TO SPEECHES</a></li>
+                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='recording-notes.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/recording-notes.php">Recording notes</a></li>
 
 
 
     				<li><a><strong>ePlays</strong></a></li>
 
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay-intro.php')?'highlight':''; ?>"><a href="/versebuster/eplay/eplay-intro.php">Intro</a></li>
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay' || $page_name=='index-eplay.php')?'highlight':''; ?>"><a href="/versebuster/eplay/index-eplay.php">INDEX TO EPLAYS</a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='editorial-policy.php')?'highlight':''; ?>" ><a href="/versebuster/eplay/editorial-policy.php">Editorial policy</a></li>
-                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='bibliography.php')?'highlight':''; ?>"><a href="/versebuster/eplay/bibliography.php">Bibliography</a></li>
+    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/eplay-intro.php">Intro</a></li>
+    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay' || $page_name=='index-eplay.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/index-eplay.php">INDEX TO EPLAYS</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='editorial-policy.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>eplay/editorial-policy.php">Editorial policy</a></li>
+                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='bibliography.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/bibliography.php">Bibliography</a></li>
 
 
     				<li><a><strong>Theatre Scripts</strong></a></li>
 
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='theatre-script-intro.php')?'highlight':''; ?>"><a href="/versebuster/theatre-scripts/theatre-script-intro.php">Intro</a></li>
+    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='theatre-script-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/theatre-script-intro.php">Intro</a></li>
     				<li class="sub-sidebar-nav"><a>INDEX TO SCRIPTS</a></li>
-                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='index-full-play.php' || $page_name=='full-play-index')?'highlight':''; ?>"><a href="/versebuster/theatre-scripts/full-play-index/index-full-play.php">Full play</a></li>
-                    <li class="child-sub-sidebar-nav navi last-item <?php echo ($page_name=='index-individual-speeches.php' || $page_name=='individual-speeches-index')?'highlight':''; ?>"><a href="/versebuster/theatre-scripts/individual-speeches-index/index-individual-speeches.php">Individual speeches</a></li>
+                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='index-full-play.php' || $page_name=='full-play-index')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/full-play-index/index-full-play.php">Full play</a></li>
+                    <li class="child-sub-sidebar-nav navi last-item <?php echo ($page_name=='index-individual-speeches.php' || $page_name=='individual-speeches-index')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/index-individual-speeches.php">Individual speeches</a></li>
 
                     <li><a><strong>Slide Shows</strong></a></li>
-                    <li class="sub-sidebar-nav navi"><a href="/versebuster/understanding-eplay-system.php">Understanding ePlay system FREE</a></li>
-                    <li class="sub-sidebar-nav navi"><a href="/versebuster/understanding-quarto-first-folio-text.php">Understanding Quarto, First Folio <br> <span style="padding-left:82px">and modern texts FREE</span></a></li>
-                    <li class="sub-sidebar-nav navi last-item"><a href="/versebuster/how-to-series.php">HOW-TO SERIES</a></li>
+                    <li class="sub-sidebar-nav navi"><a href="<?php echo SITE_URL_FILE; ?>understanding-eplay-system.php">Understanding ePlay system FREE</a></li>
+                    <li class="sub-sidebar-nav navi"><a href="<?php echo SITE_URL_FILE; ?>understanding-quarto-first-folio-text.php">Understanding Quarto, First Folio <br> <span style="padding-left:82px">and modern texts FREE</span></a></li>
+                    <li class="sub-sidebar-nav navi last-item"><a href="<?php echo SITE_URL_FILE; ?>how-to-series.php">HOW-TO SERIES</a></li>
 
 
                     <li><a><strong>Quick Reference Library</strong></a></li>
-                        <li class="sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-intro.php')?'highlight':''; ?>"><a href="/versebuster/quick-reference-intro.php">Intro</a></li>
+                        <li class="sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quick-reference-intro.php">Intro</a></li>
                         <li class="sub-sidebar-nav navi"><a>MATERIAL BY PLAY</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='a-zPlays.php')?'highlight':''; ?>"><a href="/versebuster/a-zPlays.php">A to Z</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='comedies.php')?'highlight':''; ?>"><a href="/versebuster/comedies.php">Comedies</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='histories.php')?'highlight':''; ?>"><a href="/versebuster/histories.php">Histories</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='tragedies.php')?'highlight':''; ?>"><a href="/versebuster/tragedies.php">Tragedies</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='romances.php')?'highlight':''; ?>"><a href="/versebuster/romances.php">Romances</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='a-zPlays.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>a-zPlays.php">A to Z</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='comedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>comedies.php">Comedies</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='histories.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>histories.php">Histories</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='tragedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>tragedies.php">Tragedies</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='romances.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>romances.php">Romances</a></li>
 
                         <li class="sub-sidebar-nav navi"><a>MATERIAL BY TOPIC</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='verse-speaking.php')?'highlight':''; ?>"><a href="/versebuster/verse-speaking.php">Verse-speaking</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-pronunciation.php')?'highlight':''; ?>"><a href="/versebuster/elizabethan-pronunciation.php">Elizabethan pronunciation</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-stagecraft.php')?'highlight':''; ?>"><a href="/versebuster/elizabethan-stagecraft.php">Elizabethan stagecraft</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-rhetoric.php')?'highlight':''; ?>"><a href="/versebuster/elizabethan-rhetoric.php">Elizabethan rhetoric</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-world-view.php')?'highlight':''; ?>"><a href="/versebuster/elizabethan-world-view.php">Elizabethan world view</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='verse-speaking.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>verse-speaking.php">Verse-speaking</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-pronunciation.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-pronunciation.php">Elizabethan pronunciation</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-stagecraft.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-stagecraft.php">Elizabethan stagecraft</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-rhetoric.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-rhetoric.php">Elizabethan rhetoric</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-world-view.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-world-view.php">Elizabethan world view</a></li>
 
-                        <li class="child-sub-sidebar-nav navi  <?php echo ($page_name=='shakespeare.php')?'highlight':''; ?>"><a href="/versebuster/shakespeare.php">Shakespeare (life & times)</a></li>
+                        <li class="child-sub-sidebar-nav navi  <?php echo ($page_name=='shakespeare.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shakespeare.php">Shakespeare (life & times)</a></li>
 
                             <li class="sub-sidebar-nav navi"><a>MATERIAL BY LEVEL</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='beginner.php')?'highlight':''; ?>"><a href="/versebuster/beginner.php">Beginner</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='intermediate.php')?'highlight':''; ?>"><a href="/versebuster/intermediate.php">Intermediate</a></li>
-                            <li class="child-sub-sidebar-nav navi last-item navi <?php echo ($page_name=='advanced.php')?'highlight':''; ?>"><a href="/versebuster/advanced.php">Advanced</a></li>                        
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='beginner.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>beginner.php">Beginner</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='intermediate.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>intermediate.php">Intermediate</a></li>
+                            <li class="child-sub-sidebar-nav navi last-item navi <?php echo ($page_name=='advanced.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>advanced.php">Advanced</a></li>                        
     			</ul>
 
                 <div class="add-300x250">    
                     <div class="col-lg-12 sidebars ">     
-                        <a href="/versebuster/advertise.php"><img class="img-responsive" src="/versebuster/images/300x250-web-ad.jpg"></a>
+                        <a href="<?php echo SITE_URL_FILE; ?>advertise.php"><img class="img-responsive" src="/versebuster/images/300x250-web-ad.jpg"></a>
                     </div><!-- #col-lg-3 ad 3-->
                 </div>
 
@@ -288,14 +288,14 @@ if($page_name == 'byplay.php'){
     						</div><!-- /.navbar-header -->
     						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
     							<ul class="nav navbar-nav">
-    								<li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="/versebuster/index.php"><strong>HOME</strong></a></li>
-    								<li class="blog navi <?php echo ($page_name=='blog.php')?'highlight':''; ?>"><a href="/versebuster/blog.php">BLOG</a></li>
-    								<li class="forum navi <?php echo ($page_name=='forum.php')?'highlight':''; ?>"><a href="/versebuster/forum.php">FORUM</a></li>
-    								<li class="community navi <?php echo ($page_name=='community.php')?'highlight':''; ?>"><a href="/versebuster/community.php">COMMUNITY</a></li>
-    								<li class="faq navi <?php echo ($page_name=='faq.php')?'highlight':''; ?>"><a href="/versebuster/faq.php">FAQS</a></li>
-    								<li class="copyright navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="/versebuster/copyright.php">COPYRIGHT</a></li>	
-    								<li class="contact navi <?php echo ($page_name=='contact.php')?'highlight':''; ?>"><a href="/versebuster/contact.php">CONTACT</a></li>
-    								<li class="shop navi <?php echo ($page_name=='shop.php')?'highlight':''; ?>"><a href="/versebuster/shop.php"><strong>THE SHOP</strong></a></li>
+    								<li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>index.php"><strong>HOME</strong></a></li>
+    								<li class="blog navi <?php echo ($page_name=='blog.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>blog.php">BLOG</a></li>
+    								<li class="forum navi <?php echo ($page_name=='forum.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>forum.php">FORUM</a></li>
+    								<li class="community navi <?php echo ($page_name=='community.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community.php">COMMUNITY</a></li>
+    								<li class="faq navi <?php echo ($page_name=='faq.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>faq.php">FAQS</a></li>
+    								<li class="copyright navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>copyright.php">COPYRIGHT</a></li>	
+    								<li class="contact navi <?php echo ($page_name=='contact.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>contact.php">CONTACT</a></li>
+    								<li class="shop navi <?php echo ($page_name=='shop.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shop.php"><strong>THE SHOP</strong></a></li>
     							</ul>
     						</div><!-- /.bs-example-navbar-collapse-2-->
 

@@ -49,7 +49,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 
     <div class="col-lg-3 sidebars" >
-        <a href="/versebuster/advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
+        <a href="<?php echo SITE_URL_FILE; ?>advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
     </div>
 
 	<!-- #col-lg-3 AD-->	  

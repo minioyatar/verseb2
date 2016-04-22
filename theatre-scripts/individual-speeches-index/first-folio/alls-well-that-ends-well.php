@@ -9,7 +9,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		
-		<!--<a href="/versebuster/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
+		<!--<a href="<?php echo SITE_URL_FILE; ?>audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
 		<br>
 		<br>
 		

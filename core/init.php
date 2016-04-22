@@ -9,8 +9,10 @@
     // '127.0.0.1' == $_SERVER["REMOTE_ADDR"] ? 'true' : 'false'; //if local this is true if live false
     if('127.0.0.1' == $_SERVER["REMOTE_ADDR"]){
       define('SITE_URL', $_SERVER['DOCUMENT_ROOT'] . "/versebuster/");//PRODUCTION
+      define('SITE_URL_FILE',"/versebuster/");//PRODUCTION
     }else{
       define('SITE_URL', $_SERVER['DOCUMENT_ROOT'] . "/");// LIVE
+      define('SITE_URL_FILE', "/");// LIVE
     }
 
 

@@ -9,7 +9,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		
-		<!--<a href="/versebuster/audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
+		<!--<a href="<?php echo SITE_URL_FILE; ?>audio-speeches/audio-index" class="btn btn-info" role="button">Back to Audio Index</a>-->
 		<br>
 		<br>
 		
@@ -106,7 +106,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 			<div class="sm2-playlist-wrapper">
 				<ul class="sm2-playlist-bd">
-					<li><a href="/versebuster/_mp3/LittleBoxes.mp3"><b>Walk off the Earth</b> - LittleBoxes.mp3</a></li>
+					<li><a href="<?php echo SITE_URL_FILE; ?>_mp3/LittleBoxes.mp3"><b>Walk off the Earth</b> - LittleBoxes.mp3</a></li>
 				</ul>
 			</div>
 

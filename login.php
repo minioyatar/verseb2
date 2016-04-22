@@ -154,7 +154,7 @@ if(Input::get('registered')){
             </div>
         </li>
         <!-- <li style="background-color:#ED1C24"><a href="<?php echo SITE_URL; ?>sign-up.php">Become a Member</a></li> -->
-        <li style=""><a href="/versebuster/membership.html">Become a Member</a></li>
+        <li style=""><a href="<?php echo SITE_URL_FILE; ?>membership.html">Become a Member</a></li>
         <?php
     }//END OF LOGIN FORM
     ?>

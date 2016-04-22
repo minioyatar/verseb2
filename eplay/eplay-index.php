@@ -104,25 +104,25 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>All’s Well That Ends Well</td>
-            <td><a href="/versebuster/eplay/first-folio/alls-well-that-ends-well.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/alls-well-that-ends-well.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/alls-well-that-ends-well.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/alls-well-that-ends-well.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Anthony & Cleopatra, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/anthony-and-Cleopatra.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/anthony-and-Cleopatra.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/anthony-and-Cleopatra.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/anthony-and-Cleopatra.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>As You like It</td>
-            <td><a href="/versebuster/eplay/first-folio/comedy-of-errors.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/comedy-of-errors.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/comedy-of-errors.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/comedy-of-errors.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
@@ -136,25 +136,25 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Comedy of Errors, <i>The</i></td>
-            <td><a href="/versebuster/eplay/first-folio/as-you-like-it.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/as-you-like-it.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/as-you-like-it.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/as-you-like-it.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Coriolanus, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/coriolanus.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/coriolanus.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/coriolanus.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/coriolanus.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Cymbeline</td>
-            <td><a href="/versebuster/eplay/first-folio/cymbeline.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/cymbeline.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/cymbeline.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/cymbeline.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
@@ -168,57 +168,57 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Hamlet, Prince of Denmark, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/hamlet.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/hamlet.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/hamlet.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/hamlet.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td style="height: 50px;"><a href="#"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a>*</td>
           </tr>
           <tr>
             <td>Henry the Fifth, <i>The Life of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/henry-the-fifth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/henry-the-fifth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/henry-the-fifth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/henry-the-fifth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Henry the Fourth, <i>The First Part of<i/></td>
-            <td><a href="/versebuster/eplay/first-folio/henry-the-fourth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/henry-the-fourth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/henry-the-fourth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/henry-the-fourth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Henry the Fourth, <i>The Second Part of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/henry-the-fourth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/henry-the-fourth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/henry-the-fourth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/henry-the-fourth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Henry the Sixth, <i>The First Part of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/henry-the-sixth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/henry-the-sixth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/henry-the-sixth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/henry-the-sixth-part-1.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Henry the Sixth, <i>The Second Part of<i></td>
-            <td><a href="/versebuster/eplay/first-folio/henry-the-sixth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/henry-the-sixth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/henry-the-sixth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/henry-the-sixth-part-2.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
           <tr>
             <td>Henry the Sixth, <i>The Third Part of<i></td>
-            <td><a href="/versebuster/eplay/first-folio/henry-the-sixth-part-3.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/henry-the-sixth-part-3.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/henry-the-sixth-part-3.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/henry-the-sixth-part-3.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
@@ -232,9 +232,9 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Julius Caesar, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/julius-caesar.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/julius-caesar.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
-            <td><a href="/versebuster/eplay/modern/julius-caesar.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/modern/julius-caesar.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><p>&#8226;</p></td>
           </tr>
@@ -248,7 +248,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>King Henry the Eighth, <i>The Famous History of the Life of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/king-henry-the-eighth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/king-henry-the-eighth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -256,7 +256,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>King John, <i>The Life and Death of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/king-john.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/king-john.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -264,7 +264,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>King Lear</td>
-            <td><a href="/versebuster/eplay/first-folio/king-lear.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/king-lear.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -272,7 +272,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>King Richard the Second, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/king-richard-the-second.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/king-richard-the-second.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -288,7 +288,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Love’s Labour’s Lost</td>
-            <td><a href="/versebuster/eplay/first-folio/loves-labours-lost.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/loves-labours-lost.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -304,7 +304,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Macbeth, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/macbeth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/macbeth.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -312,7 +312,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Measure for Measure</td>
-            <td><a href="/versebuster/eplay/first-folio/measure-of-measure.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/measure-of-measure.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -320,7 +320,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Merchant of Venice, <i>The</i></td>
-            <td><a href="/versebuster/eplay/first-folio/merchant-of-venice.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/merchant-of-venice.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -328,7 +328,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Merry Wives of Windsor, <i>The</i></td>
-            <td><a href="/versebuster/eplay/first-folio/merry-wives-of-windsor.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/merry-wives-of-windsor.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -336,7 +336,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Midsummer Night’s Dream, <i>A</i></td>
-            <td><a href="/versebuster/eplay/first-folio/midsummer-nights-dream.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/midsummer-nights-dream.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -344,7 +344,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Much Ado About Nothing</td>
-            <td><a href="/versebuster/eplay/first-folio/much-ado-about-nothing.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/much-ado-about-nothing.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -360,7 +360,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Othello, the Moor of Venice, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/othelo-the-moor-of-venice.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/othelo-the-moor-of-venice.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -390,7 +390,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Richard the Third, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/richard-the-third.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/richard-the-third.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -398,7 +398,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Romeo & Juliet, <i>The Tragedy of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/romeo-and-juliet.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/romeo-and-juliet.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -414,7 +414,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Taming of the Shrew, <i>The</i></td>
-            <td><a href="/versebuster/eplay/first-folio/taming-of-the-shrew.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/taming-of-the-shrew.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -422,7 +422,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Tempest, <i>The</i></td>
-            <td><a href="/versebuster/eplay/first-folio/tempest.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/tempest.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -430,7 +430,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Timon of Athens, <i>The Life of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/timon-of-athens.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/timon-of-athens.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -438,7 +438,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Titus Andronicus, <i>The Tragedy of<i/></td>
-            <td><a href="/versebuster/eplay/first-folio/titus-andonicus.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/titus-andonicus.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -446,7 +446,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Troilus & Cressida, <i>The History of</i></td>
-            <td><a href="/versebuster/eplay/first-folio/troilus-and-cressida.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/troilus-and-cressida.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -454,7 +454,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Twelfth Night, or What You Will</td>
-            <td><a href="/versebuster/eplay/first-folio/twelfth-night.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/twelfth-night.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -462,7 +462,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Two Gentleman of Verona, <i>The</i></td>
-            <td><a href="/versebuster/eplay/first-folio/two-gentleman-of-verona.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/two-gentleman-of-verona.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
@@ -486,7 +486,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
           <tr>
             <td>Winter’s Tale, <i>The</i></td>
-            <td><a href="/versebuster/eplay/first-folio/winter’s-tale.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
+            <td><a href="<?php echo SITE_URL_FILE; ?>eplay/first-folio/winter’s-tale.php"><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>
             <td><a href=""><img class="tbl-glossy-tick" src="/versebuster/images/yellow2.png"></a></td>
             <td>n/a</td>

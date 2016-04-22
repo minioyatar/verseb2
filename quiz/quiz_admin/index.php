@@ -9,8 +9,8 @@ require_once "includes/functions.php";
 <head>
     <title>Versebuster - A Shakespeare Performance Resource with Audio</title>
     <!-- Bootstrap Core CSS -->
-    <link href="/versebuster/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/versebuster/css/vbcustom.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL_FILE; ?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL_FILE; ?>css/vbcustom.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> -->
     <style>
         .table tr th{

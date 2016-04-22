@@ -20,7 +20,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 			<p>I love candy canes croissant jelly. Jelly-o sugar plum sweet roll pastry croissant I love icing sugar plum icing. Cake topping candy canes. Powder bonbon liquorice.</p>
 			<p>Tiramisu lollipop lemon drops. Bear claw chocolate cake pastry croissant chupa chups candy canes wafer jelly. Oat cake powder fruitcake muffin carrot cake tart I love pudding I love. I love marshmallow I love chocolate bear claw cake I love.</p>
 
-			<p><a href="/versebuster/data/pdf/ePlay PPP Demo 5th Draft embed testpdf.pdf" target="_blank">this link to intro pdf</a></p>
+			<p><a href="<?php echo SITE_URL_FILE; ?>data/pdf/ePlay PPP Demo 5th Draft embed testpdf.pdf" target="_blank">this link to intro pdf</a></p>
 			
 			<p>I love candy canes croissant jelly. Jelly-o sugar plum sweet roll pastry croissant I love icing sugar plum icing. Cake topping candy canes. Powder bonbon liquorice.</p>
 			<p>Tiramisu lollipop lemon drops. Bear claw chocolate cake pastry croissant chupa chups candy canes wafer jelly. Oat cake powder fruitcake muffin carrot cake tart I love pudding I love. I love marshmallow I love chocolate bear claw cake I love.</p>
