@@ -19,18 +19,18 @@
     $live_url			= 'https://www.paypal.com/cgi-bin/webscr';
 
 	$GLOBALS['config'] = array(
-		'mysql' => array(//PRODUCTION
-		 	'host' => '127.0.0.1',
-		 	'username' => 'root',
-		 	'password' => '1234567890-',
-		 	'db' => 'maxbonam_versedb'
-		),	
-		// 'mysql' => array(//LIVE
-		// 	'host' => 'localhost',
-		// 	'username' => 'maxbonam_verse',
-		// 	'password' => 'G?#z$x4?X+Tf',
-		// 	'db' => 'maxbonam_versedb'
-		// ),
+		// 'mysql' => array(//PRODUCTION
+		//  	'host' => '127.0.0.1',
+		//  	'username' => 'root',
+		//  	'password' => '1234567890-',
+		//  	'db' => 'maxbonam_versedb'
+		// ),	
+		'mysql' => array(//LIVE
+			'host' => 'localhost',
+			'username' => 'maxbonam_verse',
+			'password' => 'G?#z$x4?X+Tf',
+			'db' => 'maxbonam_versedb'
+		),
 		'remember' => array(
 			'cookie_name' => 'hash',
 			'cookie_expiry' => '604800'
