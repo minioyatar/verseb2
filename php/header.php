@@ -84,7 +84,7 @@
     
     <link href="<?php echo SITE_URL_FILE; ?>css/library/jquery-ui.min.css" rel="stylesheet">
     <link href="<?php echo SITE_URL_FILE; ?>css/library/jquery.remodal.css" rel="stylesheet"><!--Modal window file-->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL_FILE; ?>css/library/font-awesome.min.css" rel="stylesheet">
 <!-- MP3 PLAYER -->
 <link rel="stylesheet" type="text/css" href="<?php echo SITE_URL_FILE; ?>css/library/mp3-bar-ui.css" />
 <!-- END OF MP3 PLAYER -->

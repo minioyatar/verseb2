@@ -14,7 +14,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 		<div class="well pdf-container">
 			<div class='embed-responsive' style='padding-bottom:100%'>
-			    <object data='<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/modern/PDF/TH_IS_R3_1_Richard_Act 1.1_Now-is-the-winter-of-our-discontent_2016.04.22-DEMO.pdf' type='application/pdf' width='100%' height='100%'></object>
+			    <object data='<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/modern/PDF/TH_IS_R3_ 1_Richard_Act 1.1_Now is the winter of our  discontent_2016.04.22_DEMO.pdf' type='application/pdf' width='100%' height='100%'></object>
 			</div>
 			<?PHP
 				// require_once(SITE_URL . "theatre-scripts/individual-speeches-index/tableTypes.php");
