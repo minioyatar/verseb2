@@ -288,7 +288,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
     						</div><!-- /.navbar-header -->
     						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
     							<ul class="nav navbar-nav">
-    								<li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>index.php"><strong>HOME</strong></a></li>
+    								<li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>"><strong>HOME</strong></a></li>
     								<li class="blog navi <?php echo ($page_name=='blog.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>blog.php">BLOG</a></li>
     								<li class="forum navi <?php echo ($page_name=='forum.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>forum.php">FORUM</a></li>
     								<li class="community navi <?php echo ($page_name=='community.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community.php">COMMUNITY</a></li>
