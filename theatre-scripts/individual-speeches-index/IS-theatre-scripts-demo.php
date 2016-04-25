@@ -9,7 +9,9 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 <div class="row main-text">
 	<div class="col-lg-12"><!-- #col-lg-9 introduction content -->
 		<div class="well pdf-header">
-			<h3 class="page-title-ext text-center branding-style-reg" style="color:#b00000">THEATRE SCRIPTS - INDIVIDUAL SPEECH DEMO</h3>
+			<h3 class="page-title-ext text-center branding-style-reg" style="">THEATRE SCRIPT DEMO</h3>
+			
+			<p class="text-center"><strong>INDIVIDUAL SPEECHES </strong></p>
 		</div>
 
 		<div class="well pdf-container">
