@@ -21,12 +21,12 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
                 <div class="box-body">
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
-                      <tr style="background-color:#B00000;">
-                      	<th width=100 style="vertical-align: middle; text-align: center;border-color:#000;">speech's order in play's sequence</th>
-                      	<th width=200 style="vertical-align: middle; text-align: center;border-color:#000;">Name of Character</th>
-                        <th width=100 style="vertical-align: middle; text-align: center;border-color:#000;">Act</th>
-                        <th width=100 style="vertical-align: middle; text-align: center;border-color:#000;">Scene</th>                        
-                        <th style="vertical-align: middle; text-align: center; border-color:#000;">Opening line / famous line</th>
+                      <tr style="background-color:#F4CCCC;">
+                      	<th width=100 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Sequential order in play</th>
+                      	<th width=200 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Name of Character</th>
+                        <th width=100 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Act</th>
+                        <th width=100 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Scene</th>                        
+                        <th style="vertical-align: middle; text-align: center; border: 1px solid #000;">Opening line / famous line</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -39,21 +39,21 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
                       </tr>
                       <tr>
-                        <td class="text-center"><a href="">1</a></td>
+                        <td class="text-center"><a href="">2</a></td>
                         <td><a href="">Richard</a></td>
                         <td class="text-center"><a href="">1</a></td>
-                        <td class="text-center"><a href="">2</a></td>
+                        <td class="text-center"><a href="">1</a></td>
                         <td><a href="">Was ever woman in this humour woo'd?</a></td>
                       </tr>
                       <tr>
-                        <td class="text-center"><a href="">1</a></td>
+                        <td class="text-center"><a href="">3</a></td>
                         <td><a href="">Lady Anne</a></td>
                         <td class="text-center"><a href="">1</a></td>
                         <td class="text-center"><a href="">2</a></td>
                         <td><a href="">Set down, set your honourable load</a></td>
                       </tr>
                       <tr>
-                        <td class="text-center"><a href="">3</a></td>
+                        <td class="text-center"><a href="">4</a></td>
                         <td><a href="">Lady Anne</a></td>
                         <td class="text-center"><a href="">1</a></td>
                         <td class="text-center"><a href="">2</a></td>
