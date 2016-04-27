@@ -22,7 +22,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
                       <tr style="background-color:#F4CCCC;">
-                      	<th width=100 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Sequential order in play</th>
+                      	<th width=100 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Play order</th>
                       	<th width=200 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Name of Character</th>
                         <th width=100 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Act</th>
                         <th width=100 style="vertical-align: middle; text-align: center;border: 1px solid #000;">Scene</th>                        
