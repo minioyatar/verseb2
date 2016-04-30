@@ -120,7 +120,7 @@ $(document).ready(function(){
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceB +'">' + quiz[genNum].choiceB +'</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceC +'">' + quiz[genNum].choiceC +'</h3>';
             to_post += '<h3><input class = "radioBtnClass" type="radio" name="' + qzNo + '" value="' + quiz[genNum].choiceD +'">' + quiz[genNum].choiceD +'</h3>';
-            console.log(to_post)
+            // console.log(to_post)
             return to_post;
         }
         // Return an object exposed to the public

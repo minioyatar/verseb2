@@ -296,9 +296,38 @@ $(document).ready(function() {
     })
 /*<!-- 6 STEP WIZARD (WORKING)"-->*/
 
+// ZOOM FUNCTIONS
+    $('#zoom-in').click(function () {
+        $('#pic').width($('#pic').width()*1.2)
+        $('#pic').height($('#pic').height()*1.2)
+        $('.modal-dialog').width($('.modal-dialog').width()*1.2)
+        $('.modal-dialog').height($('.modal-dialog').height()*1.2)
+        
+    })
+    $('#zoom-out').click(function () {
+      $('#pic').width($('#pic').width()/1.2)
+      $('#pic').height($('#pic').height()/1.2)
+        $('.modal-dialog').width($('.modal-dialog').width()/1.2)
+        $('.modal-dialog').height($('.modal-dialog').height()/1.2)      
+    })
 
+    $('#zoom-reset').click(function(){
+      $('#pic').width('100%')
+      $('#pic').height('100%')
+      $('.modal-dialog').width('600px')
+      $('.modal-dialog').height('auto')
 
+    })
+//END ZOOM FUNCTIONS
 
+var imgLoc = '/versebuster/theatre-scripts/individual-speeches-index/modern/img-demo/'
+// var modal-dialogOriginalWidth = $('#pic').width()
+// var modal-dialogOriginalHeight = $('#pic').width()
+$("#th-is").on('click','.th-is-item',function(){
+    $('#demo-modal .modal-body').html('<img id="pic" class="img-responsive" src="' + imgLoc + $(this).data('img') + '"/>')
+    // console.log($(this).data('img'))
+    $('#demo-modal').modal({show:true})
+});
 
     //DISABLING RIGHT CLICK FUNCTIONS
 /*
