@@ -320,7 +320,7 @@ $(document).ready(function() {
     })
 //END ZOOM FUNCTIONS
 
-var imgLoc = '/versebuster/theatre-scripts/individual-speeches-index/modern/img-demo/'
+var imgLoc = '/theatre-scripts/individual-speeches-index/modern/img-demo/'
 // var modal-dialogOriginalWidth = $('#pic').width()
 // var modal-dialogOriginalHeight = $('#pic').width()
 $("#th-is").on('click','.th-is-item',function(){
