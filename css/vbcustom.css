@@ -1161,8 +1161,24 @@ color: #fff;
 .pdf-container{
     padding: 0;
 }
-
-
+.modal-content{
+    border-radius: 0;
+}
+#demo-modal #pic{
+    margin: 0 auto;
+}
+#demo-modal .close .btn-danger, #demo-modal button.close{
+    background: #C9302C repeat scroll 0 0 !important;
+    opacity: 1;
+    color: #fff;
+    padding: 6px;
+}
+..modal-header{
+}
+.modal-header span{
+    cursor:pointer;
+    padding: 8px 15px;
+}
 
 
 

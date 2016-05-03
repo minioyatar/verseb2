@@ -96,17 +96,25 @@
 <div id="demo-modal" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class="modal-header" style="padding:0">
-				<button type="button" class="close" data-dismiss="modal">×</button>
-				<h5>Theater Script Demo</h5>
+			<div class="modal-header " style="padding:0; border: none !important">
+				<div class="row">
+					<div class="col-md-12 text-center" style="">
+						<p style="margin-bottom: 0px; margin-top: 5px;">
+							<span id="zoom-in" class="btn-info">Zoom in</span> 
+							<span id="zoom-reset" class="btn-info">Reset</span> 
+							<span id="zoom-out" class="btn-info">Zoom out </span>
+
+						<button type="button" class="close btn-danger" data-dismiss="modal" style="float:right; position:relative; margin-top: -5px; position:absolute; right:15px">× </button>
+						</p>
+					</div>
+
+					<div class="">
+						
+					</div>
+				</div>
 			</div>
-			<div class="col-md-12 text-center" style="position:absolute; z-index:999">
-				<p><b><span id="zoom-in" class="col-md-4">Zoom in</span> 
-					<span id="zoom-reset" class="col-md-4">Reset</span> 
-					<span id="zoom-out" class="col-md-4">Zoom out </span>
-				</b></p> 
-			</div>
-			<div class="modal-body">
+			
+			<div class="modal-body" style="">
 				<p>My modal content here…</p>
 			</div>
 <!-- 			<div class="modal-footer">
