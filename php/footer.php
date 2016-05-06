@@ -163,8 +163,11 @@
 		<!-- MP3 PLAYER -->
 		<script type="text/javascript" src="<?php echo SITE_URL_FILE; ?>js/soundmanager2.js"></script>
 		<script type="text/javascript" src="<?php echo SITE_URL_FILE; ?>js/library/bar-ui.js"></script>
-		
 		<!-- end MP3 PLAYER -->
+
+		<!-- PDF OBJECT -->
+		<script type="text/javascript" src="<?php echo SITE_URL_FILE; ?>plugins/PDFObject-master/pdfobject.min.js"></script>
+		<script>PDFObject.embed("<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/modern/PDF/<?php echo 'TH_IS_R3_1_Richard_Act-1.1_Now-is-the-winter-of-our-discontent_2016.04.23_DEMO'; ?>.pdf", "#example1");</script>
 
 <script>
 soundManager.setup({
