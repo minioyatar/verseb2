@@ -18,14 +18,14 @@
 	    						</div><!-- /.navbar-header -->
 	    						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
 	    							<ul class="nav navbar-nav ">
-	    								<li class="index "><a href="index.php"><strong>HOME</strong></a></li>
-	    								<li class="blog"><a href="blog.php">BLOG</a></li>
-	    								<li class="forum"><a href="forum.php">FORUM</a></li>
-	    								<li class="community"><a href="community.php">COMMUNITY</a></li>
-	    								<li class="faq"><a href="faq.php">FAQS</a></li>
-	    								<li class="copyright"><a href="copyright.php">COPYRIGHT</a></li>	
-	    								<li class="contact"><a href="contact.php">CONTACT</a></li>
-	    								<li class="shop"><a href="shop.php"><strong>THE SHOP</strong></a></li>
+	    								<li class="index "><a href="<?php echo SITE_URL_FILE; ?>index.php"><strong>HOME</strong></a></li>
+	    								<li class="blog"><a href="<?php echo SITE_URL_FILE; ?>blog.php">BLOG</a></li>
+	    								<li class="forum"><a href="<?php echo SITE_URL_FILE; ?>forum.php">FORUM</a></li>
+	    								<li class="community"><a href="<?php echo SITE_URL_FILE; ?>community.php">COMMUNITY</a></li>
+	    								<li class="faq"><a href="<?php echo SITE_URL_FILE; ?>faq.php">FAQS</a></li>
+	    								<li class="copyright"><a href="<?php echo SITE_URL_FILE; ?>copyright.php">COPYRIGHT</a></li>	
+	    								<li class="contact"><a href="<?php echo SITE_URL_FILE; ?>contact.php">CONTACT</a></li>
+	    								<li class="shop"><a href="<?php echo SITE_URL_FILE; ?>shop.php"><strong>THE SHOP</strong></a></li>
 	    							</ul>
 	    						</div><!-- /.bs-example-navbar-collapse-2-->	
 							</nav><!-- /.navbar navbar-inverse sub-main-nav -->
@@ -34,7 +34,7 @@
 						<div class="row ">
 							<div class="col-lg-12">
 								<div class=" text-center">
-									<p>Copyright <sup>&copy;</sup> 2010-2015 Versebuster, <sup>&#8471;</sup> 2010-2015 Versebuster. All rights reserved.</p>
+									<p>Copyright <sup>&copy;</sup> 2010-2016 Versebuster, <sup>&#8471;</sup> 2010-2016 Versebuster. All rights reserved.</p>
 									<!-- <p><A href="http://www.copyscape.com/dmca-tak	edown-notice-search/" target="_blank"><IMG SRC="http://banners.copyscape.com/images/cs-gr-234x16.gif" ALT="Protected by Copyscape DMCA Takedown Notice Infringement Search Tool" TITLE="Protected by Copyscape Plagiarism Checker - Do not copy content from this page." WIDTH="234" HEIGHT="16" BORDER="0"/></A></p> -->
 								</div>
 
@@ -168,7 +168,9 @@
 		<!-- PDF OBJECT -->
 		<script type="text/javascript" src="<?php echo SITE_URL_FILE; ?>plugins/PDFObject-master/pdfobject.min.js"></script>
 		<script>PDFObject.embed("<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/modern/PDF/<?php echo 'TH_IS_R3_1_Richard_Act-1.1_Now-is-the-winter-of-our-discontent_2016.04.23_DEMO'; ?>.pdf", "#example1");</script>
-
+		<script>PDFObject.embed("<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/modern/PDF/<?php echo 'TH_IS_STM_ 1_More_Act 2.[4]_Grant them removed, and grant that this your noise_2016.08.02_A3'; ?>.pdf", "#example2");</script><!--theater script sir thomas more-->
+		<script>PDFObject.embed("<?php echo SITE_URL_FILE; ?>audio-speeches/DEMO/PDF/<?php echo 'TH_IS_STM_ 1_More_Act 2.[4]_Grant them removed, and grant  that this your noise_2016.08.02 BASIC A4'; ?>.pdf", "#example3");</script>
+		<script>PDFObject.embed("<?php echo SITE_URL_FILE; ?>eplay/DEMO/PDF/<?php echo 'Sir Thomas More_ePlay_DEMO_2016.08.02'; ?>.pdf", "#example4");</script>
 <script>
 soundManager.setup({
   // required: path to directory containing SM2 SWF files

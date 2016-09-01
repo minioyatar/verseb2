@@ -27,7 +27,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 					<p>We insert the following in our all products:</p>
 				</li>
 			</ul>			
-					<p><p class="text-center"><strong>Copyright © 2010-2015 Versebuster, ℗ 2010-2015 Versebuster. All rights reserved.</strong></p>
+					<p><p class="text-center"><strong>Copyright © 2010-2016 Versebuster, ℗ 2010-2016 Versebuster. All rights reserved.</strong></p>
 				
 <br>
 <br>
