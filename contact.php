@@ -15,31 +15,26 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 		    <p class="text-center"><strong>Email</strong></p>
 		    <table style="margin:0 auto;">
+<!-- 			<tr>
+				<td><img src="<?php echo SITE_URL_FILE; ?>images/contact.png" alt="contact information" class="center-block img-responsive" ></td>
+			</tr> -->
+				 
 				<tr>
-					<img src="<?php echo SITE_URL_FILE; ?>images/contact.png" alt="contact information" class="center-block img-responsive" >
-<!-- 				    <td><p>Membership &amp; general enquiries:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
-				    <td><p>john.nobody@versebuster.com</p></td> -->
-				</tr>
-<!-- 				<tr>
-					<td><p>Advertising:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
-				    <td><p>advertise@versebuster.com</p></td>
-				</tr>
-				<tr>
-				    <td><p>Typographical errors:&nbsp;</p></td>
-				    <td><p>editor@versebuster.com</p></td>
+					</tr><td><p>Membership, Advertising and General Enquiries  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+				    <td><p><a href="mailto:john.nobody@versebuster.com" target="_top">john.nobody@versebuster.com</a></p></td>
 				</tr>
 				<tr>
-				    <td><p>Suggestions &amp; ideas:&nbsp;</p></td>
-				    <td><p>editor@versebuster.com</p></td>
+					<td><p>Editorial (feedback / suggestions / errors)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+				    <td><p><a href="mailto:editor@versebuster.com" target="_top">editor@versebuster.com</a></p></td>
 				</tr>
 				<tr>
-				    <td><p>Website technical problem:&nbsp;</p></td>
-				    <td><p>webmaster@versebuster.com</p></td>
-				</tr> -->
+				    <td><p>Website (technical problem)      &nbsp;</p></td>
+				    <td><p><a href="mailto:webmaster@versebuster.com" target="_top">webmaster@versebuster.com</a></p></td>
+				</tr>
 		    </table>
 		    <br>
-		    <p class="text-center"><strong>Facebook name: </strong></p>
-		    <p class="text-center">Versebuster Shakespeare</p>
+		    <p class="text-center"><strong>Facebook</strong></p>
+		    <p class="text-center"><a href="https://www.facebook.com/VersebusterShakespeare/?fref=ts" target="_blank">Versebuster Shakespeare</a></p>
 			<br>
 		</div>
                                        

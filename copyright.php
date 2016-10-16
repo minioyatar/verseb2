@@ -10,7 +10,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
 			<h3 class="page-title-ext text-center branding-style-reg">Copyright</h3>
-			<p>RESPECT</p>
+			<p>POLITE REQUEST</p>
 			<p>We politely ask that our copyright is respected.</p> 
 			<br>
 			<p>ASSERTING COPYRIGHT</p>
@@ -43,7 +43,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 				<br>
 
 			<p>DOUBT OR SPECIAL CIRCUMSTANCES</p>
-			<p>If in any doubt or there are special circumstances, please contact us.
+			<p>If you are in any doubt or there are special circumstances, please contact us.
 				<br>
 				<br>
 		</div>

@@ -25,8 +25,81 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
         </div>
         <br>
 
-<h4 class="text-center"><a href="DEMO/PDF/TH_IS_STM_ 1_More_Act 2.[4]_Grant them removed, and grant that this your noise_2016.09.01 STANDARD A4.pdf" target="_blank">SHERIFF MORE</a></h4>        
+<h4 class="text-center" style="color:#428bca">SHERIFF MORE</h4>        
 <p class="text-center" style="color:#428bca">This is the famous 'refugee' speech Shakespeare contributed to <i><u>Sir Thomas More</u></i>, a play first composed circa 1600 by Anthony Munday (principally) and Henry Chettle.</p>
+
+        <!-- MP3 PLAYER -->
+        <div class="sm2-bar-ui compact full-width">
+
+          <div class="bd sm2-main-controls">
+
+            <div class="sm2-inline-texture"></div>
+            <div class="sm2-inline-gradient"></div>
+
+            <div class="sm2-inline-element sm2-button-element">
+              <div class="sm2-button-bd">
+                <a href="#play" class="sm2-inline-button play-pause">Play / pause</a>
+              </div>
+            </div>
+
+            <div class="sm2-inline-element sm2-inline-status">
+
+              <div class="sm2-playlist">
+                <div class="sm2-playlist-target">
+                  <!-- playlist <ul> + <li> markup will be injected here -->
+                  <!-- if you want default / non-JS content, you can put that here. -->
+                  <noscript><p>JavaScript is required.</p></noscript>
+                </div>
+              </div>
+
+              <div class="sm2-progress">
+                <div class="sm2-row">
+                  <div class="sm2-inline-time">0:00</div>
+                  <div class="sm2-progress-bd">
+                    <div class="sm2-progress-track">
+                      <div class="sm2-progress-bar"></div>
+                      <div class="sm2-progress-ball"><div class="icon-overlay"></div></div>
+                    </div>
+                  </div>
+                  <div class="sm2-inline-duration">0:00</div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="sm2-inline-element sm2-button-element sm2-volume">
+              <div class="sm2-button-bd">
+                <span class="sm2-inline-button sm2-volume-control volume-shade"></span>
+                <a href="#volume" class="sm2-inline-button sm2-volume-control">volume</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="bd sm2-playlist-drawer sm2-element">
+
+            <div class="sm2-inline-texture">
+              <div class="sm2-box-shadow"></div>
+            </div>
+
+            <!-- playlist content is mirrored here -->
+
+            <div class="sm2-playlist-wrapper">
+              <ul class="sm2-playlist-bd">
+                <li><a href="DEMO/SIR THOMAS MOORE.mp3"><b>Sir Thomas More</b></a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <!-- END OF MP3 PLAYER -->
+<br>
+<br>
+
+
+<p class="text-center"><a href="DEMO/PDF/TH_IS_STM_1_More_Act 2.[4]_Grant them remov'd_Option 1 STANDARD A4_2016.10.02_DEMO.pdf" target="_blank">Once you start the audio you can follow the text here</a></p>
+<br>
+
 
 <p class="text-center">Owing to censorship the play was heavily revised around 1604-5 by Chettle, Thomas Dekker, Thomas Heywood and Shakespeare. &nbsp;In terms of Shakespeare's own canon of work his contribution falls chronologically somewhere around or between <i><u>Measure for Measure</u></i> and <i><u>Othello</u></i> - plays that, between them, strongly echo the themes of the speech (respectively, civic order and xenophobia).</p>
 

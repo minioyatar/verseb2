@@ -1,8 +1,8 @@
 
 <div class="get-in-touch">
-    <h2>Newsletter</h2>
-    
-    <p>Stayed tuned with our FREE monthly newsletter</p>
+    <h2>Keep in touch</h2>
+    <p>Stay tuned with occasional newsletter about Versebuster product releases, workshops and developments</p>
+    <!-- <p>Stayed tuned with our FREE monthly newsletter</p> -->
     
     <form action="" method="post" id="" accept-charset='UTF-8'> 
     <input class="button orange" type='hidden' name='token' value="<?php echo $token; ?>" />

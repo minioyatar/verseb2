@@ -6,9 +6,9 @@
 <div class="row main-text"><!-- #col-lg-9 introduction content -->
 
 	<div class="col-lg-9">
-		<div class="well" style="background-color:#F39C12">
+<!-- 		<div class="well" style="background-color:#F39C12">
 			<h4><b>Under Construction <br></b>  Soft opening November 2016 with <i>Richard lll</i> - LA workshop slated for summer 2017. &nbsp;Sample DEMOs of our product now ready below</h4>
-		</div>		
+		</div>	 -->	
 		<!--===================INTRO ==================-->
 		<div class="well" style="padding: 16px;">
 <br>
@@ -31,31 +31,28 @@
 			<p class="text-center"><img src="images/diamondBullet.gif"> Shakespeare's prose has its own rules and 
 				guidelines too <img src="images/diamondBullet.gif"> </p>
 			
-			<p><strong>Extensive Product Range</strong></p>
+			<p><strong>CORE PRODUCT</strong></p>
 
 				<ul class="decimal-list">
-					<li><p>BLOG - month by month we discuss specific components of verse-speaking and Shakespeare 
-							performance building up into a comprehensive library</li> 
 
-					<li><p><i>e</i>PLAYS -  the engine of Versebuster. &nbsp;They aim to provide five overlapping elements: (a) an in-depth performance-relevant glossary; (b) verse-line scansion and syllable count leading to suggested elisions and pronunciations; (c) a line-by-line comparison of the text, lineation, Speech Headers and Stage Directions of five well-known editions owing to significant discrepancies between them; (d) a quick and easy way to spot Shakespeare's key rhetorical devices; and (e) a comparison, were applicable, of our modern text alongside those of the First Folio and a 'Good' Quarto</li>
 
-					<li><p>THEATRE SCRIPTS - a choice of A4 scripts (full play, scenes, individual speeches) and an A3 version for group-sharing via projector</p></li>
+					<li><p>THEATRE SCRIPTS - a choice of printable A4 scripts (full play, scenes, individual speeches) and an A3 landscape version for personal computer use or group-sharing via projector. &nbsp;Big easy-to-read font and generous spacing all round for personal mark-up and director notes.  &nbsp;Scripts for full-play and scenes, or just for individual speeches.  &nbsp;Ideal for learning lines and audition speeches. </p></li>
+					
+					<li><p><i>e</i>PLAYS -  the engine of Versebuster. &nbsp;They aim to provide four  overlapping elements: (i) an in-depth performance-relevant glossary; (ii) verse-line scansion and syllable count leading to suggested elisions and pronunciations; (iii) a line-by-line comparison of the text, lineation, Speech Headers and Stage Directions of five well-known editions owing to significant discrepancies between them; and (iv) a quick and easy way to spot Shakespeare's key rhetorical devices.</li>
 
-					<li><p>AUDIO BANK - over 500 specially recorded speeches to illustrate aspects of the performance information in the <i>e</i>Plays</li>
+					<li><p>AUDIO BANK - over 500 specially recorded speeches to illustrate aspects of performance information embedded in the text.</li>
 
 					<!-- <li><p>WORKSHOP TEACHER AIDS - slide show 'step-by-step' professional methodology for hundreds of 
 							speeches (F1, Quarto &amp; Modern)</li>  -->
 					<li>
 						<p>SLIDE SHOWS - 'step-by-step' Beginner, Intermediate & Advanced methodology for understanding all aspects of Shakespearean stagecraft and verse-speaking in an attractive PPP format for individual or group use. &nbsp;All 80 of the slide shows have a 'Get it? Got it!' Q and A section at the end.</p>
 					</li>
-					<li>
-						<p>QUICK REFERENCE LIBRARY - here you can find everything across all media - Utube, TV, film, audio recordings, books, articles, theatre reviews, etc. - related to Shakespeare performance past and present. &nbsp;We have a catalogue of suggested material specially for beginners. &nbsp;We also catalogue by play and topic for quick referencing. </p>
-					</li>
+					
 				</ul>
 <br>
 			<p class="text-center small-gap-parag"><strong>Based on the collective expertise of</strong></p>
 
-			<p class="text-center small-gap-parag brand-orange" >Giles Block | Abigail Rokison | Sir Peter Hall | John Barton | Patrick 
+			<p class="text-center small-gap-parag brand-orange" >Giles Block | Ian McKellen | Abigail Rokison | Peter Hall | John Barton | Patrick 
 				Tucker | Neil Freeman | Cicely Berry | Kristin Linklater</p>
 
 			<p class="text-center"><strong>and other Shakespeare luminaries</strong></p>                    	
@@ -152,37 +149,39 @@
 <div class="row-fluid">
   	<div class="container-fluid container-nopads">
 
+ 
+
 	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 5px;">
 	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-pdf">
-				<a href="<?php echo SITE_URL_FILE; ?>eplay/eplay-demo.php" style="text-decoration:none;">
-	        		<h4><strong>ePlay Demo <span style="visibility:hidden">Demo</span></strong></h4>
-	        		<img src="images/hovers/pdf-512.png" >
-	    		</a>
-	      	</div>
-	    </div>  
-
-	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 2.5px;">
-	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-pdf">
-	      		<a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/IS-theatre-scripts-demo.php" style="text-decoration:none;">
-					<h4><strong>Theatre Script Demo</strong></h4>
+	      		<a href="<?php echo SITE_URL_FILE; ?>IS-theatre-scripts-demo" style="text-decoration:none;">
+					<h4><strong>Theatre Script DEMOs</strong></h4>
 		    		<img src="images/hovers/pdf-512.png" class="">
 	    		</a>
 	      	</div>
 	    </div>
 
+	    <div class="col-md-3 demosbox" style="padding-left: 0px; padding-right: 2.5px;">
+	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-pdf">
+				<a href="<?php echo SITE_URL_FILE; ?>eplay/eplay-demo" style="text-decoration:none;">
+	        		<h4 class="text-center "><strong><i>e</i>Play DEMO <span class="break"><br><br></span></span></strong></h4>
+	        		<img clas="eplayImgbox" src="images/hovers/pdf-512.png" >
+	    		</a>
+	      	</div>
+	    </div> 
+
 	    <div class="col-md-3 demosbox" style="padding-left: 2.5px; padding-right: 0px;">
 	      	<div class="demo-box-arrow demo-box container-nopads" id="demo-mp3">
-		      	<a href="<?php echo SITE_URL_FILE; ?>audio-speeches/audio-speech-demo.php" style="text-decoration:none;">
-					<h4><strong>Audio Speech Demo</strong></h4>
+		      	<a href="<?php echo SITE_URL_FILE; ?>audio-speeches/audio-speech-demo" style="text-decoration:none;">
+					<h4><strong>Audio Speech DEMO</strong></h4>
 		    		<img src="images/hovers/mp3-512.png" class="">
 	    		</a>
 	      	</div>
 	    </div>
 	    <div class="col-md-3 demosbox" style="padding-left: 5px; padding-right: 0px;">
 	      	<div class="demo-box container-nopads" id="demo-pdf">
-				<a href="slideshow-demo.php" style="text-decoration:none;">
+				<a href="slideshow-demo" style="text-decoration:none;">
 				<!-- <a href="about_the_ePlay_PPPDemo.pdf" target="_blank" style="text-decoration:none; "> -->
-	        		<h4><strong>Slide Show Demo</strong></h4>
+	        		<h4><strong>Slide Show DEMO</strong></h4>
 	        		<img src="images/hovers/pdf-512.png" class="">
 	    		</a>
 	      </div>
@@ -209,109 +208,98 @@
 				<div class="tab-pane fade in" id="actor">
 					<p>Audio database:</p>
 					<ul>
-						<li>helps Shakespeare newcomers choose audition speeches and get an instant idea of the shape and 
+						<li style="margin-bottom: 4px;">helps Shakespeare newcomers choose audition speeches and get an instant idea of the shape and 
 							argument of a speech</li>
-						<li>allows experienced performers to cross-reference with our recordings and have fun improving 
+						<li style="margin-bottom: 4px;">allows experienced performers to cross-reference with our recordings and have fun improving 
 							on them</li>
 					</ul>
 					<p><i>e</i>Plays in pdf (A3 landscape format) provide:</p>
 					<ul>
-						<li>exceptionally thorough, performance-relevant definitions and commentary</li>
-						<li>easy-to-follow-notations like musical scoring to check that that you've picked up all the performance clues</li>
-						<li>easy line-by-line comparison with five well-known editions so you are empowered at all times to pick and choose which text, lineation, Speech Header or Stage Direction best serves your purpose (there can be significant differences between editions)</li>
-						<li>easy comparison with the First Folio and a 'Good' Quarto where applicable (both in modernised spelling)</li>
-					</ul>
-					<p>Theatre scripts in pdf (mostly A4 portrait format for hard copy use in rehearsals, but our 'Observations on individual speeches' scripts are also available in A3 landscape for study on personal computers):</p>
-					<ul>
-						<li>are produced in Arial font size 12 for easy reading</li>
-						<li>come in a choice of three formats (see Theatre Script DEMOs)</li>
-						<li>have generous line spacing and surrounding white space to make your own notes</li>
+						<li style="margin-bottom: 4px;">exceptionally thorough, performance-relevant definitions and commentary</li>
+						<li style="margin-bottom: 4px;">easy-to-follow-notations like musical scoring to check that that you've picked up all the performance clues</li>
+						<li style="margin-bottom: 4px;">easy line-by-line comparison with five well-known editions so you are empowered at all times to pick and choose which text, lineation, Speech Header or Stage Direction best serves your purpose (there can be significant differences between editions)</li>
 						
-						<br>
-
-						<p>*We strongly recommend you download the Theatre Script DEMOs for easy side-by-side comparison (though they have colour elements they print just as well in B & W)*</p>
-
-						<p>Still not sure which script you need? &nbsp;Easy. &nbsp;Use the Standard A4 'text only' script for your personal mark-up and scoring, drawing on the information you find in the other 'preparation' scripts, as well as in the <i>e</i>Play. &nbsp;If you make a mess of a page just reprint and tidy. &nbsp;In terms of your personal notes / scoring, it's counter-productive to transpose every bit of performance information we provide in our materials. &nbsp;You should try and cover every base at least once but then 'take the best and leave the rest'.</p>
 					</ul>
-					<p>Monthly Blog, Newsletter and Forum that (respectively):</p>
+					<p>Theatre scripts:</p>
 					<ul>
-						<li>examines various clues in depth, building into a reference library over time</li>
-						<li>includes a textual analysis and recording of our 'speech of the month', theatre offers and 
-							Shakespeare news</li>
-						<li>invites you to share problems, ask questions and get expert advice in a friendly, nurturing 
-							environment.</li>
+						<li style="margin-bottom: 4px;">are produced in Arial font size 12 for easy reading</li>
+						<li style="margin-bottom: 4px;">come in a choice of three formats - Option 1 'Standard', Option 2 'Observation' (speeches only), & Option 3 'Phrasing' (see the DEMOs in the <a href="<?php echo SITE_URL_FILE; ?>IS-theatre-scripts-demo.php">Theatre Script Options table</a>)</li>
+						<li >have generous line spacing and surrounding white space to make your own notes</li>
+						
+<br>
+						<p style="line-height:1.42857">We suggest you use Option 1 Standard A4 'text only' script for your personal mark-up and scoring, drawing on information from (i) the Option 2 & 3 scripts (ii) the ePlay, (iii) your director. &nbsp;If you make a mess of a page just reprint and tidy - you can't do that with a book!</p>
 					</ul>
+					
 				</div>
 
 				<div class="tab-pane fade" id="schools">
-					<p>Our materials make ideal teaching aids. &nbsp;Inexpensive, accessible, comprehensive. &nbsp;They can 
+					<p style="line-height: 1.42857;">Our materials make ideal teaching aids. &nbsp;Inexpensive, accessible, comprehensive. &nbsp;They can 
 						help to liven up and add interest to classes and workshops:</p>
 					<ul>
-						<li><p><i>e</i>Plays can be projected on walls to share with large numbers. &nbsp;The excellent definitions and clearly sign-posted clues using our intuitive, critically-acclaimed notation system makes them the perfect teaching prop.</p></li>
+						<li style="margin-bottom: 4px;"><i>e</i>Plays can be projected on walls to share with large numbers. &nbsp;The excellent definitions and clearly sign-posted clues using our intuitive, critically-acclaimed notation system makes them the perfect teaching prop.</li>
 
-						<li><p>Slide-show 'step-by-step' guides (which can also be projected on walls) illustrate the professional methodology for approaching any text. &nbsp;They demystify and simplify the process by breaking the methodology down into bite-size, digestible sections. &nbsp;Slide-shows range from beginner to advanced. &nbsp; </p></li>
+						<li style="margin-bottom: 4px;">Slide-show 'step-by-step' guides (which can also be projected on walls) illustrate the professional methodology for approaching any text. &nbsp;They demystify and simplify the process by breaking the methodology down into bite-size, digestible sections. &nbsp;Slide-shows range from beginner to advanced. &nbsp; </li>
 
-						<li><p>For schools, our <i>e</i>Plays come in a simplified version that also omit the 'adult' definitions of Shakespeare's numerous sexual references and bawdy puns.</p></li>
+						<li style="margin-bottom: 4px;">For schools our <i>e</i>Plays come in a simplified version that also omit the 'adult' definitions of Shakespeare's numerous sexual references and bawdy puns.</li>
 
-						<li><p>Our audio bank of 500 plus speeches covering all 38 plays can be instantly accessed and played to help illustrate points, illuminate difficult speeches, invite debate and encourage constructive criticism.</p></li>
+						<li style="margin-bottom: 4px;">Our audio bank of 500 plus speeches covering all 38 plays can be instantly accessed and played to help illustrate points, illuminate difficult speeches, invite debate and encourage constructive criticism.</li>
 
-						<li><p>Theatre scripts come in four designs to meet differing acting / teaching needs:  </p></li>
-
+						<li >Theatre scripts come in four designs to meet differing acting / teaching needs:  </li>
+<br>
 
 							<ul class="decimal-list">
-								<li>
-									<p>The standard one is a 'text only' A4 script. &nbsp;This is available for the full play and for individual speeches. &nbsp;It is deliberately plain and has plenty of white space in and around the text for notes. &nbsp;We suggest this is the one actors and students use to mark up their own copy drawing on information in the <i>e</i>Play, the 'preparation' theatre scripts below and the teacher's own guidance. &nbsp;If, over the course of rehearsals / workshops, they make a mess of the script, they simply re-print the relevant pages and tidy up their notes and scoring. &nbsp;</p>
+								<li style="margin-bottom: 4px;">
+									Option 1 is a standard 'text only' A4 script. &nbsp;This is available for the full play and for individual speeches. &nbsp;It is deliberately plain and has plenty of white space in and around the text for notes. &nbsp;We suggest this is the one actors and students use to mark up their own copy drawing on information in the <i>e</i>Play, the more advanced 'preparation' theatre scripts below and the teacher's own guidance. &nbsp;If, over the course of rehearsals / workshops, they make a mess of the script, they simply re-print the relevant pages and tidy up their notes and scoring. &nbsp;
 								</li>
 								
-								<li><p>The first 'preparation script' we offer is for all the main speeches of a play. &nbsp;Presented in a choice of A4 portrait or A3 landscape format, the A4 is principally designed for those that want hard-copy, while the A3 is principally designed for personal study on an electronic device or for group sharing with a projector (though it could be printed out as well). &nbsp;There is (a) a line-by-line verse syllable count together with (b) other useful performance / teaching features, and (c) Versebuster's own observations on the speech. &nbsp;</p></li>
+								<li style="margin-bottom: 4px;">Option 2 - individual speeches only. &nbsp;Presented in a choice of A4 portrait or A3 landscape format, the A4 is principally designed for those that want hard-copy, while the A3 is principally designed for personal study on an electronic device or for group-sharing with a projector. &nbsp;There is (i) a line-by-line verse syllable count together with (ii) other useful performance / teaching features, and (iii) Versebuster's own observations on the speech. &nbsp;</li>
 								
-								<li><p>Our second type of 'preparation script' focuses on phrasing and places of emphasis using the performance information in the <i>e</i>Play resource. &nbsp;In A4 format, it is available for the full play and for individual speeches. &nbsp;We believe it is particularly useful for beginners or early-stage performance preparation. &nbsp;Though metre and rhythm is of course important (and dealt with line-by-line in the <i>e</i>Play), it helps get beyond, as Ian McKellen would endorse*, iambic sing-song musicality. &nbsp;Nouns, active verbs, interesting adjectives, naturally suspenseful words and caesuras are all scored. &nbsp;<i style="font-size:10px">*Based on lectures he has given (at the time of writing, these are available on YouTube)</i></p></li>
+								<li style="margin-bottom: 4px;">Option 3, available for the full play and for individual speeches, focuses on phrasing and places of emphasis using the performance information in the <i>e</i>Play resource. &nbsp;We believe it is particularly useful for beginners or early-stage performance preparation. &nbsp;Though metre and rhythm is of course important (and dealt with line-by-line in the <i>e</i>Play), it helps get beyond, as Ian McKellen would endorse*, iambic sing-song musicality. &nbsp;Nouns, active verbs, interesting adjectives, naturally suspenseful words and caesuras are all scored. &nbsp;<i>The 70% Rule.</i> &nbsp;Please note phrasing and placement of emphasis is 30% subjective 70% objective and conforms to our House Rule that nothing in Shakespeare is absolute. &nbsp;We trust the script is a useful starting point, but feel free to explore and go off-piste. <i style="font-size:10px">*based on lectures he has given</i></li>
 								
-								<li><p>Our final 'preparation script' (for individual speeches only), is a verse speech re-formatted as prose to illustrate the performance difference between a 'verse-reading' of verse and a 'prose-reading' of verse. &nbsp;In the earliest plays verse lines are set down in orderly fashion like planks of wood on a slatted house (google the picturesque town of Nantucket, Massachusetts). &nbsp;Therefore, the exercise has greater value when Shakespeare moves away from this 'plank end-stopping' to 'enjambement' (the sense flows over into the next line). &nbsp;It should be noted, however, even <i><u>Richard lll</u></i>, only his fourth play, has enjambed lines - the Bard developed his craft with astonishing speed. </p></li>
+								<li >Option 4 (individual speeches only) is a verse speech re-formatted as prose to illustrate the performance difference between a 'verse-reading' of verse and a 'prose-reading' of verse. &nbsp;In his earliest plays Shakespeare set down verse-lines in orderly fashion, like planks of wood on a slatted Nantucket house. &nbsp;Therefore, the exercise has greater value when Shakespeare moved away from this 'plank end-stopping' to 'enjambement' (the sense flows over into the next line). &nbsp;It should be noted, however, even <i><u>Richard lll</u></i>, only his fourth play, has enjambed lines - the Bard developed his craft with astonishing speed. </li>
 							</ul>
 					</ul>
-					<p>Check out the Theatre Script DEMOs. &nbsp;To compare them side-by-side, you are welcome to download and print. </p>
+					<p style="text-indent:80px"><a href="<?php echo SITE_URL_FILE; ?>IS-theatre-scripts-demo.php">Theatre Script DEMOs. </a></p>
 				</div>
 
 				<div class="tab-pane fade" id="directors">
 					<p><i>e</i>PLAYS</p>
 					<p>Our superbly annotated <i>e</i>Plays:</p> 
 					<ul>
-						<li>enable direct line-by-line comparison of our text, lineation, Speech Headers and Stage Directions against that of five well-known editions</li>
-						<li>give a syllable count for each verse line</li>
-						<li>enable direct comparison our script against the First Folio and a 'Good' Quarto (where applicable)</li>
-						<li>graphically identify repetitions (synonyms), antitheses, puns, rhetorical speech builds, etc</li>
-						<li>graphically identify interesting switches between 'you' and 'thou'</li>
-						<li>graphically identify monosyllabic lines, alliteration, assonance, trochaic feet, etc.</li>
-						<li>identify sarcasm, irony, and sexual innuendo</li>
-					</ul>
-					<br>
-					<p>The pdf <i>e</i>Plays are A3 in landscape format. &nbsp;If you want to share with them with your 
-						actors the most cost effective way is on a laptop (still very readable especially with the aid of 
-						pdf zoom); or, if you have access to a projector, by throwing it onto a wall.</p>
+						<li style="margin-bottom: 4px;">enable direct line-by-line comparison of our text, lineation, Speech Headers and Stage Directions against that of five well-known editions</li>
+						<li style="margin-bottom: 4px;">give a syllable count for each verse line</li>
+						
+						<li style="margin-bottom: 4px;">graphically identify repetitions (synonyms), antitheses, puns, rhetorical speech builds, etc</li>
+						<li style="margin-bottom: 4px;">graphically identify interesting switches between 'you' and 'thou'</li>
+						<li >graphically identify monosyllabic lines, alliteration, assonance, trochaic feet, etc.</li>
+						<li >identify sarcasm, irony, and sexual innuendo</li>
 
-					<p>The <i>e</i>Plays can also be printed off. &nbsp;However, because of the size and the extensive use of colour coding which you’d need to retain, this is expensive (from around $100 to $200 for the longest plays). &nbsp;The cost might be justified for a commercial production where the hard-copy <i>e</i>Play can be shared among the cast as a 'verse-nurse' rehearsal aid.</p>
-					<br>
+						<br>
+						
+						<p style="line-height:1.42857">The pdf <i>e</i>Plays are A3 in landscape format. &nbsp;If you want to share with them with your 
+						actors, use a laptop for one-on-one and a projector for a group. (They are not designed or configured for printing.)</p>
+					</ul>
+					
+
 					<p>THEATRE SCRIPTS</p>
-					<p>For productions (as opposed to workshops and classrooms) we have a choice of two-full play printable theatre scripts in an A4 format. &nbsp;They both come with Arial size 12 font for easy reading and plenty of white space around the text and between lines for director and / or actor notes. &nbsp;There is a third 'preparation' theatre script just for individual speeches that you may wish to make use of. &nbsp;In more detail:</p>  
+					<p style="line-height:1.42857">For productions (as opposed to workshops and classrooms) we have a choice of two full-play printable theatre scripts in an A4 format. &nbsp;They both come with Arial size 12 font for easy reading and plenty of white space around the text and between lines for director and / or actor notes. </p>  
 
 <ul class="decimal-list">
-				<li><p>The standard A4 script is 'text only'. &nbsp;It is deliberately plain and has plenty of white space in and around the text for notes. &nbsp;We suggest this is the one actors use to mark up their own copy drawing on information in the <i>e</i>Play, the 'preparation' theatre script(s) below and your own guidance. &nbsp;If, over the course of your rehearsals, they make a mess of the script, they simply reprint the relevant pages and tidy up their notes and scoring.</p>
+				<li style="margin-bottom: 4px;">Option 1 Standard A4 script is 'text only'. &nbsp;It is deliberately plain and has plenty of white space in and around the text for notes. &nbsp;We suggest this is the one actors use to mark up their own copy drawing on information from (i) the ePlay (ii) Option 2 theatre scripts which focus on our technical observations about key speeches (iii) the Option 3 full-play theatre script which focuses on our personal suggestions phrasing and emphasis (see below) (iv) your own guidance. &nbsp;If, over the course of your rehearsals, they make a mess of the script, they simply reprint the relevant pages and tidy up their notes and scoring.
 				</li>
-				<li><p>The second script we offer uses the information in the <i>e</i>Play resource to focus on phrasing and places of emphasis. &nbsp;We believe it is particularly useful for beginners or early-stage performance preparation. &nbsp;Though metre and rhythm is of course important (and dealt with line-by-line in the <i>e</i>Play), it helps, as Ian McKellen would endorse,  get beyond iambic sing-song musicality. &nbsp;Nouns, active verbs, interesting adjectives, naturally suspenseful words and caesuras are all scored. &nbsp;In addition, there is a line-by-line verse syllable count, together with (a) other useful performance features.</p></li>
-				<li><p>The third script a director may wish to make use of focuses solely on the speeches of the play. &nbsp;It has similar notation to (2) above but comes with Versebuster's performance observations on the speech. &nbsp;Please note this script does not mark suggested phrasing and emphasis. &nbsp;This is to help focus on other elements such as line lengths, scansion, elision, false friends, alternative lineations and stage directions, etc. &nbsp;</p></li>
+				<li >Option 3 'Phrasing' script uses the information in the <i>e</i>Play resource to focus on phrasing and places of emphasis. &nbsp;We believe it is particularly useful for beginners or early-stage performance preparation. &nbsp;Though metre and rhythm is of course important (and dealt with line-by-line in the <i>e</i>Play), it helps, as Ian McKellen would endorse,  get beyond iambic sing-song musicality. &nbsp;Nouns, active verbs, interesting adjectives, naturally suspenseful words and caesuras are all scored. &nbsp;In addition, there is a line-by-line verse syllable count together with other useful performance features. &nbsp;<i>The 70% Rule</i>. &nbsp;Please note phrasing and placement of emphasis is 30% subjective 70% objective and conforms to our House Rule that nothing in Shakespeare is absolute. &nbsp;We trust the script is a useful starting point, but feel free to explore and go off-piste.</li>
+				
 </ul>
-<p>Please see Theatre Script DEMOs for samples of the above. &nbsp;You are welcome to download and print to compare them side-by-side. </p>
+<p style="line-height: 1.42857;">Please see <a href="<?php echo SITE_URL_FILE; ?>IS-theatre-scripts-demo">Theatre Script DEMOs</a> for samples of the above. &nbsp;</p>
 
-<p>You will notice that the scripts have a few colour elements for computer / workshop projector use. &nbsp;However, they print very well in B & W. &nbsp;They also print very well double-sided (providing the paper is of decent quality). </p>
+<p style="line-height: 1.42857;">You will notice that the scripts have a few colour elements for computer / workshop projector use. &nbsp;However, they print very well in B & W. &nbsp;They also print well double-sided (we suggest A4 70gsm or A4 80gsm standard office weight). </p>
 
 
-					<br>
 					<p>AUDIO SPEECHES</p>
-					<p>We aim to find all the performance clues in our recordings, which means they are a fairly good guide
+					<p style="line-height: 1.42857;">We aim to find all the performance clues in our recordings, which means they are a reasonably decent guide
 					 to the shape and nuance of speeches. &nbsp;If an actor is struggling, to give them a leg up you can exercise your discretion whether to play them our version.</p> 
 
-					<p>We never claim our recordings are definitive but they are competent, even if you don’t happen to like our choices. &nbsp;With your guidance your actors will undoubtedly do a better job!</p>
+					<p style="line-height: 1.42857;">We never claim our recordings are definitive but they are competent, even if you don’t happen to like our choices. &nbsp;With your guidance your actors will undoubtedly do a better job!</p>
 				</div>
 			</div>
 		</div>
@@ -434,51 +422,15 @@
 <br>
 			<img src="images/quarto.jpg" class="img-center-fullwidth img-responsive">
 <br>
-			<p class="text-center img-desc">Pip Willcox, digital editor at the Oxford digital library displays a 
-				<strong>1611 quarto edition of Hamlet</strong></p>			
+			<p class="text-center img-desc">Pip Willcox, Curator of Digital Special Collections at the Bodleian Libraries, University of Oxford, displays a <strong>1611 quarto edition of Hamlet</strong></p>			
 			<p class="text-center">Photograph by Martin Argles</p>			
 		</div>
 		<!--=============END of OTHER Shakespeare performance clues we cover======================== -->
 
 		<!--============= DID YOU KNOW======================== -->
-		<div class="well" id="">
-			<p><strong>Did you know?</strong></p>
-			<ol start="1">
-				<li>
-					<p>In Elizabethan times English was broadly-speaking a phonetic language, meaning it was written 
-					as it was pronounced. &nbsp;Today, due largely to the 'Great Vowel Shift', it is anything but phonetic,
-					 as foreigners struggling to learn English will attest. &nbsp;George Bernard Shaw even wrote a 
-					 humorous poem about it called 'English Pronunciation'.</p>
-				</li>
-			</ol>
-			
-			<p class="read-more-toggle"><span class="glyphicon glyphicon-chevron-down"></span>Show More</p>
-			
-			<div class="read-more-content">
-				<ol start="2">
-					<li>
-						<p>‘War’ once rhymed with ‘bar’ and ‘scar’. &nbsp;As it no longer does, this can play havoc 
-							with rhymes:</p>
-							<div class="indentedverse">
-<blockquote >
-<pre><em>Like of find fault, do as your pleasures are
-Now good or bad, ‘tis but the chance of war.</em>
-	<span class="text-center">(Prologue to <span class="branding-style-und">Troilus &amp; Cressida</span>, final couplet)</span></pre>
-</blockquote >							
-							</div>
+<!-- 		<div class="well" id="">
 
-						<p>In similar vein, when Shakespeare wrote ‘<span class="branding-style-reg">war-worn coats</span>’
-						 in <span class="branding-style-title">Henry V</span> he heard something rather more muscular than us.					
-					</li>
-					<li><p>Many words occurring at the end of a verse line ending in '–ion' were pronounced with an 
-						extra syllable > ‘Am-BI-ti-ON’. &nbsp;The same is true of '–ious', '-ient' and '-ience' words at the 
-						end of verse lines. &nbsp;This made the verse lines scan properly. &nbsp;So what should do we 
-						do today? &nbsp; Add an extra syllable which could sound odd to contemporary audiences, or not bother and 
-						trip up the metre by being a syllable short? &nbsp; Versebuster helps you decide.<p></li>
-				</ol>			
-				<p class="read-less-toggle"><span class="glyphicon glyphicon-chevron-up"></span>Show Less</p>
-			</div>
-		</div>
+		</div> -->
 		<!--=============END OF DID YOU KNOW======================== -->
 
 		<div class="" id=""><!--=============AD col-lg-9 ======================= -->
@@ -498,8 +450,12 @@ Now good or bad, ‘tis but the chance of war.</em>
 	        <div class="panel-body">
 	            <div class="row">
 	                <!-- <div class="col-xs-12"> -->
-	                    <ul id="news-titles" class="news-list">
-		                    <li class="news-item">November 2013.&nbsp; We successfully trial an early prototype of our 
+	                    <ul ><!-- id="news-titles" class="news-list" add this id and class to run news-->
+		                    <li class="news-item">September 2016. &nbsp; Soft opening November 2016 with Shakespeare's lines from <u><i>Sir Thomas More</i></u>. <u><i>Richard lll</i></u> due February 2017. LA workshop slated for summer 2017. Sample DEMOs of our product now ready below.<!-- <span class="news-more">Read more...</span> -->
+		                    	<!-- <span class="news-content">April 2014.&nbsp; Work on a new website that is smartphone friendly 
+		                    		begins</span> -->
+		                    </li>
+<!-- 		                    <li class="news-item">November 2013.&nbsp; We successfully trial an early prototype of our 
 		                    	e-format<span class="news-more"> Read more...</span>
 		                    	<span class="news-content">November 2013.&nbsp; We successfully trial an early prototype of 
 		                    		our e-format to a group of first-year drama students at the Philippine Repertory 
@@ -516,7 +472,7 @@ Now good or bad, ‘tis but the chance of war.</em>
 		                    		Africa to Canada, US to Germany, Malta to Malaysia, Israel to India.</span>
 		                    </li>
 		                    <li class="news-item">April 2014.&nbsp; Work on a new website that is smartphone friendly 
-		                    	begins.<!-- <span class="news-more">Read more...</span> -->
+		                    	begins.
 		                    	<span class="news-content">April 2014.&nbsp; Work on a new website that is smartphone friendly 
 		                    		begins</span>
 		                    </li>
@@ -534,7 +490,7 @@ Now good or bad, ‘tis but the chance of war.</em>
 		                    </li>
 		                    <li class="news-item">July 2015. &nbsp;Work continues on MODERN text <i>e</i>Plays and on expanding
 		                    	<span class="news-more">Read more...</span>
-		                    	<span class="news-content" >July 2015. &nbsp;Work continues on MODERN text <i>e</i>Plays and on expanding our range of audio-visual tools to make Shakespeare performance increasingly accessible to people of all levels and experience.</span</li>
+		                    	<span class="news-content" >July 2015. &nbsp;Work continues on MODERN text <i>e</i>Plays and on expanding our range of audio-visual tools to make Shakespeare performance increasingly accessible to people of all levels and experience.</span</li> -->
 	                    </ul>
 	                <!-- </div> -->
 	            </div>
@@ -549,17 +505,14 @@ Now good or bad, ‘tis but the chance of war.</em>
 		<?php require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/includes/newsletter/newsletter.php" : $_SERVER['DOCUMENT_ROOT'] . "/includes/newsletter/newsletter.php");?>
 	</div><!-- #col-lg-3 newsletter-->	  
 
-	<div class="col-lg-3 sidebars" ><!-- run_quiz_btn -->
-		<a id="" href="quiz.php" style="text-decoration:none; color: #fff;">
-			<img class="img-responsive" src="images/answering-quiz.gif"/>
-			<!-- <button type="button" class="btn btn-danger bottom-desc" id="run_quiz_btn">Shakespeare Speaking Challenge - 
-				Fun Quiz</button> -->
-			<p class="text-center bottom-desc">Shakespeare Speaking - QUIZ CHALLENGE!</p>
-		</a>
-	</div> <!-- /#col-lg-3 quiz-->
+
 
 	<div class="col-lg-3 sidebars" >	    
-		<img class="img-responsive" src="images/shakespeare-in-times-square.jpg" style="">
+		<img class="img-responsive" src="images/shakespeare-in-times-square.jpg" title="WILLIAM SHAKESPEARE" alt="Image of William Shakespeare in Times Square, New York by kind permission of Mirko Ilić Corp. &nbsp;
+
+The Bard of Avon is presented as a Bohemian leather biker. He has an earring in the left ear, piercing in the left brow, and a T-shirt emblazoned with a cannabis plant. &nbsp;
+
+Please note this image is the trademark of Versebuster Publishing." style="">
 		<p class="text-center bottom-desc" style="">'Shakespeare in Times Square, New York' <br>by kind permission 
 			of <a id="mirko" href="">Mirko Ilić Corp.</a></p>
 		<p class="text-center" style="color:#B22222; margin-bottom:0;">Please note <span class="branding-style-reg">Versebuster<sup>&copy;</sup></span> has exclusive rights to this image</p>

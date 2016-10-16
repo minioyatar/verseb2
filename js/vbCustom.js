@@ -23,7 +23,7 @@ $(document).ready(function() {
             var index = url.lastIndexOf("/") + 1;
             var filenameWithExtension = url.substr(index);
             var filename = filenameWithExtension.split(".")[0]; // 
-            console.log(filename)                
+            // console.log(filename)                
             if(filename == ""){
                 filename = "index"
             }            
@@ -81,10 +81,9 @@ $(document).ready(function() {
         // 6 END MODAL WINDOW GET CENTERED 
 
         //7 randomize for quiz
-        function randomizer(high_val){
-            return randomnumber=Math.floor(Math.random()*high_val)
-            //return(small_val + Math.floor(Math.random() * high_val));
-        }
+        // function randomizer(high_val){
+        //     return randomnumber=Math.floor(Math.random()*high_val)
+        // }
         //7 End randomize
 
         //8 find generate random for quiz
@@ -330,6 +329,9 @@ $("#th-is").on('click','.th-is-item',function(){
 });
 
     //DISABLING RIGHT CLICK FUNCTIONS
+//disable right click on image
+$('body').on('contextmenu', 'img', function(e){ return false; });
+//end disable right click
 /*
         var tenth = ''; 
              

@@ -58,7 +58,7 @@ if(Input::exists('get')){//if there is post/get data
 				    			. "Thank you, <br> Versebuster Customer Care";		
 					//alert webmaster for this error
     			    $headers .= 'Bcc: webmaster@versebuster.com' . "\r\n";
-    			    Redirect::to(SITE_URL . 'membership.html');
+    			    Redirect::to(SITE_URL_FILE . 'membership.html');
 					}catch(Exception $e){
 						// print_r('Something went wrong');
 						Redirect::to(500);

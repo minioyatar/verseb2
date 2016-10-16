@@ -15,17 +15,17 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 
 			<div id="accordion">
-				<h3><span class="branding-style-reg">Membership</span></h3>
+				<h3><span style="font-family:'verdana'">Membership</span></h3>
 				<div>
 
 					<ul class="decimal-list">
-						<li>I'm going away. May I suspend my membership until I get back?</li>
-						<li>May I share my membership?</li>
+						<li>I'm going away. May I suspend my subscription until I get back?</li>
+						<li>May I share my subscription?</li>
 					</ul>
 
 				</div>
 
-				<h3><span class="branding-style-reg">Acting Shakespeare</span></h3>
+				<h3><span style="font-family:'verdana'">Acting Shakespeare</span></h3>
 				<div>
 					<ul class="decimal-list">
 						<li>Don't you need a posh accent for Shakespeare?</li>
@@ -33,7 +33,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 					</ul>
 				</div>
 
-				<h3><span class="branding-style-reg">Editorial Aim & Policy</span></h3>
+				<h3><span style="font-family:'verdana'">Editorial Aim & Policy</span></h3>
 				<div>
 					<ul class="decimal-list">
 						<li class="read-more-toggle">What's your basic aim?</li>
@@ -63,21 +63,21 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 					</ul>
 				</div>
 					  
-				<h3><span class="branding-style-reg">Presentation - ePlays</span></h3>
+				<h3><span style="font-family:'verdana'">Presentation - ePlays</span></h3>
 				<div>
 					<ul class="decimal-list">
 						<li>Can ePlay layout be smaller?</li>
 					</ul>
 				</div>
 
-				<h3><span class="branding-style-reg">Presentation - audio</span></h3>
+				<h3><span style="font-family:'verdana'">Presentation - audio</span></h3>
 				<div>
 					<ul class="decimal-list">
 						<li>Why don't you use video for your audio speeches?</li>
 					</ul>
 				</div>
 
-				<h3><span class="branding-style-reg">Technical</span></h3>
+				<h3><span style="font-family:'verdana'">Technical</span></h3>
 				<div>
 					<ul class="decimal-list">
 						<li>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </li>

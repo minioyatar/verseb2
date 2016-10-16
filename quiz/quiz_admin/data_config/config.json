@@ -1,6 +1,0 @@
-{
-    "allow_quiz" : true,
-    "quizItems": 6,
-    "quizPath" : "/quiz/quiz_admin/includes/question_query.php",
-    "keyAgain": "value again"
-}

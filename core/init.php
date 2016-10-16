@@ -44,8 +44,8 @@
 		'paypal' =>array(
 			'merchant_email' 	=> 'miniotestmerchant2@gmail.com',
 	        'currency_code'     => 'USD',
-	        'thanks_page'       => SITE_URL . '/payment/success.php?success=true',
-	        'cancel_url'        => SITE_URL . '/payment/success.php?success=false', // $_SERVER['REQUEST_URI']
+	        'thanks_page'       => SITE_URL_FILE . '/payment/success.php?success=true',
+	        'cancel_url'        => SITE_URL_FILE . '/payment/success.php?success=false', // $_SERVER['REQUEST_URI']
 	        'url'				=> $paypal_live_mode ? $live_url  : $sandbox_url	
 		)
 		// ,
@@ -55,10 +55,14 @@
 
 	);
 
-	spl_autoload_register(function($class){
-		require_once SITE_URL . '/classes/' . $class . '.php';
-	});
+	// spl_autoload_register(function($class){
+	// 	require_once SITE_URL . '/classes/' . $class . '.php';
+	// });
+function custom_autoloader($class) {
+    require_once SITE_URL . '/classes/' . $class . '.php';
+}
 
+spl_autoload_register('custom_autoloader');
 
 	require_once(SITE_URL . "/functions/sanitize.php");
 

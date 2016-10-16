@@ -18,14 +18,24 @@
 	    						</div><!-- /.navbar-header -->
 	    						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
 	    							<ul class="nav navbar-nav ">
-	    								<li class="index "><a href="<?php echo SITE_URL_FILE; ?>index.php"><strong>HOME</strong></a></li>
-	    								<li class="blog"><a href="<?php echo SITE_URL_FILE; ?>blog.php">BLOG</a></li>
-	    								<li class="forum"><a href="<?php echo SITE_URL_FILE; ?>forum.php">FORUM</a></li>
-	    								<li class="community"><a href="<?php echo SITE_URL_FILE; ?>community.php">COMMUNITY</a></li>
-	    								<li class="faq"><a href="<?php echo SITE_URL_FILE; ?>faq.php">FAQS</a></li>
-	    								<li class="copyright"><a href="<?php echo SITE_URL_FILE; ?>copyright.php">COPYRIGHT</a></li>	
-	    								<li class="contact"><a href="<?php echo SITE_URL_FILE; ?>contact.php">CONTACT</a></li>
-	    								<li class="shop"><a href="<?php echo SITE_URL_FILE; ?>shop.php"><strong>THE SHOP</strong></a></li>
+	    								<!-- <li class="index "><a href="<?php //echo SITE_URL_FILE; ?>index"><strong>HOME</strong></a></li>
+	    								<li class="blog"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
+	    								<li class="forum"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li>
+	    								<li class="community"><a href="<?php //echo SITE_URL_FILE; ?>community">COMMUNITY</a></li>
+	    								<li class="faq"><a href="<?php //echo SITE_URL_FILE; ?>faq">FAQS</a></li>
+	    								<li class="copyright"><a href="<?php //echo SITE_URL_FILE; ?>copyright">COPYRIGHT</a></li>	
+	    								<li class="contact"><a href="<?php //echo SITE_URL_FILE; ?>contact">CONTACT</a></li>
+	    								<li class="shop"><a href="<?php //echo SITE_URL_FILE; ?>shop"><strong>THE SHOP</strong></a></li> -->
+
+	    								<li class="index navi <?php echo ($page_name=='index' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>"><strong>HOME</strong></a></li>
+	    								<!-- <li class="blog navi <?php //echo ($page_name=='blog')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
+	    								<li class="forum navi <?php //echo ($page_name=='forum')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li> -->
+	    								<li class="community navi <?php echo ($page_name=='community')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community">COMMUNITY</a></li>
+	                                    <li class="jobs navi <?php echo ($page_name=='jobs')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>jobs">JOBS</a></li>
+	    								<li class="faq navi <?php echo ($page_name=='faq')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>faq">FAQS</a></li>
+	    								<li class="copyright navi <?php echo ($page_name=='copyright')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>copyright">COPYRIGHT</a></li>	
+	    								<li class="contact navi <?php echo ($page_name=='contact')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>contact">CONTACT</a></li>
+	    								<li class="shop navi <?php echo ($page_name=='shop')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shop"><strong>SHOP</strong></a></li>
 	    							</ul>
 	    						</div><!-- /.bs-example-navbar-collapse-2-->	
 							</nav><!-- /.navbar navbar-inverse sub-main-nav -->
@@ -71,29 +81,9 @@
 <!-- END OF POP UP -->
 
 
-<!-- pop up for quiz     -->
-	    <div class="text-content" id="quiz_container">
-		<h2 id='close-btn' style="float: right; color: #fff; font-weight: bold; height: 20px; margin-top: -30px;">[X]</h2>
-		  <form id="quiz-form" action="/quiz/quiz_admin/includes/front_processors.php" method="POST" name="quiz">
-			<div id="test-container">
-			    <?php
-				 // $all_quiz_set = get_all_quiz();
-				 // while($question_ans = mysql_fetch_array($all_quiz_set)){
-				 //      echo "<h3>{$question_ans["quiz_question"]}</h3>";
-				 //      echo "<h3><input type=\"radio\" name=\"{$question_ans["quiz_id"]}\" value=\"{$question_ans["quiz_an1"]}\">{$question_ans["quiz_an1"]}</h3>";
-				 //      echo "<h3><input type=\"radio\" name=\"{$question_ans["quiz_id"]}\" value=\"{$question_ans["quiz_an2"]}\">{$question_ans["quiz_an2"]}</h3>";
-				 //      echo "<h3><input type=\"radio\" name=\"{$question_ans["quiz_id"]}\" value=\"{$question_ans["quiz_an3"]}\">{$question_ans["quiz_an3"]}</h3>";
-				 //      echo "<h3><input type=\"radio\" name=\"{$question_ans["quiz_id"]}\" value=\"{$question_ans["quiz_an4"]}\">{$question_ans["quiz_an4"]}</h3>";
-				 // }
-				 // echo "<input name=\"submit_answer\" type=\"submit\" class=\"button\" value=\"submit\" style=\"float: right;\"/>";
-			    ?>
-			</div>
-		       <h2 id="nextQ">Next</h2>
-		  </form>
-	    </div>
-<!--end pop up for quiz  -->
 
-<div id="demo-modal" class="modal fade" tabindex="-1" role="dialog">
+
+<!-- <div id="demo-modal" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header " style="padding:0; border: none !important">
@@ -117,12 +107,9 @@
 			<div class="modal-body" style="">
 				<p>My modal content here…</p>
 			</div>
-<!-- 			<div class="modal-footer">
-				<button class="btn" data-dismiss="modal">Close</button>
-			</div> -->
 		</div>
 	</div>
-</div> 
+</div>  -->
 
 
 
@@ -151,10 +138,7 @@
 		<!--   custom script -->
 		<script src="<?php echo SITE_URL_FILE; ?>js/vbCustom.js"  ></script>
 
-	<!--	quiz-->
-	    <script type="text/javascript" src="<?php echo SITE_URL_FILE; ?>quiz/quiz_admin/js/jquery.blockUI.js"></script>
-	    <script type="text/javascript" src="<?php echo SITE_URL_FILE; ?>quiz/quiz_admin/js/functions-JS.js"></script>
-	<!--end of quiz-->
+
 
 		<!-- MODAL WINDOW -->
 		<script src="<?php echo SITE_URL_FILE; ?>js/library/jquery.remodal.min.js"></script>

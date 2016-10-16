@@ -111,22 +111,26 @@
 
 $full_path = $_SERVER['PHP_SELF'];
 $path_array = explode('/',$full_path);
-// var_dump($full_path);
 if(count($path_array) > 4){
     $page_name = $path_array[2];
+    // print_r($page_name . " greater than 4". " | " . count($path_array));
 }else{
     $page_name = $path_array[count($path_array)-1];  
+    // print_r($page_name . " | " .  " | " . count($path_array));
     
 }
 if($page_name == 'theatre-scripts'){
     $page_name = $path_array[3];
+    // print_r($page_name . " therater");
 }
 if($page_name == 'category.php'){
     $page_name = $path_array[2];
+    // print_r($page_name . " categ");
     // ; 
 }
 if($page_name == 'byplay.php'){
-    $page_name = $path_array[2];
+    // $page_name = $path_array[2];
+    // print_r($page_name . " bypaly");
     // ; 
 }
 // 
@@ -135,62 +139,71 @@ if($page_name == 'byplay.php'){
 
     		<!-- Sidebar -->
     		<div id="sidebar-wrapper">
-    			<img class="img-responsive sidemenu-img" src="<?php echo SITE_URL_FILE; ?>images/shakespeare-in-times-square-no-mj.jpg" style="">
-    			<ul class="sidebar-nav ">
+    			<img class="img-responsive sidemenu-img" src="<?php echo SITE_URL_FILE; ?>images/shakespeare-in-times-square-no-mj.jpg" title="WILLIAM SHAKESPEARE" alt="Image of William Shakespeare in Times Square, New York by kind permission of Mirko Ilić Corp. &nbsp; The Bard of Avon is presented as a Bohemian leather biker. He has an earring in the left ear, piercing in the left brow, and a T-shirt emblazoned with a cannabis plant. &nbsp; Please note this image is the trademark of Versebuster Publishing." style=""> 
 
-    				<li id="" class=""><a href="<?php echo SITE_URL_FILE; ?>shop.php"><strong>THE SHOP</strong></a></li>
+                <ul class="sidebar-nav ">
+
+    				<li id="" class=""><a href="<?php echo SITE_URL_FILE; ?>shop"><strong>THE SHOP</strong></a></li>
                     <br>
     				<li id="" class=""><a><strong>Audio Speeches</strong></a></li>
 
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/audio-intro.php">Intro</a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-speeches' || $page_name=='index-audio.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/index-audio.php">INDEX TO SPEECHES</a></li>
-                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='recording-notes.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/recording-notes.php">Recording notes</a></li>
+    				<!-- <li class="sub-sidebar-nav navi <?php //echo ($page_name=='audio-intro')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>audio-speeches/audio-intro">Intro</a></li> -->
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='recording-notes.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/recording-notes">Recording notes</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='classifications.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/classifications">Classifications</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-speeches' || $page_name=='index-audio.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/index-audio">INDEX TO SPEECHES</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='disclaimer.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/disclaimer">Disclaimer</a></li>
+                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/copyright">Copyright</a></li>
+                    
 
 
 
     				<li><a><strong>ePlays</strong></a></li>
 
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/eplay-intro.php">Intro</a></li>
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay' || $page_name=='index-eplay.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/index-eplay.php">INDEX TO EPLAYS</a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='editorial-policy.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>eplay/editorial-policy.php">Editorial policy</a></li>
-                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='bibliography.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/bibliography.php">Bibliography</a></li>
+    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/eplay-intro">Intro</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='school-versions.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/school-versions">School Versions</a></li>
+    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='eplay' || $page_name=='index-eplay.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/index-eplay">INDEX TO EPLAYS</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='editorial-policy.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>eplay/editorial-policy">Editorial policy</a></li>
+                    <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='bibliography.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>eplay/bibliography">Bibliography</a></li>
 
 
     				<li><a><strong>Theatre Scripts</strong></a></li>
 
-    				<li class="sub-sidebar-nav navi <?php echo ($page_name=='theatre-script-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/theatre-script-intro.php">Intro</a></li>
-    				<li class="sub-sidebar-nav"><a>INDEX TO SCRIPTS</a></li>
-                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='index-full-play.php' || $page_name=='full-play-index')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/full-play-index/index-full-play.php">Full play</a></li>
-                    <li class="child-sub-sidebar-nav navi last-item <?php echo ($page_name=='index-individual-speeches.php' || $page_name=='individual-speeches-index')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/index-individual-speeches.php">Individual speeches</a></li>
+    				
+    				
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='theatre-script-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/theatre-script-intro">Intro</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='flexibility.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/flexibility">Flexibility</a></li>
+                    <li class="sub-sidebar-nav"><a>INDEX TO SCRIPTS</a></li>
+                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='index-full-play.php' || $page_name=='full-play-index.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/full-play-index/index-full-play">Full play</a></li>
+                    <li class="child-sub-sidebar-nav navi last-item <?php echo ($page_name=='index-individual-speeches.php' || $page_name=='individual-speeches-index')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/index-individual-speeches">Individual speeches</a></li>
 
                     <li><a><strong>Slide Shows</strong></a></li>
-                    <li class="sub-sidebar-nav navi"><a href="<?php echo SITE_URL_FILE; ?>understanding-eplay-system.php">Understanding ePlay system FREE</a></li>
-                    <li class="sub-sidebar-nav navi"><a href="<?php echo SITE_URL_FILE; ?>understanding-quarto-first-folio-text.php">Understanding Quarto, First Folio <br> <span style="padding-left:82px">and modern texts FREE</span></a></li>
-                    <li class="sub-sidebar-nav navi last-item"><a href="<?php echo SITE_URL_FILE; ?>how-to-series.php">HOW-TO SERIES</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='understanding-eplay-system.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>understanding-eplay-system">Understanding ePlay system FREE</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='back-story-to-shakespeares-art.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>back-story-to-shakespeares-art">BACKSTORY TO SHAKESPEARE’S ART</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='how-to-series.php')?'highlight':''; ?> last-item"><a href="<?php echo SITE_URL_FILE; ?>how-to-series">HOW-TO SERIES</a></li>
 
 
                     <li><a><strong>Quick Reference Library</strong></a></li>
-                        <li class="sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quick-reference-intro.php">Intro</a></li>
+                        <li class="sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quick-reference-intro">Intro</a></li>
                         <li class="sub-sidebar-nav navi"><a>MATERIAL BY PLAY</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='a-zPlays.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>a-zPlays.php">A to Z</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='comedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>comedies.php">Comedies</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='histories.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>histories.php">Histories</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='tragedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>tragedies.php">Tragedies</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='romances.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>romances.php">Romances</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='a-zPlays.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>a-zPlays">A to Z</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='comedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>comedies">Comedies</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='histories.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>histories">Histories</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='tragedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>tragedies">Tragedies</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='romances.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>romances">Romances</a></li>
 
                         <li class="sub-sidebar-nav navi"><a>MATERIAL BY TOPIC</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='verse-speaking.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>verse-speaking.php">Verse-speaking</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-pronunciation.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-pronunciation.php">Elizabethan pronunciation</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-stagecraft.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-stagecraft.php">Elizabethan stagecraft</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-rhetoric.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-rhetoric.php">Elizabethan rhetoric</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-world-view.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-world-view.php">Elizabethan world view</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='verse-speaking.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>verse-speaking">Verse-speaking</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-pronunciation.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-pronunciation">Elizabethan pronunciation</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-stagecraft.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-stagecraft">Elizabethan stagecraft</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-rhetoric.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-rhetoric">Elizabethan rhetoric</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='elizabethan-world-view.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>elizabethan-world-view">Elizabethan world view</a></li>
 
-                        <li class="child-sub-sidebar-nav navi  <?php echo ($page_name=='shakespeare.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shakespeare.php">Shakespeare (life & times)</a></li>
+                        <li class="child-sub-sidebar-nav navi  <?php echo ($page_name=='shakespeare.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shakespeare">Shakespeare (life & times)</a></li>
 
                             <li class="sub-sidebar-nav navi"><a>MATERIAL BY LEVEL</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='beginner.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>beginner.php">Beginner</a></li>
-                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='intermediate.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>intermediate.php">Intermediate</a></li>
-                            <li class="child-sub-sidebar-nav navi last-item navi <?php echo ($page_name=='advanced.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>advanced.php">Advanced</a></li>                        
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='beginner.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>beginner">Beginner</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='intermediate.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>intermediate">Intermediate</a></li>
+                            <li class="child-sub-sidebar-nav navi last-item navi <?php echo ($page_name=='advanced.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>advanced">Advanced</a></li>                        
     			</ul>
 
                 <div class="add-300x250">    
@@ -227,10 +240,10 @@ if($page_name == 'byplay.php'){
     						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <div class="col-md-4 ">
         							<ul class="nav navbar-nav " id="social-wrap">
-                                        <li class="pull-left socials" id="goplus"><a href="#">g+</a></li>
-                                        <li class="pull-left socials" id="linkedin"><a href="#">linkedin</a></li>
+                                        <!-- <li class="pull-left socials" id="goplus"><a href="#">g+</a></li> -->
+                                        <!-- <li class="pull-left socials" id="linkedin"><a href="#">linkedin</a></li> -->
         								<li class="pull-left socials" id="youTube"><a href="#">youTube</a></li>
-        								<li class="pull-left socials" id="twitter"><a href="#">twitter</a></li>
+        								<!-- <li class="pull-left socials" id="twitter"><a href="#">twitter</a></li> -->
         								<li class="pull-left socials" id="facebook"><a href="https://web.facebook.com/VersebusterShakespeare/?fref=nf" target="_blank">facebook</a></li>
         							</ul>
                                 </div>
@@ -288,13 +301,16 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
     						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
     							<ul class="nav navbar-nav">
     								<li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>"><strong>HOME</strong></a></li>
-    								<li class="blog navi <?php echo ($page_name=='blog.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>blog.php">BLOG</a></li>
-    								<li class="forum navi <?php echo ($page_name=='forum.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>forum.php">FORUM</a></li>
-    								<li class="community navi <?php echo ($page_name=='community.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community.php">COMMUNITY</a></li>
-    								<li class="faq navi <?php echo ($page_name=='faq.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>faq.php">FAQS</a></li>
-    								<li class="copyright navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>copyright.php">COPYRIGHT</a></li>	
-    								<li class="contact navi <?php echo ($page_name=='contact.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>contact.php">CONTACT</a></li>
-    								<li class="shop navi <?php echo ($page_name=='shop.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shop.php"><strong>THE SHOP</strong></a></li>
+    								<!-- <li class="blog navi <?php //echo ($page_name=='blog')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
+    								<li class="forum navi <?php //echo ($page_name=='forum')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li> -->
+    								<li class="community navi <?php echo ($page_name=='community.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community">COMMUNITY</a></li>
+                                    <li class="jobs navi <?php echo ($page_name=='jobs.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>jobs">JOBS</a></li>
+    								<li class="faq navi <?php echo ($page_name=='faq.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>faq">FAQS</a></li>
+                                    <li class="quiz navi <?php echo ($page_name=='quiz.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quiz">QUIZ</a></li>   
+    								<li class="copyright navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>copyright">COPYRIGHT</a></li>	
+    								<li class="contact navi <?php echo ($page_name=='contact.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>contact">CONTACT</a></li>
+                                    <li class="patrons-and-sponsors navi <?php echo ($page_name=='patrons-and-sponsors.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>patrons-and-sponsors">PATRONS & SPONSORS</a></li>
+    								<li class="shop navi <?php echo ($page_name=='shop.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shop"><strong>SHOP</strong></a></li>
     							</ul>
     						</div><!-- /.bs-example-navbar-collapse-2-->
 
