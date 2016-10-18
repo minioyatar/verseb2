@@ -23,7 +23,7 @@ $validate = new Validate();
                 $login = $user->login(Input::get('username'), Input::get('password'), $remember);
 
                 if($login){
-                    Redirect::to(SITE_URL . 'index.php');//dapat mag rekta sa ana user profile page
+                    Redirect::to(SITE_URL_FILE . 'index.php');//dapat mag rekta sa ana user profile page
                 }//else {
                  //echo "Sorry, Incorrect username or password.";
                      // Session::flash('home', 'Sorry, Incorrect username or password.');

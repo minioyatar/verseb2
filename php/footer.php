@@ -18,18 +18,7 @@
 	    						</div><!-- /.navbar-header -->
 	    						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
 	    							<ul class="nav navbar-nav ">
-	    								<!-- <li class="index "><a href="<?php //echo SITE_URL_FILE; ?>index"><strong>HOME</strong></a></li>
-	    								<li class="blog"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
-	    								<li class="forum"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li>
-	    								<li class="community"><a href="<?php //echo SITE_URL_FILE; ?>community">COMMUNITY</a></li>
-	    								<li class="faq"><a href="<?php //echo SITE_URL_FILE; ?>faq">FAQS</a></li>
-	    								<li class="copyright"><a href="<?php //echo SITE_URL_FILE; ?>copyright">COPYRIGHT</a></li>	
-	    								<li class="contact"><a href="<?php //echo SITE_URL_FILE; ?>contact">CONTACT</a></li>
-	    								<li class="shop"><a href="<?php //echo SITE_URL_FILE; ?>shop"><strong>THE SHOP</strong></a></li> -->
-
 	    								<li class="index navi <?php echo ($page_name=='index' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>"><strong>HOME</strong></a></li>
-	    								<!-- <li class="blog navi <?php //echo ($page_name=='blog')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
-	    								<li class="forum navi <?php //echo ($page_name=='forum')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li> -->
 	    								<li class="community navi <?php echo ($page_name=='community')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community">COMMUNITY</a></li>
 	                                    <li class="jobs navi <?php echo ($page_name=='jobs')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>jobs">JOBS</a></li>
 	    								<li class="faq navi <?php echo ($page_name=='faq')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>faq">FAQS</a></li>

@@ -9,7 +9,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
-			<h3 class="page-title-ext text-center branding-style-reg">AUDIO SPEECHES</h3>
+			<h3 class="page-title-ext text-center branding-style-reg">Audio Speeches</h3>
 			
 			<p class="text-center"><strong>RECORDING NOTES</strong></p>
 <br>
@@ -30,17 +30,17 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 			</ul>
 				
 				<p>So don't slavishly follow what we do. &nbsp;Play around and see what works for you. &nbsp;Being generally 'shouty' is not advised, however; the audience can't take it and it's the sort of thing that gives Shakespeare a bad name. &nbsp;Of course,  shouting is fine when the context demands it. &nbsp;Some scenes, like the opening of the <span class="branding-style-title">The Tempest</span>, could hardly be done otherwise.</p>
-<br>		
+				<br>
 
 				<li><p>POINTING UP SWITCHES BETWEEN 'YOU' & 'THOU' FORMS &nbsp; Since our aural medium does not allow us to physicalise such switches (by moving closer / further away, etc), we try to reflect them  by adjusting vocal combinations of tone, volume, pitch and pace.</p> 
 				
-<br>
-				<li><p>ACCENT &nbsp;&nbsp;We are a British outfit so you get British accents. &nbsp;But Shakespeare works gloriously well in any accent so long as diction is audible and clear. &nbsp;Shakespeare was originally spoken in various accents that lay, for the most part, somewhere between West Country England and Dublin. &nbsp;This is not Prince Charles or BBC English. &nbsp;These educated / metropolitan / upper-class accents are 'Received Pronunciation' (often referred to as 'RP' for short, or ‘Ultra RP’) and arose from the House of Hanover taking over the English throne in the 18th century. &nbsp;This introduced a much flatter Germanic sound to the royal court which, over time, courtiers, unconsciously or otherwise, assimilated into their speech patterns. </p> 
+				<br>
+				<li><p>ACCENT &nbsp; We are a British outfit so you mostly get British accents (we have contributions from our American and Canadian cousins across the pond). &nbsp;However, Shakespeare works gloriously well in any accent so long as diction is audible and clear. &nbsp;Shakespeare was originally spoken in various accents that lay, for the most part, somewhere between West Country England and Dublin. &nbsp;This is not Prince Charles or BBC English. &nbsp;These educated / metropolitan / upper-class accents are 'Received Pronunciation' (often referred to as 'RP' for short, or ‘Ultra RP’) and arose from the House of Hanover taking over the English throne in the 18th century. &nbsp;This introduced a much flatter Germanic sound to the royal court which, over time, courtiers, unconsciously or otherwise, assimilated into their speech patterns. </p> 
 
 					<p>The Northern Broadsides Theatre Company of Britain have a popular following because their muscular northern accents are noted for the way they reinvigorate Shakespeare's text and make it sound fresh. &nbsp;So wherever you are in the English speaking world, if you have a non-British RP accent, so long as you speak clearly and confidently, it could be an advantage. &nbsp;That said, in the age of equality, there is nothing wrong with 'posh' 			either. &nbsp;In the end it's the quality of interpretation and verse-speaking that count - the two are indivisible.</p>
 				</li>			
-<br>
-<br>
+				<br>
+				<br>
 
 		</div>
 

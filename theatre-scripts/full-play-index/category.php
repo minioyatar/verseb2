@@ -11,7 +11,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
     <div class="well" style="margin-bottom: 0px;">
       <h3 class="page-title-ext text-center branding-style-reg" style="margin-bottom: 30px;">Theatre Script SHOP</h3>
-      <img width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/theatre_scripts.jpg">
+      <img alt="Icon for printable Theatre Scripts – Full-play, Scenes and Individual Speeches" width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/theatre_scripts.jpg">
         <br>
         <br>
       

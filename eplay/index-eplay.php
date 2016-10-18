@@ -11,10 +11,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
     <div class="well" style="margin-bottom: 0px;">
       <h3 class="page-title-ext text-center branding-style-reg" style="margin-bottom: 30px;"><i>e</i>Play SHOP</h3>
-      <img width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/square_eplay.jpg">
+      <img alt="Icon for ePlay" width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/square_eplay.jpg">
         <br>
         <br>
-        <p class="text-center"><strong>INDEX for ePLAYS & for SHAKESPEARE’S CONTRIBUTION to Act 2.[4] of <i>SIR THOMAS MORE</i> (Histories)</strong></p>
+        <p class="text-center"><strong>INDEX for ePLAYS & for SHAKESPEARE’S CONTRIBUTION to Act 2.[4] of <i>SIR THOMAS MORE</i> </strong></p>
         <br>
 
         
@@ -34,7 +34,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
       <!-- TABLE -->
         <table id="t01" class="respond-tbl">
           <tr>
-            <th style="height:30px;"></th>
+            <th style="height:30px;"><b>BY ALPHABETICAL ORDER</b></th>
             <th>Adult / Pro</th>
             <th></th>
             <th>School Senior</th>
@@ -45,9 +45,17 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 
           <tr>
-            <td style="height:50px" colspan="4"><a href="<?php echo SITE_URL_FILE; ?>eplay/index-eplay-by-category" style="color:#0000EE">or By Comedy, History, Tragedy & Romance</a></td>
+            <td style="height:50px"><a href="<?php echo SITE_URL_FILE; ?>eplay/index-eplay-by-category" style="color:#0000EE">or By Comedy, History, Tragedy & Romance</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
-
+          <tr>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
+          </tr>
           <tr>
             <td style="height:50px;">All’s Well That Ends Well</td>
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
@@ -70,7 +78,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
 
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
 
           <tr>
@@ -94,7 +105,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td>&#8226;</td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
 
           <tr>
@@ -147,7 +161,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
 
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
 
           <tr>
@@ -158,7 +175,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
           </tr>
 
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
 
 
@@ -191,7 +211,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
 
           <tr>
@@ -201,7 +224,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
 
 
@@ -243,7 +269,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
           <tr>
             <td style="height:50px;">Othello, the Moor of Venice, <i>The Tragedy of</i></td>
@@ -252,7 +281,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
           <tr>         
             <td style="height:50px;">Pericles, Prince of Tyre</td>
@@ -261,7 +293,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td>&#8226;</td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
           <tr>
             <td style="height:50px;">Richard the Third, <i>The Tragedy of</i></td>
@@ -276,16 +311,22 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
           <tr>
-            <td>Shakespeare’s lines in Sir Thomas More</td>
+            <td>Sir Thomas More (by Anthony Munday & Henry Chettle) <i>Shakespeare’s contribution to Act 2.[4] </i></td>
             <td style="height:50px;"><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
             <td></td>
             <td>&#8226;</td>
           </tr>          
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
           <tr>
             <td style="height:50px;">Taming of the Shrew, <i>The</i></td>
@@ -336,7 +377,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td>&#8226;</td>
           </tr>
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
           <tr>
             <td style="height:50px;">Winter’s Tale, <i>The</i></td>
@@ -349,7 +393,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 
           <tr>
-            <th style="height:30px;" colspan="4"></th>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
         </table>
       <!-- END OF TABLE -->

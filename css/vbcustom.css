@@ -243,8 +243,7 @@ p {
     background-color: #000000;    
 }
 .navbar-nav > li > a{
-    padding-left: 26px;
-    padding-right: 26px;
+    padding: 10px 15px;
 }
 #bs-example-navbar-collapse-1{
     padding-left: 0;
@@ -299,6 +298,7 @@ p {
     border: none;
     margin-bottom: 0;
     border-radius: 0px;
+    min-height: 40px !important;
 }
 .sub-main-nav{
     background-color: #000;
@@ -365,12 +365,12 @@ margin-top: -12px;
 }
 .sidebars {
     margin-bottom: 20px;
-    max-width: 406px;
+    max-width: 300px;
     min-width: 203px;
 
 }
 .sidebars img{
-    width: 100%;
+    /*width: 100%;*/
 }
 .sidebars .panel{
     margin-bottom: 0;
@@ -468,7 +468,7 @@ margin-top: -12px;
 
 @media screen and (min-width: 1024px) {
     .demo-box img{
-        padding-top: 36px;
+        /*padding-top: 36px;*/
     }
 
 }
@@ -503,10 +503,10 @@ margin-top: -12px;
 }
 
 .demo-box-arrow{
-background: #eb9316 url("../images/arrow-right.png") no-repeat scroll right 116px / 30% auto;        
+background: #eb9316 url("../images/arrow-right.png") no-repeat scroll right 90px / 30% auto;        
 }
 .demo-box-arrow:hover{
-background: #444444 url("../images/arrow-right.png") no-repeat scroll right 116px / 30% auto;        
+background: #444444 url("../images/arrow-right.png") no-repeat scroll right 90px / 30% auto;        
 }
 
 /* .demosbox:nth-child(1){
@@ -546,6 +546,7 @@ background: #444444 url("../images/arrow-right.png") no-repeat scroll right 116p
 /*SOCIAL ICONS*/
 #social-wrap{
     margin-left: 15px;
+    height: 40px;
 }
 @media(max-width:400px) {
     #social-wrap > li > a{
@@ -572,16 +573,17 @@ background: #444444 url("../images/arrow-right.png") no-repeat scroll right 116p
 
 .socials{
     text-indent: -999px;
-    width: 48px;
+    width: 40px;
     background: url("../images/socials-icons.gif") no-repeat scroll rgba(0, 0, 0, 0);
     cursor: pointer;
-    margin-right: 6px
+    margin-right: 1px;
+    margin-left: 1px
 }
 #goplus{
     background-position: -270px 0;
 }
 #youTube{
-    background-position: -164px 0;
+    background-position: -129px 0;
 }
 #twitter{
     background-position: -108px 0;
@@ -602,7 +604,7 @@ background: #444444 url("../images/arrow-right.png") no-repeat scroll right 116p
     #fg_membersite{
         /*background: #fff;*/
         /*left: -167px;*/
-        margin-top: 5.5%;
+        /*margin-top: 5.5%;*/
     }
 }
 .loginBoxes{

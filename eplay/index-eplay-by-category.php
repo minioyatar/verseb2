@@ -11,10 +11,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
     <div class="well" style="margin-bottom: 0px;">
       <h3 class="page-title-ext text-center branding-style-reg" style="margin-bottom: 30px;"><i>e</i>Play SHOP</h3>
-      <img width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/square_eplay.jpg">
+      <img alt="Icon for ePlay" width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/square_eplay.jpg">
         <br>
         <br>
-        <p class="text-center"><strong>INDEX</strong></p>
+        <p class="text-center"><strong>INDEX for ePLAYS & for SHAKESPEARE’S CONTRIBUTION to Act 2.[4] of <i>SIR THOMAS MORE</i> (Histories)</strong></p>
         <br>
 
         
@@ -33,18 +33,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
       <!-- TABLE -->
         <table id="t01" class="respond-tbl">
-          <tr>
-            <th style="height:30px;"></th>
-            <th>Adult / Pro</th>
-            <th></th>
-            <th>School Senior</th>
-          </tr>
-          <tr>
-            <td>Shakespeare’s lines in Sir Thomas More</td>
-            <td style="height:50px;"><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
-            <td></td>
-            <td>&#8226;</td>
-          </tr>
+
           <tr>
             <th style="height:30px;"><b>BY CATEGORY</b></th>
             <th>Adult / Pro</th>
@@ -52,7 +41,16 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <th>School Senior</th>
           </tr>
           <tr>
-            <td style="height:50px" colspan="4"><a href="<?php echo SITE_URL_FILE; ?>eplay/index-eplay" style="color:#0000EE">OR BY ALPHABETICAL ORDER</a></td>
+            <td style="height:50px"><a href="<?php echo SITE_URL_FILE; ?>eplay/index-eplay" style="color:#0000EE">or by alphabetical order</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th style="height:30px;"></th>
+            <th>Adult / Pro</th>
+            <th></th>
+            <th>School Senior</th>
           </tr>
           <tr>
             <td style="text-align:left; height:30px;"><b><i>COMEDIES</i></b></td>
@@ -188,9 +186,9 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td>&#8226;</td>
           <tr>
             <td style="height:50px;">King John, <i>The Life and Death of</i></td>
-            <td><a href="#"></td>
+            <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
             <td></td>
-            <td><a href="#"></td>
+            <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
           </tr>
           </tr>  
             <td style="height:50px;">King Henry the Eighth, <i>The Famous History of the Life of</i></td>
@@ -209,6 +207,12 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
             <td></td>
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+          </tr>
+          <tr>
+            <td>Sir Thomas More (by Anthony Munday &amp; Henry Chettle) <i>Shakespeare’s contribution to Act 2.[4]</i></td>
+            <td style="height:50px;"><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
+            <td></td>
+            <td>&#8226;</td>
           </tr>
           <tr>
             <th style="height:30px;"></th>

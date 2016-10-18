@@ -1,5 +1,5 @@
 <?PHP
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/account/admin-header.php");
+    require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/account/admin-header.php" : $_SERVER['DOCUMENT_ROOT'] . "/account/admin-header.php");
 ?>
 
         <div class="container">
@@ -168,5 +168,5 @@
 
 
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . "/versebuster/account/admin-footer.php");
+    require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/account/admin-footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/account/admin-footer.php");
 ?>
