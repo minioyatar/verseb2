@@ -9,7 +9,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
-			<h3 class="page-title-ext text-center branding-style-reg">THEATRE SCRIPTS</h3>
+			<h3 class="page-title-ext text-center branding-style-reg">Theatre Scripts</h3>
 
 		<p>FLEXIBILITY</p>
         <p>if you have already looked at our <a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/full-play-index/index-full-play">DEMOs in the Theatre Script Options Table</a> you will have spotted that the range of performance scripts on offer affords of scripts afford far greater flexibility than the standard Shakespeare textbook. </p>

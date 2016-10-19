@@ -9,8 +9,8 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 <div class="row main-text">
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well hows">
-			<h3 class="page-title-ext text-center branding-style-reg">HOW-TO SERIES</h3>
-			<p class="text-center"><strong>SLIDE SHOWS</strong></p>
+			<h3 class="page-title-ext text-center branding-style-reg">Slide Shows</h3>
+			<p class="text-center"><strong>HOW-TO SERIES</strong></p>
 
 			<p class="col-lg-offset-1">SHARING WITH GROUPS</p>
 			<p class="col-lg-offset-1">Succinct and to the point, the slide shows (pdf format) make agreeable visual aids. &nbsp; They can be enjoyed on any personal or desktop device; or, if you have access to a projector, they can be shared in lecture halls, workshops and classrooms.</p>

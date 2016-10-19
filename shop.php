@@ -12,7 +12,8 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 
     	<div class="well" style="margin-bottom: 0px;">
-    	    <h4 class="page-title-ext text-center branding-style-reg">Shop</h4>
+            <h3 class="page-title-ext text-center branding-style-reg">SHOP</h3>
+
     	    <p class="text-center"><strong>FOUR CORE PRODUCTS</strong></p>
     	    <p class="text-center">CLICK THE BEER MATS TO GO SHOPPING</p>
         </div>

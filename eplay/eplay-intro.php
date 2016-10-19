@@ -10,7 +10,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
 
-			<h3 class="page-title-ext text-center branding-style-reg">ePLAYS</h3>				
+			<h3 class="page-title-ext text-center branding-style-reg"><i>e</i>Play</h3>				
 		    
 		    <p class="text-center"><strong>INTRODUCTION</strong></p>
   

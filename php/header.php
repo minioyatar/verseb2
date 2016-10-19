@@ -141,7 +141,7 @@
                         <li class="sub-sidebar-nav navi <?php echo ($page_name=='classifications.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/classifications">Classifications</a></li>
                         <li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-speeches' || $page_name=='index-audio.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/index-audio">INDEX TO SPEECHES</a></li>
                         <li class="sub-sidebar-nav navi <?php echo ($page_name=='disclaimer.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/disclaimer">Disclaimer</a></li>
-                        <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/copyright">Copyright</a></li>
+                        <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='phonographic-copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/phonographic-copyright">Phonographic copyright</a></li>
 
         				<li><a><strong>ePlays</strong></a></li>
 

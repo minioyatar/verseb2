@@ -10,8 +10,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		
 		<div class="well">
-			<h3 class="page-title-ext text-center branding-style-reg" style="margin-bottom: 30px;">QUIZ</h3>
-			<img width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/answering-quiz.gif">
+			<h3 class="page-title-ext text-center branding-style-reg">Quiz</h3>
+			<img style="width:360px" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/answering-quiz.gif">
+			<p style="width:360px" class="center-block text-center bottom-desc">Speaking Shakespeare - QUIZ CHALLENGE <i>!</i></p>
+
 			<br>
 			<br>
 
@@ -26,7 +28,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 					<p>‘War’ once rhymed with ‘bar’ and ‘scar’. &nbsp;As it no longer does, this can play havoc with rhymes:</p> 
 					<div class="indentedverse">
 						<blockquote >
-							<pre><em>Like of find fault, do as your pleasures are Now good or bad, ‘tis but the chance of war.</em> <span class="text-center">(Prologue to <span class="branding-style-und">Troilus &amp; Cressida</span>, final couplet)</span></pre> 
+							<pre><em>Like of find fault, do as your pleasures are <br>Now good or bad, ‘tis but the chance of war.</em> <br> <br><span class="text-center">(Prologue to <i><span class="branding-style-und">Troilus &amp; Cressida</span></i>, final couplet)</span></pre> 
 						</blockquote >
 					</div>
 

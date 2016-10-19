@@ -21,7 +21,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 		<div class="well">
 			<h3 class="page-title-ext text-center branding-style-reg">Jobs</h3>
 
-			<p class="text-center">2016</p>
+			<p class="text-center"><b>2016</b></p>
 
 			<p><strong>Co-Editor</strong></p>
 

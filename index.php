@@ -7,8 +7,9 @@
 
 		<div class="col-lg-9">
 			<!--===================INTRO ==================-->
-			<div class="well" style="background-color:transparent; padding:0 16px;">
-				<div class="row" >
+			<div class="well" style="background-color:#F5F5F5; padding:0 16px;">
+				<div class="row" style="background: linear-gradient(to bottom, transparent, #fff 500px) repeat scroll 0 0%, rgba(0, 0, 0, 0) repeating-linear-gradient(-30deg, #bebebe 0px, #bebebe 1.5px, #fff 0px, #fff 5px) repeat scroll 0 0;
+    font: 400 14px/1.5 "Montserrat",sans-serif;">
 					<img  class="center-block img-responsive"  src="<?php echo SITE_URL_FILE; ?>images/ad.gif">
 				</div>
 			</div>
@@ -70,7 +71,7 @@
 						<div class="sm2-playlist-wrapper">
 							<ul class="sm2-playlist-bd">
 								<li>
-									<a href="TRAILER/Richard-IIIx.mp3"><b>Trailer for <i>Richard III</i>, due March 2017 - Clarence nightmare vision.</b></a>
+									<a href="TRAILER/CLARENCE 1.4.44.mp3"><b>Trailer for <i>Richard III</i>, due March 2017 - excerpt from Clarence's nightmare vision.</b></a>
 								</li>
 							</ul>
 						</div>
@@ -384,7 +385,7 @@
 
 	    <div class="col-lg-3 sidebars" >	    
 	    	<img class="img-responsive" src="images/shakespeare-in-times-square.jpg" title="WILLIAM SHAKESPEARE" alt="Image of William Shakespeare in Times Square, New York by kind permission of Mirko Ilić Corp. &nbsp; The Bard of Avon is presented as a Bohemian leather biker. He has an earring in the left ear, piercing in the left brow, and a T-shirt emblazoned with a cannabis plant. &nbsp; Please note this image is the trademark of Versebuster Publishing." style=""> 
-	    	<p class="text-center bottom-desc" style="">'Shakespeare in Times Square, New York' <br>by kind permission of <a id="mirko" href="">Mirko Ilić Corp.</a></p> <p class="text-center" style="color:#B22222; margin-bottom:0;">Please note <span class="branding-style-reg">Versebuster<sup>&copy;</sup></span> has exclusive rights to this image</p>
+	    	
 		</div> <!-- /#col-lg-3 Shakespeare in Times Square-->
 
 
