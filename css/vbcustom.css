@@ -16,7 +16,7 @@ pre{
     padding-left: 250px;
 }
 
-#sidebar-wrapper {
+.sidebar-wrapper {
     /*z-index: 1000;*/
     position: fixed;
     left: 300px; /*from 250 to 200px*/
@@ -74,7 +74,7 @@ pre{
 
 /*END DROP DOWN STYLE*/
 
-#wrapper.toggled #sidebar-wrapper {
+#wrapper.toggled .sidebar-wrapper {
     width: 250px;
 }
 
@@ -100,6 +100,7 @@ pre{
 }
 
 .sidebar-nav li {
+    font-size: 13px;
     text-indent: 20px;
     line-height: 20px; /*edit this from 40px to 30px. this is to adjust the height of li*/
 }
@@ -110,7 +111,7 @@ pre{
     color: #fff; /*this is where I edit the color from  #999999 to #fff*/
 }
 
-.sidebar-nav li a:hover {
+.navi a:hover {
     text-decoration: none;
     color: #fff; /*this is where I edit the color from  #fff  #333*/
     background: rgba(255,255,255,0.2);
@@ -152,18 +153,18 @@ pre{
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 340px;/*this is where I edit the padding of sidebar from  250px to 170px*/
+        padding-left: 295px;/*this is where I edit the padding of sidebar from  250px to 170px*/
     }
 
     #wrapper.toggled {
         padding-left: 0;
     }
 
-    #sidebar-wrapper {
-        width: 340px; /*to adjust sidebar size*/
+    .sidebar-wrapper {
+        width: 295px; /*to adjust sidebar size*/
     }
 
-    #wrapper.toggled #sidebar-wrapper {
+    #wrapper.toggled .sidebar-wrapper {
         width: 0;
     }
 
@@ -279,7 +280,7 @@ p {
 }
 .sidemenu-img{
     width: 70%;
-    border: 6px solid #444;
+    border: 6px solid #B22222;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -390,9 +391,7 @@ margin-top: -12px;
     width: 100%;
 }
 
-#speaker-holder{
-    position:relative; 
-}
+
 .last-item{
     margin-bottom: 16px;
 }
