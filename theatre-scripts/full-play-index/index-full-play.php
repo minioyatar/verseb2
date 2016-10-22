@@ -7,8 +7,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 <!-- row -->	
 <div class="row main-text">
-	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
-
     <div class="well" style="margin-bottom: 0px;">
       <h3 class="page-title-ext text-center branding-style-reg" style="margin-bottom: 30px;">Theatre Script SHOP</h3>
       <img alt="Icon for printable Theatre Scripts – Full-play, Scenes and Individual Speeches"  width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/theatre_scripts.jpg">
@@ -259,33 +257,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
         </table>
           <!-- END OF TABLE -->
-<br>
-
+      <br>
 		</div>
 
-
-	</div><!-- ./ #col-lg-9 introduction content -->
-
-
-    <div class="col-lg-3 sidebars" >
-        <img src="<?php echo SITE_URL_FILE; ?>images/300x250-web-ad.jpg" class="img-responsive">
-    </div>
-
-	<!-- #col-lg-3 AD-->	  
-	<div class="col-lg-3 sidebars">	    
-	    <!-- <div class="add-300x250" > -->
-            <img class="img-responsive" src="<?php echo SITE_URL_FILE; ?>images/sonderponic300x600.png">
-        <!-- </div> -->
-	</div><!-- #col-lg-3 AD 300X250-->	
-
-
-
-
-
 </div><!-- /#row main-text-->
-
-
-
 <?PHP
 
 require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");

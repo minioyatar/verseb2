@@ -7,10 +7,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 <!-- row -->	
 <div class="row main-text">
-	<div class="col-lg-9 "><!-- #col-lg-9 introduction content -->
-
-
-
     	<div class="well" style="margin-bottom: 0px;">
             <h3 class="page-title-ext text-center branding-style-reg">SHOP</h3>
 
@@ -47,19 +43,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
                 </div>
             </div>
         </div>
-
-    </div><!-- ./ #col-lg-9 introduction content -->
-
-    <div class="col-lg-3 sidebars" >
-        <a href="<?php echo SITE_URL_FILE; ?>advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
-    </div>
-
-    <!-- #col-lg-3 AD-->      
-    <div class="col-lg-3 sidebars">     
-        <!-- <div class="add-300x250" > -->
-            <img class="img-responsive" src="images/ads/shakespeare-contest-image.jpg">
-        <!-- </div> -->
-    </div><!-- #col-lg-3 AD 300X250-->  
 
 </div><!-- /#row main-text-->
 

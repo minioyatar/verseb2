@@ -129,14 +129,14 @@ $token = Token::generate();
 
             <!-- Sidebar -->
             <div class="sidebar-wrapper">
-                <img class="img-responsive sidemenu-img" src="<?php echo SITE_URL_FILE; ?>images/shakespeare-in-times-square-no-mj.jpg" title="WILLIAM SHAKESPEARE" alt="Image of William Shakespeare in Times Square, New York by kind permission of Mirko Ilić Corp. &nbsp; The Bard of Avon is presented as a Bohemian leather biker. He has an earring in the left ear, piercing in the left brow, and a T-shirt emblazoned with a cannabis plant. &nbsp; Please note this image is the trademark of Versebuster Publishing." style=""> 
+                <img class="img-responsive sidemenu-img" src="<?php echo SITE_URL_FILE; ?>images/shakespeare-in-times-square-with-border.jpg" title="WILLIAM SHAKESPEARE" alt="Image of William Shakespeare in Times Square, New York by kind permission of Mirko Ilić Corp. &nbsp; The Bard of Avon is presented as a Bohemian leather biker. He has an earring in the left ear, piercing in the left brow, and a T-shirt emblazoned with a cannabis plant. &nbsp; Please note this image is the trademark of Versebuster Publishing." style=""> 
                 <ul class="sidebar-nav ">
-                    <li id="" class="text-center"><a><strong>THE SHOP</strong></a></li>
+                    <li id="" class="text-center" style="text-indent: 0px !important;"><a><strong>THE SHOP</strong></a></li>
                     <br>
                     <li id="" class=""><a><strong>Audio Speeches</strong></a></li>
                     <!-- <li class="sub-sidebar-nav navi <?php //echo ($page_name=='audio-intro')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>audio-speeches/audio-intro">Intro</a></li> -->
                     <li class="sub-sidebar-nav navi <?php echo ($page_name=='recording-notes.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/recording-notes">Recording notes</a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='classifications.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/classifications">Classifications</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='classifications.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/classifications">Index classifications</a></li>
                     <li class="sub-sidebar-nav navi <?php echo ($page_name=='audio-speeches' || $page_name=='index-audio.php')?'highlight':''; ?>" ><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/index-audio">INDEX TO SPEECHES</a></li>
                     <li class="sub-sidebar-nav navi <?php echo ($page_name=='disclaimer.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/disclaimer">Disclaimer</a></li>
                     <li class="sub-sidebar-nav last-item navi <?php echo ($page_name=='phonographic-copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>audio-speeches/phonographic-copyright">Phonographic copyright</a></li>
@@ -158,19 +158,22 @@ $token = Token::generate();
                     <li class="child-sub-sidebar-nav navi last-item <?php echo ($page_name=='index-individual-speeches.php' || $page_name=='individual-speeches-index')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>theatre-scripts/individual-speeches-index/index-individual-speeches">Individual speeches</a></li>
 
                     <li><a><strong>Slide Shows</strong></a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='understanding-eplay-system.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>understanding-eplay-system">Understanding ePlay system FREE</a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='origins-of-shakespeares-art.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>origins-of-shakespeares-art">ORIGINS OF SHAKESPEARE’S ART</a></li>
-                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='how-to-series.php')?'highlight':''; ?> last-item"><a href="<?php echo SITE_URL_FILE; ?>how-to-series">HOW-TO SERIES</a></li>
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='the-eplay-system.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>slideshow/the-eplay-system">The ePlay system</a></li>
+                        <li class="sub-sidebar-nav"><a>Origins of Shakespeare's art</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='origin-of-his-art-intro.php' || $page_name=='origin-of-his-art-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>slideshow/origin-of-his-art-intro">Intro</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='origin-of-his-art-index.php' || $page_name=='origin-of-his-art-index.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>slideshow/origin-of-his-art-index">INDEX</a></li>
+                        <li class="sub-sidebar-nav"><a>How-to series</a></li>
+                            <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='how-to-series-intro.php' || $page_name=='how-to-series-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>slideshow/how-to-series-intro">Intro</a></li>
+                            <li class="child-sub-sidebar-nav navi last-item <?php echo ($page_name=='how-to-series-index.php' || $page_name=='how-to-series-index.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>slideshow/how-to-series-index">INDEX</a></li>
 
                     <li><a><strong>Quick Reference Library</strong></a></li>
                     <li class="sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-intro.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quick-reference-intro">Intro</a></li>
-                    <li class="sub-sidebar-nav navi"><a>MATERIAL BY PLAY</a></li>
-                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='a-zPlays.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>a-zPlays">A to Z</a></li>
-                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='comedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>comedies">Comedies</a></li>
-                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='histories.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>histories">Histories</a></li>
-                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='tragedies.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>tragedies">Tragedies</a></li>
-                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='romances.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>romances">Romances</a></li>
-
+                    <li class="sub-sidebar-nav navi <?php echo ($page_name=='material-by-play.php.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>material-by-play">MATERIAL BY PLAY</a></li>
+                    
+                    
+                    <!-- <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='a-zPlays.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>a-zPlays">A to Z</a></li>
+                    <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='quick-reference-category.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quick-reference-category">Category</a></li> -->
+ 
                     <li class="sub-sidebar-nav navi"><a>MATERIAL BY LEVEL</a></li>
                     <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='beginner.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>beginner">Beginner</a></li>
                     <li class="child-sub-sidebar-nav navi <?php echo ($page_name=='intermediate.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>intermediate">Intermediate</a></li>
@@ -180,12 +183,12 @@ $token = Token::generate();
             <!-- /#sidebar-wrapper -->
 
             <!-- Page Content -->
-            <div id="row">
-                <div class="col-md-9">
+            <div id="container-fluid">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" >
                     <!--row     -->
-                    <div class="row">
+                    <div class="row" >
                         <!--=================================================SIGN-UP LOGIN-===========-->
-                        <nav id="top-main-nav" class="navbar navbar-inverse " role="navigation" style="height: 40px; ">
+                        <nav id="top-main-nav" class="navbar navbar-inverse " role="navigation" style="height: 30px; ">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -198,17 +201,17 @@ $token = Token::generate();
                                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" style="padding: 2px;">Hide/Show Side Menu</a>
                                 </div>
                             </div>
-
+                            <!-- SEARCH BAR -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <div class="col-md-6" style="padding-right: 0px;">
-                                    <form class="form-inline" role="search" style="padding-top: 5px;">
+                                <div class="col-md-6" style="padding-right: 0px;  margin-top: 2px;">
+                                    <form class="form-inline" role="search" style="padding-top: 2px;">
                                         <div class="form-group">
-                                            <input type="text" class="form-control input-sm" placeholder="Search" size="34">
+                                            <input type="text" class="form-control input-sm" placeholder="Search" size="30" style="height: 22px;">
                                         </div>
-                                        <button type="submit" class="btn btn-sm btn-default">Submit</button>
+                                        <button type="submit" class="btn btn-sm btn-default" style="height: 23px; padding: 0px 10PX;">Submit</button>
                                     </form>
                                 </div>
-                                <div class="col-md-6" id='fg_membersite' >
+                                <div class="col-md-6" id='fg_membersite'  style="height: 30px;">
                                     <ul class="pull-right" >
                                         <?php
                                             require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/login.php" : $_SERVER['DOCUMENT_ROOT'] . "/login.php");
@@ -219,8 +222,8 @@ $token = Token::generate();
                         </nav>
 
                         <!--=================================================BRAND NAME AND SLOGAN-=================================-->
-                        <div class="col-lg-12 col-md-12 "> 
-                            <div class="col-md-6 " >
+                        <div class=""> 
+                            <div class="" style="padding-left: 6px;">
                                 <img src="<?php echo SITE_URL_FILE; ?>images/VBD27aR03aP01ZL-Johnson3a.png" alt="" class="img-responsive" width=300>
                                 <p class="page-subtitle-ext " style="margin-top:0; margin-left:30px">A Shakespeare Performance Resource with Audio</p>
                             </div>
@@ -241,7 +244,7 @@ $token = Token::generate();
                                 </button>
                             </div><!-- /.navbar-header -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-                                <ul class="nav navbar-nav">
+                                <ul class="nav navbar-nav" style="font-size:13px">
                                     <li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>"><strong>HOME</strong></a></li>
                                         <!-- <li class="blog navi <?php //echo ($page_name=='blog')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
                                         <li class="forum navi <?php //echo ($page_name=='forum')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li> -->
@@ -251,11 +254,11 @@ $token = Token::generate();
                                         <li class="quiz navi <?php echo ($page_name=='quiz.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quiz">QUIZ</a></li>   
                                         <li class="copyright navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>copyright">COPYRIGHT</a></li>   
                                         <li class="contact navi <?php echo ($page_name=='contact.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>contact">CONTACT</a></li>
-                                        <!-- <li class="patrons-and-sponsors navi <?php //echo ($page_name=='patrons-and-sponsors.php')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>patrons-and-sponsors">PATRONS & SPONSORS</a></li> -->
+                                        <li class="sponsor navi <?php echo ($page_name=='sponsor.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>sponsor">SPONSORS</a></li> -->
                                         <li class="shop navi <?php echo ($page_name=='shop.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shop"><strong>SHOP</strong></a></li>
                                     </ul>
-                                </div><!-- /.bs-example-navbar-collapse-2-->
-                            </nav><!-- /.navbar navbar-inverse sub-main-nav -->     
+                            </div><!-- /.bs-example-navbar-collapse-2-->
+                        </nav><!-- /.navbar navbar-inverse sub-main-nav -->     
                     </div><!-- /.row-->
 
                     <?php 

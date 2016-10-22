@@ -12,8 +12,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
     							</div>
     						</div>
 
-    						<div class="well" style="padding: 16px;">
-    							<br>
+    						<div class="well" >
     							<p class="text-center"><strong><span class="branding-style-reg">Versebuster<sup>&copy;</sup></span> is dedicated to the performance of Shakespeare &amp; best practice in verse-speaking.</strong></p>
     							<p class="text-center">Our product is geared to all levels of acting ability and experience to help with the demands of a unique and special art form. &nbsp; We cover the <strong>First Folio (F1)</strong>, the <strong>'Good' Quartos</strong> and <strong>modern texts</strong>.</p>
     							<p class="text-center small-gap-parag"><img src="images/diamondBullet.gif"> Verse makes up 72% of Shakespeare's canon <img src="images/diamondBullet.gif"> </p>
@@ -23,7 +22,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
     						</div>
 
     						<div class="well" style="background-color:transparent; padding:0 ">
-    							<!-- MP3 PLAYER -->
+    							<!-- MP3 PLAYER RICHARD III-->
     							<div class="sm2-bar-ui compact full-width">
     								<div class="bd sm2-main-controls">
     									<div class="sm2-inline-texture"></div>
@@ -69,13 +68,69 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
     									<div class="sm2-playlist-wrapper">
     										<ul class="sm2-playlist-bd">
     											<li>
-    												<a href="TRAILER/CLARENCE 1.4.44.mp3"><b>Trailer for <i>Richard III</i>, due March 2017 - excerpt from Clarence's nightmare vision.</b></a>
+    												<a href="TRAILER/CLARENCE 1.4.44.mp3"><b>Trailer for <i>Richard III</i>, due March 2017 - excerpt from Clarence's nightmare vision</b></a>
     											</li>
     										</ul>
     									</div>
     								</div>
     							</div>
-    							<!-- END OF MP3 PLAYER -->	
+    							<!-- END OF MP3 PLAYER RICHARD III-->	
+    						</div>
+
+    						<div class="well" style="background-color:transparent; padding:0 ">
+    							<!-- MP3 PLAYER HENRY V--> 
+    							<div class="sm2-bar-ui compact full-width">
+    								<div class="bd sm2-main-controls">
+    									<div class="sm2-inline-texture"></div>
+    									<div class="sm2-inline-gradient"></div>
+    									<div class="sm2-inline-element sm2-button-element">
+    										<div class="sm2-button-bd">
+    											<a href="#play" class="sm2-inline-button play-pause">Play / pause</a>
+    										</div>
+    									</div>
+    									<div class="sm2-inline-element sm2-inline-status">
+    										<div class="sm2-playlist">
+    											<div class="sm2-playlist-target">
+    												<!-- playlist <ul> + <li> markup will be injected here -->
+    												<!-- if you want default / non-JS content, you can put that here. -->
+    												<noscript><p>JavaScript is required.</p></noscript>
+    											</div>
+    										</div>
+    										<div class="sm2-progress">
+    											<div class="sm2-row">
+    												<div class="sm2-inline-time">0:00</div>
+    												<div class="sm2-progress-bd">
+    													<div class="sm2-progress-track">
+    														<div class="sm2-progress-bar"></div>
+    														<div class="sm2-progress-ball"><div class="icon-overlay"></div></div>
+    													</div>
+    												</div>
+    												<div class="sm2-inline-duration">0:00</div>
+    											</div>
+    										</div>
+    									</div>
+    									<div class="sm2-inline-element sm2-button-element sm2-volume">
+    										<div class="sm2-button-bd">
+    											<span class="sm2-inline-button sm2-volume-control volume-shade"></span>
+    											<a href="#volume" class="sm2-inline-button sm2-volume-control">volume</a>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="bd sm2-playlist-drawer sm2-element">
+    									<div class="sm2-inline-texture">
+    										<div class="sm2-box-shadow"></div>
+    									</div>
+    									<!-- playlist content is mirrored here -->
+    									<div class="sm2-playlist-wrapper">
+    										<ul class="sm2-playlist-bd">
+    											<li>
+    												<a href="TRAILER/Henry V.mp3"><b>Trailer for <i>Henry V</i>, due 25<sup>th</sup> October 2017 - St. Crispin's Day</b></a>
+    											</li>
+    										</ul>
+    									</div>
+    								</div>
+    							</div>
+    							<!-- END OF MP3 PLAYER HENRY V-->	
     						</div>
 
     						<div class="well">
@@ -335,20 +390,24 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
     									</li>
     									<li style="margin-top: 10px;"><p>Vocal facility</p></li>
     								</ul>
+
+	    								<p class="read-less-toggle"><span class="glyphicon glyphicon-chevron-up"></span>Show Less</p>
+	    							</div>
     								<br>
     								<img src="images/quarto.jpg" class="img-center-fullwidth img-responsive">
     								<br>
     								<p class="text-center img-desc">Pip Willcox, Curator of Digital Special Collections at the Bodleian Libraries, University of Oxford, displays a <strong>1611 quarto edition of Hamlet</strong></p>			
     								<p class="text-center">Photograph by Martin Argles</p>
 
-    								<p class="read-less-toggle"><span class="glyphicon glyphicon-chevron-up"></span>Show Less</p>
-    							</div>
     						</div>
     						<!--=============END of OTHER Shakespeare performance clues we cover======================== -->
 
-    						<div class="" id=""><!--=============AD col-lg-9 ======================= -->
-    							<img class="img-responsive" src="images/ads/lionkingad960.png">
-    						</div><!--=============END OF AD col-lg-9 ======================== -->
+    						<div class="well" style="background-color:#F5F5F5; padding:0 16px;">
+    							<div class="row" style="background: linear-gradient(to bottom, transparent, #fff 500px) repeat scroll 0 0%, rgba(0, 0, 0, 0) repeating-linear-gradient(-30deg, #bebebe 0px, #bebebe 1.5px, #fff 0px, #fff 5px) repeat scroll 0 0; font: 400 14px/1.5 'Montserrat',sans-serif;">
+    								<img  class="center-block" width="600"  src="<?php echo SITE_URL_FILE; ?>images/ads/lionkingad960.png">
+    							</div>
+    						</div>
+
 
     					</div><!--=============END OF col-lg-9======================== -->
     				</div><!-- /#row main-text-->

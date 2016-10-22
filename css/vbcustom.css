@@ -101,7 +101,7 @@ pre{
 
 .sidebar-nav li {
     font-size: 13px;
-    text-indent: 20px;
+    text-indent: 18px;
     line-height: 20px; /*edit this from 40px to 30px. this is to adjust the height of li*/
 }
 
@@ -140,11 +140,11 @@ pre{
     color: #444 !important;
 }
 .sub-sidebar-nav{
-    text-indent: 50px !important;
+    text-indent: 38px !important;
 }
 
 .child-sub-sidebar-nav{
-    text-indent: 80px !important;
+    text-indent: 58px !important;
 }
 .list-title{
     color: #fff;
@@ -153,7 +153,7 @@ pre{
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 295px;/*this is where I edit the padding of sidebar from  250px to 170px*/
+        padding-left: 270px;/*this is where I edit the padding of sidebar from  250px to 170px*/
     }
 
     #wrapper.toggled {
@@ -161,7 +161,7 @@ pre{
     }
 
     .sidebar-wrapper {
-        width: 295px; /*to adjust sidebar size*/
+        width: 270px; /*to adjust sidebar size*/
     }
 
     #wrapper.toggled .sidebar-wrapper {
@@ -244,7 +244,7 @@ p {
     background-color: #000000;    
 }
 .navbar-nav > li > a{
-    padding: 10px 15px;
+    padding: 5px 15px;
 }
 #bs-example-navbar-collapse-1{
     padding-left: 0;
@@ -272,6 +272,9 @@ p {
     margin-left: 0;   
     margin-right: 0;
 }
+.main-text .well{
+    padding-bottom: 10px;
+}
 .well{
     background: #fff;
     border: none;
@@ -279,10 +282,8 @@ p {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.05) inset;
 }
 .sidemenu-img{
-    width: 70%;
-    border: 6px solid #B22222;
-    margin: 0 auto;
-    margin-top: 30px;
+    width: 80%;
+    margin: 6px auto 0;
 }
 .site-identifier {
     font-family: "LucidaCustomFont",arial,sans-serif;
@@ -299,7 +300,7 @@ p {
     border: none;
     margin-bottom: 0;
     border-radius: 0px;
-    min-height: 40px !important;
+    min-height: 30px !important;
 }
 .sub-main-nav{
     background-color: #000;
@@ -366,8 +367,8 @@ margin-top: -12px;
 }
 .sidebars {
     margin-bottom: 20px;
-    max-width: 300px;
-    min-width: 203px;
+/*    max-width: 300px;
+    min-width: 203px;*/
 
 }
 .sidebars img{
@@ -459,7 +460,7 @@ margin-top: -12px;
 .demo-box img{
     /*background: #eb9316 url("../images/doc-blue-512.png") no-repeat scroll 0 0 / 100% auto;*/
   margin: 0 auto;
-  max-width: 40%;
+  max-width: 64px;
   text-align: center;   
   
 }
@@ -502,10 +503,10 @@ margin-top: -12px;
 }
 
 .demo-box-arrow{
-background: #eb9316 url("../images/arrow-right.png") no-repeat scroll right 90px / 30% auto;        
+background: #eb9316 url("../images/arrow-right.png") no-repeat scroll right 90px / 60px auto;        
 }
 .demo-box-arrow:hover{
-background: #444444 url("../images/arrow-right.png") no-repeat scroll right 90px / 30% auto;        
+background: #444444 url("../images/arrow-right.png") no-repeat scroll right 90px / 60px auto;        
 }
 
 /* .demosbox:nth-child(1){
@@ -560,7 +561,7 @@ background: #444444 url("../images/arrow-right.png") no-repeat scroll right 90px
     background: none repeat scroll 0 0 #000;
     display: inline-block;
     list-style-type: none;
-    padding: 10px;
+    padding: 4px 10px;
 }
 #fg_membersite li > a {
     color: #fff !important;
@@ -1327,4 +1328,6 @@ only screen and (max-width: 760px),
 #accordion h3{
     font-weight: unset;
 }
-
+.blue{
+    color: #428bca;
+}

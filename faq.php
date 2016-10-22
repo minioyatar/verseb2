@@ -7,7 +7,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 <!-- row -->	
 <div class="row main-text">
-	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
 				<h3 class="page-title-ext text-center branding-style-reg">FAQs</h3>
 
@@ -15,7 +14,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 
 			<div id="accordion">
-				<h3><span style="font-family:'verdana'">Membership</span></h3>
+				<p><span style="font-family:'verdana'; font-size: 12px;">Membership</span></p>
 				<div>
 
 					<ul class="decimal-list">
@@ -25,7 +24,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 				</div>
 
-				<h3><span style="font-family:'verdana'">Acting Shakespeare</span></h3>
+				<p><span style="font-family:'verdana'; font-size: 12px;">Acting Shakespeare</span></p>
 				<div>
 					<ul class="decimal-list">
 						<li>Don't you need a posh accent for Shakespeare?</li>
@@ -33,7 +32,7 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 					</ul>
 				</div>
 
-				<h3><span style="font-family:'verdana'">Editorial Aim & Policy</span></h3>
+				<p><span style="font-family:'verdana'; font-size: 12px;">Editorial Aim & Policy</span></p>
 				<div>
 					<ul class="decimal-list">
 						<li class="read-more-toggle">What's your basic aim?</li>
@@ -63,21 +62,21 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 					</ul>
 				</div>
 					  
-				<h3><span style="font-family:'verdana'">Presentation - ePlays</span></h3>
+				<p><span style="font-family:'verdana'; font-size: 12px;">Presentation - ePlays</span></p>
 				<div>
 					<ul class="decimal-list">
 						<li>Can ePlay layout be smaller?</li>
 					</ul>
 				</div>
 
-				<h3><span style="font-family:'verdana'">Presentation - audio</span></h3>
+				<p><span style="font-family:'verdana'; font-size: 12px;">Presentation - audio</span></p>
 				<div>
 					<ul class="decimal-list">
 						<li>Why don't you use video for your audio speeches?</li>
 					</ul>
 				</div>
 
-				<h3><span style="font-family:'verdana'">Technical</span></h3>
+				<p><span style="font-family:'verdana'; font-size: 12px;">Technical</span></p>
 				<div>
 					<ul class="decimal-list">
 						<li>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </li>
@@ -175,19 +174,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 				<!--show less dikara-->	
 
 		</div>                                        
-
-
-	</div><!-- ./ #col-lg-9 introduction content -->
-
-    <div class="col-lg-3 sidebars" >
-        <a href="<?php echo SITE_URL_FILE; ?>advertise.php"><img src="images/300x250-web-ad.jpg" class="img-responsive"></a>
-    </div>	
-
-	<!-- #col-lg-3 ad 4-->	  
-	<div class="col-lg-3 sidebars">	    
-		<img class="img-responsive" src="images/ads/ticketmonster.gif"/>
-	</div><!-- #col-lg-3 ad 4-->	
-	
 </div><!-- /#row main-text-->
 
 

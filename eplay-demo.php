@@ -6,7 +6,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 
 <div class="row main-text">
-	<div class="col-lg-12"><!-- #col-lg-9 introduction content -->
 		<div class="well">
 			<h3 class="page-title-ext text-center branding-style-reg">SLIDE SHOW DEMO</h3>				
 		    
@@ -29,16 +28,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 		</div>
 
-<!-- 		<div class="well pdf-container">
-			<div class='embed-responsive' style='padding-bottom:100%'>
-
-			    </div>
-
-		</div> -->
-                                       
-
-
-	</div>
 
 
 </div><!-- /#row main-text-->

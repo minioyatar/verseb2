@@ -14,18 +14,18 @@
     							</button>
     						</div><!-- /.navbar-header -->
     						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
-    							<ul class="nav navbar-nav ">
-    								<li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>"><strong>HOME</strong></a></li>
-    								<!-- <li class="blog navi <?php //echo ($page_name=='blog')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
-    								<li class="forum navi <?php //echo ($page_name=='forum')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li> -->
-    								<li class="community navi <?php echo ($page_name=='community.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community">COMMUNITY</a></li>
-                                    <li class="jobs navi <?php echo ($page_name=='jobs.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>jobs">JOBS</a></li>
-    								<li class="faq navi <?php echo ($page_name=='faq.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>faq">FAQS</a></li>
-                                    <li class="quiz navi <?php echo ($page_name=='quiz.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quiz">QUIZ</a></li>   
-    								<li class="copyright navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>copyright">COPYRIGHT</a></li>	
-    								<li class="contact navi <?php echo ($page_name=='contact.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>contact">CONTACT</a></li>
-                                    <!-- <li class="patrons-and-sponsors navi <?php //echo ($page_name=='patrons-and-sponsors.php')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>patrons-and-sponsors">PATRONS & SPONSORS</a></li> -->
-    								<li class="shop navi <?php echo ($page_name=='shop.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shop"><strong>SHOP</strong></a></li>
+    							<ul class="nav navbar-nav" style="font-size:13px">
+                                    <li class="index navi <?php echo ($page_name=='index.php' || $page_name=='')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>"><strong>HOME</strong></a></li>
+                                        <!-- <li class="blog navi <?php //echo ($page_name=='blog')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>blog">BLOG</a></li>
+                                        <li class="forum navi <?php //echo ($page_name=='forum')?'highlight':''; ?>"><a href="<?php //echo SITE_URL_FILE; ?>forum">FORUM</a></li> -->
+                                        <li class="community navi <?php echo ($page_name=='community.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>community">COMMUNITY</a></li>
+                                        <li class="jobs navi <?php echo ($page_name=='jobs.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>jobs">JOBS</a></li>
+                                        <li class="faq navi <?php echo ($page_name=='faq.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>faq">FAQS</a></li>
+                                        <li class="quiz navi <?php echo ($page_name=='quiz.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>quiz">QUIZ</a></li>   
+                                        <li class="copyright navi <?php echo ($page_name=='copyright.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>copyright">COPYRIGHT</a></li>   
+                                        <li class="contact navi <?php echo ($page_name=='contact.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>contact">CONTACT</a></li>
+                                        <li class="sponsor navi <?php echo ($page_name=='sponsor.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>sponsor">SPONSORS</a></li> -->
+                                        <li class="shop navi <?php echo ($page_name=='shop.php')?'highlight':''; ?>"><a href="<?php echo SITE_URL_FILE; ?>shop"><strong>SHOP</strong></a></li>
     							</ul>
     						</div><!-- /.bs-example-navbar-collapse-2-->	
 						</nav><!-- /.navbar navbar-inverse sub-main-nav -->

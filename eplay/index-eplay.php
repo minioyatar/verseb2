@@ -7,8 +7,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
         </style>
   <!-- row -->
   <div class="row main-text">
-    <div class="col-lg-9"><!-- #col-lg-9 introduction content -->   
-
     <div class="well" style="margin-bottom: 0px;">
       <h3 class="page-title-ext text-center branding-style-reg" style="margin-bottom: 30px;"><i>e</i>Play SHOP</h3>
       <img alt="Icon for ePlay" width="40%" class="center-block" src="<?php echo SITE_URL_FILE; ?>images/square_eplay.jpg">
@@ -389,9 +387,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
             <td><a href="#"><img class="tbl-glossy-tick" src="<?php echo SITE_URL_FILE; ?>images/yellow2.png"></a></td>
           </tr>
 
-
-
-
           <tr>
             <th style="height:30px;"></th>
             <th>Adult / Pro</th>
@@ -401,20 +396,9 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
         </table>
       <!-- END OF TABLE -->
         
-
-        
         <br>
         <br>
       </div>
-    </div><!-- ./ #col-lg-9 introduction content -->
-    <!-- +++++++++++++++++++++++++++WEB ADS -->
-    <div class="col-lg-3 sidebars" >
-      <img src="<?php echo SITE_URL_FILE; ?>images/300x250-web-ad.jpg" class="img-responsive">
-    </div>
-    <!-- #col-lg-3 ad 2-->
-    <div class="col-lg-3 sidebars">
-      <img src="<?php echo SITE_URL_FILE; ?>images/ads/bringup.jpg" class="img-responsive" >
-    </div><!-- #col-lg-3 ad 2-->
   </div><!-- /#row main-text-->
 <?PHP
 require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT'] . "/versebuster/php/footer.php" : $_SERVER['DOCUMENT_ROOT'] . "/php/footer.php");

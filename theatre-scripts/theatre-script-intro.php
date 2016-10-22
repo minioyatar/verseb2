@@ -7,7 +7,6 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 
 <!-- row -->	
 <div class="row main-text">
-	<div class="col-lg-9"><!-- #col-lg-9 introduction content -->
 		<div class="well">
 			<h3 class="page-title-ext text-center branding-style-reg">Theatre Scripts</h3>
 
@@ -101,29 +100,10 @@ require_once('127.0.0.1' == $_SERVER["REMOTE_ADDR"] ?  $_SERVER['DOCUMENT_ROOT']
 			    </ul>
 			<br> 
 		   	
-		   	
 <br>
 <br>
 
 		</div>
-
-
-
-                                  
-
-
-	</div><!-- ./ #col-lg-9 introduction content -->
-
-
-	<!-- +++++++++++++++++++++++++++WEB ADS -->
-    <div class="col-lg-3 sidebars" >
-        <img src="<?php echo SITE_URL_FILE; ?>images/300x250-web-ad.jpg" class="img-responsive">
-    </div>
-
-	<!-- #col-lg-3 ad 2-->	  
-	<div class="col-lg-3 sidebars">
-		<img class="img-responsive" src="<?php echo SITE_URL_FILE; ?>images/ads/lynda.gif">
-	</div><!-- #col-lg-3 ad 2-->  
 
 </div><!-- /#row main-text-->
 
