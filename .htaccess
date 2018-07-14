@@ -5,3 +5,7 @@ RewriteRule ^(.*)$ $1.php
 
 # Use PHP54CGI as default
         AddHandler fcgid54-script .php
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://example.com/$1 [R=301,L]
